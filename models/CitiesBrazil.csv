@@ -1,0 +1,5509 @@
+UF;city;Lat;Long;height
+GO;Abadia de Goiás;-16.756;-49.44;883
+MG;Abadia dos Dourados;-18.486;-47.4;821
+GO;Abadiânia;-16.254;-48.71;1061
+MG;Abaeté;-19.125;-45.45;614
+PA;Abaetetuba;-1.752;-48.76;6
+CE;Abaiara;-7.359;-39.05;411
+BA;Abaíra;-13.25;-41.66;1056
+BA;Abaré;-8.752;-39.11;368
+PR;Abatiá;-23.304;-50.31;606
+SC;Abdon Batista;-27.611;-51.02;0
+PA;Abel Figueiredo;-4.954;-48.39;195
+SC;Abelardo Luz;-26.6;-52.33;843
+MG;Abre Campo;-20.301;-42.48;871
+PE;Abreu e Lima;-7.912;-34.9;0
+TO;Abreulândia;-9.621;-49.15;264
+MG;Acaiaca;-20.363;-43.14;576
+MA;Açailândia;-4.947;-47.5;239
+BA;Acajutiba;-11.662;-38.02;0
+PA;Acará;-1.961;-48.2;37
+CE;Acarape;-4.224;-38.71;96
+CE;Acaraú;-2.756;-40.12;34
+RN;Acari;-6.436;-36.64;0
+PI;Acauã;-8.215;-41.08;437
+CE;Acopiara;-6.095;-39.45;299
+MT;Acorizal;-15.255;-56.37;0
+AC;Acrelândia;-9.755;-66.76;0
+GO;Acreúna;-17.396;-50.38;503
+RN;Açu;-5.6;-36.91;703
+MG;Açucena;-19.073;-42.5;0
+SP;Adamantina;-21.685;-51.07;425
+GO;Adelândia;-16.415;-50.13;673
+SP;Adolfo;-21.235;-49.64;419
+PR;Adrianópolis;-24.657;-48.99;645
+BA;Adustina;-10.5;-38.1;0
+PE;Afogados da Ingazeira;-7.755;-37.64;0
+RN;Afonso Bezerra;-5.498;-36.5;0
+ES;Afonso Claúdio;-20.074;-41.12;441
+MA;Afonso Cunha;-4.133;-43.32;128
+PE;Afrânio;-8.5;-41.01;471
+PA;Afuá;-0.157;-50.39;0
+PE;Agrestina;-8.458;-35.94;0
+PI;Agricolândia;-5.76;-42.67;271
+SC;Agrolândia;-27.412;-49.75;0
+SC;Agronômica;-27.265;-49.71;0
+PA;Água Azul do Norte;-6.759;-50.47;286
+MG;Água Boa;-17.996;-42.39;424
+MT;Água Boa;-14.05;-52.16;349
+AL;Água Branca;-9.261;-37.94;0
+PB;Água Branca;-7.5;-37.64;0
+PI;Água Branca;-5.756;-42.64;235
+MS;Água Clara;-20.448;-52.76;429
+MG;Água Comprida;-20.056;-48.11;604
+SC;Água Doce;-26.998;-51.6;40
+MA;Água Doce do Maranhão;-2.755;-42.11;249
+ES;Água Doce do Norte;-18.5;-40.98;0
+BA;Água Fria;-11.756;-38.77;1004
+GO;Água Fria de Goiás;-14.986;-47.78;424
+GO;Água Limpa;-18.074;-48.76;633
+RN;Água Nova;-6.259;-38.3;0
+PE;Água Preta;-8.751;-35.5;0
+RS;Água Santa;-28.177;-52.03;0
+SP;Aguaí;-22.059;-46.98;643
+MG;Aguanil;-20.943;-45.39;875
+PE;Águas Belas;-9.111;-37.12;0
+SP;Águas da Prata;-21.937;-46.72;1027
+SC;Águas de Chapecó;-27.07;-52.99;0
+SP;Águas de Lindóia;-22.476;-46.63;934
+SP;Águas de Santa Bárbara;-22.756;-49.24;651
+SP;Águas de São Pedro;-22.6;-47.76;482
+MG;Águas Formosas;-17.082;-40.94;287
+SC;Águas Frias;-26.756;-52.76;0
+GO;Águas Lindas de Goiás;-15.756;-48.28;1090
+SC;Águas Mornas;-27.694;-48.75;0
+MG;Águas Vermelhas;-15.755;-41.46;875
+RS;Agudo;-29.645;-53.24;0
+SP;Agudos;-22.469;-48.99;921
+PR;Agudos do Sul;-25.993;-49.34;565
+ES;Águia Branca;-18.983;-40.74;149
+PB;Aguiar;-7.092;-38.17;265
+TO;Aguiarnópolis;-6.6;-47.47;0
+MG;Aimorés;-19.496;-41.06;315
+BA;Aiquara;-14.129;-39.76;242
+CE;Aiuaba;-6.6;-40.12;518
+MG;Aiuruoca;-21.976;-44.6;1184
+RS;Ajuricaba;-28.239;-53.77;0
+MG;Alagoa;-22.171;-44.64;0
+PB;Alagoa Grande;-7.158;-35.63;0
+PB;Alagoa Nova;-7.071;-35.76;1233
+PB;Alagoinha;-6.95;-35.5;465
+PE;Alagoinha;-8.466;-36.78;0
+PI;Alagoinha do Piauí;-7.008;-40.94;0
+BA;Alagoinhas;-12.136;-38.42;0
+SP;Alambari;-23.6;-47.76;599
+MG;Albertina;-22.251;-46.62;982
+MA;Alcântara;-2.409;-44.41;0
+CE;Alcântaras;-3.6;-40.5;683
+PB;Alcantil;-7.754;-36.06;0
+MS;Alcinópolis;-18.324;-53.71;471
+BA;Alcobaça;-17.5;-39.2;43
+MA;Aldeias Altas;-4.628;-43.47;128
+RS;Alecrim;-27.655;-54.76;0
+ES;Alegre;-20.756;-41.5;133
+RS;Alegrete;-29.758;-55.79;479
+PI;Alegrete do Piauí;-7.243;-40.76;0
+RS;Alegria;-27.755;-54.06;0
+MG;Além Paraíba;-21.756;-42.7;445
+PA;Alenquer;-1.942;-54.74;0
+RN;Alexandria;-6.413;-38.02;0
+GO;Alexânia;-16.082;-48.5;998
+MG;Alfenas;-21.429;-45.95;816
+ES;Alfredo Chaves;-20.635;-40.75;501
+SP;Alfredo Marcondes;-21.955;-51.41;351
+MG;Alfredo Vasconcelos;-21.145;-43.78;1072
+SC;Alfredo Wagner;-27.75;-49.33;0
+PB;Algodão de Jandaíra;-6.905;-36.01;0
+PB;Alhandra;-7.439;-34.91;0
+PE;Aliança;-7.603;-35.23;289
+TO;Aliança do Tocantins;-11.306;-48.94;0
+BA;Almadina;-14.751;-39.64;551
+TO;Almas;-11.6;-47.17;372
+PA;Almeirim;-1.5;-52.6;308
+MG;Almenara;-16.184;-40.69;358
+RN;Almino Afonso;-6.152;-37.77;0
+PR;Almirante Tamandaré;-25.325;-49.31;986
+GO;Aloândia;-17.753;-49.48;554
+MG;Alpercata;-18.974;-41.97;204
+RS;Alpestre;-27.249;-53.04;0
+MG;Alpinópolis;-20.756;-46.39;919
+MT;Alta Floresta;-9.756;-56.09;0
+RO;Alta Floresta d'Oeste;-11.968;-61.95;0
+SP;Altair;-20.5;-49.06;497
+PA;Altamira;-3.253;-52.26;64
+MA;Altamira do Maranhão;-4.058;-45.5;564
+PR;Altamira do Paraná;-24.76;-52.71;301
+CE;Altaneira;-7.002;-39.74;581
+PR;Altãnia;-23.756;-53.9;0
+MG;Alterosa;-21.249;-46.14;843
+PE;Altinho;-8.49;-36.06;0
+SP;Altinópolis;-21.026;-47.37;965
+RR;Alto Alegre;2.756;-61.5;64
+RS;Alto Alegre;-28.757;-52.99;0
+SP;Alto Alegre;-21.6;-50.13;178
+MA;Alto Alegre do Maranhão;-4.213;-44.45;0
+RO;Alto Alegre do Parecis;-12.128;-61.76;0
+MA;Alto Alegre do Pindaré;-3.69;-45.9;447
+MT;Alto Araguaia;-17.315;-53.22;653
+SC;Alto Bela Vista;-27.458;-51.76;0
+MT;Alto Boa Vista;-11.674;-51.39;345
+MG;Alto Caparaó;-20.433;-41.76;1034
+RN;Alto do Rodrigues;-5.288;-36.76;0
+RS;Alto Feliz;-29.392;-51.31;0
+MT;Alto Garças;-16.944;-53.5;812
+GO;Alto Horizonte;-14.196;-49.34;316
+MG;Alto Jequitibá;-20.424;-41.97;663
+PI;Alto Longá;-5.251;-42.21;182
+MT;Alto Paraguai;-14.5;-56.48;0
+RO;Alto Paraíso;-9.751;-63.32;1305
+GO;Alto Paraíso de Goiás;-14.133;-47.5;0
+PR;Alto Paraná;-23.129;-52.32;407
+MA;Alto Parnaíba;-9.111;-45.93;433
+PR;Alto Piquiri;-24.028;-53.44;363
+MG;Alto Rio Doce;-21.026;-43.41;697
+ES;Alto Rio Novo;-19.056;-41.02;585
+CE;Alto Santo;-5.5;-38.27;0
+MT;Alto Taquari;-17.755;-53.28;875
+PI;Altos;-5.038;-42.46;178
+SP;Alumínio;-23.5;-47.26;766
+AM;Alvarães;-3.221;-64.75;0
+MG;Alvarenga;-19.417;-41.73;836
+SP;Álvares Florence;-20.321;-49.91;456
+SP;Álvares Machado;-22.079;-51.47;356
+SP;Álvaro de Carvalho;-22.089;-49.72;539
+SP;Alvinlândia;-22.444;-49.76;662
+MG;Alvinópolis;-20.107;-43.05;737
+RS;Alvorada;-29.99;-51.08;659
+TO;Alvorada;-12.48;-49.12;374
+MG;Alvorada de Minas;-18.754;-43.37;489
+PI;Alvorada do Gurguéia;-8.424;-43.78;414
+GO;Alvorada do Norte;-14.481;-46.49;0
+PR;Alvorada do Sul;-22.758;-51.23;0
+RO;Alvorada d'Oeste;-11.341;-62.29;286
+RR;Amajari;3.652;-61.37;0
+MS;Amambai;-23.104;-55.23;0
+AP;Amapá;2.053;-50.79;34
+MA;Amapá do Maranhão;-1.6;-45.93;8
+PR;Amaporã;-23.096;-52.79;347
+PE;Amaraji;-8.383;-35.45;0
+RS;Amaral Ferrador;-30.756;-52.26;0
+GO;Amaralina;-13.926;-49.3;351
+PI;Amarante;-6.241;-42.76;313
+MA;Amarante do Maranhão;-5.6;-46.74;204
+BA;Amargosa;-13.03;-39.6;405
+AM;Amaturá;-3.364;-68.2;0
+BA;Amélia Rodrigues;-12.392;-38.76;108
+BA;América Dourada;-11.455;-41.44;797
+SP;Americana;-22.754;-47.33;578
+GO;Americano do Brasil;-16.255;-49.98;868
+SP;Américo Brasiliense;-21.752;-48.1;594
+SP;Américo de Campos;-20.299;-49.73;487
+RS;Ametista do Sul;-27.361;-53.18;0
+CE;Amontada;-3.494;-39.6;18
+GO;Amorinópolis;-16.619;-51.09;609
+PB;Amparo;-7.6;-37.06;0
+SP;Amparo;-22.75;-46.76;599
+SE;Amparo de São Francisco;-10.134;-36.93;0
+MG;Amparo do Serra;-20.5;-42.75;700
+PR;Ampére;-25.915;-53.47;499
+AL;Anadia;-9.684;-36.3;0
+BA;Anagé;-14.612;-41.14;511
+PR;Anahy;-24.752;-53.08;467
+PA;Anajás;-0.987;-49.94;26
+MA;Anajatuba;-3.264;-44.62;16
+SP;Analândia;-22.126;-47.66;729
+AM;Anamã;-3.6;-61.4;0
+TO;Ananás;-6.365;-48.07;137
+PA;Ananindeua;-1.366;-48.37;17
+GO;Anápolis;-16.327;-48.95;1111
+PA;Anapu;-3.472;-51.2;151
+MA;Anapurus;-3.672;-43.12;84
+MS;Anastácio;-20.484;-55.75;0
+MS;Anaurilândia;-22.188;-52.72;329
+ES;Anchieta;-20.755;-40.65;45
+SC;Anchieta;-26.5;-53.33;725
+BA;Andaraí;-12.755;-41.33;324
+PR;Andirá;-23.051;-50.23;426
+BA;Andorinha;-10.345;-39.75;466
+MG;Andradas;-22.068;-46.6;938
+SP;Andradina;-20.756;-51.38;337
+RS;André da Rocha;-28.631;-51.6;0
+MG;Andrelândia;-21.754;-44.31;1095
+SP;Angatuba;-23.49;-48.41;637
+MG;Angelândia;-17.602;-42.13;871
+MS;Angélica;-22.153;-53.77;348
+PE;Angelim;-8.756;-36.29;0
+SC;Angelina;-27.6;-48.99;0
+BA;Angical;-12.007;-44.69;185
+PI;Angical do Piauí;-6.086;-42.74;493
+TO;Angico;-6.389;-47.76;0
+RN;Angicos;-5.666;-36.6;356
+RJ;Angra dos Reis;-23.007;-44.32;944
+BA;Anguera;-12.151;-39.25;220
+PR;Ângulo;-23.195;-51.92;421
+GO;Anhanguera;-18.337;-48.22;640
+SP;Anhembi;-22.759;-48.13;492
+SP;Anhumas;-22.295;-51.39;413
+GO;Anicuns;-16.461;-49.96;745
+PI;Anísio de Abreu;-9.189;-43.05;463
+SC;Anita Garibaldi;-27.689;-51.13;0
+SC;Anitápolis;-27.902;-49.13;0
+AM;Anori;-3.757;-61.64;0
+RS;Anta Gorda;-28.97;-52;0
+BA;Antas;-10.4;-38.33;0
+PR;Antonina;-25.429;-48.71;357
+CE;Antonina do Norte;-6.758;-39.99;9
+PI;Antônio Almeida;-7.219;-44.2;234
+BA;Antônio Cardoso;-12.435;-39.12;219
+MG;Antônio Carlos;-21.318;-43.75;1121
+SC;Antônio Carlos;-27.5;-48.77;0
+MG;Antônio Dias;-19.653;-42.76;698
+BA;Antônio Gonçalves;-10.6;-40.28;828
+MS;Antônio João;-22.191;-55.95;0
+RN;Antônio Martins;-6.213;-37.91;0
+PR;Antônio Olinto;-25.986;-50.2;879
+RS;Antônio Prado;-28.756;-51.28;265
+MG;Antônio Prado de Minas;-21.016;-42.11;0
+PB;Aparecida;-6.758;-38.09;785
+SP;Aparecida;-22.755;-45.23;568
+GO;Aparecida de Goiânia;-16.755;-49.24;277
+GO;Aparecida do Rio Doce;-18.299;-51.15;339
+TO;Aparecida do Rio Negro;-9.952;-47.97;382
+MS;Aparecida do Taboado;-20.087;-51.09;0
+SP;Aparecida d'Oeste;-20.449;-50.76;609
+RJ;Aperibé;-21.621;-42.1;124
+ES;Apiacá;-21.154;-41.6;265
+MT;Apiacás;-9.5;-57.45;0
+SP;Apiaí;-24.5;-48.75;911
+MA;Apicum-Açu;-1.461;-45.1;8
+SC;Apiúna;-27.036;-49.39;0
+RN;Apodi;-5.664;-37.8;0
+BA;Aporá;-11.66;-38.08;0
+GO;Aporé;-18.965;-51.93;669
+BA;Apuarema;-13.756;-39.74;270
+PR;Apucarana;-23.6;-51.46;756
+AM;Apuí;-7.197;-59.76;0
+CE;Apuiarés;-3.949;-39.43;88
+SE;Aquidabã;-10.281;-37.02;0
+MS;Aquidauana;-20.471;-55.79;0
+CE;Aquiraz;-3.901;-38.39;0
+SC;Arabutã;-27.125;-52.14;0
+PB;Araçagi;-6.756;-35.38;0
+MG;Araçaí;-19.199;-44.25;721
+SE;Aracaju;-10.911;-37.07;0
+SP;Araçariguama;-23.439;-47.06;680
+BA;Araçás;-12.211;-38.25;0
+CE;Aracati;-4.6;-37.77;0
+BA;Aracatu;-14.428;-41.46;667
+SP;Araçatuba;-21.259;-50.43;343
+BA;Araci;-11.333;-38.97;263
+MG;Aracitaba;-21.343;-43.38;794
+CE;Aracoiaba;-4.371;-38.75;615
+PE;Araçoiaba;-7.759;-35.09;111
+SP;Araçoiaba da Serra;-23.5;-47.61;0
+ES;Aracruz;-19.755;-40.27;36
+GO;Araçu;-16.358;-49.68;403
+MG;Araçuaí;-16.755;-42.07;689
+GO;Aragarças;-15.756;-52.25;326
+GO;Aragoiânia;-16.912;-49.45;792
+TO;Aragominas;-7.16;-48.5;156
+TO;Araguacema;-8.755;-49.6;210
+TO;Araguaçu;-12.931;-49.75;250
+MT;Araguaiana;-15.753;-51.75;270
+TO;Araguaína;-7.191;-48.26;232
+MT;Araguainha;-16.756;-53.03;596
+MA;Araguanã;-2.953;-45.67;43
+TO;Araguanã;-6.6;-48.64;203
+GO;Araguapaz;-15.091;-50.63;336
+MG;Araguari;-18.647;-48.19;925
+TO;Araguatins;-5.651;-48.12;108
+MA;Araioses;-2.756;-41.9;3
+MS;Aral Moreira;-22.934;-55.64;0
+BA;Aramari;-12.082;-38.5;233
+RS;Arambaré;-30.915;-51.5;0
+MA;Arame;-4.756;-46.01;286
+SP;Aramina;-20.09;-47.79;576
+SP;Arandu;-23.134;-49.05;614
+MG;Arantina;-21.911;-44.26;1073
+SP;Arapeí;-22.674;-44.45;506
+AL;Arapiraca;-9.755;-36.66;0
+TO;Arapoema;-7.658;-49.06;203
+MG;Araponga;-20.667;-42.5;1216
+PR;Arapongas;-23.419;-51.42;764
+MG;Araporã;-18.436;-49.19;553
+PR;Arapoti;-24.158;-49.75;695
+MG;Arapuá;-19.034;-46.16;906
+PR;Arapuã;-24.316;-51.79;610
+MT;Araputanga;-15.471;-58.35;0
+SC;Araquari;-26.37;-48.72;16
+PB;Arara;-6.755;-35.76;0
+SC;Araranguá;-28.935;-49.49;0
+SP;Araraquara;-21.759;-48.18;680
+SP;Araras;-22.357;-47.38;644
+CE;Ararendá;-4.755;-40.75;313
+MA;Arari;-3.454;-44.78;0
+RS;Araricá;-29.614;-50.93;9
+CE;Araripe;-7.213;-40.05;746
+PE;Araripina;-7.6;-40.5;606
+RJ;Araruama;-22.756;-42.34;48
+PB;Araruna;-6.6;-35.74;0
+PR;Araruna;-23.932;-52.5;586
+BA;Arataca;-15.263;-39.41;158
+RS;Aratiba;-27.394;-52.3;0
+CE;Aratuba;-4.418;-39.05;602
+BA;Aratuípe;-13.079;-39;115
+SE;Arauá;-11.262;-37.62;0
+PR;Araucária;-25.6;-49.41;891
+MG;Araújos;-19.948;-45.13;810
+MG;Araxá;-19.6;-46.94;1026
+MG;Arceburgo;-21.364;-46.94;702
+SP;Arco-Íris;-21.757;-50.47;391
+MG;Arcos;-20.282;-45.5;744
+PE;Arcoverde;-8.419;-37.05;0
+MG;Areado;-21.359;-46.15;791
+RJ;Areal;-22.231;-43.11;558
+SP;Arealva;-22.029;-48.91;528
+PB;Areia;-6.963;-35.69;0
+RN;Areia Branca;-4.956;-37.14;0
+SE;Areia Branca;-10.756;-37.32;0
+PB;Areia de Baraúnas;-7.123;-36.94;0
+PB;Areial;-7.061;-35.93;0
+SP;Areias;-22.6;-44.7;689
+SP;Areiópolis;-22.668;-48.67;646
+MT;Arenápolis;-14.45;-56.75;0
+GO;Arenópolis;-16.386;-51.6;390
+RN;Arês;-6.194;-35.13;0
+MG;Argirita;-21.61;-42.75;273
+MG;Aricanduva;-17.756;-42.6;941
+MG;Arinos;-15.917;-46.11;535
+MT;Aripuanã;-10.126;-59.46;0
+RO;Ariquemes;-9.913;-63.04;0
+SP;Ariranha;-21.188;-48.79;690
+PR;Ariranha do Ivaí;-24.386;-51.6;555
+RJ;Armação de Búzios;-22.755;-41.76;0
+SC;Armazém;-28.262;-49.02;0
+CE;Arneiroz;-6.324;-40.13;406
+PI;Aroazes;-6.119;-41.79;228
+PB;Aroeiras;-7.5;-35.71;0
+PI;Arraial;-6.655;-42.5;2
+RJ;Arraial do Cabo;-22.966;-42.03;167
+TO;Arraias;-12.931;-46.94;404
+RS;Arroio do Meio;-29.401;-51.95;0
+RS;Arroio do Sal;-29.6;-49.76;0
+RS;Arroio do Tigre;-29.333;-53.09;0
+RS;Arroio dos Ratos;-30.077;-51.73;0
+RS;Arroio Grande;-32.238;-53.09;0
+SC;Arroio Trinta;-26.933;-51.34;0
+SP;Artur Nogueira;-22.6;-47.17;617
+GO;Aruanã;-14.92;-51.08;251
+SP;Arujá;-23.396;-46.32;831
+SC;Arvoredo;-27.074;-52.46;0
+RS;Arvorezinha;-28.756;-52.18;0
+SC;Ascurra;-26.955;-49.38;0
+SP;Aspásia;-20.159;-50.73;401
+PR;Assaí;-23.373;-50.75;464
+CE;Assaré;-6.756;-39.76;460
+SP;Assis;-22.662;-50.41;0
+AC;Assis Brasil;-10.941;-69.6;345
+PR;Assis Chateaubriand;-24.42;-53.5;545
+PB;Assunção;-7.074;-36.73;538
+PI;Assunção do Piauí;-5.756;-41.04;0
+MG;Astolfo Dutra;-21.315;-42.76;308
+PR;Astorga;-23.233;-51.67;572
+AL;Atalaia;-9.5;-36.02;0
+PR;Atalaia;-23.151;-52.05;0
+AM;Atalaia do Norte;-4.372;-70.19;458
+SC;Atalanta;-27.42;-49.78;0
+MG;Ataléia;-18.044;-41.11;253
+SP;Atibaia;-23.117;-46.6;776
+ES;Atilio Vivacqua;-20.914;-41.2;107
+TO;Augustinópolis;-5.466;-47.76;143
+PA;Augusto Corrêa;-1.022;-46.64;21
+MG;Augusto de Lima;-18.109;-44.27;652
+RS;Augusto Pestana;-28.5;-53.99;0
+RN;Augusto Severo;-5.756;-37.31;0
+RS;Áurea;-27.697;-52.05;0
+BA;Aurelino Leal;-14.317;-39.33;104
+SP;Auriflama;-20.686;-50.6;429
+GO;Aurilândia;-16.682;-50.46;551
+CE;Aurora;-6.943;-38.97;39
+SC;Aurora;-27.315;-49.64;516
+PA;Aurora do Pará;-2.134;-47.6;305
+TO;Aurora do Tocantins;-12.751;-46.41;0
+AM;Autazes;-3.6;-59.13;0
+SP;Avaí;-22.147;-49.33;506
+SP;Avanhandava;-21.461;-49.95;437
+SP;Avaré;-23.099;-48.93;839
+PA;Aveiro;-3.606;-55.33;0
+PI;Avelino Lopes;-10.137;-43.95;422
+GO;Avelinópolis;-16.466;-49.76;723
+MA;Axixá;-2.755;-44.05;211
+TO;Axixá do Tocantins;-5.616;-47.79;14
+TO;Babaçulândia;-7.255;-47.76;238
+MA;Bacabal;-4.292;-44.79;18
+MA;Bacabeira;-2.971;-44.32;4
+MA;Bacuri;-1.75;-45.13;14
+MA;Bacurituba;-2.751;-44.74;4
+SP;Bady Bassitt;-20.918;-49.45;526
+MG;Baependi;-21.959;-44.76;933
+RS;Bagé;-31.331;-54.11;0
+PA;Bagre;-1.756;-50.13;23
+PB;Baía da Traição;-6.688;-34.94;0
+RN;Baía Formosa;-6.369;-35.01;0
+BA;Baianópolis;-12.306;-44.5;780
+PA;Baião;-2.759;-49.67;7
+BA;Baixa Grande;-11.96;-40.13;499
+PI;Baixa Grande do Ribeiro;-7.756;-45.21;359
+CE;Baixio;-6.753;-38.72;263
+ES;Baixo Guandu;-19.5;-41.02;140
+SP;Balbinos;-21.756;-49.36;439
+MG;Baldim;-19.288;-43.96;774
+GO;Baliza;-16.196;-52.5;585
+SC;Balneário Arroio do Silva;-28.984;-49.41;0
+SC;Balneário Barra do Sul;-26.456;-48.61;11
+SC;Balneário Camboriú;-26.991;-48.63;0
+SC;Balneário Gaivota;-29.157;-49.6;0
+RS;Balneário Pinhal;-30.248;-50.23;0
+PR;Balsa Nova;-25.6;-49.64;1059
+SP;Bálsamo;-20.754;-49.6;506
+MA;Balsas;-7.5;-46.04;359
+MG;Bambuí;-20.006;-45.98;793
+CE;Banabuiú;-5.31;-38.92;181
+SP;Bananal;-22.684;-44.32;787
+PB;Bananeiras;-6.755;-35.63;0
+MG;Bandeira;-15.756;-40.6;939
+MG;Bandeira do Sul;-21.753;-46.39;306
+SC;Bandeirante;-26.757;-53.64;246
+MS;Bandeirantes;-19.918;-54.36;0
+PR;Bandeirantes;-23.11;-50.37;594
+TO;Bandeirantes do Tocantins;-7.756;-48.6;508
+PA;Bannach;-7.348;-50.4;550
+BA;Banzaê;-10.6;-38.61;338
+RS;Barão;-29.377;-51.5;671
+SP;Barão de Antonina;-23.627;-49.6;1284
+MG;Barão de Cocais;-19.946;-43.49;0
+RS;Barão de Cotegipe;-27.621;-52.38;232
+MA;Barão de Grajaú;-6.756;-43.02;0
+MT;Barão de Melgaço;-16.194;-55.97;198
+MG;Barão de Monte Alto;-21.245;-42.24;0
+RS;Barão do Triunfo;-30.388;-51.73;0
+PB;Baraúna;-6.643;-36.25;0
+RN;Baraúna;-5.08;-37.62;0
+MG;Barbacena;-21.226;-43.77;1051
+CE;Barbalha;-7.311;-39.3;926
+SP;Barbosa;-21.267;-49.95;393
+PR;Barbosa Ferraz;-24.03;-52.01;416
+PA;Barcarena;-1.5;-48.63;12
+RN;Barcelona;-5.951;-35.93;0
+AM;Barcelos;-0.975;-62.92;0
+SP;Bariri;-22.074;-48.74;473
+BA;Barra;-11.089;-43.14;0
+SC;Barra Bonita;-26.654;-53.44;516
+SP;Barra Bonita;-22.495;-48.6;596
+BA;Barra da Estiva;-13.626;-41.33;302
+PI;Barra d'Alcântara;-6.5;-42.11;0
+PE;Barra de Guabiraba;-8.42;-35.66;0
+PB;Barra de Santa Rosa;-6.752;-36.06;0
+PB;Barra de Santana;-7.5;-36;0
+AL;Barra de Santo Antônio;-9.405;-35.5;179
+ES;Barra de São Francisco;-18.756;-40.76;0
+AL;Barra de São Miguel;-9.755;-35.91;0
+PB;Barra de São Miguel;-7.755;-36.32;0
+MT;Barra do Bugres;-15.073;-57.18;712
+SP;Barra do Chapéu;-24.473;-49.02;875
+BA;Barra do Choça;-14.756;-40.6;164
+MA;Barra do Corda;-5.5;-45.24;806
+MT;Barra do Garças;-15.756;-52.26;0
+RS;Barra do Guarita;-27.192;-53.71;473
+PR;Barra do Jacaré;-23.115;-50.18;1152
+BA;Barra do Mendes;-11.755;-42.06;192
+TO;Barra do Ouro;-7.689;-47.68;500
+RJ;Barra do Piraí;-22.47;-43.75;0
+RS;Barra do Quaraí;-30.257;-57.6;0
+RS;Barra do Ribeiro;-30.291;-51.3;0
+RS;Barra do Rio Azul;-27.409;-52.41;192
+BA;Barra do Rocha;-14.211;-39.6;661
+SP;Barra do Turvo;-24.756;-48.5;0
+SE;Barra dos Coqueiros;-10.909;-37.04;0
+RS;Barra Funda;-27.923;-53.04;448
+MG;Barra Longa;-20.283;-43.04;432
+RJ;Barra Mansa;-22.5;-44.17;0
+SC;Barra Velha;-26.632;-48.68;467
+PR;Barracão;-26.254;-53.63;634
+RS;Barracão;-27.672;-51.46;0
+PI;Barras;-4.244;-42.29;110
+CE;Barreira;-4.287;-38.64;107
+BA;Barreiras;-12.153;-44.99;413
+PI;Barreiras do Piauí;-9.925;-45.48;752
+AM;Barreirinha;-2.759;-57.07;0
+MA;Barreirinhas;-2.755;-42.75;0
+PE;Barreiros;-8.755;-35.19;0
+SP;Barretos;-20.6;-48.6;572
+SP;Barrinha;-21.194;-48.13;573
+CE;Barro;-7.177;-38.78;782
+BA;Barro Alto;-11.756;-41.91;789
+GO;Barro Alto;-14.971;-48.92;162
+PI;Barro Duro;-5.755;-42.5;203
+BA;Barro Preto;-14.755;-39.47;436
+TO;Barrolândia;-9.755;-48.73;490
+CE;Barroquinha;-3.019;-41.14;23
+RS;Barros Cassal;-29.093;-52.6;0
+MG;Barroso;-21.187;-43.98;992
+SP;Barueri;-23.5;-46.76;758
+SP;Bastos;-21.922;-50.73;452
+MS;Bataguassu;-21.751;-52.42;367
+MS;Bataiporã;-22.295;-53.27;0
+AL;Batalha;-9.678;-37.12;0
+PI;Batalha;-4.025;-42.08;80
+SP;Batatais;-20.756;-47.6;866
+CE;Baturité;-4.329;-38.76;149
+SP;Bauru;-22.315;-49.06;538
+PB;Bayeux;-7.125;-34.93;0
+SP;Bebedouro;-20.949;-48.48;607
+CE;Beberibe;-4.18;-38.13;0
+CE;Bela Cruz;-3.051;-40.13;38
+MS;Bela Vista;-22.109;-56.5;486
+PR;Bela Vista da Caroba;-25.756;-53.66;762
+GO;Bela Vista de Goiás;-16.973;-48.95;697
+MG;Bela Vista de Minas;-19.755;-43.09;37
+MA;Bela Vista do Maranhão;-3.753;-45.31;465
+PR;Bela Vista do Paraíso;-22.997;-51.19;337
+PI;Bela Vista do Piauí;-7.989;-41.76;824
+SC;Bela Vista do Toldo;-26.273;-50.46;0
+MA;Belágua;-3.155;-43.5;87
+AL;Belém;-9.6;-36.49;0
+PA;Belém;-1.456;-48.5;0
+PB;Belém;-6.692;-35.5;0
+PE;Belém de Maria;-8.626;-35.75;331
+PE;Belém de São Francisco;-8.755;-38.97;0
+PB;Belém do Brejo do Cruz;-6.189;-37.5;0
+PI;Belém do Piauí;-7.376;-40.97;0
+RJ;Belford Roxo;-22.756;-43.4;12
+MG;Belmiro Braga;-21.949;-43.42;823
+BA;Belmonte;-15.756;-38.76;72
+SC;Belmonte;-26.755;-53.6;0
+BA;Belo Campo;-15.038;-41.26;871
+MG;Belo Horizonte;-19.921;-43.94;888
+PE;Belo Jardim;-8.336;-36.42;0
+AL;Belo Monte;-9.755;-37.28;0
+MG;Belo Oriente;-19.22;-42.48;227
+MG;Belo Vale;-20.408;-44.02;880
+PA;Belterra;-2.636;-54.94;0
+PI;Beneditinos;-5.456;-42.36;91
+MA;Benedito Leite;-7.223;-44.6;274
+SC;Benedito Novo;-26.758;-49.36;0
+PA;Benevides;-1.361;-48.24;23
+AM;Benjamin Constant;-4.383;-70.03;0
+RS;Benjamin Constant do Sul;-27.5;-52.6;0
+SP;Bento de Abreu;-21.271;-50.75;388
+RN;Bento Fernandes;-5.694;-35.75;0
+RS;Bento Gonçalves;-29.171;-51.5;0
+MA;Bequimão;-2.449;-44.78;10
+MG;Berilo;-16.952;-42.47;523
+MG;Berizal;-15.613;-41.75;760
+PB;Bernardino Batista;-6.452;-38.6;489
+SP;Bernardino de Campos;-23.013;-49.47;629
+MA;Bernardo do Mearim;-4.6;-44.76;64
+TO;Bernardo Sayão;-7.756;-48.76;181
+SP;Bertioga;-23.756;-46.14;8
+PI;Bertolínia;-7.641;-43.95;290
+MG;Bertópolis;-17.063;-40.6;380
+AM;Beruri;-3.756;-61.37;0
+PE;Betânia;-8.275;-38.03;479
+PI;Betânia do Piauí;-8.148;-40.8;0
+MG;Betim;-19.968;-44.2;822
+PE;Bezerros;-8.233;-35.8;0
+MG;Bias Fortes;-21.606;-43.76;854
+MG;Bicas;-21.753;-43.06;590
+SC;Biguaçu;-27.494;-48.66;0
+SP;Bilac;-21.403;-50.47;410
+MG;Biquinhas;-18.758;-45.5;636
+SP;Birigui;-21.289;-50.34;434
+SP;Biritiba-Mirim;-23.6;-46.04;787
+BA;Biritinga;-11.617;-38.75;302
+PR;Bituruna;-26.125;-51.6;862
+SC;Blumenau;-26.919;-49.07;0
+ES;Boa Esperança;-18.5;-40.3;483
+MG;Boa Esperança;-21.09;-45.6;476
+PR;Boa Esperança;-24.242;-52.79;146
+PR;Boa Esperança do Iguaçu;-25.636;-53.21;864
+SP;Boa Esperança do Sul;-21.993;-48.39;545
+PI;Boa Hora;-4.411;-42.09;120
+BA;Boa Nova;-14.363;-40.26;851
+PB;Boa Ventura;-7.414;-38.22;917
+PR;Boa Ventura de São Roque;-24.756;-51.63;0
+CE;Boa Viagem;-5.128;-39.73;310
+PB;Boa Vista;-7.259;-36.24;435
+RR;Boa Vista;2.755;-60.67;0
+PR;Boa Vista da Aparecida;-25.436;-53.41;0
+RS;Boa Vista das Missões;-27.663;-53.31;22
+RS;Boa Vista do Buricá;-27.669;-54.11;0
+MA;Boa Vista do Gurupi;-1.759;-46.3;0
+AM;Boa Vista do Ramos;-2.97;-57.6;376
+RS;Boa Vista do Sul;-29.351;-51.68;0
+BA;Boa Vista do Tupim;-12.66;-40.61;0
+AL;Boca da Mata;-9.641;-36.22;0
+AM;Boca do Acre;-8.755;-67.4;0
+PI;Bocaina;-6.943;-41.32;1305
+SP;Bocaina;-22.136;-48.5;0
+MG;Bocaina de Minas;-22.126;-44.39;264
+SC;Bocaina do Sul;-27.754;-49.94;488
+MG;Bocaiúva;-17.108;-43.75;943
+PR;Bocaiúva do Sul;-25.256;-49.12;741
+RN;Bodó;-5.988;-36.41;514
+PE;Bodocó;-7.758;-39.94;0
+MS;Bodoquena;-20.5;-56.72;0
+SP;Bofete;-23.102;-48.26;542
+SP;Boituva;-23.283;-47.67;644
+PE;Bom Conselho;-9.126;-36.68;0
+MG;Bom Despacho;-19.754;-45.25;678
+MA;Bom Jardim;-4.754;-44.35;0
+PE;Bom Jardim;-7.76;-35.6;419
+RJ;Bom Jardim;-22.152;-42.42;1231
+SC;Bom Jardim da Serra;-28.337;-49.62;219
+GO;Bom Jardim de Goiás;-16.26;-52.17;0
+MG;Bom Jardim de Minas;-21.947;-44.19;590
+PB;Bom Jesus;-6.755;-38.66;435
+PI;Bom Jesus;-9.074;-44.36;993
+RN;Bom Jesus;-5.984;-35.6;769
+RS;Bom Jesus;-28.668;-50.42;273
+SC;Bom Jesus;-26.753;-52.39;641
+BA;Bom Jesus da Lapa;-13.255;-43.42;679
+MG;Bom Jesus da Penha;-21.017;-46.5;511
+BA;Bom Jesus da Serra;-14.374;-40.5;90
+MA;Bom Jesus das Selvas;-4.42;-46.77;245
+GO;Bom Jesus de Goiás;-18.214;-49.74;0
+MG;Bom Jesus do Amparo;-19.75;-43.47;551
+MG;Bom Jesus do Galho;-19.755;-42.32;151
+RJ;Bom Jesus do Itabapoana;-21.134;-41.68;288
+ES;Bom Jesus do Norte;-21.132;-41.68;775
+SC;Bom Jesus do Oeste;-26.69;-53.1;325
+PR;Bom Jesus do Sul;-26.193;-53.6;456
+PA;Bom Jesus do Tocantins;-5.051;-48.61;0
+TO;Bom Jesus do Tocantins;-8.965;-48.13;0
+SP;Bom Jesus dos Perdões;-23.135;-46.47;0
+MA;Bom Lugar;-4.22;-45.04;52
+RS;Bom Princípio;-29.489;-51.35;53
+PI;Bom Princípio do Piauí;-3.191;-41.64;0
+RS;Bom Progresso;-27.5;-53.76;0
+MG;Bom Repouso;-22.471;-46.15;1438
+SC;Bom Retiro;-27.76;-49.49;0
+RS;Bom Retiro do Sul;-29.609;-51.94;0
+MG;Bom Sucesso;-21.033;-44.76;1001
+PB;Bom Sucesso;-6.445;-37.93;615
+PR;Bom Sucesso;-23.751;-51.76;883
+SP;Bom Sucesso de Itararé;-24.318;-49.14;0
+PR;Bom Sucesso do Sul;-26.076;-52.75;529
+SC;Bombinhas;-27.132;-48.5;0
+MG;Bonfim;-20.327;-44.24;409
+RR;Bonfim;3.36;-59.75;832
+PI;Bonfim do Piauí;-9.126;-42.76;0
+GO;Bonfinópolis;-16.618;-48.96;839
+MG;Bonfinópolis de Minas;-16.6;-45.99;883
+BA;Boninal;-12.75;-41.75;990
+BA;Bonito;-11.969;-41.27;808
+MS;Bonito;-21.121;-56.48;0
+PA;Bonito;-1.363;-47.31;953
+PE;Bonito;-8.47;-35.73;0
+MG;Bonito de Minas;-15.323;-44.75;67
+PB;Bonito de Santa Fé;-7.313;-38.5;0
+GO;Bonópolis;-13.636;-49.75;258
+PB;Boqueirão;-7.482;-36.14;0
+RS;Boqueirão do Leão;-29.304;-52.43;106
+PI;Boqueirão do Piauí;-4.487;-42.07;0
+SE;Boquim;-11.147;-37.62;0
+BA;Boquira;-12.755;-42.73;544
+SP;Borá;-22.27;-50.5;493
+SP;Boracéia;-22.193;-48.78;479
+AM;Borba;-4.388;-59.6;0
+PB;Borborema;-6.755;-35.6;0
+SP;Borborema;-21.62;-49.07;415
+MG;Borda da Mata;-22.274;-46.13;859
+SP;Borebi;-22.6;-48.97;660
+PR;Borrazópolis;-23.941;-51.6;622
+RS;Bossoroca;-28.753;-54.9;0
+MG;Botelhos;-21.633;-46.4;1031
+SP;Botucatu;-22.756;-48.45;812
+MG;Botumirim;-16.756;-43.01;830
+BA;Botuporã;-13.382;-42.5;656
+SC;Botuverá;-27.199;-49.07;0
+SC;Braço do Norte;-28.275;-49.13;0
+SC;Braço do Trombudo;-27.358;-49.76;0
+RS;Braga;-27.614;-53.74;818
+PA;Bragança;-1.054;-46.77;28
+SP;Bragança Paulista;-22.952;-46.5;611
+PR;Braganey;-24.755;-53.12;0
+AL;Branquinha;-9.246;-36.02;0
+MG;Brás Pires;-20.921;-43.24;659
+PA;Brasil Novo;-3.305;-53.5;192
+MS;Brasilândia;-21.256;-52.04;517
+MG;Brasilândia de Minas;-17.01;-46.01;335
+PR;Brasilândia do Sul;-24.197;-53.5;220
+TO;Brasilândia do Tocantins;-8.388;-48.48;392
+AC;Brasiléia;-11.016;-68.75;0
+PI;Brasileira;-4.132;-41.78;130
+DF;Brasília;-15.758;-47.93;783
+MG;Brasília de Minas;-16.256;-44.43;1075
+MT;Brasnorte;-12.155;-57.98;0
+MG;Brasópolis;-22.474;-45.61;0
+SP;Braúna;-21.499;-50.32;492
+MG;Braúnas;-19.056;-42.72;473
+GO;Brazabrantes;-16.431;-49.39;822
+PE;Brejão;-9.03;-36.6;0
+ES;Brejetuba;-20.146;-41.29;755
+PE;Brejinho;-7.349;-37.29;261
+RN;Brejinho;-6.191;-35.36;0
+TO;Brejinho de Nazaré;-11;-48.6;0
+MA;Brejo;-3.684;-42.75;380
+SP;Brejo Alegre;-21.126;-50.19;0
+PE;Brejo da Madre de Deus;-8.146;-36.37;176
+MA;Brejo de Areia;-4.112;-45.5;0
+PB;Brejo do Cruz;-6.349;-37.5;382
+PI;Brejo do Piauí;-8.214;-42.75;0
+PB;Brejo dos Santos;-6.377;-37.75;167
+SE;Brejo Grande;-10.429;-36.47;0
+PA;Brejo Grande do Araguaia;-5.699;-48.41;435
+CE;Brejo Santo;-7.493;-38.99;698
+BA;Brejões;-13.104;-39.8;465
+BA;Brejolândia;-12.483;-43.97;79
+PA;Breu Branco;-4.068;-49.64;44
+PA;Breves;-1.682;-50.48;14
+GO;Britânia;-15.241;-51.13;276
+RS;Brochier;-29.5;-51.6;0
+SP;Brodósqui;-20.991;-47.66;0
+SP;Brotas;-22.284;-48.13;878
+BA;Brotas de Macaúbas;-11.999;-42.63;673
+MG;Brumadinho;-20.143;-44.2;817
+BA;Brumado;-14.254;-41.67;737
+SC;Brunópolis;-27.306;-50.76;0
+SC;Brusque;-27.098;-48.92;0
+MG;Bueno Brandão;-22.441;-46.35;1231
+MG;Buenópolis;-17.756;-44.18;625
+AR;Buenos Aires;-34.36;-58.27;0
+PE;Buenos Aires;-7.753;-35.33;0
+BA;Buerarema;-14.959;-39.3;139
+MG;Bugre;-19.426;-42.24;262
+PE;Buíque;-8.623;-37.16;0
+AC;Bujari;-9.755;-67.95;0
+PA;Bujaru;-1.5;-48.04;31
+SP;Buri;-23.76;-48.6;607
+SP;Buritama;-21.066;-50.15;406
+MA;Buriti;-3.942;-42.93;746
+GO;Buriti Alegre;-18.14;-49.04;194
+MA;Buriti Bravo;-5.755;-43.75;556
+GO;Buriti de Goiás;-16.181;-50.43;118
+TO;Buriti do Tocantins;-5.315;-48.23;73
+PI;Buriti dos Lopes;-3.175;-41.76;301
+PI;Buriti dos Montes;-5.312;-41.1;333
+MA;Buriticupu;-4.346;-46.4;117
+GO;Buritinópolis;-14.457;-46.44;693
+BA;Buritirama;-10.751;-43.63;564
+MA;Buritirama;-5.6;-47.02;0
+MG;Buritis;-15.618;-46.42;606
+RO;Buritis;-10.212;-63.75;0
+SP;Buritizal;-20.191;-47.71;780
+MG;Buritizeiro;-17.351;-44.96;716
+RS;Butiá;-30.12;-51.96;0
+AM;Caapiranga;-3.328;-61.26;0
+PB;Caaporã;-7.5;-34.91;0
+MS;Caarapó;-22.634;-54.75;0
+BA;Caatiba;-14.977;-40.41;323
+PB;Cabaceiras;-7.489;-36.29;216
+BA;Cabaceiras do Paraguaçu;-12.5;-39.19;0
+MG;Cabeceira Grande;-16.03;-47.09;839
+GO;Cabeceiras;-15.755;-46.93;107
+PI;Cabeceiras do Piauí;-4.476;-42.31;917
+PB;Cabedelo;-6.981;-34.75;0
+RO;Cabixi;-13.498;-60.6;0
+PE;Cabo de Santo Agostinho;-8.287;-35.04;0
+RJ;Cabo Frio;-22.756;-42.02;6
+MG;Cabo Verde;-21.472;-46.4;879
+SP;Cabrália Paulista;-22.456;-49.34;551
+SP;Cabreúva;-23.308;-47.13;794
+PE;Cabrobó;-8.5;-39.31;386
+SC;Caçador;-26.758;-51.02;0
+SP;Caçapava;-23.101;-45.71;0
+RS;Caçapava do Sul;-30.5;-53.49;564
+RO;Cacaulândia;-10.339;-62.76;0
+RS;Cacequi;-29.756;-54.75;0
+MT;Cáceres;-16.071;-57.68;0
+BA;Cachoeira;-12.618;-38.96;562
+GO;Cachoeira Alta;-18.756;-50.94;690
+MG;Cachoeira da Prata;-19.5;-44.45;710
+GO;Cachoeira de Goiás;-16.668;-50.65;845
+MG;Cachoeira de Minas;-22.355;-45.78;759
+MG;Cachoeira de Pajeú;-15.966;-41.5;5
+PA;Cachoeira do Arari;-1.011;-48.96;40
+PA;Cachoeira do Piriá;-1.756;-46.5;0
+RS;Cachoeira do Sul;-30.039;-52.76;0
+PB;Cachoeira dos µndios;-6.927;-38.67;411
+GO;Cachoeira Dourada;-18.492;-49.48;481
+MG;Cachoeira Dourada;-18.5;-49.5;64
+MA;Cachoeira Grande;-2.927;-44.06;571
+SP;Cachoeira Paulista;-22.665;-45.01;25
+RJ;Cachoeiras de Macacu;-22.463;-42.65;33
+PE;Cachoeirinha;-8.486;-36.23;0
+RS;Cachoeirinha;-29.951;-51.09;0
+TO;Cachoeirinha;-6.122;-47.92;231
+ES;Cachoeiro de Itapemirim;-20.755;-41.11;90
+PB;Cacimba de Areia;-7.129;-37.16;0
+PB;Cacimba de Dentro;-6.642;-35.79;0
+PB;Cacimbas;-7.211;-37.06;0
+AL;Cacimbinhas;-9.4;-36.99;0
+RS;Cacique Doble;-27.757;-51.66;0
+RO;Cacoal;-11.439;-61.45;0
+SP;Caconde;-21.5;-46.64;824
+GO;Caçu;-18.6;-51.13;534
+BA;Caculé;-14.5;-42.22;645
+BA;Caém;-11.091;-40.44;423
+MG;Caetanópolis;-19.295;-44.42;762
+BA;Caetanos;-14.338;-40.91;414
+MG;Caeté;-19.756;-43.67;1037
+PE;Caetés;-8.757;-36.62;0
+BA;Caetité;-14.069;-42.48;888
+BA;Cafarnaum;-11.694;-41.47;785
+PR;Cafeara;-22.759;-51.72;427
+PR;Cafelândia;-24.618;-53.32;572
+SP;Cafelândia;-21.755;-49.61;435
+PR;Cafezal do Sul;-23.902;-53.5;308
+SP;Caiabu;-22.012;-51.24;402
+MG;Caiana;-20.696;-41.93;860
+GO;Caiapônia;-16.957;-51.75;705
+RS;Caibaté;-28.288;-54.64;0
+SC;Caibi;-27.072;-53.25;0
+PB;Caiçara;-6.615;-35.47;0
+RS;Caiçara;-27.274;-53.43;0
+RN;Caiçara do Norte;-5.064;-36.06;0
+RN;Caiçara do Rio do Vento;-5.756;-36;0
+RN;Caicó;-6.458;-37.1;0
+SP;Caieiras;-23.364;-46.74;782
+BA;Cairu;-13.487;-39.04;4
+SP;Caiuá;-21.755;-52;341
+SP;Cajamar;-23.356;-46.76;807
+MA;Cajapió;-2.756;-44.67;10
+MA;Cajari;-3.321;-45.01;9
+SP;Cajati;-24.754;-48.12;109
+PB;Cajazeiras;-6.756;-38.6;170
+PI;Cajazeiras do Piauí;-6.757;-42.39;310
+PB;Cajazeirinhas;-6.961;-37.75;0
+SP;Cajobi;-20.756;-48.75;515
+AL;Cajueiro;-9.397;-36.15;21
+PI;Cajueiro da Praia;-2.928;-41.34;0
+MG;Cajuri;-20.759;-42.8;727
+SP;Cajuru;-21.275;-47.3;797
+PE;Calçado;-8.754;-36.33;0
+AP;Calçoene;2.498;-50.95;0
+MG;Caldas;-21.924;-46.39;0
+PB;Caldas Brandão;-7.103;-35.33;695
+GO;Caldas Novas;-17.754;-48.63;1119
+GO;Caldazinha;-16.751;-49;712
+BA;Caldeirão Grande;-11.02;-40.3;616
+PI;Caldeirão Grande do Piauí;-7.332;-40.64;408
+PR;Califórnia;-23.65;-51.36;688
+SC;Calmon;-26.6;-51.1;0
+PE;Calumbi;-7.941;-38.15;0
+BA;Camacan;-15.419;-39.5;143
+BA;Camaçari;-12.698;-38.32;0
+MG;Camacho;-20.625;-45.16;986
+PB;Camalaú;-7.756;-36.75;0
+BA;Camamu;-13.945;-39.1;153
+MG;Camanducaia;-22.756;-46.14;1452
+MS;Camapuã;-19.5;-54.04;561
+RS;Camaquã;-30.756;-51.75;0
+PE;Camaragibe;-8.022;-34.98;0
+RS;Camargo;-28.6;-52.25;0
+PR;Cambará;-23.046;-50.07;0
+RS;Cambará do Sul;-29.048;-50.14;406
+PR;Cambé;-23.276;-51.28;562
+PR;Cambira;-23.6;-51.6;631
+SC;Camboriú;-27.025;-48.65;0
+RJ;Cambuci;-21.6;-41.91;747
+MG;Cambuí;-22.612;-46.06;891
+MG;Cambuquira;-21.756;-45.3;896
+PA;Cametá;-2.244;-49.5;10
+CE;Camocim;-2.902;-40.75;0
+PE;Camocim de São Félix;-8.359;-35.76;6
+MG;Campanário;-18.239;-41.75;296
+MG;Campanha;-21.755;-45.4;916
+AL;Campestre;-8.755;-35.6;0
+MG;Campestre;-21.751;-46.25;690
+RS;Campestre da Serra;-28.759;-51.09;185
+GO;Campestre de Goiás;-16.756;-49.69;0
+MA;Campestre do Maranhão;-6.172;-47.36;1119
+PR;Campina da Lagoa;-24.6;-52.8;568
+RS;Campina das Missões;-27.989;-54.75;0
+SP;Campina do Monte Alegre;-23.6;-48.48;600
+PR;Campina do Simão;-25.079;-51.75;1104
+PB;Campina Grande;-7.231;-35.76;1096
+PR;Campina Grande do Sul;-25.306;-49.06;0
+MG;Campina Verde;-19.5;-49.49;632
+GO;Campinaçu;-13.759;-48.6;776
+MT;Campinápolis;-14.5;-52.76;523
+SP;Campinas;-22.906;-47.06;252
+PI;Campinas do Piauí;-7.66;-41.76;0
+RS;Campinas do Sul;-27.752;-52.63;641
+GO;Campinorte;-14.311;-49.15;635
+AL;Campo Alegre;-9.758;-36.35;887
+SC;Campo Alegre;-26.193;-49.27;473
+GO;Campo Alegre de Goiás;-17.633;-47.78;407
+BA;Campo Alegre de Lourdes;-9.5;-43.01;0
+PI;Campo Alegre do Fidalgo;-8.376;-41.75;864
+MG;Campo Azul;-16.5;-44.75;679
+MG;Campo Belo;-20.756;-45.28;0
+SC;Campo Belo do Sul;-27.756;-50.76;817
+RS;Campo Bom;-29.679;-51.05;0
+PR;Campo Bonito;-25.031;-52.99;671
+SE;Campo do Brito;-10.753;-37.49;0
+MG;Campo do Meio;-21.107;-45.75;784
+PR;Campo do Tenente;-25.978;-49.68;849
+SC;Campo Erê;-26.394;-53.08;880
+MG;Campo Florido;-19.756;-48.6;648
+BA;Campo Formoso;-10.5;-40.32;544
+AL;Campo Grande;-9.958;-36.79;394
+MS;Campo Grande;-20.443;-54.65;0
+PI;Campo Grande do Piauí;-7.132;-41.04;463
+PR;Campo Largo;-25.459;-49.5;110
+PI;Campo Largo do Piauí;-3.755;-42.63;768
+SP;Campo Limpo Paulista;-23.256;-46.78;826
+PR;Campo Magro;-25.369;-49.45;796
+PI;Campo Maior;-4.755;-42.13;131
+PR;Campo Mourão;-24.046;-52.38;587
+RS;Campo Novo;-27.675;-53.75;0
+RO;Campo Novo de Rondônia;-10.6;-63.61;0
+MT;Campo Novo do Parecis;-13.675;-57.76;0
+RN;Campo Redondo;-6.241;-36.18;0
+MT;Campo Verde;-15.5;-55.13;0
+MG;Campos Altos;-19.696;-46.17;983
+GO;Campos Belos;-13.037;-46.77;691
+RS;Campos Borges;-28.756;-53;0
+MT;Campos de Júlio;-13.756;-59.15;0
+SP;Campos do Jordão;-22.754;-45.6;1593
+RJ;Campos dos Goytacazes;-21.755;-41.32;9
+MG;Campos Gerais;-21.235;-45.76;860
+TO;Campos Lindos;-7.994;-46.76;424
+SC;Campos Novos;-27.402;-51.23;460
+SP;Campos Novos Paulista;-22.603;-50;0
+CE;Campos Sales;-7.074;-40.38;555
+GO;Campos Verdes;-14.258;-49.66;343
+PE;Camutanga;-7.407;-35.27;0
+MT;Cana Brava do Norte;-11.054;-51.75;0
+MG;Cana Verde;-21.021;-45.18;820
+MG;Canaã;-20.686;-42.62;234
+PA;Canaã dos Carajás;-6.497;-49.76;736
+SP;Cananéia;-25.015;-47.93;0
+AL;Canapi;-9.117;-37.6;0
+BA;Canápolis;-13.07;-44.25;714
+MG;Canápolis;-18.753;-49.25;579
+BA;Canarana;-11.685;-41.77;772
+MT;Canarana;-13.6;-52.27;378
+SP;Canas;-22.75;-45.06;574
+PI;Canavieira;-7.688;-43.72;234
+BA;Canavieiras;-15.675;-38.95;6
+BA;Candeal;-11.755;-39.12;221
+BA;Candeias;-12.668;-38.6;0
+MG;Candeias;-20.757;-45.28;0
+RO;Candeias do Jamari;-8.755;-63.7;976
+RS;Candelária;-29.669;-52.79;0
+BA;Candiba;-14.411;-42.76;576
+PR;Cândido de Abreu;-24.6;-51.33;620
+RS;Cândido Godói;-27.952;-54.75;0
+MA;Cândido Mendes;-1.447;-45.72;22
+SP;Cândido Mota;-22.755;-50.39;479
+SP;Cândido Rodrigues;-21.325;-48.63;551
+BA;Cândido Sales;-15.5;-41.24;823
+RS;Candiota;-31.6;-53.67;0
+PR;Candói;-25.6;-52.06;878
+RS;Canela;-29.366;-50.75;0
+SC;Canelinha;-27.265;-48.77;0
+RN;Canguaretama;-6.38;-35.13;0
+RS;Canguçu;-31.395;-52.68;0
+SE;Canhoba;-10.138;-36.98;0
+PE;Canhotinho;-8.756;-36.19;0
+CE;Canindé;-4.359;-39.31;0
+SE;Canindé de São Francisco;-9.66;-37.79;244
+SP;Canitar;-23.006;-49.78;507
+RS;Canoas;-29.918;-51.18;0
+SC;Canoinhas;-26.177;-50.39;769
+BA;Cansanção;-10.667;-39.5;407
+RR;Cantá;2.61;-60.6;645
+MG;Cantagalo;-18.5;-42.63;866
+PR;Cantagalo;-25.374;-52.13;455
+RJ;Cantagalo;-21.981;-42.37;51
+MA;Cantanhede;-3.633;-44.38;0
+PI;Canto do Buriti;-8.11;-42.94;491
+BA;Canudos;-9.756;-39.03;441
+AM;Canutama;-6.5;-64.38;0
+PA;Capanema;-1.196;-47.18;27
+PR;Capanema;-25.672;-53.75;273
+SC;Capão Alto;-27.937;-50.5;0
+SP;Capâo Bonito;-24.006;-48.35;677
+RS;Capão da Canoa;-29.755;-50.01;0
+RS;Capão do Leão;-31.756;-52.48;0
+MG;Caparaó;-20.5;-41.9;896
+AL;Capela;-9.408;-36.07;0
+SE;Capela;-10.5;-37.05;356
+RS;Capela de Santana;-29.75;-51.32;601
+SP;Capela do Alto;-23.471;-47.73;787
+BA;Capela do Alto Alegre;-11.668;-39.75;0
+MG;Capela Nova;-20.923;-43.62;0
+MG;Capelinha;-17.691;-42.5;897
+MG;Capetinga;-20.616;-47.05;814
+PB;Capim;-6.916;-35.17;855
+MG;Capim Branco;-19.5;-44.12;407
+BA;Capim Grosso;-11.381;-40.01;0
+MG;Capinópolis;-18.682;-49.6;530
+SC;Capinzal;-27.344;-51.61;109
+MA;Capinzal do Norte;-4.753;-44.33;0
+CE;Capistrano;-4.47;-38.9;148
+RS;Capitão;-29.269;-51.99;223
+MG;Capitão Andrade;-19.068;-41.76;169
+PI;Capitão de Campos;-4.457;-41.94;602
+MG;Capitão Enéas;-16.324;-43.71;348
+PI;Capitão Gervásio Oliveira;-8.49;-41.75;359
+PR;Capitão Leônidas Marques;-25.479;-53.61;63
+PA;Capitão Poço;-1.755;-47.06;0
+MG;Capitólio;-20.615;-46.05;930
+SP;Capivari;-22.995;-47.5;0
+SC;Capivari de Baixo;-28.445;-48.96;0
+RS;Capivari do Sul;-30.145;-50.5;513
+AC;Capixaba;-10.6;-67.68;0
+PE;Capoeiras;-8.753;-36.63;0
+MG;Caputira;-20.172;-42.27;645
+RS;Caraã;-29.759;-50.44;0
+RR;Caracaraí;1.755;-61.13;0
+MS;Caracol;-22.014;-57.02;0
+PI;Caracol;-9.279;-43.33;696
+SP;Caraguatatuba;-23.62;-45.41;6
+MG;Caraí;-17.189;-41.69;519
+BA;Caraíbas;-14.753;-41.26;818
+PR;Carambeí;-24.918;-50.1;952
+MG;Caranaíba;-20.756;-43.74;814
+MG;Carandaí;-20.954;-43.75;1119
+MG;Carangola;-20.753;-42.03;644
+RJ;Carapebus;-22.187;-41.66;8
+SP;Carapicuíba;-23.5;-46.75;802
+MG;Caratinga;-19.759;-42.14;687
+AM;Carauari;-4.756;-66.76;0
+PB;Caraúbas;-7.753;-36.49;39
+RN;Caraúbas;-5.759;-37.6;0
+PI;Caraúbas do Piauí;-3.476;-41.75;0
+BA;Caravelas;-17.753;-39.27;83
+RS;Carazinho;-28.284;-52.79;0
+MG;Carbonita;-17.5;-43.02;863
+BA;Cardeal da Silva;-11.942;-37.95;0
+SP;Cardoso;-20.082;-49.91;97
+RJ;Cardoso Moreira;-21.488;-41.62;448
+MG;Careaçu;-22.043;-45.7;894
+AM;Careiro;-3.757;-60.37;0
+AM;Careiro da Várzea;-3.25;-59.75;0
+ES;Cariacica;-20.264;-40.42;112
+CE;Caridade;-4.232;-39.19;406
+PI;Caridade do Piauí;-7.753;-40.99;139
+BA;Carinhanha;-14.305;-43.77;453
+SE;Carira;-10.361;-37.7;0
+CE;Cariré;-3.951;-40.47;152
+TO;Cariri do Tocantins;-11.756;-49.13;289
+CE;Caririaçu;-7.042;-39.28;545
+CE;Cariús;-6.5;-39.5;257
+MT;Carlinda;-9.958;-55.75;0
+PR;Carlópolis;-23.425;-49.72;571
+RS;Carlos Barbosa;-29.298;-51.5;0
+MG;Carlos Chagas;-17.75;-40.77;265
+RS;Carlos Gomes;-27.752;-51.91;0
+MG;Carmésia;-19.089;-43.14;704
+RJ;Carmo;-21.934;-42.61;896
+MG;Carmo da Cachoeira;-21.461;-45.22;929
+MG;Carmo da Mata;-20.6;-44.76;1038
+MG;Carmo de Minas;-22.122;-45.13;788
+MG;Carmo do Cajuru;-20.184;-44.77;900
+MG;Carmo do Paranaíba;-19.001;-46.32;837
+MG;Carmo do Rio Claro;-20.972;-46.12;604
+GO;Carmo do Rio Verde;-15.354;-49.71;234
+TO;Carmolândia;-7.033;-48.4;896
+SE;Carmópolis;-10.648;-36.99;0
+MG;Carmópolis de Minas;-20.5;-44.64;319
+PE;Carnaíba;-7.755;-37.79;0
+RN;Carnaúba dos Dantas;-6.6;-36.6;0
+RN;Carnaubais;-5.348;-36.75;0
+CE;Carnaubal;-4.126;-40.94;806
+PE;Carnaubeira da Penha;-8.319;-38.74;799
+MG;Carneirinho;-19.698;-50.69;434
+AL;Carneiros;-9.483;-37.38;0
+RR;Caroebe;0.756;-59.7;0
+MA;Carolina;-7.333;-47.47;219
+PE;Carpina;-7.756;-35.25;0
+MG;Carrancas;-21.488;-44.64;1116
+PB;Carrapateira;-7.039;-38.34;0
+TO;Carrasco Bonito;-5.322;-48.03;147
+PE;Caruaru;-8.283;-35.98;0
+MA;Carutapera;-1.195;-46.02;18
+MG;Carvalhópolis;-21.758;-45.75;835
+MG;Carvalhos;-22.001;-44.46;1195
+SP;Casa Branca;-21.757;-47.09;709
+MG;Casa Grande;-20.759;-43.93;970
+BA;Casa Nova;-9.125;-40.97;436
+RS;Casca;-28.6;-51.98;702
+MG;Cascalho Rico;-18.6;-47.76;0
+CE;Cascavel;-4.133;-38.24;0
+PR;Cascavel;-24.956;-53.46;726
+TO;Caseara;-9.278;-49.96;187
+RS;Caseiros;-28.269;-51.69;0
+RJ;Casimiro de Abreu;-22.481;-42.25;19
+PE;Casinhas;-7.754;-35.72;0
+PB;Casserengue;-6.755;-35.72;0
+MG;Cássia;-20.6;-46.92;926
+SP;Cássia dos Coqueiros;-21.283;-47.13;733
+MS;Cassilândia;-19.113;-51.73;594
+PA;Castanhal;-1.294;-47.93;56
+MT;Castanheira;-11.133;-58.6;0
+RO;Castanheiras;-11.418;-61.94;0
+GO;Castelândia;-18.089;-50.22;526
+ES;Castelo;-20.604;-41.18;260
+PI;Castelo do Piauí;-5.322;-41.6;272
+SP;Castilho;-20.756;-51.49;327
+PR;Castro;-24.759;-50.01;201
+BA;Castro Alves;-12.757;-39.43;996
+MG;Cataguases;-21.389;-42.7;225
+GO;Catalão;-18.126;-47.95;766
+SP;Catanduva;-21.138;-48.97;517
+PR;Catanduvas;-25.253;-53.16;556
+SC;Catanduvas;-27.071;-51.66;0
+CE;Catarina;-6.131;-39.76;423
+MG;Catas Altas;-20.075;-43.41;809
+MG;Catas Altas da Noruega;-20.69;-43.5;754
+PE;Catende;-8.667;-35.72;0
+SP;Catiguá;-21.049;-49.06;499
+PB;Catingueira;-7.126;-37.61;0
+BA;Catolândia;-12.318;-44.76;732
+PB;Catolé do Rocha;-6.344;-37.75;0
+BA;Catu;-12.353;-38.38;0
+RS;Catuípe;-28.25;-54.01;0
+MG;Catuji;-17.299;-41.5;644
+CE;Catunda;-4.648;-40.25;282
+GO;Caturaí;-16.447;-49.49;749
+BA;Caturama;-13.329;-42.29;583
+PB;Caturité;-7.42;-36.03;0
+MG;Catuti;-15.358;-42.96;501
+CE;Caucaia;-3.754;-38.65;72
+GO;Cavalcante;-13.76;-47.46;908
+MG;Caxambu;-21.977;-44.93;0
+SC;Caxambu do Sul;-27.125;-52.76;924
+MA;Caxias;-4.756;-43.36;0
+RS;Caxias do Sul;-29.126;-51.18;115
+PI;Caxingó;-3.418;-41.76;51
+RN;Ceará-Mirim;-5.634;-35.43;0
+MA;Cedral;-2;-44.5;40
+SP;Cedral;-20.903;-49.27;565
+CE;Cedro;-6.607;-39.06;0
+PE;Cedro;-7.752;-39.24;831
+SE;Cedro de São João;-10.252;-36.76;241
+MG;Cedro do Abaeté;-19.148;-45.71;539
+SC;Celso Ramos;-27.634;-51.34;0
+RS;Centenário;-27.756;-52;379
+TO;Centenário;-8.951;-47.34;0
+PR;Centenário do Sul;-22.755;-51.6;243
+BA;Central;-11.136;-42.11;363
+MG;Central de Minas;-18.756;-41.31;42
+MA;Central do Maranhão;-2.199;-44.75;694
+MG;Centralina;-18.6;-49.2;607
+MA;Centro do Guilherme;-2.369;-46;74
+MA;Centro Novo do Maranhão;-2.107;-46.13;96
+RO;Cerejeiras;-13.189;-60.75;0
+GO;Ceres;-15.308;-49.6;711
+SP;Cerqueira César;-23.036;-49.13;749
+SP;Cerquilho;-23.126;-47.74;563
+RS;Cerrito;-31.756;-52.75;0
+PR;Cerro Azul;-24.755;-49.26;413
+RS;Cerro Branco;-29.654;-52.93;0
+RN;Cerro Corá;-6.046;-36.35;0
+RS;Cerro Grande;-27.606;-53.13;0
+RS;Cerro Grande do Sul;-30.6;-51.75;0
+RS;Cerro Largo;-28.149;-54.74;0
+SC;Cerro Negro;-27.76;-50.76;0
+SP;Cesário Lange;-23.227;-47.95;607
+PR;Céu Azul;-25.147;-53.75;451
+GO;Cezarina;-16.972;-49.78;583
+PE;Chã de Alegria;-8.001;-35.21;0
+PE;Chã Grande;-8.238;-35.46;0
+AL;Chã Preta;-9.255;-36.3;0
+MG;Chácara;-21.672;-43.22;812
+MG;Chalé;-20.044;-41.69;605
+RS;Chapada;-28.055;-53.07;314
+TO;Chapada da Natividade;-11.617;-47.75;222
+TO;Chapada de Areia;-10.144;-49.14;705
+MG;Chapada do Norte;-17.087;-42.5;0
+MT;Chapada dos Guimarães;-15.461;-55.75;693
+MG;Chapada Gaúcha;-15.306;-45.62;839
+GO;Chapadão do Céu;-18.408;-52.5;0
+SC;Chapadão do Lageado;-27.6;-49.6;690
+MS;Chapadão do Sul;-18.759;-52.62;0
+MA;Chapadinha;-3.754;-43.36;73
+SC;Chapecó;-27.096;-52.62;0
+SP;Charqueada;-22.5;-47.78;571
+RS;Charqueadas;-29.955;-51.63;0
+RS;Charrua;-27.952;-52.02;0
+CE;Chaval;-3.034;-41.24;25
+SP;Chavantes;-23.039;-49.71;488
+PA;Chaves;-0.125;-49.99;0
+MG;Chiador;-22.003;-43.06;293
+RS;Chiapeta;-27.923;-53.94;0
+PR;Chopinzinho;-25.756;-52.5;634
+CE;Choró;-4.755;-39.14;366
+CE;Chorozinho;-4.3;-38.5;0
+BA;Chorrochó;-8.98;-39.1;432
+RS;Chuí;-33.691;-53.46;0
+RO;Chupinguaia;-12.6;-60.76;0
+RS;Chuvisca;-30.756;-51.98;0
+PR;Cianorte;-23.663;-52.61;531
+BA;Cícero Dantas;-10.6;-38.38;0
+PR;Cidade Gaúcha;-23.38;-52.94;386
+GO;Cidade Ocidental;-16.077;-47.93;875
+MA;Cidelândia;-5.174;-47.78;259
+RS;Cidreira;-30.181;-50.26;0
+BA;Cipó;-11.1;-38.5;162
+MG;Cipotânea;-20.905;-43.37;692
+RS;Ciríaco;-28.344;-51.76;0
+MG;Claraval;-20.399;-47.27;865
+MG;Claro dos Poções;-17.08;-44.26;630
+MT;Cláudia;-11.5;-54.76;0
+MG;Cláudio;-20.443;-44.77;841
+SP;Clementina;-21.6;-50.45;439
+PR;Clevelândia;-26.396;-52.47;893
+BA;Coaraci;-14.641;-39.6;578
+AM;Coari;-4.085;-63.14;0
+PI;Cocal;-3.472;-41.6;139
+PI;Cocal de Telha;-4.6;-41.97;0
+SC;Cocal do Sul;-28.601;-49.33;233
+PI;Cocal dos Alves;-3.753;-41.45;231
+MT;Cocalinho;-14.397;-51;149
+GO;Cocalzinho de Goiás;-15.759;-48.78;763
+BA;Cocos;-14.184;-44.5;729
+AM;Codajás;-3.755;-62.06;0
+MA;Codó;-4.455;-43.76;79
+MA;Coelho Neto;-4.257;-43.01;112
+MG;Coimbra;-20.756;-42.75;710
+AL;Coité do Nóia;-9.632;-36.6;0
+PI;Coivaras;-5.089;-42.25;210
+PA;Colares;-0.937;-48.28;0
+ES;Colatina;-19.5;-40.63;228
+MT;Colíder;-10.755;-55.45;0
+SP;Colina;-20.751;-48.5;500
+MA;Colinas;-6.026;-44.25;286
+RS;Colinas;-29.388;-51.76;182
+GO;Colinas do Sul;-14.151;-48.08;573
+TO;Colinas do Tocantins;-8.059;-48.48;0
+TO;Colméia;-8.753;-48.76;283
+SP;Colômbia;-20.176;-48.69;539
+PR;Colombo;-25.292;-49.22;934
+PI;Colônia do Gurguéia;-8.182;-43.79;328
+PI;Colônia do Piauí;-7.231;-42.18;215
+AL;Colônia Leopoldina;-8.909;-35.73;0
+PR;Colorado;-22.755;-51.97;0
+RS;Colorado;-28.5;-52.99;443
+RO;Colorado do Oeste;-13.117;-60.5;0
+MG;Coluna;-18.234;-42.75;669
+TO;Combinado;-12.759;-46.5;450
+MG;Comendador Gomes;-19.698;-49.08;587
+RJ;Comendador Levy Gasparian;-22.029;-43.26;424
+MG;Comercinho;-16.296;-41.79;667
+MT;Comodoro;-13.663;-59.79;0
+PB;Conceição;-7.6;-38.5;890
+MG;Conceição da Aparecida;-21.094;-46.25;869
+ES;Conceição da Barra;-18.6;-39.73;49
+MG;Conceição da Barra de Minas;-21.129;-44.47;225
+BA;Conceição da Feira;-12.5;-39;520
+MG;Conceição das Alagoas;-19.915;-48.39;1157
+MG;Conceição das Pedras;-22.125;-45.45;403
+MG;Conceição de Ipanema;-19.928;-41.69;42
+RJ;Conceição de Macabu;-22.085;-41.76;138
+BA;Conceição do Almeida;-12.758;-39.17;177
+PA;Conceição do Araguaia;-8.258;-49.26;248
+PI;Conceição do Canindé;-7.756;-41.6;727
+ES;Conceição do Castelo;-20.368;-41.24;390
+BA;Conceição do Coité;-11.6;-39.28;210
+BA;Conceição do Jacuípe;-12.317;-38.77;15
+MA;Conceição do Lago-Açu;-3.755;-44.76;730
+MG;Conceição do Mato Dentro;-19.037;-43.43;673
+MG;Conceição do Pará;-19.755;-44.76;893
+MG;Conceição do Rio Verde;-21.756;-45.09;356
+TO;Conceição do Tocantins;-12.219;-47.3;839
+MG;Conceição dos Ouros;-22.413;-45.8;470
+SP;Conchal;-22.33;-47.17;660
+SP;Conchas;-23.015;-48.01;475
+SC;Concórdia;-27.234;-52.03;41
+PA;Concórdia do Pará;-2.002;-47.95;0
+PB;Condado;-6.91;-37.6;0
+PE;Condado;-7.6;-35.11;0
+BA;Conde;-11.755;-37.61;0
+PB;Conde;-7.26;-34.91;0
+BA;Condeúba;-14.756;-41.97;745
+RS;Condor;-28.258;-53.49;0
+MG;Cônego Marinho;-15.294;-44.42;801
+MG;Confins;-19.633;-43.98;738
+MT;Confresa;-10.644;-51.6;327
+PB;Congo;-7.76;-36.66;862
+MG;Congonhal;-22.153;-46.04;1059
+MG;Congonhas;-20.5;-43.76;983
+MG;Congonhas do Norte;-18.755;-43.68;741
+PR;Congonhinhas;-23.6;-50.6;0
+MG;Conquista;-19.937;-47.5;777
+MG;Conselheiro Lafaiete;-20.66;-43.79;1009
+PR;Conselheiro Mairinck;-23.63;-50.13;472
+MG;Conselheiro Pena;-19.172;-41.47;112
+MG;Consolação;-22.6;-45.92;1021
+RS;Constantina;-27.753;-52.99;0
+MG;Contagem;-19.932;-44.05;866
+PR;Contenda;-25.676;-49.5;933
+BA;Contendas do Sincorá;-13.756;-41.04;344
+MG;Coqueiral;-21.189;-45.44;831
+AL;Coqueiro Seco;-9.638;-35.75;0
+RS;Coqueiros do Sul;-28.119;-52.78;0
+MG;Coração de Jesus;-16.685;-44.37;802
+BA;Coração de Maria;-12.233;-38.75;248
+PR;Corbélia;-24.76;-53.31;527
+RJ;Cordeiro;-22.029;-42.36;684
+SP;Cordeirópolis;-22.482;-47.46;543
+BA;Cordeiros;-15.039;-41.93;776
+SC;Cordilheira Alta;-26.984;-52.6;0
+MG;Cordisburgo;-19.125;-44.32;696
+MG;Cordislândia;-21.759;-45.7;852
+CE;Coreaú;-3.5;-40.66;159
+PB;Coremas;-7.014;-37.95;0
+MS;Corguinho;-19.755;-54.75;0
+BA;Coribe;-13.755;-44.45;698
+MG;Corinto;-18.381;-44.46;590
+PR;Cornélio Procópio;-23.181;-50.65;576
+MG;Coroaci;-18.622;-42.29;519
+SP;Coroados;-21.352;-50.28;405
+MA;Coroatá;-4.13;-44.12;35
+MG;Coromandel;-18.473;-47.25;818
+RS;Coronel Barros;-28.383;-54.07;0
+RS;Coronel Bicaco;-27.752;-53.7;0
+PR;Coronel Domingos Soares;-26.228;-52.03;965
+RN;Coronel Ezequiel;-6.383;-36.21;0
+MG;Coronel Fabriciano;-19.5;-42.63;861
+SC;Coronel Freitas;-26.909;-52.7;0
+RN;Coronel João Pessoa;-6.26;-38.44;0
+BA;Coronel João Sá;-10.284;-37.93;0
+PI;Coronel José Dias;-8.755;-42.5;318
+SP;Coronel Macedo;-23.631;-49.31;627
+SC;Coronel Martins;-26.5;-52.67;652
+MG;Coronel Murta;-16.619;-42.18;374
+MG;Coronel Pacheco;-21.6;-43.27;590
+MS;Coronel Sapucaia;-23.272;-55.5;0
+PR;Coronel Vivida;-25.98;-52.6;717
+MG;Coronel Xavier Chaves;-21.024;-44.22;998
+MG;Córrego Danta;-19.755;-45.9;840
+MG;Córrego do Bom Jesus;-22.63;-46.02;1079
+GO;Córrego do Ouro;-16.294;-50.5;834
+MG;Córrego Fundo;-20.449;-45.6;804
+MG;Córrego Novo;-19.755;-42.4;299
+SC;Correia Pinto;-27.6;-50.36;0
+PI;Corrente;-10.443;-45.13;477
+PE;Correntes;-9.129;-36.33;0
+BA;Correntina;-13.343;-44.64;780
+PE;Cortês;-8.47;-35.5;0
+MS;Corumbá;-19.009;-57.65;1079
+GO;Corumbá de Goiás;-15.924;-48.75;746
+GO;Corumbaíba;-18.143;-48.6;0
+SP;Corumbataí;-22.22;-47.63;524
+PR;Corumbataí do Sul;-24.101;-52.12;579
+RO;Corumbiara;-12.962;-60.76;0
+SC;Corupá;-26.425;-49.24;272
+AL;Coruripe;-10.126;-36.18;0
+SP;Cosmópolis;-22.646;-47.2;588
+SP;Cosmorama;-20.478;-49.78;524
+RO;Costa Marques;-12.445;-64.23;0
+MS;Costa Rica;-18.5;-53.13;668
+BA;Cotegipe;-12.028;-44.26;434
+SP;Cotia;-23.604;-46.92;899
+RS;Cotiporã;-28.994;-51.7;0
+MT;Cotriguaçu;-9.958;-58.41;0
+TO;Couto de Magalhães;-8.284;-49.25;781
+MG;Couto de Magalhães de Minas;-18.071;-43.47;0
+RS;Coxilha;-28.127;-52.3;0
+MS;Coxim;-18.5;-54.76;0
+PB;Coxixola;-7.627;-36.61;0
+AL;Craíbas;-9.618;-36.77;0
+CE;Crateús;-5.178;-40.68;290
+CE;Crato;-7.234;-39.41;930
+SP;Cravinhos;-21.34;-47.73;791
+BA;Cravolândia;-13.359;-39.75;664
+SC;Criciúma;-28.678;-49.37;0
+MG;Crisólita;-17.237;-40.91;265
+BA;Crisópolis;-11.5;-38.15;0
+RS;Crissiumal;-27.5;-54.1;0
+MG;Cristais;-20.756;-45.5;826
+SP;Cristais Paulista;-20.397;-47.42;770
+RS;Cristal;-31;-52.05;0
+RS;Cristal do Sul;-27.454;-53.25;460
+TO;Cristalândia;-10.6;-49.19;234
+PI;Cristalândia do Piauí;-10.653;-45.19;610
+MG;Cristália;-16.755;-42.76;1004
+GO;Cristalina;-16.757;-47.61;0
+MG;Cristiano Otoni;-20.755;-43.75;1048
+GO;Cristianópolis;-17.199;-48.71;853
+MG;Cristina;-22.212;-45.26;1327
+SE;Cristinápolis;-11.476;-37.76;0
+PI;Cristino Castro;-8.755;-44.22;322
+BA;Cristópolis;-12.234;-44.42;749
+GO;Crixás;-14.5;-49.97;259
+TO;Crixás do Tocantins;-11.1;-48.92;588
+CE;Croatá;-4.4;-40.91;577
+GO;Cromínia;-17.287;-49.38;744
+MG;Crucilândia;-20.384;-44.34;984
+CE;Cruz;-2.918;-40.17;0
+RS;Cruz Alta;-28.639;-53.61;199
+BA;Cruz das Almas;-12.67;-39.1;0
+PB;Cruz do Espírito Santo;-7.14;-35.09;1059
+PR;Cruz Machado;-26.018;-51.35;388
+SP;Cruzália;-22.754;-50.79;23
+SP;Cruzeiro;-22.6;-44.96;898
+MG;Cruzeiro da Fortaleza;-18.946;-46.67;450
+PR;Cruzeiro do Iguaçu;-25.616;-53.13;392
+PR;Cruzeiro do Oeste;-23.759;-53.07;0
+AC;Cruzeiro do Sul;-7.631;-72.67;466
+PR;Cruzeiro do Sul;-22.962;-52.13;0
+RS;Cruzeiro do Sul;-29.5;-51.99;571
+RN;Cruzeta;-6.412;-36.79;0
+MG;Cruzília;-21.755;-44.75;1024
+PR;Cruzmaltina;-24.013;-51.46;540
+SP;Cubatão;-23.756;-46.43;74
+PB;Cubati;-6.756;-36.38;0
+MT;Cuiabá;-15.6;-56.1;0
+PB;Cuité;-6.484;-36.15;0
+PB;Cuité de Mamanguape;-6.915;-35.25;0
+PB;Cuitegi;-6.756;-35.5;0
+RO;Cujubim;-9.363;-62.6;0
+GO;Cumari;-18.263;-48.15;659
+PE;Cumaru;-8.006;-35.7;317
+PA;Cumaru do Norte;-7.755;-50.77;0
+SE;Cumbe;-10.355;-37.18;0
+SP;Cunha;-23.074;-44.96;0
+SC;Cunha Porã;-26.756;-53.13;880
+SC;Cunhataí;-26.969;-53.09;0
+MG;Cuparaque;-18.969;-41.1;183
+PE;Cupira;-8.617;-35.95;0
+BA;Curaçá;-8.99;-39.91;462
+PI;Curimatá;-10.036;-44.31;460
+PA;Curionópolis;-6.102;-49.6;236
+PR;Curitiba;-25.428;-49.27;0
+SC;Curitibanos;-27.283;-50.6;929
+PR;Curiúva;-24.033;-50.46;752
+PI;Currais;-9.007;-44.41;0
+RN;Currais Novos;-6.261;-36.5;603
+PB;Curral de Cima;-6.752;-35.27;0
+MG;Curral de Dentro;-15.938;-41.75;925
+PI;Curral Novo do Piauí;-7.755;-40.9;414
+PB;Curral Velho;-7.6;-38.2;0
+PA;Curralinho;-1.755;-49.8;7
+PI;Curralinhos;-5.6;-42.78;156
+PA;Curuá;-1.756;-55.12;0
+PA;Curuçá;-0.753;-47.75;29
+MA;Cururupu;-1.755;-44.76;11
+MG;Curvelo;-18.756;-44.43;648
+PE;Custódia;-8.088;-37.64;0
+AP;Cutias;0.986;-50.75;4
+GO;Damianópolis;-14.6;-46.18;734
+PB;Damião;-6.603;-35.94;0
+GO;Damolândia;-16.253;-49.37;900
+TO;Darcinópolis;-6.751;-47.76;361
+BA;Dário Meira;-14.436;-39.91;357
+MG;Datas;-18.446;-43.66;1281
+RS;David Canabarro;-28.388;-51.75;0
+GO;Davinópolis;-18.153;-47.6;852
+MA;Davinópolis;-5.6;-47.43;211
+MG;Delfim Moreira;-22.5;-45.28;1197
+MG;Delfinópolis;-20.344;-46.76;890
+AL;Delmiro Gouveia;-9.389;-38;0
+MG;Delta;-19.977;-47.77;621
+PI;Demerval Lobão;-5.358;-42.68;113
+MT;Denise;-14.754;-57.05;0
+MS;Deodápolis;-22.276;-54.13;319
+CE;Deputado Irapuan Pinheiro;-5.917;-39.27;260
+RS;Derrubadas;-27.265;-53.76;0
+SP;Descalvado;-21.904;-47.62;714
+SC;Descanso;-26.755;-53.5;0
+MG;Descoberto;-21.46;-42.97;347
+PB;Desterro;-7.291;-37.09;1129
+MG;Desterro de Entre Rios;-20.66;-44.33;765
+MG;Desterro do Melo;-21.147;-43.5;0
+RS;Dezesseis de Novembro;-28.225;-55.05;0
+SP;Diadema;-23.686;-46.62;786
+PB;Diamante;-7.428;-38.26;354
+PR;Diamante do Norte;-22.656;-52.76;592
+PR;Diamante do Sul;-25.043;-52.68;400
+PR;Diamante d'Oeste;-24.943;-54.1;0
+MG;Diamantina;-18.249;-43.6;986
+MT;Diamantino;-14.409;-56.45;0
+TO;Dianópolis;-11.628;-46.75;792
+BA;Dias d'Ávila;-12.613;-38.3;0
+RS;Dilermano de Aguiar;-29.751;-54.26;0
+MG;Diogo de Vasconcelos;-20.488;-43.2;684
+MG;Dionísio;-19.755;-42.78;747
+SC;Dionísio Cerqueira;-26.255;-53.64;347
+GO;Diorama;-16.234;-51.26;441
+SP;Dirce Reis;-20.466;-50.61;433
+PI;Dirceu Arcoverde;-9.338;-42.43;417
+SE;Divina Pastora;-10.689;-37.15;0
+MG;Divinésia;-20.99;-43;764
+MG;Divino;-20.614;-42.15;422
+MG;Divino das Laranjeiras;-18.758;-41.48;832
+ES;Divino de São Lourenço;-20.62;-41.69;916
+SP;Divinolândia;-21.661;-46.74;1149
+MG;Divinolândia de Minas;-18.755;-42.61;823
+MG;Divinópolis;-20.139;-44.76;573
+GO;Divinópolis de Goiás;-13.295;-46.39;222
+TO;Divinópolis do Tocantins;-9.76;-49.21;753
+MG;Divisa Alegre;-15.753;-41.35;900
+MG;Divisa Nova;-21.5;-46.2;839
+MG;Divisópolis;-15.753;-41;781
+SP;Dobrada;-21.5;-48.39;637
+SP;Dois Córregos;-22.366;-48.38;746
+RS;Dois Irmãos;-29.6;-51.09;0
+RS;Dois Irmãos das Missões;-27.659;-53.5;0
+MS;Dois Irmãos do Buriti;-20.68;-55.3;242
+TO;Dois Irmãos do Tocantins;-9.258;-49.06;0
+RS;Dois Lajeados;-28.984;-51.75;0
+AL;Dois Riachos;-9.393;-37.1;0
+PR;Dois Vizinhos;-25.753;-53.06;499
+SP;Dolcinópolis;-20.123;-50.5;440
+MT;Dom Aquino;-15.755;-54.92;0
+BA;Dom Basílio;-13.756;-41.77;444
+MG;Dom Bosco;-16.652;-46.27;584
+MG;Dom Cavati;-19.374;-42.11;461
+PA;Dom Eliseu;-4.285;-47.5;136
+PI;Dom Expedito Lopes;-6.959;-41.64;385
+RS;Dom Feliciano;-30.75;-52.11;0
+PI;Dom Inocêncio;-9.002;-41.97;395
+MG;Dom Joaquim;-18.967;-43.26;585
+BA;Dom Macedo Costa;-12.905;-39.19;151
+RS;Dom Pedrito;-30.983;-54.67;0
+MA;Dom Pedro;-5.033;-44.44;0
+RS;Dom Pedro de Alcântara;-29.369;-49.75;173
+MG;Dom Silvério;-20.125;-42.97;752
+MG;Dom Viçoso;-22.254;-45.13;898
+ES;Domingos Martins;-20.363;-40.66;784
+PI;Domingos Mourão;-4.254;-41.27;126
+SC;Dona Emma;-26.985;-49.73;0
+MG;Dona Euzébia;-21.316;-42.75;0
+RS;Dona Francisca;-29.622;-53.36;0
+PB;Dona Inês;-6.603;-35.29;0
+MG;Dores de Campos;-21.109;-44.02;1028
+MG;Dores de Guanhães;-19.058;-42.93;503
+MG;Dores do Indaiá;-19.463;-45.6;667
+ES;Dores do Rio Preto;-20.689;-41.75;792
+MG;Dores do Turvo;-20.976;-43.19;777
+MG;Doresópolis;-20.287;-45.9;712
+PE;Dormentes;-8.447;-40.77;495
+MS;Douradina;-22.04;-54.61;0
+PR;Douradina;-23.381;-53.29;371
+SP;Dourado;-22.1;-48.32;693
+MG;Douradoquara;-18.431;-47.61;0
+MS;Dourados;-22.221;-54.75;700
+PR;Doutor Camargo;-23.6;-52.22;359
+RS;Doutor Maurício Cardoso;-27.5;-54.36;0
+SC;Doutor Pedrinho;-26.751;-49.48;0
+RS;Doutor Ricardo;-29.086;-51.99;0
+RN;Doutor Severiano;-6.094;-38.37;0
+PR;Doutor Ulysses;-24.6;-49.42;721
+GO;Doverlândia;-16.752;-52.32;615
+SP;Dracena;-21.483;-51.5;342
+SP;Duartina;-22.414;-49.4;529
+RJ;Duas Barras;-22.051;-42.5;636
+PB;Duas Estradas;-6.685;-35.42;0
+TO;Dueré;-11.344;-49.27;235
+SP;Dumont;-21.236;-47.97;563
+MA;Duque Bacelar;-4.156;-42.94;118
+RJ;Duque de Caxias;-22.759;-43.31;14
+MG;Durandé;-20.253;-41.8;657
+SP;Echaporã;-22.429;-50.25;575
+ES;Ecoporanga;-18.373;-40.75;276
+GO;Edealina;-17.424;-49.66;595
+GO;Edéia;-17.338;-49.93;496
+AM;Eirunepé;-6.66;-69.76;0
+MS;Eldorado;-23.759;-54.28;0
+SP;Eldorado;-24.5;-48.11;0
+RS;Eldorado do Sul;-30.084;-51.62;281
+PA;Eldorado dos Carajás;-6.104;-49.36;71
+PI;Elesbão Veloso;-6.252;-42.14;221
+SP;Elias Fausto;-23.043;-47.37;587
+PI;Eliseu Martins;-8.097;-43.66;299
+SP;Elisiário;-21.126;-49.11;497
+BA;Elísio Medrado;-12.946;-39.5;377
+MG;Elói Mendes;-21.61;-45.6;836
+PB;Emas;-7.108;-37.72;0
+SP;Embaúba;-20.983;-48.75;551
+SP;Embu;-23.649;-46.76;778
+SP;Embu-Guaçu;-23.755;-46.75;0
+SP;Emilianópolis;-21.755;-51.48;366
+RS;Encantado;-29.236;-51.76;0
+RN;Encanto;-6.111;-38.31;0
+BA;Encruzilhada;-15.5;-40.91;0
+RS;Encruzilhada do Sul;-30.5;-52.5;848
+PR;Enéas Marques;-25.942;-53.13;631
+PR;Engenheiro Beltrão;-23.76;-52.27;356
+MG;Engenheiro Caldas;-19.219;-42.05;268
+SP;Engenheiro Coelho;-22.488;-47.22;634
+MG;Engenheiro Navarro;-17.28;-43.95;664
+RJ;Engenheiro Paulo de Frontin;-22.5;-43.68;566
+RS;Engenho Velho;-27.751;-52.91;0
+MG;Entre Folhas;-19.625;-42.23;671
+BA;Entre Rios;-11.942;-38.08;884
+SC;Entre Rios;-26.752;-52.6;241
+MG;Entre Rios de Minas;-20.671;-44.07;0
+PR;Entre Rios do Oeste;-24.75;-54.23;0
+RS;Entre Rios do Sul;-27.5;-52.73;0
+RS;Entre-Ijuís;-28.359;-54.27;0
+AM;Envira;-7.433;-70.02;0
+AC;Epitaciolândia;-11.029;-68.74;0
+RN;Equador;-6.945;-36.72;0
+RS;Erebango;-27.756;-52.3;0
+RS;Erechim;-27.634;-52.27;0
+CE;Ererê;-6.032;-38.35;0
+BA;Érico Cardoso;-13.418;-42.14;1204
+SC;Ermo;-28.983;-49.64;0
+RS;Ernestina;-28.499;-52.6;0
+RS;Erval Grande;-27.391;-52.6;0
+RS;Erval Seco;-27.5;-53.5;0
+SC;Erval Velho;-27.276;-51.44;0
+MG;Ervália;-20.755;-42.66;811
+PE;Escada;-8.359;-35.22;0
+RS;Esmeralda;-28.054;-51.19;0
+MG;Esmeraldas;-19.756;-44.31;759
+MG;Espera Feliz;-20.65;-41.91;927
+PB;Esperança;-7.033;-35.76;0
+RS;Esperança do Sul;-27.355;-53.99;385
+PR;Esperança Nova;-23.752;-53.75;0
+PI;Esperantina;-3.902;-42.23;111
+TO;Esperantina;-5.343;-48.5;102
+MA;Esperantinópolis;-4.756;-44.71;101
+PR;Espigão Alto do Iguaçu;-25.424;-52.75;621
+RO;Espigão d'Oeste;-11.5;-61.01;0
+MG;Espinosa;-14.926;-42.75;970
+RN;Espírito Santo;-6.332;-35.31;1289
+MG;Espírito Santo do Dourado;-22.046;-45.95;871
+SP;Espírito Santo do Pinhal;-22.116;-46.68;481
+SP;Espírito Santo do Turvo;-22.692;-49.43;0
+BA;Esplanada;-11.76;-37.95;0
+RS;Espumoso;-28.752;-52.75;0
+RS;Estação;-27.911;-52.26;0
+SE;Estância;-11.268;-37.44;0
+RS;Estância Velha;-29.648;-51.17;0
+RS;Esteio;-29.756;-51.18;0
+MG;Estiva;-22.463;-46.02;611
+SP;Estiva Gerbi;-22.271;-46.94;855
+MA;Estreito;-6.6;-47.45;252
+RS;Estrela;-29.5;-51.97;363
+MG;Estrela Dalva;-21.754;-42.46;0
+AL;Estrela de Alagoas;-9.39;-36.76;686
+MG;Estrela do Indaiá;-19.5;-45.79;430
+GO;Estrela do Norte;-13.756;-49.07;381
+SP;Estrela do Norte;-22.488;-51.66;784
+MG;Estrela do Sul;-18.755;-47.69;477
+SP;Estrela d'Oeste;-20.288;-50.4;0
+RS;Estrela Velha;-29.177;-53.16;0
+BA;Euclides da Cunha;-10.5;-39.02;361
+SP;Euclides da Cunha Paulista;-22.6;-52.6;380
+RS;Eugênio de Castro;-28.5;-54.15;0
+MG;Eugenópolis;-21.099;-42.19;336
+BA;Eunápolis;-16.378;-39.6;189
+CE;Eusébio;-3.756;-38.45;0
+MG;Ewbank da Câmara;-21.6;-43.5;760
+MG;Extrema;-22.756;-46.32;895
+RN;Extremoz;-5.751;-35.31;0
+PE;Exu;-7.5;-39.72;554
+PB;Fagundes;-7.355;-35.78;0
+RS;Fagundes Varela;-28.756;-51.7;0
+GO;Faina;-15.446;-50.36;356
+MG;Fama;-21.406;-45.75;811
+MG;Faria Lemos;-20.755;-42.03;404
+CE;Farias Brito;-6.931;-39.6;343
+PA;Faro;-2.171;-56.75;589
+PR;Farol;-24.1;-52.62;0
+RS;Farroupilha;-29.225;-51.35;0
+SP;Fartura;-23.388;-49.5;405
+PI;Fartura do Piauí;-9.014;-42.69;500
+BA;Fátima;-10.6;-38.22;318
+TO;Fátima;-10.756;-48.91;0
+MS;Fátima do Sul;-22.374;-54.5;304
+PR;Faxinal;-24;-51.32;0
+RS;Faxinal do Soturno;-29.6;-53.44;0
+SC;Faxinal dos Guedes;-26.756;-52.26;837
+RS;Faxinalzinho;-27.424;-52.67;0
+GO;Fazenda Nova;-16.183;-50.78;425
+PR;Fazenda Rio Grande;-25.658;-49.31;924
+RS;Fazenda Vilanova;-29.6;-51.75;0
+AC;Feijó;-8.125;-70.35;0
+BA;Feira da Mata;-14.213;-44.28;490
+BA;Feira de Santana;-12.267;-38.97;224
+AL;Feira Grande;-9.9;-36.68;0
+PE;Feira Nova;-7.951;-35.39;367
+SE;Feira Nova;-10.264;-37.31;0
+MA;Feira Nova do Maranhão;-6.96;-46.69;0
+MG;Felício dos Santos;-18.077;-43.25;808
+RN;Felipe Guerra;-5.603;-37.69;0
+MG;Felisburgo;-16.639;-40.76;842
+MG;Felixlândia;-18.756;-44.76;623
+RS;Feliz;-29.451;-51.31;0
+AL;Feliz Deserto;-10.292;-36.31;353
+MT;Feliz Natal;-12.386;-54.92;0
+PR;Fênix;-23.916;-51.98;339
+PR;Fernandes Pinheiro;-25.413;-50.5;861
+MG;Fernandes Tourinho;-19.154;-42.08;226
+PE;Fernando de Noronha (Distrito Estadual);-3.755;-32.41;0
+MA;Fernando Falcão;-6.152;-44.76;295
+RN;Fernando Pedroza;-5.697;-36.5;0
+SP;Fernando Prestes;-21.264;-48.69;606
+SP;Fernandópolis;-20.284;-50.25;464
+SP;Fernão;-22.359;-49.5;563
+SP;Ferraz de Vasconcelos;-23.5;-46.37;809
+AP;Ferreira Gomes;0.756;-51.18;119
+PE;Ferreiros;-7.448;-35.24;0
+MG;Ferros;-19.232;-43.02;424
+MG;Fervedouro;-20.753;-42.28;825
+PR;Figueira;-23.755;-50.4;625
+TO;Figueirópolis;-12.131;-49.17;0
+MT;Figueirópolis d'Oeste;-15.445;-58.74;280
+BA;Filadélfia;-10.754;-40.13;420
+TO;Filadélfia;-7.336;-47.49;242
+BA;Firmino Alves;-14.985;-39.92;351
+GO;Firminópolis;-16.6;-50.31;637
+AL;Flexeiras;-9.198;-35.78;0
+PR;Flor da Serra do Sul;-26.26;-53.3;888
+SC;Flor do Sertão;-26.758;-53.35;0
+SP;Flora Rica;-21.676;-51.38;346
+PR;Floraí;-23.317;-52.3;401
+RN;Florânia;-6.127;-36.75;0
+SP;Floreal;-20.677;-50.15;480
+PE;Flores;-7.756;-37.97;0
+RS;Flores da Cunha;-29.029;-51.18;472
+GO;Flores de Goiás;-14.449;-47.05;265
+PI;Flores do Piauí;-7.759;-42.93;0
+PE;Floresta;-8.601;-38.6;211
+PR;Floresta;-23.6;-52.08;208
+BA;Floresta Azul;-14.756;-39.66;217
+PA;Floresta do Araguaia;-7.6;-49.71;789
+PI;Floresta do Piauí;-7.469;-41.79;0
+MG;Florestal;-19.756;-44.43;354
+PR;Florestópolis;-22.756;-51.39;512
+PI;Floriano;-6.757;-43.02;0
+RS;Floriano Peixoto;-27.756;-52.08;157
+SC;Florianópolis;-27.6;-48.5;0
+PR;Flórida;-23.087;-51.95;384
+SP;Flórida Paulista;-21.615;-51.17;444
+SP;Florínia;-22.903;-50.74;413
+AM;Fonte Boa;-2.5;-66.09;0
+RS;Fontoura Xavier;-28.983;-52.35;0
+MG;Formiga;-20.464;-45.43;850
+RS;Formigueiro;-30;-53.5;0
+GO;Formosa;-15.5;-47.33;326
+MA;Formosa da Serra Negra;-6.435;-46.19;405
+PR;Formosa do Oeste;-24.293;-53.31;756
+BA;Formosa do Rio Preto;-11.048;-45.19;0
+SC;Formosa do Sul;-26.647;-52.79;601
+GO;Formoso;-13.654;-48.76;200
+MG;Formoso;-14.947;-46.23;433
+TO;Formoso do Araguaia;-11.76;-49.5;748
+CE;Forquilha;-3.76;-40.26;115
+SC;Forquilhinha;-28.755;-49.47;0
+CE;Fortaleza;-3.752;-38.5;1199
+MG;Fortaleza de Minas;-20.755;-46.72;255
+TO;Fortaleza do Tabocão;-9.057;-48.5;478
+MA;Fortaleza dos Nogueiras;-6.964;-46.18;0
+RS;Fortaleza dos Valos;-28.76;-53.22;22
+CE;Fortim;-4.452;-37.8;0
+MA;Fortuna;-5.753;-44.16;712
+MG;Fortuna de Minas;-19.6;-44.45;137
+PR;Foz do Iguaçu;-25.5;-54.6;0
+PR;Foz do Jordão;-25.642;-52.1;816
+SC;Fraiburgo;-27.026;-50.92;0
+SP;Franca;-20.5;-47.4;991
+PI;Francinópolis;-6.396;-42.26;264
+PR;Francisco Alves;-24.066;-53.75;301
+PI;Francisco Ayres;-6.623;-42.69;163
+MG;Francisco Badaró;-16.993;-42.35;410
+PR;Francisco Beltrão;-26.081;-53.06;677
+RN;Francisco Dantas;-6.078;-38.12;0
+MG;Francisco Dumont;-17.315;-44.23;1043
+PI;Francisco Macedo;-7.331;-40.79;400
+SP;Francisco Morato;-23.282;-46.75;793
+MG;Francisco Sá;-16.476;-43.49;672
+PI;Francisco Santos;-6.993;-41.14;327
+MG;Franciscópolis;-17.96;-42.01;323
+SP;Franco da Rocha;-23.322;-46.73;791
+CE;Frecheirinha;-3.756;-40.75;138
+RS;Frederico Westphalen;-27.359;-53.39;0
+MG;Frei Gaspar;-18.066;-41.43;433
+MG;Frei Inocêncio;-18.6;-41.91;203
+MG;Frei Lagonegro;-18.126;-42.77;758
+PB;Frei Martinho;-6.403;-36.46;0
+PE;Frei Miguelinho;-7.94;-35.91;0
+SE;Frei Paulo;-10.5;-37.5;0
+SC;Frei Rogério;-27.175;-50.75;0
+MG;Fronteira;-20.268;-49.2;381
+MG;Fronteira dos Vales;-16.756;-40.92;478
+PI;Fronteiras;-7.088;-40.62;428
+MG;Fruta de Leite;-16.131;-42.5;872
+MG;Frutal;-20.025;-48.94;489
+RN;Frutuoso Gomes;-6.158;-37.75;0
+ES;Fundão;-19.933;-40.41;122
+MG;Funilândia;-19.368;-44.06;711
+SP;Gabriel Monteiro;-21.5;-50.6;402
+PB;Gado Bravo;-7.6;-35.79;0
+SP;Gália;-22.291;-49.6;671
+MG;Galiléia;-18.999;-41.5;407
+RN;Galinhos;-5.091;-36.28;0
+SC;Galvão;-26.455;-52.69;728
+PE;Gameleira;-8.6;-35.39;0
+MG;Gameleiras;-15.082;-43.12;497
+BA;Gandu;-13.754;-39.49;287
+PE;Garanhuns;-8.756;-36.49;0
+SE;Gararu;-9.968;-37.08;0
+SP;Garça;-22.211;-49.66;523
+RS;Garibaldi;-29.256;-51.5;0
+SC;Garopaba;-28.023;-48.61;0
+PA;Garrafão do Norte;-1.934;-47.05;112
+RS;Garruchos;-28.184;-55.64;0
+SC;Garuva;-26.027;-48.76;120
+SC;Gaspar;-26.931;-48.96;0
+SP;Gastão Vidigal;-20.76;-50.19;447
+MT;Gaúcha do Norte;-13.242;-53.08;347
+RS;Gaurama;-27.6;-52.09;0
+BA;Gavião;-11.471;-39.78;581
+SP;Gavião Peixoto;-21.755;-48.49;316
+PI;Geminiano;-7.158;-41.36;280
+RS;General Câmara;-29.905;-51.76;0
+MT;General Carneiro;-15.751;-52.76;529
+PR;General Carneiro;-26.428;-51.32;1173
+SE;General Maynard;-10.689;-36.98;0
+SP;General Salgado;-20.648;-50.36;413
+CE;General Sampaio;-4.053;-39.45;107
+RS;Gentil;-28.43;-52.04;0
+BA;Gentio do Ouro;-11.429;-42.5;900
+SP;Getulina;-21.76;-49.93;501
+RS;Getúlio Vargas;-27.756;-52.23;0
+PI;Gilbués;-9.755;-45.34;442
+AL;Girau do Ponciano;-9.756;-36.75;0
+RS;Giruá;-28.028;-54.35;0
+MG;Glaucilândia;-16.755;-43.7;683
+SP;Glicério;-21.376;-50.26;397
+BA;Glória;-9.338;-38.25;395
+MS;Glória de Dourados;-22.418;-54.23;0
+PE;Glória do Goitá;-8.002;-35.29;0
+MT;Glória d'Oeste;-15.757;-58.22;0
+RS;Glorinha;-29.756;-50.78;0
+MA;Godofredo Viana;-1.403;-45.78;12
+PR;Godoy Moreira;-24.177;-51.92;400
+MG;Goiabeira;-18.982;-41.22;189
+MG;Goianá;-21.5;-43.25;466
+PE;Goiana;-7.6;-35;0
+GO;Goianápolis;-16.5;-49.02;879
+GO;Goiandira;-18.132;-48.09;686
+GO;Goianésia;-15.318;-49.12;117
+PA;Goianésia do Pará;-3.755;-49.1;949
+GO;Goiânia;-16.679;-49.25;739
+RN;Goianinha;-6.265;-35.21;0
+GO;Goianira;-16.496;-49.43;775
+TO;Goianorte;-8.758;-48.93;250
+GO;Goiás;-15.934;-50.14;468
+TO;Goiatins;-7.751;-47.31;259
+GO;Goiatuba;-18.013;-49.35;702
+PR;Goioerê;-24.185;-53.03;435
+PR;Goioxim;-25.195;-51.99;1099
+MG;Gonçalves;-22.659;-45.76;163
+MA;Gonçalves Dias;-5.151;-44.3;1233
+BA;Gongogi;-14.322;-39.46;217
+MG;Gonzaga;-18.755;-42.48;642
+MG;Gouvêa;-18.454;-43.74;0
+GO;Gouvelândia;-18.643;-50.07;459
+MA;Governador Archer;-5.022;-44.27;96
+SC;Governador Celso Ramos;-27.315;-48.6;0
+RN;Governador Dix-Sept Rosado;-5.459;-37.5;0
+MA;Governador Edison Lobão;-5.755;-47.36;199
+MA;Governador Eugênio Barros;-5.323;-44.25;133
+RO;Governador Jorge Teixeira;-10.5;-62.64;0
+MA;Governador Luiz Rocha;-5.469;-44.07;186
+BA;Governador Mangabeira;-12.602;-39.04;213
+MA;Governador Newton Bello;-3.426;-45.68;45
+MA;Governador Nunes Freire;-2.126;-45.76;75
+MG;Governador Valadares;-18.756;-41.95;280
+CE;Graça;-4.046;-40.75;208
+MA;Graça Aranha;-5.41;-44.33;187
+SE;Gracho Cardoso;-10.227;-37.2;0
+MA;Grajaú;-5.755;-46.14;249
+RS;Gramado;-29.379;-50.76;0
+RS;Gramado dos Loureiros;-27.444;-52.92;0
+RS;Gramado Xavier;-29.268;-52.6;0
+PR;Grandes Rios;-24.146;-51.5;559
+PE;Granito;-7.752;-39.61;501
+CE;Granja;-3.12;-40.75;61
+CE;Granjeiro;-6.756;-39.22;361
+MG;Grão Mogol;-16.6;-42.76;861
+SC;Grão Pará;-28.185;-49.21;0
+PE;Gravatá;-8.251;-35.6;0
+RS;Gravataí;-29.944;-50.99;0
+SC;Gravatal;-28.331;-49.04;0
+CE;Groaíras;-3.913;-40.38;101
+RN;Grossos;-4.98;-37.15;0
+MG;Grupiara;-18.494;-47.72;730
+RS;Guabiju;-28.5;-51.69;0
+SC;Guabiruba;-27.086;-48.98;0
+ES;Guaçuí;-20.758;-41.68;707
+PI;Guadalupe;-6.759;-43.6;191
+RS;Guaíba;-30.114;-51.33;0
+SP;Guaiçara;-21.622;-49.8;421
+SP;Guaimbê;-21.91;-49.76;509
+PR;Guaíra;-24.08;-54.26;414
+SP;Guaíra;-20.318;-48.31;282
+PR;Guairaçá;-22.934;-52.69;510
+CE;Guaiúba;-4.04;-38.64;82
+AM;Guajará;-7.5;-72.6;0
+RO;Guajará-Mirim;-10.758;-65.34;0
+BA;Guajeru;-14.5;-41.94;578
+RN;Guamaré;-5.108;-36.32;0
+PR;Guamiranga;-25.191;-50.75;762
+BA;Guanambi;-14.223;-42.78;512
+MG;Guanhães;-18.758;-42.93;1025
+MG;Guapé;-20.756;-45.92;771
+SP;Guapiaçu;-20.76;-49.22;531
+SP;Guapiara;-24.185;-48.5;778
+RJ;Guapimirim;-22.5;-42.98;14
+PR;Guapirama;-23.5;-50.04;454
+GO;Guapó;-16.755;-49.5;632
+RS;Guaporé;-28.755;-51.76;321
+PR;Guaporema;-23.343;-52.78;0
+SP;Guará;-20.428;-47.75;0
+PB;Guarabira;-6.756;-35.49;337
+SP;Guaraçaí;-21.028;-51.26;757
+PR;Guaraci;-22.973;-51.65;594
+SP;Guaraci;-20.499;-48.94;616
+MG;Guaraciaba;-20.6;-43.01;831
+SC;Guaraciaba;-26.6;-53.5;540
+CE;Guaraciaba do Norte;-4.126;-40.75;503
+MG;Guaraciama;-17.014;-43.67;702
+TO;Guaraí;-8.755;-48.5;300
+GO;Guaraíta;-15.614;-50.02;838
+CE;Guaramiranga;-4.263;-38.93;16
+SC;Guaramirim;-26.473;-49;822
+MG;Guaranésia;-21.299;-46.75;0
+MG;Guarani;-21.352;-43.05;656
+RS;Guarani das Missões;-28.141;-54.6;500
+GO;Guarani de Goiás;-13.936;-46.48;754
+SP;Guarani d'Oeste;-20.075;-50.34;407
+PR;Guaraniaçu;-25.101;-52.76;0
+SP;Guarantã;-21.756;-49.6;515
+MT;Guarantã do Norte;-9.759;-54.91;296
+ES;Guarapari;-20.667;-40.5;1019
+PR;Guarapuava;-25.395;-51.46;182
+PR;Guaraqueçaba;-25.307;-48.33;517
+MG;Guarará;-21.753;-43.04;373
+SP;Guararapes;-21.261;-50.64;592
+SP;Guararema;-23.415;-46.04;613
+BA;Guaratinga;-16.6;-39.78;247
+SP;Guaratinguetá;-22.755;-45.19;541
+PR;Guaratuba;-25.756;-48.6;5
+MG;Guarda-Mor;-17.757;-47.1;657
+SP;Guareí;-23.373;-48.18;656
+SP;Guariba;-21.36;-48.23;614
+PI;Guaribas;-9.398;-43.69;537
+GO;Guarinos;-14.753;-49.7;388
+SP;Guarujá;-23.993;-46.26;754
+SC;Guarujá do Sul;-26.385;-53.5;14
+SP;Guarulhos;-23.463;-46.5;748
+SC;Guatambú;-27.132;-52.79;0
+SP;Guatapará;-21.497;-48.04;712
+MG;Guaxupé;-21.305;-46.71;879
+MS;Guia Lopes da Laguna;-21.458;-56.11;0
+MG;Guidoval;-21.152;-42.8;306
+MA;Guimarães;-2.133;-44.6;13
+MG;Guimarânia;-18.755;-46.79;902
+MT;Guiratinga;-16.349;-53.76;518
+MG;Guiricema;-21.008;-42.72;339
+MG;Gurinhatã;-19.213;-49.79;497
+PB;Gurinhém;-7.124;-35.42;0
+PB;Gurjão;-7.247;-36.49;0
+PA;Gurupá;-1.405;-51.64;19
+TO;Gurupi;-11.753;-49.07;316
+SP;Guzolândia;-20.65;-50.66;402
+RS;Harmonia;-29.5;-51.43;0
+GO;Heitoraí;-15.752;-49.75;640
+MG;Heliodora;-22.067;-45.5;844
+BA;Heliópolis;-10.683;-38.29;0
+SP;Herculândia;-22.004;-50.39;445
+RS;Herval;-32.024;-53.4;0
+SC;Herval d'Oeste;-27.194;-51.49;0
+RS;Herveiras;-29.407;-52.65;0
+CE;Hidrolândia;-4.408;-40.44;200
+GO;Hidrolândia;-16.962;-49.23;794
+GO;Hidrolina;-14.752;-49.47;578
+SP;Holambra;-22.633;-47.06;601
+PR;Honório Serpa;-26.141;-52.39;824
+CE;Horizonte;-4.086;-38.65;0
+RS;Horizontina;-27.626;-54.31;0
+SP;Hortolândia;-22.756;-47.22;617
+PI;Hugo Napoleão;-5.989;-42.6;221
+RS;Hulha Negra;-31.404;-53.76;0
+AM;Humaitá;-7.5;-63.02;0
+RS;Humaitá;-27.6;-53.97;0
+MA;Humberto de Campos;-2.6;-43.46;16
+SP;Iacanga;-21.756;-49.02;465
+GO;Iaciara;-14.096;-46.63;513
+SP;Iacri;-21.756;-50.69;436
+BA;Iaçu;-12.757;-40.21;262
+MG;Iapu;-19.437;-42.22;239
+SP;Iaras;-22.756;-49.13;610
+PE;Iati;-9.046;-36.75;0
+PR;Ibaiti;-23.755;-50.19;613
+RS;Ibarama;-29.419;-53.13;0
+CE;Ibaretama;-4.755;-38.75;149
+SP;Ibaté;-21.955;-48;0
+AL;Ibateguara;-8.973;-35.94;781
+ES;Ibatiba;-20.234;-41.5;843
+PR;Ibema;-25.106;-53.01;819
+MG;Ibertioga;-21.43;-43.96;1050
+MG;Ibiá;-19.478;-46.5;0
+RS;Ibiaçá;-28.057;-51.76;608
+MG;Ibiaí;-16.756;-44.91;926
+SC;Ibiam;-27.181;-51.24;0
+CE;Ibiapina;-3.923;-40.76;799
+PB;Ibiara;-7.5;-38.4;0
+BA;Ibiassucê;-14.259;-42.26;648
+BA;Ibicaraí;-14.756;-39.6;157
+SC;Ibicaré;-27.092;-51.37;0
+BA;Ibicoara;-13.411;-41.28;1206
+BA;Ibicuí;-14.755;-39.99;201
+CE;Ibicuitinga;-4.974;-38.64;134
+PE;Ibimirim;-8.5;-37.69;0
+BA;Ibipeba;-11.641;-42.01;565
+BA;Ibipitanga;-12.756;-42.49;538
+PR;Ibiporã;-23.269;-51.05;367
+BA;Ibiquera;-12.651;-40.93;598
+SP;Ibirá;-21.08;-49.24;818
+MG;Ibiracatu;-15.664;-44.13;1104
+MG;Ibiraci;-20.462;-47.12;245
+ES;Ibiraçu;-19.755;-40.37;0
+RS;Ibiraiaras;-28.37;-51.64;0
+PE;Ibirajuba;-8.6;-36.18;0
+SC;Ibirama;-27.057;-49.5;259
+BA;Ibirapitanga;-14.125;-39.37;92
+BA;Ibirapuã;-17.688;-40.11;0
+RS;Ibirapuitã;-28.625;-52.5;480
+SP;Ibirarema;-22.755;-50.07;456
+BA;Ibirataia;-14.067;-39.64;222
+MG;Ibirité;-20.022;-44.06;868
+RS;Ibirubá;-28.628;-53.09;0
+BA;Ibitiara;-12.652;-42.22;1008
+SP;Ibitinga;-21.756;-48.75;491
+ES;Ibitirama;-20.5;-41.67;774
+BA;Ibititá;-11.5;-41.98;802
+MG;Ibitiúra de Minas;-22.061;-46.44;939
+MG;Ibituruna;-21.153;-44.75;926
+SP;Ibiúna;-23.656;-47.22;1032
+BA;Ibotirama;-12.185;-43.22;461
+CE;Icapuí;-4.751;-37.36;0
+SC;Içara;-28.751;-49.3;551
+MG;Icaraí de Minas;-16.217;-44.91;319
+PR;Icaraíma;-23.396;-53.61;0
+MA;Icatu;-2.758;-44.07;16
+SP;Icém;-20.342;-49.2;478
+BA;Ichu;-11.755;-39.19;279
+CE;Icó;-6.401;-38.76;160
+ES;Iconha;-20.759;-40.75;236
+RN;Ielmo Marinho;-5.755;-35.6;0
+SP;Iepê;-22.661;-51.08;471
+AL;Igaci;-9.5;-36.63;0
+BA;Igaporã;-13.757;-42.71;743
+SP;Igaraçu do Tietê;-22.5;-48.6;511
+PB;Igaracy;-7.181;-38.15;0
+SP;Igarapava;-20.038;-47.75;597
+MG;Igarapé;-20.07;-44.3;16
+MA;Igarapé do Meio;-3.661;-45.23;49
+MA;Igarapé Grande;-4.6;-44.75;49
+PA;Igarapé-Açu;-1.129;-47.62;841
+PA;Igarapé-Miri;-1.975;-48.96;19
+PE;Igarassu;-7.755;-34.91;0
+SP;Igaratá;-23.254;-46.16;691
+MG;Igaratinga;-19.955;-44.71;819
+BA;Igrapiúna;-13.755;-39.14;116
+AL;Igreja Nova;-10.125;-36.66;0
+RS;Igrejinha;-29.6;-50.79;0
+RJ;Iguaba Grande;-22.755;-42.23;17
+BA;Iguaí;-14.756;-40.09;425
+SP;Iguape;-24.751;-47.6;18
+PE;Iguaraci;-7.755;-37.5;0
+PR;Iguaraçu;-23.197;-51.75;525
+MG;Iguatama;-20.174;-45.71;657
+MS;Iguatemi;-23.68;-54.6;0
+CE;Iguatu;-6.359;-39.3;210
+PR;Iguatu;-24.644;-53.13;453
+MG;Ijaci;-21.17;-44.93;838
+RS;Ijuí;-28.388;-53.91;0
+SP;Ilha Comprida;-24.754;-47.5;9
+SE;Ilha das Flores;-10.436;-36.5;0
+PI;Ilha Grande;-2.756;-41.75;8
+SP;Ilha Solteira;-20.433;-51.34;322
+SP;Ilhabela;-23.758;-45.36;613
+BA;Ilhéus;-14.759;-39.05;119
+SC;Ilhota;-26.756;-48.75;0
+MG;Ilicínea;-20.936;-45.75;923
+RS;Ilópolis;-28.927;-52.12;0
+PB;Imaculada;-7.39;-37.5;0
+SC;Imaruí;-28.341;-48.75;0
+PR;Imbaú;-24.445;-50.76;835
+RS;Imbé;-29.975;-50.13;575
+MG;Imbé de Minas;-19.6;-41.97;0
+SC;Imbituba;-28.24;-48.67;0
+PR;Imbituva;-25.23;-50.6;799
+SC;Imbuia;-27.493;-49.42;0
+RS;Imigrante;-29.355;-51.78;0
+MA;Imperatriz;-5.5;-47.49;136
+PR;Inácio Martins;-25.6;-51.08;1080
+GO;Inaciolândia;-18.488;-49.99;483
+PE;Inajá;-8.902;-37.75;0
+PR;Inajá;-22.755;-52.2;328
+MG;Inconfidentes;-22.317;-46.33;931
+MG;Indaiabira;-15.492;-42.2;994
+SC;Indaial;-26.756;-49.23;0
+SP;Indaiatuba;-23.09;-47.22;595
+CE;Independência;-5.396;-40.31;348
+RS;Independência;-27.755;-54.19;0
+SP;Indiana;-22.174;-51.25;381
+MG;Indianópolis;-19.039;-47.92;960
+PR;Indianópolis;-23.476;-52.7;389
+SP;Indiaporã;-19.98;-50.29;428
+GO;Indiara;-17.138;-49.99;586
+SE;Indiaroba;-11.5;-37.5;0
+MT;Indiavaí;-15.494;-58.6;0
+PB;Ingá;-7.281;-35.6;977
+MG;Ingaí;-21.401;-44.92;0
+PE;Ingazeira;-7.676;-37.46;0
+RS;Inhacorá;-27.756;-54.02;0
+BA;Inhambupe;-11.758;-38.35;0
+PA;Inhangapi;-1.43;-47.92;27
+AL;Inhapi;-9.221;-37.75;0
+MG;Inhapim;-19.5;-42.12;670
+MG;Inhaúma;-19.491;-44.39;785
+PI;Inhuma;-6.668;-41.71;430
+GO;Inhumas;-16.358;-49.5;792
+MG;Inimutaba;-18.753;-44.36;607
+MS;Inocência;-19.753;-51.93;471
+SP;Inúbia Paulista;-21.757;-50.96;440
+SC;Iomerê;-27.004;-51.24;0
+MG;Ipaba;-19.414;-42.42;266
+GO;Ipameri;-17.752;-48.16;843
+MG;Ipanema;-19.755;-41.71;458
+RN;Ipanguaçu;-5.498;-36.76;0
+CE;Ipaporanga;-4.9;-40.76;328
+MG;Ipatinga;-19.468;-42.5;364
+SP;Ipauçu;-23.057;-49.63;0
+CE;Ipaumirim;-6.759;-38.72;314
+RS;Ipê;-28.755;-51.28;185
+BA;Ipecaetá;-12.3;-39.31;580
+SP;Iperó;-23.35;-47.69;0
+SP;Ipeúna;-22.436;-47.72;569
+MG;Ipiaçu;-18.692;-49.94;435
+BA;Ipiaú;-14.137;-39.73;200
+SP;Ipiguá;-20.657;-49.39;481
+BA;Ipirá;-12.158;-39.74;248
+SC;Ipira;-27.404;-51.77;472
+PR;Ipiranga;-25.024;-50.6;0
+PI;Ipiranga do Piauí;-6.755;-41.74;792
+RS;Ipiranga do Sul;-27.937;-52.43;0
+AM;Ipixuna;-7.051;-71.69;79
+PA;Ipixuna do Pará;-2.6;-47.5;0
+PE;Ipojuca;-8.399;-35.06;0
+GO;Iporá;-16.442;-51.12;0
+PR;Iporã;-24.003;-53.7;644
+SC;Iporã do Oeste;-26.988;-53.5;588
+SP;Iporanga;-24.6;-48.6;331
+CE;Ipu;-4.322;-40.71;0
+SP;Ipuã;-20.438;-48.01;620
+SC;Ipuaçu;-26.631;-52.46;805
+PE;Ipubi;-7.652;-40.15;200
+RN;Ipueira;-6.755;-37.2;0
+CE;Ipueiras;-4.5;-40.72;749
+TO;Ipueiras;-11.239;-48.46;279
+MG;Ipuiúna;-22.099;-46.19;1231
+SC;Ipumirim;-27.077;-52.14;0
+BA;Ipupiara;-11.755;-42.61;961
+CE;Iracema;-5.755;-38.31;419
+RR;Iracema;2.182;-61.04;0
+PR;Iracema do Oeste;-24.428;-53.35;610
+SP;Iracemápolis;-22.6;-47.5;0
+SC;Iraceminha;-26.755;-53.27;0
+RS;Iraí;-27.194;-53.25;883
+MG;Iraí de Minas;-18.984;-47.46;0
+BA;Irajuba;-13.251;-40.08;665
+BA;Iramaia;-13.286;-40.95;572
+AM;Iranduba;-3.285;-60.19;0
+SC;Irani;-27.025;-51.9;0
+SP;Irapuã;-21.279;-49.41;416
+SP;Irapuru;-21.6;-51.35;356
+BA;Iraquara;-12.249;-41.62;723
+BA;Irará;-12.05;-38.77;271
+PR;Irati;-25.467;-50.65;878
+SC;Irati;-26.656;-52.76;0
+CE;Irauçuba;-3.755;-39.78;201
+BA;Irecê;-11.304;-41.76;758
+PR;Iretama;-24.424;-52.11;416
+SC;Irineópolis;-26.239;-50.8;1056
+PA;Irituia;-1.757;-47.44;36
+ES;Irupi;-20.345;-41.64;888
+PI;Isaías Coelho;-7.754;-41.68;304
+GO;Israelândia;-16.318;-50.91;399
+SC;Itá;-27.291;-52.32;0
+RS;Itaara;-29.61;-53.76;0
+PB;Itabaiana;-7.329;-35.33;0
+SE;Itabaiana;-10.685;-37.43;0
+SE;Itabaianinha;-11.274;-37.79;143
+BA;Itabela;-16.6;-39.6;264
+SP;Itaberá;-23.756;-49.14;738
+BA;Itaberaba;-12.5;-40.31;663
+GO;Itaberaí;-16.02;-49.75;944
+SE;Itabi;-10.126;-37.1;0
+MG;Itabira;-19.619;-43.23;896
+MG;Itabirinha de Mantena;-18.6;-41.23;0
+MG;Itabirito;-20.253;-43.75;18
+RJ;Itaboraí;-22.754;-42.76;97
+BA;Itabuna;-14.759;-39.28;258
+TO;Itacajá;-8.392;-47.77;1284
+MG;Itacambira;-17.065;-43.31;460
+MG;Itacarambi;-15.102;-44.09;101
+BA;Itacaré;-14.278;-39;0
+AM;Itacoatiara;-3.143;-58.44;325
+PE;Itacuruba;-8.753;-38.68;0
+RS;Itacurubi;-28.76;-55.24;523
+BA;Itaeté;-12.986;-40.97;276
+BA;Itagi;-14.125;-40.01;169
+BA;Itagibá;-14.284;-39.75;276
+BA;Itagimirim;-16.087;-39.61;429
+ES;Itaguaçu;-19.755;-40.76;256
+BA;Itaguaçu da Bahia;-11.012;-42.4;18
+RJ;Itaguaí;-22.756;-43.78;355
+PR;Itaguajé;-22.618;-51.97;953
+MG;Itaguara;-20.392;-44.49;653
+GO;Itaguari;-15.919;-49.6;758
+GO;Itaguaru;-15.756;-49.63;173
+TO;Itaguatins;-5.757;-47.48;0
+SP;Itaí;-23.418;-49.09;0
+PE;Itaíba;-8.948;-37.42;216
+CE;Itaiçaba;-4.674;-37.75;830
+PI;Itainópolis;-7.447;-41.48;188
+SC;Itaiópolis;-26.336;-49.91;760
+MA;Itaipava do Grajaú;-5.145;-45.79;230
+MG;Itaipé;-17.402;-41.67;599
+PR;Itaipulândia;-25.137;-54.3;69
+CE;Itaitinga;-3.969;-38.5;0
+PA;Itaituba;-4.276;-55.98;406
+GO;Itajá;-19.068;-51.5;0
+RN;Itajá;-5.644;-36.76;0
+SC;Itajaí;-26.908;-48.66;482
+SP;Itajobi;-21.318;-49.05;162
+SP;Itaju;-21.981;-48.75;873
+BA;Itaju do Colônia;-15.143;-39.72;156
+MG;Itajubá;-22.426;-45.45;510
+BA;Itajuípe;-14.678;-39.38;113
+RJ;Italva;-21.421;-41.69;0
+PE;Itamaracá;-7.755;-34.75;128
+BA;Itamaraju;-17.039;-39.5;939
+MG;Itamarandiba;-17.756;-42.76;315
+AM;Itamarati;-6.425;-68.25;0
+MG;Itamarati de Minas;-21.416;-42.75;319
+BA;Itamari;-13.758;-39.68;516
+MG;Itambacuri;-18.031;-41.69;398
+PR;Itambaracá;-23.018;-50.41;694
+BA;Itambé;-15.245;-40.62;403
+PE;Itambé;-7.41;-35.11;0
+PR;Itambé;-23.661;-51.99;303
+MG;Itambé do Mato Dentro;-19.414;-43.32;988
+MG;Itamogi;-21.078;-47.05;1866
+MG;Itamonte;-22.284;-44.76;0
+BA;Itanagra;-12.263;-38.04;40
+SP;Itanhaém;-24.183;-46.79;973
+MG;Itanhandu;-22.296;-44.93;286
+BA;Itanhém;-17.126;-40.33;253
+MG;Itanhomi;-19.172;-41.76;262
+MG;Itaobim;-16.6;-41.5;108
+SP;Itaóca;-24.64;-48.75;219
+RJ;Itaocara;-21.669;-42.08;777
+GO;Itapaci;-14.951;-49.5;266
+CE;Itapagé;-3.687;-39.6;518
+MG;Itapagipe;-19.909;-49.38;0
+BA;Itaparica;-12.756;-38.68;124
+BA;Itapé;-14.756;-39.42;629
+BA;Itapebi;-15.951;-39.5;878
+MG;Itapecerica;-20.473;-45.13;885
+SP;Itapecerica da Serra;-23.752;-46.75;27
+MA;Itapecuru Mirim;-3.393;-44.36;564
+PR;Itapejara d'Oeste;-25.965;-52.75;0
+SC;Itapema;-27.09;-48.61;7
+ES;Itapemirim;-21.011;-40.75;830
+PR;Itaperuçu;-25.22;-49.35;149
+RJ;Itaperuna;-21.255;-41.76;0
+PE;Itapetim;-7.378;-37.19;318
+BA;Itapetinga;-15.249;-40.25;644
+SP;Itapetininga;-23.6;-48.05;999
+MG;Itapeva;-22.757;-46.22;617
+SP;Itapeva;-23.982;-48.76;852
+SP;Itapevi;-23.5;-46.93;0
+BA;Itapicuru;-11.317;-38.23;102
+CE;Itapipoca;-3.362;-39.75;0
+SP;Itapira;-22.436;-46.75;0
+AM;Itapiranga;-2.755;-58.02;742
+SC;Itapiranga;-27.126;-53.71;376
+GO;Itapirapuã;-15.755;-50.61;691
+SP;Itapirapuã Paulista;-24.6;-49.13;232
+TO;Itapiratins;-8.384;-48.11;0
+PE;Itapissuma;-7.758;-34.76;269
+BA;Itapitanga;-14.423;-39.6;154
+CE;Itapiúna;-4.6;-38.92;19
+SC;Itapoá;-26.117;-48.62;515
+SP;Itápolis;-21.6;-48.75;346
+MS;Itaporã;-22.079;-54.79;0
+TO;Itaporã do Tocantins;-8.6;-48.69;0
+PB;Itaporanga;-7.304;-38.15;0
+SP;Itaporanga;-23.751;-49.49;513
+SE;Itaporanga d'Ajuda;-10.998;-37.31;0
+PB;Itapororoca;-6.755;-35.25;0
+RS;Itapuca;-28.758;-52.17;530
+SP;Itapuí;-22.233;-48.72;647
+SP;Itapura;-20.646;-51.5;367
+GO;Itapuranga;-15.6;-49.95;741
+SP;Itaquaquecetuba;-23.486;-46.35;626
+BA;Itaquara;-13.451;-39.94;352
+RS;Itaqui;-29.125;-56.6;0
+MS;Itaquiraí;-23.474;-54.19;0
+PE;Itaquitinga;-7.668;-35.1;367
+ES;Itarana;-19.756;-40.76;261
+BA;Itarantim;-15.66;-40.07;726
+SP;Itararé;-24.113;-49.33;34
+CE;Itarema;-2.92;-39.92;87
+SP;Itariri;-24.289;-47.17;684
+GO;Itarumã;-18.757;-51.35;0
+RJ;Itatiaia;-22.496;-44.6;1031
+MG;Itatiaiuçu;-20.197;-44.42;947
+SP;Itatiba;-23.006;-46.75;0
+RS;Itatiba do Sul;-27.387;-52.45;791
+BA;Itatim;-12.751;-39.7;280
+SP;Itatinga;-23.102;-48.62;673
+CE;Itatira;-4.5;-39.62;439
+PB;Itatuba;-7.375;-35.63;0
+RN;Itaú;-5.755;-37.99;808
+MG;Itaú de Minas;-20.754;-46.75;4
+MT;Itaúba;-11.062;-55.28;0
+AP;Itaubal;0.751;-50.75;827
+GO;Itauçu;-16.251;-49.61;321
+PI;Itaueira;-7.603;-43.03;419
+MG;Itaúna;-20.075;-44.6;879
+PR;Itaúna do Sul;-22.753;-52.76;0
+MG;Itaverava;-20.678;-43.61;714
+MG;Itinga;-16.613;-41.77;173
+MA;Itinga do Maranhão;-4.45;-47.5;503
+MT;Itiquira;-17.259;-54.15;0
+SP;Itirapina;-22.253;-47.75;693
+SP;Itirapuã;-20.641;-47.22;834
+BA;Itiruçu;-13.5;-40.15;740
+BA;Itiúba;-10.692;-39.76;629
+SP;Itobi;-21.754;-46.98;781
+BA;Itororó;-15.117;-40.07;254
+SP;Itu;-23.264;-47.3;867
+BA;Ituaçu;-13.755;-41.3;4
+BA;Ituberá;-13.753;-39.15;141
+MG;Itueta;-19.394;-41.17;550
+MG;Ituiutaba;-18.969;-49.47;548
+GO;Itumbiara;-18.419;-49.22;915
+MG;Itumirim;-21.317;-44.76;694
+SP;Itupeva;-23.153;-47.06;140
+PA;Itupiranga;-5.135;-49.33;0
+SC;Ituporanga;-27.414;-49.6;467
+MG;Iturama;-19.753;-50.2;616
+MG;Itutinga;-21.298;-44.66;1048
+SP;Ituverava;-20.339;-47.78;651
+BA;Iuiú;-14.414;-43.6;542
+ES;Iúna;-20.346;-41.5;684
+PR;Ivaí;-25.011;-50.76;647
+PR;Ivaiporã;-24.248;-51.68;764
+PR;Ivaté;-23.409;-53.37;348
+PR;Ivatuba;-23.619;-52.22;376
+MS;Ivinhema;-22.305;-53.75;344
+GO;Ivolândia;-16.602;-50.79;574
+RS;Ivorá;-29.5;-53.6;0
+RS;Ivoti;-29.6;-51.13;0
+PE;Jaboatão dos Guararapes;-8.113;-35.01;0
+SC;Jaborá;-27.176;-51.73;742
+BA;Jaborandi;-13.619;-44.43;519
+SP;Jaborandi;-20.688;-48.41;0
+PR;Jaboti;-23.754;-50.08;620
+RS;Jaboticaba;-27.631;-53.28;0
+SP;Jaboticabal;-21.255;-48.32;775
+MG;Jaboticatubas;-19.5;-43.75;494
+RN;Jaçanã;-6.426;-36.26;0
+BA;Jacaraci;-14.755;-42.43;752
+PB;Jacaraú;-6.612;-35.29;0
+AL;Jacaré dos Homens;-9.636;-37.25;0
+PA;Jacareacanga;-6.222;-57.75;0
+SP;Jacareí;-23.305;-45.97;563
+PR;Jacarezinho;-23.125;-49.97;475
+SP;Jaci;-20.756;-49.6;0
+MT;Jaciara;-15.965;-54.97;0
+MG;Jacinto;-16.144;-40.29;247
+SC;Jacinto Machado;-28.998;-49.76;477
+BA;Jacobina;-11.181;-40.5;334
+PI;Jacobina do Piauí;-7.935;-41.21;475
+MG;Jacuí;-21.017;-46.74;985
+AL;Jacuípe;-8.755;-35.46;0
+PA;Jacundá;-4.451;-49.12;105
+SP;Jacupiranga;-24.693;-48;103
+MG;Jacutinga;-22.286;-46.61;873
+RS;Jacutinga;-27.753;-52.5;0
+PR;Jaguapitã;-23.113;-51.5;547
+BA;Jaguaquara;-13.5;-39.97;751
+MG;Jaguaraçu;-19.649;-42.75;660
+RS;Jaguarão;-32.6;-53.38;0
+BA;Jaguarari;-10.264;-40.2;450
+ES;Jaguaré;-18.906;-40.08;52
+CE;Jaguaretama;-5.613;-38.77;156
+RS;Jaguari;-29.498;-54.69;934
+PR;Jaguariaíva;-24.251;-49.71;98
+CE;Jaguaribara;-5.658;-38.62;141
+CE;Jaguaribe;-5.756;-38.62;19
+BA;Jaguaripe;-13.113;-38.76;0
+SP;Jaguariúna;-22.751;-46.99;612
+CE;Jaguaruana;-4.755;-37.78;0
+SC;Jaguaruna;-28.615;-49.03;0
+MG;Jaíba;-15.338;-43.67;470
+PI;Jaicós;-7.359;-41.14;327
+SP;Jales;-20.269;-50.5;444
+RO;Jamari;-9.255;-63.18;0
+SP;Jambeiro;-23.254;-45.69;696
+MG;Jampruca;-18.463;-41.75;238
+MG;Janaúba;-15.755;-43.31;571
+GO;Jandaia;-17.049;-50.15;593
+PR;Jandaia do Sul;-23.603;-51.64;782
+BA;Jandaíra;-11.6;-37.78;0
+RN;Jandaíra;-5.356;-36.13;0
+SP;Jandira;-23.5;-46.9;768
+RN;Janduís;-6.016;-37.41;0
+MT;Jangada;-15.236;-56.49;0
+PR;Janiópolis;-24.142;-52.78;549
+RN;Januário Cicco;-6.158;-35.6;0
+MG;Japaraíba;-20.141;-45.5;693
+AL;Japaratinga;-9.088;-35.26;0
+SE;Japaratuba;-10.6;-36.94;0
+RJ;Japeri;-22.643;-43.65;31
+RN;Japi;-6.465;-35.95;541
+PR;Japira;-23.755;-50.14;0
+SE;Japoatã;-10.347;-36.75;0
+MG;Japonvar;-15.995;-44.27;809
+MS;Japorã;-23.756;-54.4;0
+AM;Japurá;-1.755;-66.6;0
+PR;Japurá;-23.47;-52.6;378
+PE;Jaqueira;-8.753;-35.79;0
+RS;Jaquirana;-28.756;-50.36;0
+GO;Jaraguá;-15.756;-49.33;248
+SC;Jaraguá do Sul;-26.486;-49.07;608
+MS;Jaraguari;-20.142;-54.4;602
+AL;Jaramataia;-9.659;-37;0
+CE;Jardim;-7.6;-39.3;521
+MS;Jardim;-21.48;-56.14;0
+PR;Jardim Alegre;-24.179;-51.69;0
+RN;Jardim de Angicos;-5.654;-35.97;243
+RN;Jardim de Piranhas;-6.379;-37.35;0
+PI;Jardim do Mulato;-6.099;-42.63;322
+RN;Jardim do Seridó;-6.6;-36.77;686
+PR;Jardim Olinda;-22.5;-52.04;0
+SC;Jardinópolis;-26.752;-52.76;0
+SP;Jardinópolis;-21.018;-47.76;510
+RS;Jari;-29.291;-54.22;789
+SP;Jarinu;-23.101;-46.73;0
+RO;Jaru;-10.439;-62.47;0
+GO;Jataí;-17.756;-51.71;642
+PR;Jataizinho;-23.254;-50.98;451
+PE;Jataúba;-7.99;-36.5;0
+MS;Jateí;-22.482;-54.3;311
+CE;Jati;-7.686;-39.02;450
+MA;Jatobá;-5.755;-44.22;139
+PE;Jatobá;-9.183;-38.27;278
+PI;Jatobá do Piauí;-4.757;-41.75;0
+SP;Jaú;-22.296;-48.6;427
+TO;Jaú do Tocantins;-12.655;-48.6;409
+GO;Jaupaci;-16.178;-50.95;0
+MT;Jauru;-15.342;-58.76;507
+MG;Jeceaba;-20.5;-43.98;945
+MG;Jenipapo de Minas;-17.083;-42.26;574
+MA;Jenipapo dos Vieiras;-5.371;-45.64;173
+MG;Jequeri;-20.456;-42.67;533
+BA;Jequié;-13.756;-40.08;216
+MG;Jequitaí;-17.236;-44.45;498
+MG;Jequitibá;-19.236;-44.03;708
+MG;Jequitinhonha;-16.434;-41;518
+BA;Jeremoabo;-10.075;-38.48;567
+PB;Jericó;-6.6;-37.75;0
+SP;Jeriquara;-20.311;-47.6;899
+ES;Jerônimo Monteiro;-20.759;-41.4;180
+PI;Jerumenha;-7.088;-43.5;166
+MG;Jesuânia;-21.998;-45.29;883
+PR;Jesuítas;-24.385;-53.39;455
+GO;Jesúpolis;-15.951;-49.37;775
+CE;Jijoca de Jericoacoara;-2.756;-40.45;23
+RO;Ji-Paraná;-10.756;-61.95;0
+BA;Jiquiriça;-13.257;-39.6;507
+BA;Jitaúna;-14.019;-39.76;169
+SC;Joaçaba;-27.178;-51.5;0
+MG;Joaíma;-16.654;-41.03;483
+MG;Joanésia;-19.172;-42.68;384
+SP;Joanópolis;-22.93;-46.28;912
+PE;João Alfredo;-7.756;-35.6;0
+RN;João Câmara;-5.5;-35.75;0
+PI;João Costa;-8.5;-42.41;357
+RN;João Dias;-6.274;-37.8;0
+BA;João Dourado;-11.35;-41.66;819
+MA;João Lisboa;-5.448;-47.4;281
+MG;João Monlevade;-19.755;-43.17;978
+ES;João Neiva;-19.756;-40.39;288
+PB;João Pessoa;-7.115;-34.76;0
+MG;João Pinheiro;-17.754;-46.17;588
+SP;João Ramalho;-22.25;-50.77;450
+MG;Joaquim Felício;-17.756;-44.17;773
+AL;Joaquim Gomes;-9.133;-35.75;0
+PE;Joaquim Nabuco;-8.624;-35.5;0
+PI;Joaquim Pires;-3.5;-42.2;85
+PR;Joaquim Távora;-23.499;-49.9;607
+PI;Joca Marques;-3.478;-42.43;58
+RS;Jóia;-28.647;-54.12;0
+SC;Joinville;-26.304;-48.75;141
+MG;Jordânia;-15.9;-40.18;303
+AC;Jordão;-9.434;-71.76;0
+SC;José Boiteux;-26.958;-49.63;0
+SP;José Bonifácio;-21.053;-49.69;417
+RN;José da Penha;-6.317;-38.28;0
+PI;José de Freitas;-4.756;-42.6;130
+MG;José Gonçalves de Minas;-16.907;-42.6;814
+MG;José Raydan;-18.219;-42.5;465
+MA;Joselândia;-4.933;-44.68;107
+MG;Josenópolis;-16.5;-42.5;790
+GO;Joviânia;-17.755;-49.61;809
+MT;Juara;-11.255;-57.5;0
+PB;Juarez Távora;-7.172;-35.6;0
+TO;Juarina;-8.119;-49.06;193
+MG;Juatuba;-19.952;-44.34;757
+PB;Juazeirinho;-7.068;-36.6;0
+BA;Juazeiro;-9.412;-40.5;398
+CE;Juazeiro do Norte;-7.213;-39.32;188
+PI;Juazeiro do Piauí;-5.172;-41.7;395
+CE;Jucás;-6.5;-39.5;314
+PE;Jucati;-8.751;-36.49;0
+BA;Jucuruçu;-16.755;-40.16;272
+RN;Jucurutu;-6.034;-37.02;0
+MT;Juína;-11.378;-58.74;0
+MG;Juiz de Fora;-21.756;-43.35;789
+PI;Júlio Borges;-10.323;-44.24;481
+RS;Júlio de Castilhos;-29.227;-53.68;0
+SP;Júlio Mesquita;-22.009;-49.79;508
+SP;Jumirim;-23.087;-47.78;510
+MA;Junco do Maranhão;-1.755;-46.09;26
+PB;Junco do Seridó;-6.997;-36.71;0
+AL;Jundiá;-8.935;-35.6;0
+SP;Jundiaí;-23.186;-46.76;477
+PR;Jundiaí do Sul;-23.437;-50.25;725
+AL;Junqueiro;-9.925;-36.48;0
+SP;Junqueirópolis;-21.5;-51.43;368
+PE;Jupi;-8.751;-36.42;849
+SC;Jupiá;-26.398;-52.73;0
+SP;Juquiá;-24.321;-47.63;130
+SP;Juquitiba;-23.932;-47.07;730
+MG;Juramento;-16.755;-43.6;929
+PR;Juranda;-24.42;-52.75;540
+PE;Jurema;-8.752;-36.14;0
+PI;Jurema;-9.231;-43.13;591
+PB;Juripiranga;-7.373;-35.24;0
+PB;Juru;-7.5;-37.75;0
+AM;Juruá;-3.481;-66.07;943
+MG;Juruaia;-21.253;-46.6;0
+MT;Juruena;-10.318;-58.36;0
+PA;Juruti;-2.152;-56.09;0
+MT;Juscimeira;-16.051;-54.76;0
+BA;Jussara;-11.047;-41.97;533
+GO;Jussara;-15.756;-50.76;290
+PR;Jussara;-23.621;-52.47;345
+BA;Jussari;-15.191;-39.5;245
+BA;Jussiape;-13.5;-41.6;507
+AM;Jutaí;-2.755;-66.77;0
+MS;Juti;-22.756;-54.6;373
+MG;Juvenília;-14.263;-44.13;474
+PR;Kaloré;-23.755;-51.67;445
+AM;Lábrea;-7.259;-64.8;0
+SC;Lacerdópolis;-27.26;-51.6;0
+MG;Ladainha;-17.632;-41.74;536
+MS;Ladário;-19.005;-57.6;0
+BA;Lafaiete Coutinho;-13.656;-40.21;711
+MG;Lagamar;-18.178;-46.75;656
+SE;Lagarto;-10.917;-37.65;0
+SC;Lages;-27.755;-50.33;0
+MA;Lago da Pedra;-4.6;-45.12;119
+MA;Lago do Junco;-4.4;-44.92;53
+MA;Lago Verde;-4.042;-44.93;25
+PB;Lagoa;-6.6;-37.92;112
+PI;Lagoa Alegre;-4.5;-42.62;0
+AL;Lagoa da Canoa;-9.755;-36.74;190
+TO;Lagoa da Confusão;-10.759;-49.62;678
+MG;Lagoa da Prata;-20.023;-45.5;0
+RN;Lagoa d'Anta;-6.391;-35.6;0
+PB;Lagoa de Dentro;-6.673;-35.38;0
+RN;Lagoa de Pedras;-6.149;-35.44;416
+PI;Lagoa de São Francisco;-4.392;-41.6;0
+RN;Lagoa de Velhos;-6.004;-35.76;426
+PI;Lagoa do Barro do Piauí;-8.475;-41.5;0
+PE;Lagoa do Carro;-7.755;-35.32;0
+PE;Lagoa do Itaenga;-7.936;-35.29;215
+MA;Lagoa do Mato;-6.047;-43.5;0
+PE;Lagoa do Ouro;-9.128;-36.46;138
+PI;Lagoa do Piauí;-5.415;-42.64;518
+PI;Lagoa do Sítio;-6.5;-41.6;329
+TO;Lagoa do Tocantins;-10.378;-47.6;0
+PE;Lagoa dos Gatos;-8.658;-35.9;711
+MG;Lagoa dos Patos;-16.983;-44.6;0
+MA;Lagoa dos Rodrigues;-4.498;-44.76;0
+RS;Lagoa dos Três Cantos;-28.6;-52.76;988
+MG;Lagoa Dourada;-20.914;-44.08;838
+MG;Lagoa Formosa;-18.758;-46.41;230
+MG;Lagoa Grande;-17.755;-46.5;566
+PE;Lagoa Grande;-8.997;-40.27;443
+MA;Lagoa Grande do Maranhão;-4.755;-45.33;0
+RN;Lagoa Nova;-6.121;-35.48;609
+BA;Lagoa Real;-14.035;-42.14;0
+RN;Lagoa Salgada;-6.121;-35.48;745
+MG;Lagoa Santa;-19.627;-43.76;0
+PB;Lagoa Seca;-7.171;-35.76;0
+RS;Lagoa Vermelha;-28.259;-51.5;0
+RS;Lagoão;-29.235;-52.8;0
+MG;lagoas;-15.488;-44.36;0
+SP;Lagoinha;-23.091;-45.19;245
+PI;Lagoinha do Piauí;-5.755;-42.62;836
+SC;Laguna;-28.483;-48.78;0
+MS;Laguna Carapã;-22.5;-55.15;0
+BA;Laje;-13.182;-39.43;190
+RJ;Laje do Muriaé;-21.256;-42.12;0
+RS;Lajeado;-29.467;-51.96;0
+TO;Lajeado;-9.755;-48.36;216
+RS;Lajeado do Bugre;-27.689;-53.18;0
+SC;Lajeado Grande;-26.756;-52.6;347
+MA;Lajeado Novo;-6.189;-47.04;206
+BA;Lajedão;-17.614;-40.34;237
+BA;Lajedinho;-12.356;-40.91;670
+PE;Lajedo;-8.664;-36.32;858
+BA;Lajedo do Tabocal;-13.475;-40.22;0
+RN;Lajes;-5.75;-36.24;0
+RN;Lajes Pintadas;-6.15;-36.12;0
+MG;Lajinha;-20.151;-41.62;625
+BA;Lamarão;-11.758;-38.9;279
+MG;Lambari;-21.976;-45.35;0
+MT;Lambari d'Oeste;-15.323;-58;1051
+MG;Lamim;-20.759;-43.47;727
+PI;Landri Sales;-7.266;-43.93;342
+PR;Lapa;-25.757;-49.72;795
+BA;Lapão;-11.383;-41.75;823
+ES;Laranja da Terra;-19.756;-41.06;234
+MG;Laranjal;-21.374;-42.48;259
+PR;Laranjal;-24.756;-52.47;501
+AP;Laranjal do Jari;-1.12;-52;209
+SP;Laranjal Paulista;-23.05;-47.75;616
+SE;Laranjeiras;-10.755;-37.17;811
+PR;Laranjeiras do Sul;-25.408;-52.42;0
+MG;Lassance;-17.756;-44.6;658
+PB;Lastro;-6.5;-38.18;0
+SC;Laurentino;-27.217;-49.73;0
+BA;Lauro de Freitas;-12.756;-38.33;0
+SC;Lauro Muller;-28.393;-49.4;0
+TO;Lavandeira;-12.759;-46.5;437
+SP;Lavínia;-21.126;-51.04;418
+MG;Lavras;-21.245;-45;261
+CE;Lavras da Mangabeira;-6.755;-38.96;0
+RS;Lavras do Sul;-30.755;-53.76;944
+SP;Lavrinhas;-22.6;-44.9;620
+MG;Leandro Ferreira;-19.752;-45.03;751
+SC;Lebon Régis;-26.929;-50.7;0
+SP;Leme;-22.186;-47.39;846
+MG;Leme do Prado;-17.083;-42.69;592
+BA;Lençóis;-12.6;-41.39;616
+SP;Lençóis Paulista;-22.6;-48.75;410
+SC;Leoberto Leal;-27.5;-49.29;0
+MG;Leopoldina;-21.5;-42.64;387
+GO;Leopoldo de Bulhões;-16.619;-48.74;972
+PR;Leópolis;-23.08;-50.75;353
+RS;Liberato Salzano;-27.6;-53.07;0
+MG;Liberdade;-22.029;-44.32;1088
+BA;Licínio de Almeida;-14.682;-42.5;699
+PR;Lidianópolis;-24.109;-51.65;490
+MA;Lima Campos;-4.5;-44.47;42
+MG;Lima Duarte;-21.755;-43.79;890
+SP;Limeira;-22.6;-47.4;429
+MG;Limeira do Oeste;-19.6;-50.6;572
+PE;Limoeiro;-7.756;-35.45;0
+AL;Limoeiro de Anadia;-9.754;-36.5;23
+PA;Limoeiro do Ajuru;-1.756;-49.38;0
+CE;Limoeiro do Norte;-5.146;-38.1;0
+PR;Lindoeste;-25.26;-53.6;530
+SP;Lindóia;-22.5;-46.65;0
+SC;Lindóia do Sul;-27.053;-52.07;737
+RS;Lindolfo Collor;-29.6;-51.26;0
+RS;Linha Nova;-29.468;-51.25;0
+ES;Linhares;-19.391;-40.07;22
+SP;Lins;-21.679;-49.74;454
+PB;Livramento;-7.374;-36.95;0
+BA;Livramento do Brumado;-13.643;-41.75;0
+TO;Lizarda;-9.6;-46.67;284
+PR;Loanda;-22.923;-53.14;415
+PR;Lobato;-23.008;-51.95;416
+PB;Logradouro;-6.617;-35.4;0
+PR;Londrina;-23.31;-51.13;575
+MG;Lontra;-15.903;-44.31;771
+SC;Lontras;-27.126;-49.5;0
+SP;Lorena;-22.753;-45.12;664
+MA;Loreto;-7.084;-45.14;245
+SP;Lourdes;-20.967;-50.22;400
+SP;Louveira;-23.086;-46.95;715
+MT;Lucas do Rio Verde;-13.05;-55.91;0
+SP;Lucélia;-21.752;-51.02;375
+PB;Lucena;-6.9;-34.76;0
+SP;Lucianópolis;-22.431;-49.5;519
+MT;Luciara;-11.222;-50.67;188
+RN;Lucrécia;-6.12;-37.75;0
+SP;Luís Antônio;-21.6;-47.7;584
+PI;Luís Correia;-2.756;-41.67;17
+MA;Luís Domingues;-1.268;-45.76;30
+RN;Luís Gomes;-6.414;-38.39;0
+MG;Luisburgo;-20.44;-42.1;813
+MG;Luislândia;-16.118;-44.6;736
+SC;Luiz Alves;-26.752;-48.93;0
+PR;Luiziana;-24.286;-52.28;741
+SP;Luiziânia;-21.676;-50.33;414
+MG;Luminárias;-21.5;-44.9;919
+PR;Lunardelli;-24.079;-51.74;459
+SP;Lupércio;-22.415;-49.75;674
+PR;Lupionópolis;-22.756;-51.66;402
+SP;Lutécia;-22.34;-50.39;528
+MG;Luz;-19.755;-45.69;0
+SC;Luzerna;-27.133;-51.47;873
+GO;Luziânia;-16.253;-47.95;34
+PI;Luzilândia;-3.458;-42.37;249
+TO;Luzinópolis;-6.182;-47.76;676
+RJ;Macaé;-22.371;-41.79;15
+RN;Macaíba;-5.756;-35.35;0
+BA;Macajuba;-12.136;-40.36;385
+RS;Maçambara;-29.143;-56.07;0
+SE;Macambira;-10.666;-37.5;0
+AP;Macapá;0.039;-51.07;21
+PE;Macaparana;-7.6;-35.45;0
+BA;Macarani;-15.6;-40.42;361
+SP;Macatuba;-22.5;-48.71;553
+RN;Macau;-5.115;-36.63;475
+SP;Macaubal;-20.755;-49.96;687
+BA;Macaúbas;-13.019;-42.7;0
+SP;Macedônia;-20.146;-50.19;491
+AL;Maceió;-9.666;-35.74;0
+MG;Machacalis;-17.077;-40.72;268
+RS;Machadinho;-27.6;-51.67;0
+RO;Machadinho d'Oeste;-9.444;-61.98;0
+MG;Machado;-21.675;-45.92;821
+PE;Machados;-7.682;-35.5;0
+SC;Macieira;-26.756;-51.38;0
+RJ;Macuco;-21.984;-42.25;392
+BA;Macururé;-9.126;-39.06;422
+CE;Madalena;-4.756;-39.6;310
+PI;Madeiro;-3.483;-42.5;53
+BA;Madre de Deus;-12.754;-38.62;940
+MG;Madre de Deus de Minas;-21.483;-44.33;0
+PB;Mãe d'Água;-7.259;-37.43;0
+PA;Mãe do Rio;-2.046;-47.6;43
+BA;Maetinga;-14.663;-41.49;619
+SC;Mafra;-26.111;-49.75;822
+PA;Magalhães Barata;-0.759;-47.6;35
+MA;Magalhães de Almeida;-3.396;-42.25;40
+SP;Magda;-20.644;-50.23;473
+RJ;Magé;-22.653;-43.04;5
+BA;Maiquinique;-15.621;-40.27;355
+BA;Mairi;-11.751;-40.15;476
+SP;Mairinque;-23.5;-47.18;819
+SP;Mairiporã;-23.319;-46.6;802
+GO;Mairipotaba;-17.299;-49.49;657
+SC;Major Gercino;-27.418;-48.95;0
+AL;Major Isidoro;-9.5;-36.99;0
+RN;Major Sales;-6.406;-38.32;0
+SC;Major Vieira;-26.368;-50.33;798
+MG;Malacacheta;-17.755;-42.08;545
+BA;Malhada;-14.336;-43.77;603
+BA;Malhada de Pedras;-14.388;-41.76;0
+SE;Malhada dos Bois;-10.349;-36.92;437
+SE;Malhador;-10.658;-37.3;0
+PR;Mallet;-25.756;-50.75;859
+PB;Malta;-6.904;-37.5;0
+PB;Mamanguape;-6.755;-35.13;0
+GO;Mambaí;-14.488;-46.11;864
+PR;Mamborê;-24.319;-52.5;709
+MG;Mamonas;-15.05;-42.95;673
+RS;Mampituba;-29.211;-49.93;0
+AM;Manacapuru;-3.3;-60.62;0
+PB;Manaíra;-7.751;-38.15;0
+AM;Manaquiri;-3.428;-60.46;0
+PE;Manari;-8.964;-37.63;0
+AM;Manaus;-3.102;-60.03;0
+AC;Mâncio Lima;-7.614;-72.76;0
+PR;Mandaguaçu;-23.347;-52.1;528
+PR;Mandaguari;-23.5;-51.67;684
+PR;Mandirituba;-25.758;-49.33;865
+SP;Manduri;-23.003;-49.32;665
+PR;Manfrinópolis;-26.144;-53.31;774
+MG;Manga;-14.756;-43.93;477
+RJ;Mangaratiba;-22.96;-44.04;94
+PR;Mangueirinha;-25.941;-52.18;959
+MG;Manhuaçu;-20.258;-42.03;866
+MG;Manhumirim;-20.358;-41.96;618
+AM;Manicoré;-5.755;-61.3;0
+PI;Manoel Emídio;-8.013;-43.76;499
+PR;Manoel Ribas;-24.5;-51.67;823
+AC;Manoel Urbano;-8.755;-69.26;0
+RS;Manoel Viana;-29.6;-55.48;0
+BA;Manoel Vitorino;-14.145;-40.24;370
+BA;Mansidão;-10.752;-44.03;443
+MG;Mantena;-18.758;-40.98;314
+ES;Mantenópolis;-18.756;-41.12;757
+RS;Maquiné;-29.675;-50.26;0
+MG;Mar de Espanha;-21.756;-43.01;448
+AL;Mar Vermelho;-9.448;-36.39;0
+GO;Mara Rosa;-14.016;-49.18;411
+AM;Maraã;-1.756;-65.6;0
+PA;Marabá;-5.369;-49.12;423
+SP;Marabá Paulista;-22.108;-51.96;148
+MA;Maracaçumé;-2.043;-45.96;43
+SP;Maracaí;-22.611;-50.67;400
+SC;Maracajá;-28.755;-49.45;0
+MS;Maracaju;-21.614;-55.13;0
+PA;Maracanã;-0.6;-47.6;0
+CE;Maracanaú;-3.756;-38.63;51
+BA;Maracás;-13.441;-40.43;806
+AL;Maragogi;-9.012;-35.22;0
+BA;Maragogipe;-12.758;-38.92;175
+PE;Maraial;-8.758;-35.75;0
+MA;Marajá do Sena;-4.6;-45.6;306
+CE;Maranguape;-3.756;-38.69;172
+MA;Maranhãozinho;-2.31;-45.75;49
+PA;Marapanim;-0.752;-47.7;0
+SP;Marapoama;-21.259;-49.13;464
+RS;Maratá;-29.5;-51.6;8
+ES;Marataizes;-21.043;-40.75;0
+BA;Maraú;-14.103;-39.01;142
+RS;Marau;-28.449;-52.2;0
+AL;Maravilha;-9.236;-37.35;0
+SC;Maravilha;-26.756;-53.17;0
+MG;Maravilhas;-19.5;-44.68;764
+PB;Marcação;-6.757;-35.01;0
+MT;Marcelândia;-11.089;-54.45;328
+RS;Marcelino Ramos;-27.462;-51.91;0
+RN;Marcelino Vieira;-6.294;-38.13;0
+BA;Marcionílio Souza;-13.003;-40.5;330
+CE;Marco;-3.124;-40.15;74
+PI;Marcolândia;-7.443;-40.66;760
+PI;Marcos Parente;-7.121;-43.76;253
+PR;Marechal Cândido Rondon;-24.6;-54.06;325
+AL;Marechal Deodoro;-9.751;-35.76;0
+ES;Marechal Floriano;-20.413;-40.68;727
+AC;Marechal Thaumaturgo;-8.941;-72.79;0
+SC;Marema;-26.755;-52.63;0
+PB;Mari;-7.06;-35.32;1340
+MG;Maria da Fé;-22.308;-45.38;359
+PR;Maria Helena;-23.616;-53.26;468
+PR;Marialva;-23.485;-51.79;0
+MG;Mariana;-20.378;-43.42;785
+RS;Mariana Pimentel;-30.353;-51.6;0
+RS;Mariano Moro;-27.354;-52.15;193
+TO;Marianópolis do Tocantins;-9.76;-49.65;389
+SP;Mariápolis;-21.76;-51.18;0
+AL;Maribondo;-9.6;-36.31;9
+RJ;Maricá;-22.919;-42.75;344
+MG;Marilac;-18.5;-42.08;813
+ES;Marilândia;-19.413;-40.5;154
+PR;Marilândia do Sul;-23.754;-51.31;404
+PR;Marilena;-22.754;-53.04;624
+SP;Marília;-22.214;-49.95;389
+PR;Mariluz;-24.002;-53.15;473
+PR;Maringá;-23.425;-51.94;393
+SP;Marinópolis;-20.441;-50.75;861
+MG;Mário Campos;-20.056;-44.19;833
+PR;Mariópolis;-26.355;-52.6;552
+PR;Maripá;-24.418;-53.75;404
+MG;Maripá de Minas;-21.698;-42.96;0
+PA;Marituba;-1.355;-48.34;18
+PB;Marizópolis;-6.755;-38.35;0
+MG;Marliéria;-19.751;-42.73;281
+PR;Marmeleiro;-26.149;-53.03;748
+MG;Marmelópolis;-22.449;-45.13;1339
+RS;Marques de Souza;-29.328;-52.09;0
+PR;Marquinho;-25.113;-52.25;793
+MG;Martinho Campos;-19.332;-45.24;677
+CE;Martinópole;-3.226;-40.7;80
+SP;Martinópolis;-22.146;-51.17;494
+RN;Martins;-6.088;-37.91;789
+MG;Martins Soares;-20.257;-41.76;0
+SE;Maruim;-10.754;-37.08;0
+PR;Marumbi;-23.751;-51.64;540
+GO;Marzagão;-17.981;-48.64;874
+BA;Mascote;-15.6;-39.3;104
+CE;Massapê;-3.5;-40.34;260
+PI;Massapê do Piauí;-7.463;-41.13;100
+PB;Massaranduba;-7.25;-35.79;0
+SC;Massaranduba;-26.611;-49.01;0
+RS;Mata;-29.6;-54.46;0
+BA;Mata de São João;-12.5;-38.3;0
+AL;Mata Grande;-9.118;-37.73;94
+MA;Mata Roma;-3.625;-43.11;485
+MG;Mata Verde;-15.686;-40.74;530
+SP;Matão;-21.603;-48.37;0
+PB;Mataraca;-6.601;-35.05;0
+TO;Mateiros;-10.5;-46.42;513
+PR;Matelândia;-25.241;-54;325
+MG;Materlândia;-18.474;-43.06;782
+MG;Mateus Leme;-19.986;-44.43;847
+MG;Mathias Lobato;-18.6;-41.91;260
+MG;Matias Barbosa;-21.756;-43.32;522
+MG;Matias Cardoso;-14.756;-43.92;469
+PI;Matias Olímpio;-3.752;-42.6;77
+BA;Matina;-13.909;-42.75;513
+MA;Matinha;-3.101;-45.03;8
+PB;Matinhas;-7.125;-35.77;0
+PR;Matinhos;-25.755;-48.5;9
+MG;Matipó;-20.284;-42.34;662
+RS;Mato Castelhano;-28.278;-52.19;0
+PB;Mato Grosso;-6.5;-37.73;0
+RS;Mato Leitão;-29.5;-52.13;0
+PR;Mato Rico;-24.751;-52.15;724
+MG;Mato Verde;-15.397;-42.76;568
+MA;Matões;-5.5;-43.2;31
+MA;Matões do Norte;-3.632;-44.6;148
+SC;Matos Costa;-26.473;-51.15;1200
+MG;Matozinhos;-19.6;-44.08;723
+GO;Matrinchã;-15.444;-50.75;377
+AL;Matriz de Camaragibe;-9.152;-35.5;0
+MT;Matupá;-10.058;-54.93;444
+PB;Maturéia;-7.267;-37.35;0
+MG;Matutina;-19.223;-45.97;1031
+SP;Mauá;-23.668;-46.46;1098
+PR;Mauá da Serra;-23.901;-51.23;775
+AM;Maués;-3.384;-57.72;0
+GO;Maurilândia;-17.971;-50.34;173
+TO;Maurilândia do Tocantins;-5.953;-47.5;506
+CE;Mauriti;-7.389;-38.77;408
+RN;Maxaranguape;-5.5;-35.26;0
+RS;Maximiliano de Almeida;-27.632;-51.75;0
+AP;Mazagão;-0.115;-51.29;62
+MG;Medeiros;-19.996;-46.23;195
+BA;Medeiros Neto;-17.374;-40.22;1028
+PR;Medianeira;-25.295;-54.09;407
+PA;Medicilândia;-3.446;-52.76;177
+MG;Medina;-16.223;-41.48;715
+SC;Meleiro;-28.755;-49.64;0
+PA;Melgaço;-1.755;-50.71;26
+RJ;Mendes;-22.5;-43.73;333
+MG;Mendes Pimentel;-18.661;-41.4;446
+SP;Mendonça;-21.126;-49.6;453
+PR;Mercedes;-24.454;-54.13;335
+MG;Mercês;-21.194;-43.34;611
+SP;Meridiano;-20.359;-50.17;443
+CE;Meruoca;-3.5;-40.46;735
+SP;Mesópolis;-19.966;-50.64;421
+MG;Mesquita;-19.223;-42.61;435
+AL;Messias;-9.383;-35.75;0
+RN;Messias Targino;-6.079;-37.5;0
+PI;Miguel Alves;-4.126;-42.76;62
+BA;Miguel Calmon;-11.429;-40.6;556
+PI;Miguel Leão;-5.681;-42.74;288
+RJ;Miguel Pereira;-22.454;-43.47;589
+SP;Miguelópolis;-20.179;-48.03;497
+BA;Milagres;-12.756;-39.76;55
+CE;Milagres;-7.313;-38.95;660
+MA;Milagres do Maranhão;-3.6;-42.61;409
+CE;Milhã;-5.675;-39.19;223
+PI;Milton Brandão;-4.684;-41.42;313
+GO;Mimoso de Goiás;-15.056;-48.13;756
+ES;Mimoso do Sul;-21.064;-41.37;63
+GO;Minaçu;-13.5;-48.22;375
+AL;Minador do Negrão;-9.305;-36.76;0
+RS;Minas do Leão;-30.127;-52.05;0
+MG;Minas Novas;-17.219;-42.6;746
+MG;Minduri;-21.682;-44.6;954
+GO;Mineiros;-17.6;-52.6;722
+SP;Mineiros do Tietê;-22.409;-48.45;890
+RO;Ministro Andreazza;-11.074;-61.5;0
+SP;Mira Estrela;-19.979;-50.14;394
+MG;Mirabela;-16.263;-44.13;803
+SP;Miracatu;-24.281;-47.46;100
+RJ;Miracema;-21.412;-42.2;255
+TO;Miracema do Tocantins;-9.6;-48.39;205
+MA;Mirador;-6.371;-44.36;454
+PR;Mirador;-23.258;-52.78;327
+MG;Miradouro;-20.756;-42.34;772
+RS;Miraguaí;-27.494;-53.69;0
+MG;Miraí;-21.195;-42.61;60
+CE;Miraíma;-3.6;-39.97;481
+MS;Miranda;-20.241;-56.38;33
+MA;Miranda do Norte;-3.6;-44.6;0
+PE;Mirandiba;-8.12;-38.73;491
+SP;Mirandopólis;-21.134;-51.1;433
+BA;Mirangaba;-10.954;-40.6;722
+TO;Miranorte;-9.5;-48.6;384
+BA;Mirante;-14.242;-40.78;0
+RO;Mirante da Serra;-11.03;-62.68;359
+SP;Mirante do Paranapanema;-22.292;-51.91;363
+PR;Miraselva;-22.966;-51.48;566
+SP;Mirassol;-20.755;-49.5;0
+MT;Mirassol d'Oeste;-15.675;-58.1;491
+SP;Mirassolândia;-20.617;-49.46;529
+MG;Miravânia;-14.754;-44.4;655
+SC;Mirim Doce;-27.196;-50.08;0
+MA;Mirinzal;-2.065;-44.78;40
+PR;Missal;-25.092;-54.25;304
+CE;Missão Velha;-7.25;-39.14;387
+PA;Mocajuba;-2.6;-49.5;19
+SP;Mococa;-21.468;-47;579
+SC;Modelo;-26.758;-53.06;0
+MG;Moeda;-20.333;-44.05;1043
+MG;Moema;-19.755;-45.41;679
+PB;Mogeiro;-7.299;-35.48;0
+SP;Mogi das Cruzes;-23.5;-46.19;785
+SP;Mogi Guaçu;-22.372;-46.94;673
+GO;Moiporá;-16.5;-50.74;643
+SE;Moita Bonita;-10.6;-37.34;0
+SP;Moji-Mirim;-22.432;-46.96;0
+PA;Moju;-1.756;-48.77;30
+CE;Mombaça;-5.754;-39.63;301
+SP;Mombuca;-22.929;-47.6;547
+MA;Monção;-3.492;-45.25;6
+SP;Monções;-20.756;-50.09;456
+SC;Mondaí;-27.103;-53.4;0
+SP;Mongaguá;-24.093;-46.62;13
+MG;Monjolos;-18.325;-44.12;637
+PI;Monsenhor Gil;-5.6;-42.61;151
+PI;Monsenhor Hipólito;-6.996;-41.03;439
+MG;Monsenhor Paulo;-21.756;-45.5;892
+CE;Monsenhor Tabosa;-4.759;-40.06;446
+PB;Montadas;-7.141;-35.91;0
+MG;Montalvânia;-14.423;-44.37;618
+ES;Montanha;-18.127;-40.36;141
+RN;Montanhas;-6.486;-35.29;0
+RS;Montauri;-28.652;-52.07;0
+PA;Monte Alegre;-2.008;-54.07;463
+RN;Monte Alegre;-6.068;-35.33;738
+GO;Monte Alegre de Goiás;-13.256;-46.9;0
+MG;Monte Alegre de Minas;-18.756;-48.76;386
+SE;Monte Alegre de Sergipe;-10.027;-37.6;821
+PI;Monte Alegre do Piauí;-9.755;-45.3;0
+SP;Monte Alegre do Sul;-22.682;-46.68;254
+RS;Monte Alegre dos Campos;-28.683;-50.78;0
+SP;Monte Alto;-21.261;-48.5;719
+SP;Monte Aprazível;-20.757;-49.71;474
+MG;Monte Azul;-15.155;-42.76;571
+SP;Monte Azul Paulista;-20.907;-48.64;716
+MG;Monte Belo;-21.326;-46.37;0
+RS;Monte Belo do Sul;-29.125;-51.63;837
+SC;Monte Carlo;-27.223;-50.98;0
+MG;Monte Carmelo;-18.752;-47.5;862
+SC;Monte Castelo;-26.462;-50.23;0
+SP;Monte Castelo;-21.299;-51.6;324
+RN;Monte das Gameleiras;-6.441;-35.78;0
+TO;Monte do Carmo;-10.756;-48.11;650
+MG;Monte Formoso;-16.756;-41.26;650
+PB;Monte Horebe;-7.215;-38.6;677
+SP;Monte Mor;-22.947;-47.32;579
+RO;Monte Negro;-10.294;-63.33;0
+BA;Monte Santo;-10.438;-39.33;900
+MG;Monte Santo de Minas;-21.19;-46.98;266
+TO;Monte Santo do Tocantins;-10.004;-49;452
+MG;Monte Sião;-22.433;-46.6;810
+PB;Monteiro;-7.756;-37.12;1100
+SP;Monteiro Lobato;-22.957;-45.75;0
+AL;Monteirópolis;-9.603;-37.25;0
+RS;Montenegro;-29.689;-51.46;0
+MA;Montes Altos;-5.755;-47.07;213
+MG;Montes Claros;-16.754;-43.76;341
+GO;Montes Claros de Goiás;-16.008;-51.4;822
+MG;Montezuma;-15.172;-42.5;995
+GO;Montividiu;-17.444;-51.17;379
+GO;Montividiu do Norte;-13.113;-48.61;799
+CE;Morada Nova;-5.107;-38.37;566
+MG;Morada Nova de Minas;-18.604;-45.36;0
+CE;Moraújo;-3.467;-40.68;64
+PE;Moreilândia;-7.631;-39.6;507
+PR;Moreira Sales;-24.062;-53.01;468
+PE;Moreno;-8.119;-35.09;0
+RS;Mormaço;-28.692;-52.69;0
+BA;Morpará;-11.6;-43.28;427
+PR;Morretes;-25.477;-48.75;23
+CE;Morrinhos;-3.229;-40.13;0
+GO;Morrinhos;-17.753;-49.1;105
+RS;Morrinhos do Sul;-29.365;-49.93;765
+SP;Morro Agudo;-20.753;-48.06;696
+GO;Morro Agudo de Goiás;-15.321;-50.06;527
+PI;Morro Cabeça no Tempo;-9.753;-43.9;472
+SC;Morro da Fumaça;-28.651;-49.21;0
+MG;Morro da Garça;-18.5;-44.6;656
+BA;Morro do Chapéu;-11.6;-41.16;96
+PI;Morro do Chapéu do Piauí;-3.754;-42.31;1047
+MG;Morro do Pilar;-19.216;-43.38;762
+SC;Morro Grande;-28.755;-49.72;0
+RS;Morro Redondo;-31.6;-52.63;0
+RS;Morro Reuter;-29.5;-51.08;0
+MA;Morros;-2.756;-44.04;65
+BA;Mortugaba;-15.023;-42.37;924
+SP;Morungaba;-22.756;-46.79;892
+TO;Mosquito;-6.613;-47.5;0
+GO;Mossâmedes;-16.127;-50.22;671
+RN;Mossoró;-5.188;-37.34;0
+RS;Mostardas;-31.107;-50.92;0
+SP;Motuca;-21.5;-48.15;625
+GO;Mozarlândia;-14.754;-50.6;304
+PA;Muaná;-1.5;-49.22;6
+RR;Mucajaí;2.43;-60.9;0
+CE;Mucambo;-3.909;-40.75;173
+BA;Mucugê;-13.005;-41.37;1077
+RS;Muçum;-29.125;-51.76;0
+BA;Mucuri;-18.086;-39.6;83
+ES;Mucurici;-18.093;-40.5;231
+RS;Muitos Capões;-28.314;-51.18;0
+RS;Muliterno;-28.329;-51.77;0
+CE;Mulungu;-4.306;-39;1043
+PB;Mulungu;-7.024;-35.46;818
+BA;Mulungu do Morro;-11.966;-41.64;0
+BA;Mundo Novo;-11.756;-40.47;557
+GO;Mundo Novo;-13.758;-50.28;246
+MS;Mundo Novo;-23.938;-54.27;294
+MG;Munhoz;-22.613;-46.36;508
+PR;Munhoz de Melo;-23.148;-51.77;1352
+BA;Muniz Ferreira;-13.003;-39.11;124
+ES;Muniz Freire;-20.464;-41.41;464
+BA;Muquém de São Francisco;-12.199;-43.75;478
+ES;Muqui;-20.952;-41.35;281
+MG;Muriaé;-21.131;-42.37;205
+SE;Muribeca;-10.427;-36.96;0
+AL;Murici;-9.307;-35.94;77
+PI;Murici dos Portelas;-3.319;-42.09;0
+TO;Muricilândia;-7.146;-48.61;184
+BA;Muritiba;-12.626;-38.99;214
+SP;Murutinga do Sul;-20.993;-51.28;399
+BA;Mutuípe;-13.229;-39.5;276
+MG;Mutum;-19.755;-41.44;473
+GO;Mutunópolis;-13.753;-49.28;417
+MG;Muzambinho;-21.376;-46.5;982
+MG;Nacip Raydan;-18.459;-42.25;637
+SP;Nantes;-22.621;-51.24;446
+MG;Nanuque;-17.755;-40.35;249
+RS;Não-Me-Toque;-28.459;-52.75;0
+MG;Naque;-19.23;-42.33;225
+SP;Narandiba;-22.407;-51.5;382
+RN;Natal;-5.76;-35.26;541
+MG;Natalândia;-16.5;-46.49;0
+MG;Natércia;-22.12;-45.5;982
+RJ;Natividade;-21.042;-41.97;837
+TO;Natividade;-11.751;-47.72;273
+SP;Natividade da Serra;-23.376;-45.44;324
+PB;Natuba;-7.641;-35.6;0
+SC;Navegantes;-26.756;-48.65;0
+MS;Naviraí;-23.065;-54.19;302
+BA;Nazaré;-13.035;-39.01;0
+TO;Nazaré;-6.372;-47.6;210
+PE;Nazaré da Mata;-7.754;-35.23;792
+PI;Nazaré do Piauí;-6.973;-42.67;48
+SP;Nazaré Paulista;-23.181;-46.4;908
+MG;Nazareno;-21.216;-44.61;295
+PB;Nazarezinho;-6.916;-38.32;0
+GO;Nazário;-16.6;-49.76;647
+SE;Neópolis;-10.32;-36.6;0
+MG;Nepomuceno;-21.236;-45.24;839
+GO;Nerópolis;-16.406;-49.22;813
+SP;Neves Paulista;-20.755;-49.63;507
+AM;Nhamundá;-2.186;-56.71;0
+SP;Nhandeara;-20.694;-50.04;452
+RS;Nicolau Vergueiro;-28.5;-52.46;0
+BA;Nilo Peçanha;-13.6;-39.11;123
+RJ;Nilópolis;-22.755;-43.41;23
+MA;Nina Rodrigues;-3.466;-43.91;77
+MG;Ninheira;-15.321;-41.75;864
+MS;Nioaque;-21.135;-55.75;0
+SP;Nipoã;-20.913;-49.78;462
+GO;Niquelândia;-14.474;-48.46;623
+RN;Nísia Floresta;-6.091;-35.26;0
+RJ;Niterói;-22.756;-43.1;178
+MT;Nobres;-14.752;-56.33;0
+RS;Nonoai;-27.362;-52.77;0
+BA;Nordestina;-10.755;-39.43;307
+RR;Normandia;3.756;-59.62;0
+MT;Nortelândia;-14.455;-56.75;0
+SE;Nossa Senhora Aparecida;-10.443;-37.49;0
+SE;Nossa Senhora da Glória;-10.218;-37.42;0
+SE;Nossa Senhora das Dores;-10.492;-37.19;0
+PR;Nossa Senhora das Graças;-22.914;-51.79;479
+SE;Nossa Senhora de Lourdes;-10.079;-37.06;0
+PI;Nossa Senhora de Nazaré;-4.631;-42.17;112
+MT;Nossa Senhora do Livramento;-15.758;-56.35;0
+SE;Nossa Senhora do Socorro;-10.756;-37.13;0
+PI;Nossa Senhora dos Remédios;-3.979;-42.62;74
+SP;Nova Aliança;-21.016;-49.5;380
+PR;Nova Aliança do Ivaí;-23.177;-52.6;461
+RS;Nova Alvorada;-28.678;-52.13;414
+MS;Nova Alvorada do Sul;-21.466;-54.38;0
+GO;Nova América;-15.022;-49.76;575
+PR;Nova América da Colina;-23.331;-50.72;631
+MS;Nova Andradina;-22.233;-53.34;366
+RS;Nova Araçá;-28.659;-51.75;0
+GO;Nova Aurora;-18.058;-48.25;751
+PR;Nova Aurora;-24.5;-53.26;492
+MT;Nova Bandeirantes;-9.755;-57.75;0
+RS;Nova Bassano;-28.752;-51.7;0
+MG;Nova Belém;-18.475;-41.02;539
+RS;Nova Boa Vista;-27.994;-52.98;0
+MT;Nova Brasilândia;-14.957;-54.97;0
+RO;Nova Brasilândia d'Oeste;-11.752;-62.32;0
+RS;Nova Bréscia;-29.214;-52.03;0
+SP;Nova Campina;-24.121;-48.9;771
+BA;Nova Canaã;-14.759;-40.14;0
+MT;Nova Canaã do Norte;-10.6;-55.95;376
+SP;Nova Canaã Paulista;-20.386;-50.95;503
+RS;Nova Candelária;-27.607;-54.11;0
+PR;Nova Cantu;-24.673;-52.6;525
+SP;Nova Castilho;-20.756;-50.34;376
+MA;Nova Colinas;-7.116;-46.26;407
+GO;Nova Crixás;-14.099;-50.33;247
+RN;Nova Cruz;-6.478;-35.43;0
+MG;Nova Era;-19.755;-43.04;520
+SC;Nova Erechim;-26.903;-52.91;0
+PR;Nova Esperança;-23.184;-52.25;125
+PA;Nova Esperança do Piriá;-2.268;-46.97;579
+PR;Nova Esperança do Sudoeste;-25.907;-53.26;0
+RS;Nova Esperança do Sul;-29.41;-54.75;476
+SP;Nova Europa;-21.758;-48.6;484
+BA;Nova Fátima;-11.607;-39.63;291
+PR;Nova Fátima;-23.432;-50.6;628
+PB;Nova Floresta;-6.455;-36.25;0
+RJ;Nova Friburgo;-22.282;-42.5;1290
+GO;Nova Glória;-15.143;-49.6;599
+SP;Nova Granada;-20.5;-49.31;525
+MT;Nova Guarita;-10.313;-55.41;0
+SP;Nova Guataporanga;-21.334;-51.64;367
+RS;Nova Hartz;-29.6;-50.9;0
+BA;Nova Ibiá;-13.755;-39.63;289
+RJ;Nova Iguaçu;-22.756;-43.45;410
+GO;Nova Iguaçu de Goiás;-14.288;-49.39;55
+SP;Nova Independência;-21.104;-51.49;324
+MA;Nova Iorque;-6.753;-44.04;160
+PA;Nova Ipixuna;-4.921;-49.08;117
+SC;Nova Itaberaba;-26.94;-52.75;0
+BA;Nova Itarana;-13.027;-40.07;782
+MT;Nova Lacerda;-14.476;-59.61;0
+PR;Nova Laranjeiras;-25.307;-52.5;896
+MG;Nova Lima;-19.986;-43.75;987
+PR;Nova Londrina;-22.757;-52.99;374
+SP;Nova Luzitânia;-20.756;-50.26;367
+RO;Nova Mamoré;-10.402;-65.33;0
+MT;Nova Marilândia;-14.364;-56.97;0
+MT;Nova Maringá;-13.026;-57.07;0
+MG;Nova Módica;-18.437;-41.5;405
+MT;Nova Monte Verde;-9.982;-57.5;0
+MT;Nova Mutum;-13.755;-56.08;0
+SP;Nova Odessa;-22.758;-47.3;543
+MT;Nova Olímpia;-14.76;-57.29;0
+PR;Nova Olímpia;-23.472;-53.09;362
+CE;Nova Olinda;-7.092;-39.68;65
+PB;Nova Olinda;-7.48;-38.04;0
+TO;Nova Olinda;-7.632;-48.42;435
+MA;Nova Olinda do Maranhão;-2.755;-45.69;0
+AM;Nova Olinda do Norte;-3.756;-59.09;253
+RS;Nova Pádua;-29.029;-51.31;0
+RS;Nova Palma;-29.472;-53.47;0
+PB;Nova Palmeira;-6.678;-36.42;0
+RS;Nova Petrópolis;-29.376;-51.11;0
+MG;Nova Ponte;-19.153;-47.67;997
+MG;Nova Porteirinha;-15.755;-43.3;534
+RS;Nova Prata;-28.758;-51.61;437
+PR;Nova Prata do Iguaçu;-25.633;-53.35;0
+RS;Nova Ramada;-28.064;-53.7;0
+BA;Nova Redenção;-12.755;-41.07;382
+MG;Nova Resende;-21.126;-46.42;1177
+GO;Nova Roma;-13.754;-46.76;0
+RS;Nova Roma do Sul;-28.99;-51.41;1124
+TO;Nova Rosalândia;-10.6;-48.91;320
+CE;Nova Russas;-4.751;-40.6;253
+PR;Nova Santa Bárbara;-23.6;-50.6;706
+PI;Nova Santa Rita;-8.087;-42.05;252
+RS;Nova Santa Rita;-29.756;-51.27;0
+PR;Nova Santa Rosa;-24.466;-53.95;345
+MG;Nova Serrana;-19.756;-44.98;762
+BA;Nova Soure;-11.233;-38.48;179
+PR;Nova Tebas;-24.438;-51.95;644
+PA;Nova Timboteua;-1.258;-47.39;30
+SC;Nova Trento;-27.286;-48.93;0
+MT;Nova Ubiratã;-12.991;-55.25;0
+MG;Nova União;-19.69;-43.6;1003
+RO;Nova União;-10.904;-62.6;0
+ES;Nova Venécia;-18.751;-40.4;169
+GO;Nova Veneza;-16.371;-49.32;766
+SC;Nova Veneza;-28.637;-49.5;0
+BA;Nova Viçosa;-17.756;-39.37;52
+MT;Nova Xavantina;-14.673;-52.35;336
+SP;Novais;-20.992;-48.92;543
+TO;Novo Acordo;-9.963;-47.68;279
+AM;Novo Airão;-2.621;-60.94;0
+TO;Novo Alegre;-12.931;-46.6;554
+AM;Novo Aripuanã;-5.121;-60.38;0
+RS;Novo Barreiro;-27.909;-53.11;0
+GO;Novo Brasil;-16.034;-50.71;454
+RS;Novo Cabrais;-29.754;-52.95;0
+MG;Novo Cruzeiro;-17.468;-41.76;725
+GO;Novo Gama;-16.059;-48.04;953
+RS;Novo Hamburgo;-29.678;-51.13;0
+BA;Novo Horizonte;-12.755;-42.13;0
+SC;Novo Horizonte;-26.444;-52.75;0
+SP;Novo Horizonte;-21.468;-49.22;332
+MT;Novo Horizonte do Norte;-11.413;-57.35;891
+RO;Novo Horizonte do Oeste;-11.696;-61.99;710
+MS;Novo Horizonte do Sul;-22.672;-53.76;423
+PR;Novo Itacolomi;-23.756;-51.5;572
+TO;Novo Jardim;-11.755;-46.63;655
+AL;Novo Lino;-8.915;-35.65;0
+RS;Novo Machado;-27.6;-54.5;0
+MT;Novo Mundo;-9.95;-55.2;0
+CE;Novo Oriente;-5.5;-40.77;461
+MG;Novo Oriente de Minas;-17.415;-41.22;333
+PI;Novo Oriente do Piauí;-6.449;-41.94;353
+GO;Novo Planalto;-13.244;-49.5;268
+PA;Novo Progresso;-7.148;-55.38;0
+PA;Novo Repartimento;-4.331;-49.8;186
+PI;Novo Santo Antônio;-5.288;-41.93;198
+MT;Novo São Joaquim;-14.906;-53.02;469
+RS;Novo Tiradentes;-27.6;-53.18;0
+BA;Novo Triunfo;-10.322;-38.41;0
+MG;Novorizonte;-16.017;-42.41;817
+SP;Nuporanga;-20.753;-47.73;747
+PA;Óbidos;-1.918;-55.5;0
+CE;Ocara;-4.491;-38.6;76
+SP;Ocauçu;-22.439;-49.92;545
+PI;Oeiras;-7.025;-42.13;11
+PA;Oeiras do Pará;-2.003;-49.76;209
+AP;Oiapoque;3.755;-51.75;0
+MG;Olaria;-21.756;-43.94;913
+SP;Óleo;-22.941;-49.34;652
+PB;Olho d'Água;-7.228;-37.75;28
+MA;Olho d'Água das Cunhãs;-4.115;-45.14;0
+AL;Olho d'Água das Flores;-9.5;-37.29;0
+AL;Olho d'Água do Casado;-9.5;-37.75;246
+PI;Olho d'Água do Piauí;-5.755;-42.6;0
+AL;Olho d'Água Grande;-10.058;-36.75;0
+RN;Olho-d'Água do Borges;-5.956;-37.71;0
+MG;Olhos-d'Água;-17.397;-43.6;705
+SP;Olímpia;-20.754;-48.91;496
+MG;Olímpio Noronha;-22.068;-45.26;919
+PE;Olinda;-8.009;-34.76;20
+MA;Olinda Nova do Maranhão;-2.998;-45;0
+BA;Olindina;-11.367;-38.33;0
+PB;Olivedos;-6.991;-36.24;0
+MG;Oliveira;-20.696;-44.75;285
+TO;Oliveira de Fátima;-10.751;-48.91;443
+BA;Oliveira dos Brejinhos;-12.317;-42.76;845
+MG;Oliveira Fortes;-21.339;-43.46;932
+AL;Olivença;-9.5;-37.19;0
+MG;Onça de Pitangui;-19.753;-44.75;983
+SP;Onda Verde;-20.6;-49.3;525
+MG;Oratórios;-20.431;-42.75;531
+SP;Oriente;-22.153;-50.09;597
+SP;Orindiúva;-20.182;-49.35;502
+PA;Oriximiná;-1.757;-55.76;0
+MG;Orizânia;-20.5;-42.21;781
+GO;Orizona;-17.031;-48.3;833
+SP;Orlândia;-20.752;-47.76;714
+SC;Orleans;-28.359;-49.29;0
+PE;Orobó;-7.755;-35.6;0
+PE;Orocó;-8.6;-39.46;389
+CE;Orós;-6.244;-38.91;193
+PR;Ortigueira;-24.258;-50.95;801
+SP;Osasco;-23.5;-46.79;727
+SP;Oscar Bressane;-22.318;-50.28;477
+RS;Osório;-29.756;-50.27;0
+SP;Osvaldo Cruz;-21.76;-50.76;419
+SC;Otacílio Costa;-27.483;-50.12;0
+PA;Ourém;-1.6;-47.11;71
+BA;Ouriçangas;-12.017;-38.62;288
+PE;Ouricuri;-7.756;-40.08;455
+PA;Ourilândia do Norte;-6.755;-51.08;452
+SP;Ourinhos;-22.979;-49.76;436
+PR;Ourizona;-23.405;-52.2;362
+SC;Ouro;-27.341;-51.62;0
+AL;Ouro Branco;-9.126;-37.36;1033
+MG;Ouro Branco;-20.5;-43.69;0
+RN;Ouro Branco;-6.75;-36.95;930
+MG;Ouro Fino;-22.283;-46.37;0
+MG;Ouro Preto;-20.288;-43.5;1285
+RO;Ouro Preto do Oeste;-10.755;-62.22;0
+PB;Ouro Velho;-7.623;-37.15;963
+SC;Ouro Verde;-26.694;-52.31;591
+SP;Ouro Verde;-21.489;-51.7;415
+GO;Ouro Verde de Goiás;-16.22;-49.19;0
+MG;Ouro Verde de Minas;-18.071;-41.27;338
+PR;Ouro Verde do Oeste;-24.757;-53.9;470
+SP;Ouroeste;-20.001;-50.37;598
+BA;Ourolândia;-10.97;-41.08;0
+GO;Ouvidor;-18.234;-47.75;771
+SP;Pacaembu;-21.6;-51.26;412
+PA;Pacajá;-3.755;-50.64;63
+CE;Pacajus;-4.173;-38.46;73
+RR;Pacaraima;4.431;-61.15;0
+CE;Pacatuba;-3.984;-38.62;61
+SE;Pacatuba;-10.453;-36.65;0
+MA;Paço do Lumiar;-2.5;-44.11;28
+CE;Pacoti;-4.225;-38.92;653
+CE;Pacujá;-3.988;-40.7;160
+GO;Padre Bernardo;-15.125;-48.28;972
+MG;Padre Carvalho;-16.364;-42.5;914
+PI;Padre Marcos;-7.355;-40.9;377
+MG;Padre Paraíso;-17.074;-41.48;799
+PI;Paes Landim;-7.758;-42.26;231
+MG;Pai Pedro;-15.5;-43.07;495
+SC;Paial;-27.252;-52.5;0
+PR;Paiçandu;-23.458;-52.05;381
+RS;Paim Filho;-27.751;-51.76;0
+MG;Paineiras;-18.908;-45.5;595
+SC;Painel;-27.929;-50.11;0
+MG;Pains;-20.371;-45.66;761
+MG;Paiva;-21.289;-43.42;603
+PI;Pajeú do Piauí;-7.756;-42.75;335
+AL;Palestina;-9.672;-37.33;686
+SP;Palestina;-20.39;-49.43;219
+GO;Palestina de Goiás;-16.753;-51.5;0
+PA;Palestina do Pará;-5.754;-48.32;501
+CE;Palhano;-4.755;-37.96;0
+SC;Palhoça;-27.645;-48.67;0
+MG;Palma;-21.375;-42.31;762
+SC;Palma Sola;-26.348;-53.28;547
+CE;Palmácia;-4.15;-38.75;137
+PE;Palmares;-8.683;-35.6;0
+RS;Palmares do Sul;-30.258;-50.5;519
+SP;Palmares Paulista;-21.083;-48.75;0
+PR;Palmas;-26.484;-51.99;479
+TO;Palmas;-10.213;-48.36;1177
+BA;Palmas de Monte Alto;-14.267;-43.13;602
+PR;Palmeira;-25.429;-50.01;0
+SC;Palmeira;-27.6;-50.16;563
+RS;Palmeira das Missões;-27.756;-53.31;381
+PI;Palmeira do Piauí;-8.753;-44.24;0
+SP;Palmeira d'Oeste;-20.416;-50.76;212
+AL;Palmeira dos µndios;-9.407;-36.63;27
+PI;Palmeirais;-5.978;-43.06;201
+MA;Palmeirândia;-2.645;-44.76;833
+TO;Palmeirante;-7.756;-47.93;594
+BA;Palmeiras;-12.5;-41.6;698
+GO;Palmeiras de Goiás;-16.755;-49.93;0
+PE;Palmeirina;-9.004;-36.33;0
+TO;Palmeirópolis;-13.044;-48.4;456
+GO;Palmelo;-17.324;-48.42;780
+GO;Palminópolis;-16.76;-50.13;723
+PR;Palmital;-24.756;-52.25;751
+SP;Palmital;-22.759;-50.22;477
+RS;Palmitinho;-27.355;-53.6;0
+SC;Palmitos;-27.068;-53.13;0
+MG;Palmópolis;-16.754;-40.42;453
+PR;Palotina;-24.284;-53.75;297
+GO;Panamá;-18.177;-49.35;710
+RS;Panambi;-28.293;-53.5;0
+ES;Pancas;-19.225;-40.76;375
+PE;Panelas;-8.664;-36.01;0
+SP;Panorama;-21.356;-51.76;333
+RS;Pantano Grande;-30.191;-52.37;0
+AL;Pão de Açúcar;-9.755;-37.44;0
+MG;Papagaios;-19.449;-44.75;697
+SC;Papanduva;-26.37;-50.14;542
+PI;Paquetá;-7.104;-41.7;438
+MG;Pará de Minas;-19.756;-44.61;792
+RJ;Paracambi;-22.611;-43.71;71
+MG;Paracatu;-17.222;-46.76;724
+CE;Paracuru;-3.41;-39.03;36
+PA;Paragominas;-2.996;-47.35;95
+MG;Paraguaçu;-21.5;-45.74;463
+SP;Paraguaçu Paulista;-22.413;-50.6;882
+RS;Paraí;-28.6;-51.79;309
+RJ;Paraíba do Sul;-22.125;-43.29;224
+MA;Paraibano;-6.433;-43.98;753
+SP;Paraibuna;-23.386;-45.66;35
+CE;Paraipaba;-3.439;-39.15;0
+SC;Paraíso;-26.614;-53.67;303
+SP;Paraíso;-21.016;-48.77;0
+PR;Paraíso do Norte;-23.281;-52.6;461
+RS;Paraíso do Sul;-29.669;-53.15;1310
+TO;Paraíso do Tocantins;-10.176;-48.76;0
+MG;Paraisópolis;-22.6;-45.78;531
+CE;Parambu;-6.211;-40.69;510
+BA;Paramirim;-13.443;-42.24;596
+CE;Paramoti;-4.097;-39.24;182
+RN;Paraná;-6.486;-38.31;417
+TO;Paranã;-12.615;-47.76;11
+PR;Paranacity;-22.93;-52.15;462
+PR;Paranaguá;-25.5;-48.5;501
+MS;Paranaíba;-19.677;-51.19;0
+GO;Paranaiguara;-18.916;-50.65;622
+MT;Paranaíta;-9.665;-56.48;355
+SP;Paranapanema;-23.389;-48.72;407
+PR;Paranapoema;-22.634;-52.1;0
+SP;Paranapuã;-21.757;-50.77;0
+PE;Paranatama;-8.921;-36.66;488
+MT;Paranatinga;-14.432;-54.05;290
+PR;Paranavaí;-23.073;-52.47;449
+MS;Paranhos;-23.756;-55.43;0
+MG;Paraopeba;-19.274;-44.4;702
+SP;Parapuã;-21.757;-50.77;436
+PB;Parari;-7.321;-36.66;0
+RJ;Parati;-23.218;-44.71;635
+BA;Paratinga;-12.691;-43.18;0
+RN;Paraú;-5.757;-37.1;662
+PA;Parauapebas;-6.068;-49.9;673
+GO;Paraúna;-16.948;-50.45;0
+RN;Parazinho;-5.223;-35.75;0
+SP;Pardinho;-23.081;-48.37;882
+RS;Pareci Novo;-29.638;-51.4;0
+RO;Parecis;-12.196;-61.6;0
+RN;Parelhas;-6.688;-36.66;0
+AL;Pariconha;-9.253;-38;0
+AM;Parintins;-2.628;-56.74;0
+BA;Paripiranga;-10.688;-37.76;0
+AL;Paripueira;-9.465;-35.6;0
+SP;Pariquera-Açu;-24.752;-47.76;33
+SP;Parisi;-20.304;-50.01;468
+PI;Parnaguá;-10.228;-44.64;422
+PI;Parnaíba;-2.905;-41.78;23
+PE;Parnamirim;-8.091;-39.6;398
+RN;Parnamirim;-5.916;-35.26;0
+MA;Parnarama;-5.682;-43.09;175
+RS;Parobé;-29.629;-50.75;0
+RN;Passa e Fica;-6.436;-35.64;0
+MG;Passa Quatro;-22.39;-44.97;994
+RS;Passa Sete;-29.453;-52.96;0
+MG;Passa Tempo;-20.651;-44.5;957
+MG;Passa Vinte;-22.259;-44.23;0
+MG;Passabém;-19.353;-43.14;666
+PB;Passagem;-7.138;-37.05;121
+RN;Passagem;-6.279;-35.38;237
+MA;Passagem Franca;-6.18;-43.78;0
+PI;Passagem Franca do Piauí;-5.756;-42.44;0
+PE;Passira;-7.995;-35.6;0
+AL;Passo de Camaragibe;-9.238;-35.49;0
+SC;Passo de Torres;-29.335;-49.72;0
+RS;Passo do Sobrado;-29.755;-52.27;0
+RS;Passo Fundo;-28.263;-52.41;0
+MG;Passos;-20.752;-46.61;0
+SC;Passos Maia;-26.758;-52.06;753
+MA;Pastos Bons;-6.602;-44.08;441
+MG;Patis;-16.076;-44.08;814
+PR;Pato Bragado;-24.626;-54.22;240
+PR;Pato Branco;-26.229;-52.67;806
+PB;Patos;-7.024;-37.28;841
+MG;Patos de Minas;-18.6;-46.5;260
+PI;Patos do Piauí;-7.668;-41.24;0
+MG;Patrocínio;-18.944;-46.99;258
+MG;Patrocínio do Muriaé;-21.153;-42.21;770
+SP;Patrocínio Paulista;-20.639;-47.28;912
+RN;Patu;-6.11;-37.64;0
+RJ;Paty do Alferes;-22.429;-43.42;640
+BA;Pau Brasil;-15.464;-39.65;208
+PA;Pau d'Arco;-7.755;-50.04;236
+TO;Pau d'Arco;-7.5;-49.37;270
+RN;Pau dos Ferros;-6.109;-38.25;0
+PE;Paudalho;-7.756;-35.18;0
+AM;Pauini;-7.751;-66.98;0
+MG;Paula Cândido;-20.756;-42.98;749
+PR;Paula Freitas;-26.258;-50.94;768
+SP;Paulicéia;-21.318;-51.75;297
+SP;Paulínia;-22.756;-47.15;554
+MA;Paulino Neves;-2.752;-42.5;39
+PB;Paulista;-6.6;-37.62;372
+PE;Paulista;-7.941;-34.76;605
+PI;Paulistana;-8.144;-41.15;0
+SP;Paulistânia;-22.6;-49.4;0
+MG;Paulistas;-18.428;-42.76;736
+BA;Paulo Afonso;-9.406;-38.21;0
+SP;Paulo de Faria;-20.031;-49.38;481
+PR;Paulo Frontin;-26.04;-50.75;785
+AL;Paulo Jacinto;-9.366;-36.37;0
+SC;Paulo Lopes;-27.962;-48.68;0
+MA;Paulo Ramos;-4.444;-45.24;74
+MG;Pavão;-17.428;-41;286
+RS;Paverama;-29.6;-51.73;0
+PI;Pavussu;-7.966;-43.22;398
+BA;Pé de Serra;-11.755;-39.61;280
+PR;Peabiru;-23.913;-52.34;465
+MG;Peçanha;-18.5;-42.6;873
+SP;Pederneiras;-22.352;-48.78;479
+PE;Pedra;-8.497;-36.94;637
+MG;Pedra Azul;-16.005;-41.3;1060
+SP;Pedra Bela;-22.759;-46.44;860
+MG;Pedra Bonita;-20.5;-42.33;145
+CE;Pedra Branca;-5.454;-39.72;783
+PB;Pedra Branca;-7.427;-38.07;0
+AP;Pedra Branca do Amapari;0.758;-51.94;669
+MG;Pedra do Anta;-20.6;-42.71;848
+MG;Pedra do Indaiá;-20.258;-45.26;657
+MG;Pedra Dourada;-20.755;-42.15;0
+RN;Pedra Grande;-5.15;-35.76;0
+PB;Pedra Lavrada;-6.756;-36.47;0
+SE;Pedra Mole;-10.617;-37.69;353
+MT;Pedra Preta;-16.623;-54.47;0
+RN;Pedra Preta;-5.6;-36.1;894
+MG;Pedralva;-22.243;-45.47;425
+SP;Pedranópolis;-20.248;-50.11;185
+BA;Pedrão;-12.15;-38.65;0
+PB;Pedras de Fogo;-7.402;-35.12;0
+MG;Pedras de Maria da Cruz;-15.607;-44.39;500
+SC;Pedras Grandes;-28.436;-49.19;0
+SP;Pedregulho;-20.257;-47.48;939
+SP;Pedreira;-22.754;-46.9;51
+MA;Pedreiras;-4.6;-44.6;627
+SE;Pedrinhas;-11.192;-37.67;347
+SP;Pedrinhas Paulista;-22.755;-50.79;0
+MG;Pedrinópolis;-19.228;-47.46;1025
+TO;Pedro Afonso;-8.968;-48.17;263
+BA;Pedro Alexandre;-10.014;-37.76;0
+RN;Pedro Avelino;-5.5;-36.39;0
+ES;Pedro Canário;-18.03;-40.15;87
+SP;Pedro de Toledo;-24.275;-47.23;291
+MA;Pedro do Rosário;-2.973;-45.35;50
+MS;Pedro Gomes;-18.101;-54.6;270
+PI;Pedro II;-4.425;-41.46;559
+PI;Pedro Laurentino;-8.068;-42.29;262
+MG;Pedro Leopoldo;-19.618;-44.04;715
+RS;Pedro Osório;-31.756;-52.75;0
+PB;Pedro Régio;-6.633;-35.3;0
+MG;Pedro Teixeira;-21.751;-43.75;717
+RN;Pedro Velho;-6.439;-35.22;0
+TO;Peixe;-12.025;-48.5;31
+PA;Peixe-Boi;-1.192;-47.31;254
+MT;Peixoto de Azevedo;-10.223;-54.98;359
+RS;Pejuçara;-28.423;-53.66;0
+RS;Pelotas;-31.757;-52.34;0
+CE;Penaforte;-7.755;-39.08;479
+MA;Penalva;-3.294;-45.17;6
+SP;Penápolis;-21.42;-50.08;409
+RN;Pendências;-5.26;-36.72;0
+AL;Penedo;-10.29;-36.6;0
+SC;Penha;-26.757;-48.65;0
+CE;Pentecoste;-3.759;-39.27;86
+MG;Pequeri;-21.755;-43.12;631
+MG;Pequi;-19.633;-44.66;818
+TO;Pequizeiro;-8.6;-48.93;214
+MG;Perdigão;-19.953;-45.08;820
+MG;Perdizes;-19.353;-47.29;941
+MG;Perdões;-21.091;-45.09;867
+SP;Pereira Barreto;-20.638;-51.11;320
+SP;Pereiras;-23.076;-47.98;524
+CE;Pereiro;-6.042;-38.46;0
+MA;Peri Mirim;-2.6;-44.76;15
+MG;Periquito;-19.158;-42.23;248
+SC;Peritiba;-27.373;-51.9;0
+MA;Peritoró;-4.383;-44.33;60
+PR;Perobal;-23.756;-53.41;353
+PR;Pérola;-23.755;-53.68;341
+PR;Pérola d'Oeste;-25.755;-53.74;846
+GO;Perolândia;-17.5;-52.06;324
+SP;Peruíbe;-24.32;-47;11
+MG;Pescador;-18.357;-41.6;350
+PE;Pesqueira;-8.358;-36.7;0
+PE;Petrolândia;-8.979;-38.22;0
+SC;Petrolândia;-27.5;-49.7;0
+PE;Petrolina;-9.399;-40.5;805
+GO;Petrolina de Goiás;-16.095;-49.34;416
+RJ;Petrópolis;-22.5;-43.18;758
+AL;Piaçabuçu;-10.406;-36.43;0
+SP;Piacatu;-21.6;-50.6;378
+PB;Piancó;-7.198;-37.93;0
+BA;Piatã;-13.152;-41.77;1446
+MG;Piau;-21.5;-43.32;454
+RS;Picada Café;-29.444;-51.14;0
+PA;Piçarra;-6.438;-48.76;176
+SC;Piçarras;-26.756;-48.67;0
+PI;Picos;-7.077;-41.47;319
+PB;Picuí;-6.5;-36.35;0
+SP;Piedade;-23.751;-47.43;810
+MG;Piedade de Caratinga;-19.756;-42.08;486
+MG;Piedade de Ponte Nova;-20.245;-42.73;973
+MG;Piedade do Rio Grande;-21.469;-44.2;974
+MG;Piedade dos Gerais;-20.471;-44.23;1063
+PR;Piên;-26.098;-49.43;860
+BA;Pilão Arcado;-10.003;-42.5;437
+AL;Pilar;-9.6;-35.96;427
+PB;Pilar;-7.267;-35.26;766
+GO;Pilar de Goiás;-14.756;-49.6;0
+SP;Pilar do Sul;-23.755;-47.72;0
+PB;Pilões;-6.75;-35.62;0
+RN;Pilões;-6.269;-38.04;0
+PB;Pilõezinhos;-6.756;-35.5;0
+MG;Pimenta;-20.484;-45.8;0
+RO;Pimenta Bueno;-11.673;-61.19;825
+PI;Pimenteiras;-6.245;-41.42;0
+RO;Pimenteiras do Oeste;-13.483;-61.05;539
+BA;Pindaí;-14.493;-42.69;623
+SP;Pindamonhangaba;-22.924;-45.46;535
+MA;Pindaré Mirim;-3.608;-45.34;0
+AL;Pindoba;-9.475;-36.29;0
+BA;Pindobaçu;-10.754;-40.36;470
+SP;Pindorama;-21.186;-48.91;451
+TO;Pindorama do Tocantins;-11.139;-47.6;562
+CE;Pindoretama;-4.027;-38.31;0
+MG;Pingo d'Água;-19.753;-42.41;0
+PR;Pinhais;-25.445;-49.19;935
+RS;Pinhal;-27.5;-53.22;541
+PR;Pinhal de São Bento;-26.03;-53.48;0
+RS;Pinhal Grande;-29.346;-53.31;744
+PR;Pinhalão;-23.759;-50.06;0
+SC;Pinhalzinho;-26.755;-52.99;0
+SP;Pinhalzinho;-22.758;-46.6;905
+PR;Pinhão;-25.696;-51.66;1167
+SE;Pinhão;-10.6;-37.72;0
+RJ;Pinheiral;-22.5;-44;375
+RS;Pinheirinho do Vale;-27.26;-53.61;0
+MA;Pinheiro;-2.5;-45.08;0
+RS;Pinheiro Machado;-31.6;-53.38;0
+SC;Pinheiro Preto;-27.051;-51.23;3
+ES;Pinheiros;-18.37;-40.21;117
+BA;Pintadas;-11.755;-39.91;276
+MG;Pintópolis;-16.059;-45.16;581
+PI;Pio IX;-6.755;-40.6;545
+MA;Pio XII;-3.755;-45.15;19
+SP;Piquerobi;-21.756;-51.73;408
+CE;Piquet Carneiro;-5.755;-39.42;271
+SP;Piquete;-22.614;-45.18;660
+SP;Piracaia;-23.054;-46.36;828
+GO;Piracanjuba;-17.303;-49.02;776
+MG;Piracema;-20.5;-44.48;852
+SP;Piracicaba;-22.753;-47.65;513
+PI;Piracuruca;-3.928;-41.71;141
+RJ;Piraí;-22.629;-43.76;307
+BA;Piraí do Norte;-13.756;-39.38;1119
+PR;Piraí do Sul;-24.5;-49.95;370
+SP;Piraju;-23.194;-49.38;572
+MG;Pirajuba;-19.907;-48.7;483
+SP;Pirajuí;-21.999;-49.46;534
+SE;Pirambu;-10.754;-36.76;0
+MG;Piranga;-20.685;-43.3;785
+SP;Pirangi;-21.091;-48.66;543
+MG;Piranguçu;-22.5;-45.5;984
+MG;Piranguinho;-22.401;-45.5;876
+AL;Piranhas;-9.624;-37.76;0
+GO;Piranhas;-16.427;-51.75;568
+MA;Pirapemas;-3.753;-44.22;27
+MG;Pirapetinga;-21.656;-42.35;165
+RS;Pirapó;-28.045;-55.2;866
+MG;Pirapora;-17.345;-44.94;542
+SP;Pirapora do Bom Jesus;-23.397;-47;0
+SP;Pirapozinho;-22.275;-51.5;437
+PR;Piraquara;-25.442;-49.06;955
+TO;Piraquê;-6.757;-48.3;187
+SP;Pirassununga;-21.996;-47.43;620
+RS;Piratini;-31.448;-53.1;519
+SP;Piratininga;-22.413;-49.13;0
+SC;Piratuba;-27.42;-51.77;0
+MG;Piraúba;-21.276;-43.03;346
+GO;Pirenópolis;-15.756;-48.96;855
+GO;Pires do Rio;-17.3;-48.28;809
+CE;Pires Ferreira;-4.247;-40.65;167
+BA;Piripá;-14.94;-41.72;687
+PI;Piripiri;-4.273;-41.78;159
+BA;Piritiba;-11.753;-40.6;567
+PB;Pirpirituba;-6.758;-35.5;0
+PR;Pitanga;-24.756;-51.76;941
+PR;Pitangueiras;-23.231;-51.6;555
+SP;Pitangueiras;-21.009;-48.22;521
+MG;Pitangui;-19.683;-44.76;742
+PB;Pitimbu;-7.471;-34.75;0
+MG;Piuí;-20.465;-45.96;0
+TO;Pium;-10.443;-49.18;0
+ES;Piúma;-20.755;-40.72;178
+PA;Placas;-3.756;-54.22;115
+AC;Plácido de Castro;-10.335;-67.19;0
+GO;Planaltina;-15.453;-47.61;377
+PR;Planaltina do Paraná;-23.007;-52.91;883
+BA;Planaltino;-13.259;-40.37;868
+BA;Planalto;-14.67;-40.47;0
+PR;Planalto;-25.752;-53.77;0
+RS;Planalto;-27.329;-53.06;923
+SP;Planalto;-21.034;-49.93;420
+SC;Planalto Alegre;-27.07;-52.76;0
+MT;Planalto da Serra;-10.439;-55.28;445
+MG;Planura;-20.138;-48.7;481
+SP;Platina;-22.638;-50.25;515
+SP;Poá;-23.5;-46.34;754
+PE;Poção;-8.186;-36.71;100
+MA;Poção de Pedras;-4.667;-44.76;0
+PB;Pocinhos;-7.077;-36.06;0
+RN;Poço Branco;-5.623;-35.66;0
+PB;Poço Dantas;-6.404;-38.47;473
+RS;Poço das Antas;-29.449;-51.67;0
+AL;Poço das Trincheiras;-9.313;-37.29;0
+PB;Poço de José de Moura;-6.6;-38.5;297
+MG;Poço Fundo;-21.758;-45.97;882
+SE;Poço Redondo;-9.755;-37.68;0
+SE;Poço Verde;-10.751;-38.18;0
+BA;Poções;-14.5;-40.37;790
+MT;Poconé;-16.257;-56.62;0
+MG;Poços de Caldas;-21.759;-46.6;1288
+MG;Pocrane;-19.62;-41.64;244
+BA;Pojuca;-12.431;-38.33;0
+SP;Poloni;-20.759;-49.75;482
+PB;Pombal;-6.757;-37.75;0
+PE;Pombos;-8.141;-35.4;0
+SC;Pomerode;-26.754;-49.18;0
+SP;Pompéia;-22.109;-50.17;442
+MG;Pompéu;-19.224;-44.94;708
+SP;Pongaí;-21.754;-49.37;399
+PA;Ponta de Pedras;-1.39;-48.76;2
+PR;Ponta Grossa;-25.095;-50.13;849
+MS;Ponta Porã;-22.5;-55.73;0
+SP;Pontal;-21.023;-48.04;367
+MT;Pontal do Araguaia;-15.755;-52.01;17
+PR;Pontal do Paraná;-25.674;-48.5;561
+GO;Pontalina;-17.5;-49.45;372
+SP;Pontalinda;-20.441;-50.5;503
+RS;Pontão;-28.059;-52.68;0
+SC;Ponte Alta;-27.484;-50.38;538
+TO;Ponte Alta do Bom Jesus;-12.091;-46.48;0
+SC;Ponte Alta do Norte;-27.158;-50.46;319
+TO;Ponte Alta do Tocantins;-10.754;-47.5;0
+MT;Ponte Branca;-16.756;-52.75;629
+MG;Ponte Nova;-20.416;-42.91;471
+RS;Ponte Preta;-27.654;-52.49;0
+SC;Ponte Serrada;-26.756;-52.02;0
+MT;Pontes e Lacerda;-15.226;-59.34;0
+SP;Pontes Gestal;-20.126;-49.7;464
+ES;Ponto Belo;-18.124;-40.5;190
+MG;Ponto Chique;-16.631;-45.07;542
+MG;Ponto dos Volantes;-16.755;-41.5;511
+BA;Ponto Novo;-10.756;-40.13;399
+SP;Populina;-19.933;-50.5;470
+CE;Poranga;-4.754;-40.93;534
+SP;Porangaba;-23.176;-48.13;389
+GO;Porangatu;-13.441;-49.15;326
+RJ;Porciúncula;-20.963;-42.04;721
+PR;Porecatu;-22.756;-51.38;365
+RN;Portalegre;-6.024;-37.99;0
+RS;Portão;-29.75;-51.24;0
+GO;Porteirão;-17.755;-50.13;518
+CE;Porteiras;-7.5;-39.12;492
+MG;Porteirinha;-15.754;-43.03;550
+PA;Portel;-1.936;-50.75;866
+GO;Portelândia;-17.354;-52.68;56
+PI;Porto;-3.756;-42.71;0
+AC;Porto Acre;-9.6;-67.5;192
+RS;Porto Alegre;-30.033;-51.23;303
+MT;Porto Alegre do Norte;-10.756;-51.63;409
+PI;Porto Alegre do Piauí;-6.967;-44.18;0
+TO;Porto Alegre do Tocantins;-11.609;-47.05;851
+PR;Porto Amazonas;-25.5;-49.76;646
+PR;Porto Barreiro;-25.5;-52.41;0
+SC;Porto Belo;-27.158;-48.6;0
+AL;Porto Calvo;-9.045;-35.4;0
+SE;Porto da Folha;-9.917;-37.28;76
+PA;Porto de Moz;-1.755;-52.24;0
+AL;Porto de Pedras;-9.158;-35.3;0
+RN;Porto do Mangue;-5.068;-36.78;0
+MT;Porto dos Gaúchos;-11.5;-57.41;0
+MT;Porto Esperidião;-15.756;-58.46;0
+MT;Porto Estrela;-15.324;-57.23;559
+SP;Porto Feliz;-23.215;-47.5;561
+SP;Porto Ferreira;-21.756;-47.48;574
+MG;Porto Firme;-20.673;-43.08;246
+MA;Porto Franco;-6.338;-47.4;115
+AP;Porto Grande;0.751;-51.41;0
+RS;Porto Lucena;-27.756;-55.02;0
+RS;Porto Mauá;-27.6;-54.67;0
+MS;Porto Murtinho;-21.699;-57.76;316
+TO;Porto Nacional;-10.751;-48.42;0
+RJ;Porto Real;-22.42;-44.29;430
+AL;Porto Real do Colégio;-10.186;-36.75;18
+PR;Porto Rico;-22.757;-53.27;342
+MA;Porto Rico do Maranhão;-1.756;-44.61;78
+BA;Porto Seguro;-16.45;-39.06;1016
+SC;Porto União;-26.238;-51.08;0
+RO;Porto Velho;-8.756;-63.9;0
+RS;Porto Vera Cruz;-27.754;-54.9;846
+PR;Porto Vitória;-26.125;-51.23;0
+AC;Porto Walter;-8.269;-72.74;0
+RS;Porto Xavier;-27.906;-55.14;52
+GO;Posse;-14.093;-46.37;715
+MG;Poté;-17.755;-41.79;528
+CE;Potengi;-7.091;-40.03;557
+SP;Potim;-22.755;-45.25;545
+BA;Potiraguá;-15.6;-39.76;166
+SP;Potirendaba;-21.043;-49.38;476
+CE;Potiretama;-5.752;-38.16;0
+MG;Pouso Alegre;-22.23;-45.94;892
+MG;Pouso Alto;-22.194;-44.97;1085
+RS;Pouso Novo;-29.171;-52.26;0
+SC;Pouso Redondo;-27.258;-49.93;0
+MT;Poxoréo;-15.755;-54.39;628
+SP;Pracinha;-21.756;-51.09;365
+AP;Pracuúba;1.754;-50.79;140
+BA;Prado;-17.341;-39.22;515
+PR;Prado Ferreira;-23.039;-51.44;88
+SP;Pradópolis;-21.359;-48.07;548
+MG;Prados;-21.058;-44.08;989
+SC;Praia Grande;-29.197;-49.95;0
+SP;Praia Grande;-24.006;-46.4;11
+TO;Praia Norte;-5.393;-47.75;198
+PA;Prainha;-1.755;-53.48;3
+PR;Pranchita;-26.02;-53.74;570
+MG;Prata;-19.307;-48.92;145
+PB;Prata;-7.691;-37.08;630
+PI;Prata do Piauí;-5.667;-42.26;758
+SP;Pratânia;-22.755;-48.67;0
+MG;Pratápolis;-20.754;-46.76;700
+MG;Pratinha;-19.755;-46.38;1074
+SP;Presidente Alves;-22.1;-49.44;530
+MG;Presidente Bernardes;-20.757;-43.19;607
+SP;Presidente Bernardes;-22.006;-51.6;378
+PR;Presidente Castelo Branco;-23.278;-52.15;567
+SC;Presidente Castelo Branco;-27.223;-51.75;0
+BA;Presidente Dutra;-11.296;-41.99;650
+MA;Presidente Dutra;-5.29;-44.49;103
+SP;Presidente Epitácio;-21.756;-52.12;356
+AM;Presidente Figueiredo;-2.034;-60.03;0
+SC;Presidente Getúlio;-27.051;-49.62;0
+BA;Presidente Jânio Quadros;-14.689;-41.68;667
+MA;Presidente Juscelino;-2.928;-44.07;45
+MG;Presidente Juscelino;-18.637;-44.06;661
+RN;Presidente Juscelino;-6.106;-35.71;0
+ES;Presidente Kennedy;-21.099;-41.05;68
+TO;Presidente Kennedy;-8.5;-48.5;239
+MG;Presidente Kubitschek;-18.614;-43.6;1123
+RS;Presidente Lucena;-29.5;-51.18;0
+MA;Presidente Médici;-2.387;-45.75;31
+RO;Presidente Médici;-11.175;-61.9;0
+SC;Presidente Nereu;-27.277;-49.39;0
+MG;Presidente Olegário;-18.418;-46.42;759
+SP;Presidente Prudente;-22.126;-51.39;342
+MA;Presidente Sarney;-2.6;-45.36;24
+BA;Presidente Tancredo Neves;-13.449;-39.42;204
+MA;Presidente Vargas;-3.407;-44.02;28
+SP;Presidente Venceslau;-21.756;-51.75;378
+PA;Primavera;-0.94;-47.12;0
+PE;Primavera;-8.331;-35.35;661
+RO;Primavera de Rondônia;-11.755;-61.32;33
+MT;Primavera do Leste;-15.6;-54.3;0
+MA;Primeira Cruz;-2.5;-43.44;34
+PR;Primeiro de Maio;-22.756;-51.03;353
+SC;Princesa;-26.442;-53.6;0
+PB;Princesa Isabel;-7.754;-37.99;591
+GO;Professor Jamil;-17.249;-49.24;693
+RS;Progresso;-29.244;-52.31;0
+SP;Promissão;-21.5;-49.76;417
+SE;Propriá;-10.211;-36.75;0
+RS;Protásio Alves;-28.756;-51.47;0
+MG;Prudente de Morais;-19.482;-44.16;728
+PR;Prudentópolis;-25.213;-50.98;794
+TO;Pugmil;-10.424;-48.76;290
+RN;Pureza;-5.467;-35.6;0
+RS;Putinga;-29.002;-52.15;0
+PB;Puxinanã;-7.125;-35.96;0
+SP;Quadra;-23.299;-48.05;635
+RS;Quaraí;-30.388;-56.45;0
+MG;Quartel Geral;-19.274;-45.6;652
+PR;Quarto Centenário;-24.279;-53.08;420
+SP;Quatá;-22.248;-50.7;523
+PR;Quatiguá;-23.6;-49.91;649
+PA;Quatipuru;-0.756;-47.01;12
+RJ;Quatis;-22.407;-44.26;498
+PR;Quatro Barras;-25.366;-49.08;989
+PR;Quatro Pontes;-24.6;-53.98;435
+AL;Quebrangulo;-9.319;-36.47;0
+PR;Quedas do Iguaçu;-25.45;-52.91;611
+PI;Queimada Nova;-8.6;-41.42;380
+BA;Queimadas;-10.978;-39.63;317
+PB;Queimadas;-7.358;-35.76;0
+RJ;Queimados;-22.752;-43.6;21
+SP;Queiroz;-21.76;-50.24;411
+SP;Queluz;-22.5;-44.77;0
+MG;Queluzita;-20.754;-43.76;599
+MT;Querência;-12.6;-52.2;306
+PR;Querência do Norte;-23.084;-53.48;321
+RS;Quevedos;-29.353;-54.07;0
+BA;Quijingue;-10.755;-39.26;362
+SC;Quilombo;-26.753;-52.72;0
+PR;Quinta do Sol;-23.756;-52.13;432
+SP;Quintana;-22.073;-50.31;459
+RS;Quinze de Novembro;-28.755;-53.09;0
+PE;Quipapá;-8.755;-36.01;0
+GO;Quirinópolis;-18.448;-50.45;571
+RJ;Quissamã;-22.107;-41.47;9
+PR;Quitandinha;-25.756;-49.5;808
+CE;Quiterianópolis;-5.755;-40.7;523
+PB;Quixaba;-7.031;-37.15;0
+PE;Quixabá;-7.752;-37.75;0
+BA;Quixabeira;-11.412;-40.13;417
+CE;Quixadá;-4.971;-39.02;176
+CE;Quixelã;-6.254;-39.25;0
+CE;Quixeramobim;-5.199;-39.29;260
+CE;Quixeré;-5.074;-37.99;0
+RN;Rafael Fernandes;-6.195;-38.23;0
+RN;Rafael Godeiro;-6.076;-37.72;0
+BA;Rafael Jambeiro;-12.408;-39.5;202
+SP;Rafard;-23.012;-47.5;543
+PR;Ramilândia;-25.12;-54.03;463
+SP;Rancharia;-22.229;-50.76;457
+PR;Rancho Alegre;-23.07;-50.91;486
+PR;Rancho Alegre d'Oeste;-24.307;-52.95;429
+SC;Rancho Queimado;-27.673;-49.02;0
+MA;Raposa;-2.423;-44.1;3
+MG;Raposos;-19.967;-43.75;893
+MG;Raul Soares;-20.102;-42.45;397
+PR;Realeza;-25.757;-53.5;405
+PR;Rebouças;-25.621;-50.69;792
+PE;Recife;-8.054;-34.76;0
+MG;Recreio;-21.5;-42.47;164
+TO;Recursolândia;-8.753;-47.24;345
+CE;Redenção;-4.226;-38.73;735
+PA;Redenção;-8.029;-50.03;385
+SP;Redenção da Serra;-23.267;-45.5;306
+PI;Redenção do Gurguéia;-9.487;-44.6;271
+RS;Redentora;-27.664;-53.64;0
+MG;Reduto;-20.219;-41.98;680
+PI;Regeneração;-6.238;-42.69;413
+SP;Regente Feijó;-22.221;-51.3;464
+SP;Reginópolis;-21.756;-49.23;489
+SP;Registro;-24.488;-47.75;6
+RS;Relvado;-29.111;-52.07;0
+BA;Remanso;-9.622;-42.08;407
+PB;Remígio;-7.755;-38.15;0
+PR;Renascença;-26.158;-52.97;740
+CE;Reriutaba;-4.142;-40.6;329
+RJ;Resende;-22.469;-44.45;1068
+MG;Resende Costa;-20.922;-44.24;434
+PR;Reserva;-24.65;-50.76;0
+MT;Reserva do Cabaçal;-15.08;-58.47;1054
+PR;Reserva do Iguaçu;-25.755;-52.03;827
+MG;Resplendor;-19.326;-41.26;278
+MG;Ressaquinha;-21.063;-43.76;1216
+SP;Restinga;-20.603;-47.48;0
+RS;Restinga Seca;-29.755;-53.38;755
+BA;Retirolândia;-11.495;-39.43;348
+MA;Riachão;-7.362;-46.62;725
+PB;Riachão;-6.5;-35.63;0
+BA;Riachão das Neves;-11.755;-44.91;0
+PB;Riachão do Bacamarte;-7.248;-35.66;228
+SE;Riachão do Dantas;-11.069;-37.73;0
+BA;Riachão do Jacuípe;-11.755;-39.39;282
+PB;Riachão do Poço;-7.152;-35.26;0
+MG;Riachinho;-16.23;-45.99;658
+TO;Riachinho;-6.438;-48.14;165
+RN;Riacho da Cruz;-5.936;-37.95;0
+PE;Riacho das Almas;-8.134;-35.76;0
+BA;Riacho de Santana;-13.609;-42.94;509
+RN;Riacho de Santana;-6.263;-38.32;0
+PB;Riacho de Santo Antônio;-7.693;-36.16;0
+PB;Riacho dos Cavalos;-6.438;-37.65;0
+MG;Riacho dos Machados;-16.006;-43.05;902
+PI;Riacho Frio;-10.125;-44.95;486
+RN;Riachuelo;-5.755;-35.75;0
+SE;Riachuelo;-10.753;-37.19;0
+GO;Rialma;-15.315;-49.6;673
+GO;Rianápolis;-15.447;-49.5;604
+MA;Ribamar Fiquene;-5.93;-47.38;166
+MS;Ribas do Rio Pardo;-20.443;-53.76;410
+SP;Ribeira;-24.657;-49.01;0
+BA;Ribeira do Amparo;-11.047;-38.43;260
+PI;Ribeira do Piauí;-7.691;-42.71;0
+BA;Ribeira do Pombal;-10.755;-38.5;588
+PE;Ribeirão;-8.5;-35.38;882
+SP;Ribeirão Bonito;-22.067;-48.18;295
+SP;Ribeirão Branco;-24.221;-48.77;738
+MT;Ribeirão Cascalheira;-12.942;-51.75;802
+PR;Ribeirão Claro;-23.194;-49.76;828
+SP;Ribeirão Corrente;-20.457;-47.6;697
+MG;Ribeirão das Neves;-19.757;-44.09;644
+BA;Ribeirão do Largo;-15.459;-40.74;514
+PR;Ribeirão do Pinhal;-23.408;-50.36;376
+SP;Ribeirão do Sul;-22.758;-49.93;734
+SP;Ribeirão dos Índios;-21.976;-51.65;786
+SP;Ribeirão Grande;-24.099;-48.37;566
+SP;Ribeirão Pires;-23.751;-46.41;917
+SP;Ribeirão Preto;-21.178;-47.75;0
+MG;Ribeirão Vermelho;-21.191;-45.06;546
+MT;Ribeirãozinho;-16.485;-52.69;390
+PI;Ribeiro Gonçalves;-7.6;-45.24;438
+SE;Ribeirópolis;-10.5;-37.42;0
+SP;Rifaina;-20.081;-47.42;580
+SP;Rincão;-21.6;-48.07;561
+SP;Rinópolis;-21.753;-50.72;410
+MG;Rio Acima;-20.088;-43.79;800
+PR;Rio Azul;-25.753;-50.8;906
+ES;Rio Bananal;-19.265;-40.33;84
+PR;Rio Bom;-23.756;-51.41;588
+RJ;Rio Bonito;-22.751;-42.61;614
+PR;Rio Bonito do Iguaçu;-25.491;-52.5;68
+AC;Rio Branco;-9.975;-67.75;631
+MT;Rio Branco;-15.241;-58.12;887
+PR;Rio Branco do Ivaí;-24.324;-51.31;0
+PR;Rio Branco do Sul;-25.19;-49.31;0
+MS;Rio Brilhante;-21.755;-54.5;0
+MG;Rio Casca;-20.226;-42.65;329
+RJ;Rio Claro;-22.752;-44.14;562
+SP;Rio Claro;-22.411;-47.6;583
+RO;Rio Crespo;-9.751;-62.76;0
+TO;Rio da Conceição;-11.4;-46.76;548
+SC;Rio das Antas;-26.756;-51.07;0
+RJ;Rio das Flores;-22.126;-43.6;683
+RJ;Rio das Ostras;-22.5;-41.95;7
+SP;Rio das Pedras;-22.755;-47.61;614
+BA;Rio de Contas;-13.6;-41.75;686
+RJ;Rio de Janeiro;-22.903;-43.26;291
+BA;Rio do Antônio;-14.411;-42.08;653
+SC;Rio do Campo;-26.949;-50.14;0
+RN;Rio do Fogo;-5.273;-35.38;0
+BA;Rio do Pires;-13.128;-42.29;637
+MG;Rio do Prado;-16.608;-40.6;465
+SC;Rio do Sul;-27.214;-49.64;0
+MG;Rio Doce;-20.245;-42.76;546
+SC;Rio d'Oeste;-27.193;-49.8;0
+RS;Rio dos µndios;-27.3;-52.75;0
+TO;Rio dos Bois;-9.345;-48.5;271
+SC;Rio dos Cedros;-26.754;-49.27;0
+MG;Rio Espera;-20.756;-43.47;733
+PE;Rio Formoso;-8.664;-35.16;0
+SC;Rio Fortuna;-28.131;-49.11;0
+RS;Rio Grande;-32.035;-52.1;760
+SP;Rio Grande da Serra;-23.754;-46.4;293
+PI;Rio Grande do Piauí;-7.758;-43.14;0
+AL;Rio Largo;-9.478;-35.76;0
+MG;Rio Manso;-20.265;-44.31;950
+PA;Rio Maria;-7.311;-50.05;213
+SC;Rio Negrinho;-26.254;-49.5;842
+MS;Rio Negro;-19.449;-54.99;0
+PR;Rio Negro;-26.106;-49.8;922
+MG;Rio Novo;-21.458;-43.13;566
+ES;Rio Novo do Sul;-20.756;-40.94;400
+MG;Rio Paranaíba;-19.194;-46.25;935
+RS;Rio Pardo;-29.99;-52.38;858
+MG;Rio Pardo de Minas;-15.61;-42.5;0
+MG;Rio Piracicaba;-19.929;-43.17;696
+MG;Rio Pomba;-21.275;-43.18;528
+MG;Rio Preto;-22.089;-43.75;0
+AM;Rio Preto da Eva;-2.699;-59.7;873
+GO;Rio Quente;-17.757;-48.77;624
+BA;Rio Real;-11.485;-37.93;0
+SC;Rio Rufino;-27.756;-49.78;0
+TO;Rio Sono;-9.344;-47.9;269
+PB;Rio Tinto;-6.755;-35.08;0
+GO;Rio Verde;-17.76;-50.93;0
+MS;Rio Verde de Mato Grosso;-18.918;-54.75;779
+MG;Rio Vermelho;-18.294;-43.01;866
+SP;Riolândia;-19.981;-49.68;505
+RS;Riozinho;-29.641;-50.45;0
+SC;Riqueza;-27.067;-53.32;0
+MG;Ritápolis;-21.022;-44.32;1115
+SP;Riversul;-23.755;-49.43;634
+RS;Roca Sales;-29.284;-51.76;0
+MS;Rochedo;-19.953;-54.76;356
+MG;Rochedo de Minas;-21.63;-43.02;0
+SC;Rodeio;-26.923;-49.37;0
+RS;Rodeio Bonito;-27.471;-53.13;0
+MG;Rodeiro;-21.2;-42.76;380
+BA;Rodelas;-8.755;-38.77;472
+RN;Rodolfo Fernandes;-5.759;-38.06;0
+AC;Rodrigues Alves;-7.754;-72.64;0
+PR;Rolândia;-23.31;-51.37;683
+RS;Rolante;-29.651;-50.6;0
+RO;Rolim de Moura;-11.755;-61.75;0
+MG;Romaria;-18.756;-47.6;936
+SC;Romelândia;-26.676;-53.31;0
+PR;Roncador;-24.603;-52.28;745
+RS;Ronda Alta;-27.757;-52.75;0
+RS;Rondinha;-27.755;-52.91;0
+PR;Rondon;-23.411;-52.76;161
+PA;Rondon do Pará;-4.758;-48.07;0
+MT;Rondonópolis;-16.471;-54.64;0.416
+RS;Roque Gonzales;-28.131;-55.03;0
+RR;Rorainópolis;0.946;-60.42;0
+SP;Rosana;-22.6;-53.06;345
+MA;Rosário;-2.934;-44.24;694
+MG;Rosário da Limeira;-20.979;-42.5;0
+SE;Rosário do Catete;-10.696;-37.03;681
+PR;Rosário do Ivaí;-24.278;-51.27;0
+RS;Rosário do Sul;-30.258;-54.91;0
+MT;Rosário Oeste;-14.755;-56.43;20
+SP;Roseira;-22.756;-45.31;670
+AL;Roteiro;-9.755;-35.98;0
+MG;Rubelita;-16.408;-42.26;562
+SP;Rubiácea;-21.301;-50.73;366
+GO;Rubiataba;-15.125;-49.75;736
+MG;Rubim;-16.375;-40.5;486
+SP;Rubinéia;-20.179;-51;322
+PA;Rurópolis;-4.096;-54.91;0
+CE;Russas;-4.94;-37.98;0
+BA;Ruy Barbosa;-12.284;-40.49;560
+RN;Ruy Barbosa;-5.756;-35.93;0
+MG;Sabará;-19.756;-43.75;1030
+PR;Sabáudia;-23.318;-51.6;605
+SP;Sabino;-21.46;-49.6;738
+MG;Sabinópolis;-18.666;-43.08;388
+CE;Saboeiro;-6.5;-39.91;358
+MG;Sacramento;-19.756;-47.44;1042
+RS;Sagrada Família;-27.751;-53.14;0
+SP;Sagres;-21.756;-50.96;359
+PE;Sairé;-8.328;-35.71;0
+RS;Saldanha Marinho;-28.393;-53.09;0
+SP;Sales;-21.341;-49.49;573
+SP;Sales Oliveira;-20.757;-47.75;971
+SP;Salesópolis;-23.5;-45.75;442
+SC;Salete;-26.98;-50;0
+PB;Salgadinho;-7.103;-36.75;0
+PE;Salgadinho;-7.936;-35.63;0
+SE;Salgado;-11.032;-37.48;0
+PB;Salgado de São Félix;-7.357;-35.44;576
+PR;Salgado Filho;-26.17;-53.36;0
+PE;Salgueiro;-8.074;-39.12;443
+MG;Salinas;-16.17;-42.29;2
+BA;Salinas da Margarida;-12.756;-38.76;538
+PA;Salinópolis;-0.614;-47.36;27
+CE;Salitre;-7.285;-40.46;622
+SP;Salmourão;-21.624;-50.76;403
+PE;Saloá;-8.976;-36.69;0
+SC;Saltinho;-26.609;-53.06;578
+SP;Saltinho;-22.755;-47.68;574
+SP;Salto;-23.251;-47.29;146
+MG;Salto da Divisa;-16.003;-39.95;617
+SP;Salto de Pirapora;-23.649;-47.6;0
+MT;Salto do Céu;-15.13;-58.13;572
+PR;Salto do Itararé;-23.601;-49.63;0
+RS;Salto do Jacuí;-29.088;-53.21;486
+PR;Salto do Lontra;-25.758;-53.31;422
+SP;Salto Grande;-22.756;-49.99;0
+SC;Salto Veloso;-26.905;-51.41;562
+BA;Salvador;-12.971;-38.5;0
+RS;Salvador das Missões;-28.126;-54.75;0
+RS;Salvador do Sul;-29.438;-51.5;0
+PA;Salvaterra;-0.755;-48.5;10
+MA;Sambaíba;-7.14;-45.35;299
+TO;Sampaio;-5.348;-47.76;110
+RS;Sananduva;-27.95;-51.75;0
+GO;Sanclerlândia;-16.198;-50.31;568
+TO;Sandolândia;-12.5;-49.93;229
+SP;Sandovalina;-22.456;-51.76;409
+SC;Sangão;-28.638;-49.13;0
+PE;Sanharó;-8.361;-36.6;0
+SP;Santa Adélia;-21.243;-48.75;521
+SP;Santa Albertina;-20.032;-50.73;366
+PR;Santa Amélia;-23.266;-50.42;488
+BA;Santa Bárbara;-11.958;-38.98;658
+MG;Santa Bárbara;-19.959;-43.42;891
+GO;Santa Bárbara de Goiás;-16.6;-49.69;761
+MG;Santa Bárbara do Leste;-19.978;-42.14;24
+MG;Santa Bárbara do Monte Verde;-21.959;-43.7;0
+PA;Santa Bárbara do Pará;-1.224;-48.29;682
+RS;Santa Bárbara do Sul;-28.358;-53.25;581
+MG;Santa Bárbara do Tugúrio;-21.246;-43.6;245
+SP;Santa Bárbara d'Oeste;-22.755;-47.41;813
+SP;Santa Branca;-23.397;-45.76;775
+BA;Santa Brígida;-9.754;-38.13;0
+MT;Santa Carmem;-11.913;-55.23;0
+PB;Santa Cecília;-7.754;-35.76;644
+SC;Santa Cecília;-26.961;-50.43;0
+PR;Santa Cecília do Pavão;-23.5;-50.78;0
+RS;Santa Clara do Sul;-29.469;-52.09;0
+SP;Santa Clara d'Oeste;-20.094;-50.93;323
+PB;Santa Cruz;-6.5;-38.06;11
+PE;Santa Cruz;-8.24;-40.33;0
+RN;Santa Cruz;-6.229;-36.02;635
+BA;Santa Cruz Cabrália;-16.278;-39.02;600
+PE;Santa Cruz da Baixa Verde;-7.755;-38.15;251
+SP;Santa Cruz da Conceição;-22.14;-47.45;689
+SP;Santa Cruz da Esperança;-21.291;-47.43;717
+BA;Santa Cruz da Vitória;-14.961;-39.75;912
+SP;Santa Cruz das Palmeiras;-21.755;-47.25;353
+GO;Santa Cruz de Goiás;-17.316;-48.48;807
+MG;Santa Cruz de Minas;-21.12;-44.22;3
+PR;Santa Cruz de Monte Castelo;-22.953;-53.3;0
+MG;Santa Cruz de Salinas;-16.098;-41.75;419
+PA;Santa Cruz do Arari;-0.663;-49.18;247
+PE;Santa Cruz do Capibaribe;-7.958;-36.25;625
+MG;Santa Cruz do Escalvado;-20.236;-42.75;0
+PI;Santa Cruz do Piauí;-7.185;-41.77;212
+SP;Santa Cruz do Rio Pardo;-22.756;-49.63;0
+RS;Santa Cruz do Sul;-29.752;-52.43;487
+PI;Santa Cruz dos Milagres;-5.755;-41.96;0
+MG;Santa Efigênia de Minas;-18.755;-42.45;707
+SP;Santa Ernestina;-21.463;-48.39;581
+PR;Santa Fé;-23.038;-51.75;311
+GO;Santa Fé de Goiás;-15.757;-51.11;638
+MG;Santa Fé de Minas;-16.69;-45.41;211
+TO;Santa Fé do Araguaia;-7.156;-48.7;364
+SP;Santa Fé do Sul;-20.211;-50.93;460
+PE;Santa Filomena;-8.125;-40.62;167
+PI;Santa Filomena;-9.112;-45.92;627
+MA;Santa Filomena do Maranhão;-5.5;-44.6;480
+SP;Santa Gertrudes;-22.457;-47.5;640
+MA;Santa Helena;-2.231;-45.3;598
+PB;Santa Helena;-6.752;-38.64;303
+PR;Santa Helena;-24.756;-54.33;12
+SC;Santa Helena;-26.938;-53.62;280
+GO;Santa Helena de Goiás;-17.755;-50.6;249
+MG;Santa Helena de Minas;-16.983;-40.69;0
+BA;Santa Inês;-13.292;-39.75;586
+MA;Santa Inês;-3.667;-45.38;29
+PB;Santa Inês;-7.621;-38.6;575
+PR;Santa Inês;-22.638;-51.9;345
+GO;Santa Isabel;-15.298;-49.43;330
+SP;Santa Isabel;-23.316;-46.22;0
+PR;Santa Isabel do Ivaí;-23.003;-53.2;0
+PA;Santa Isabel do Pará;-1.299;-48.13;548
+AM;Santa Isabel do Rio Negro;-0.414;-65.02;636
+PR;Santa Izabel do Oeste;-25.755;-53.48;524
+MG;Santa Juliana;-19.309;-47.5;1049
+ES;Santa Leopoldina;-20.101;-40.5;186
+PR;Santa Lúcia;-25.407;-53.6;397
+SP;Santa Lúcia;-21.685;-48.08;714
+PI;Santa Luz;-8.954;-44.13;0
+BA;Santa Luzia;-15.429;-39.33;0
+MA;Santa Luzia;-3.963;-45.66;30
+MG;Santa Luzia;-19.757;-43.76;33
+PB;Santa Luzia;-6.756;-36.92;0
+SE;Santa Luzia do Itanhy;-11.351;-37.45;108
+AL;Santa Luzia do Norte;-9.603;-35.75;85
+PA;Santa Luzia do Pará;-1.5;-46.76;701
+MA;Santa Luzia do Paruá;-2.5;-45.78;0
+RO;Santa Luzia d'Oeste;-11.908;-61.78;373
+MG;Santa Margarida;-20.384;-42.25;860
+RN;Santa Maria;-5.755;-35.7;403
+RS;Santa Maria;-29.684;-53.75;519
+PE;Santa Maria da Boa Vista;-8.755;-39.75;737
+SP;Santa Maria da Serra;-22.6;-48.13;199
+BA;Santa Maria da Vitória;-13.395;-44.19;628
+PA;Santa Maria das Barreiras;-8.756;-49.71;849
+MG;Santa Maria de Itabira;-19.449;-43.11;0
+ES;Santa Maria de Jetibá;-20.041;-40.75;0
+PE;Santa Maria do Cambucá;-7.755;-35.76;936
+RS;Santa Maria do Herval;-29.498;-50.99;32
+PR;Santa Maria do Oeste;-24.939;-51.76;503
+PA;Santa Maria do Pará;-1.35;-47.6;504
+MG;Santa Maria do Salto;-16.249;-40.15;242
+MG;Santa Maria do Suaçuí;-18.19;-42.41;224
+TO;Santa Maria do Tocantins;-8.76;-47.79;405
+RJ;Santa Maria Madalena;-21.955;-42.01;0
+PR;Santa Mariana;-23.151;-50.5;0
+SP;Santa Mercedes;-21.351;-51.76;349
+PR;Santa Mônica;-23.108;-53.11;374
+CE;Santa Quitéria;-4.332;-40.16;98
+MA;Santa Quitéria do Maranhão;-3.5;-42.5;221
+MA;Santa Rita;-3.144;-44.33;1258
+PB;Santa Rita;-7.114;-34.98;443
+MG;Santa Rita de Caldas;-22.029;-46.34;1120
+BA;Santa Rita de Cássia;-11.009;-44.5;730
+MG;Santa Rita de Ibitipoca;-21.6;-43.91;707
+MG;Santa Rita de Jacutinga;-22.149;-44.1;738
+MG;Santa Rita de Minas;-19.756;-42.13;211
+GO;Santa Rita do Araguaia;-17.326;-53.26;569
+MG;Santa Rita do Itueto;-19.36;-41.38;392
+GO;Santa Rita do Novo Destino;-15.135;-49.12;747
+MS;Santa Rita do Pardo;-21.303;-52.75;942
+SP;Santa Rita do Passa Quatro;-21.751;-47.48;218
+MG;Santa Rita do Sapucaí;-22.252;-45.7;404
+TO;Santa Rita do Tocantins;-10.756;-48.91;21
+SP;Santa Rita d'Oeste;-20.144;-50.75;0
+RS;Santa Rosa;-27.756;-54.48;926
+MG;Santa Rosa da Serra;-19.5;-45.97;777
+GO;Santa Rosa de Goiás;-16.085;-49.49;0
+SC;Santa Rosa de Lima;-28.039;-49.13;0
+SE;Santa Rosa de Lima;-10.646;-37.19;759
+SP;Santa Rosa de Viterbo;-21.473;-47.36;265
+PI;Santa Rosa do Piauí;-6.76;-42.29;0
+AC;Santa Rosa do Purus;-9.433;-70.49;0
+SC;Santa Rosa do Sul;-29.136;-49.7;270
+TO;Santa Rosa do Tocantins;-11.449;-48.12;0
+SP;Santa Salete;-20.245;-50.69;403
+ES;Santa Teresa;-19.936;-40.6;370
+BA;Santa Teresinha;-12.757;-39.5;253
+PB;Santa Teresinha;-7.039;-37.45;0
+RS;Santa Tereza;-29.126;-51.74;357
+GO;Santa Tereza de Goiás;-13.751;-49.02;689
+PR;Santa Tereza do Oeste;-25.052;-53.63;299
+TO;Santa Tereza do Tocantins;-10.282;-47.75;0
+MT;Santa Terezinha;-10.47;-50.5;348
+PE;Santa Terezinha;-7.378;-37.48;255
+SC;Santa Terezinha;-26.758;-50.01;591
+GO;Santa Terezinha de Goiás;-14.438;-49.71;330
+PR;Santa Terezinha de Itaipu;-25.362;-54.49;237
+SC;Santa Terezinha do Progresso;-26.619;-53.25;0
+TO;Santa Terezinha do Tocantins;-6.434;-47.67;0
+MG;Santa Vitória;-18.755;-50.12;0
+RS;Santa Vitória do Palmar;-33.5;-53.37;457
+BA;Santaluz;-11.256;-39.37;359
+AP;Santana;-0.058;-51.18;0
+BA;Santana;-12.983;-44.05;409
+RS;Santana da Boa Vista;-30.756;-53.12;818
+SP;Santana da Ponte Pensa;-20.253;-50.8;273
+MG;Santana da Vargem;-21.249;-45.5;0
+MG;Santana de Cataguases;-21.287;-42.6;740
+PB;Santana de Mangueira;-7.6;-38.33;692
+SP;Santana de Parnaíba;-23.444;-46.92;108
+MG;Santana de Pirapama;-19.006;-44.04;208
+CE;Santana do Acaraú;-3.461;-40.21;503
+PA;Santana do Araguaia;-9.297;-50.1;389
+CE;Santana do Cariri;-7.188;-39.74;1083
+MG;Santana do Deserto;-21.95;-43.13;0
+MG;Santana do Garambéu;-21.601;-44.1;524
+AL;Santana do Ipanema;-9.378;-37.25;817
+PR;Santana do Itararé;-23.756;-49.63;0
+MG;Santana do Jacaré;-20.756;-45.13;609
+RS;Santana do Livramento;-30.756;-55.5;90
+MG;Santana do Manhuaçu;-20.108;-41.93;0
+MA;Santana do Maranhão;-3.116;-42.41;0
+RN;Santana do Matos;-5.958;-36.66;287
+AL;Santana do Mundaú;-9.126;-36.22;372
+MG;Santana do Paraíso;-19.364;-42.6;1186
+PI;Santana do Piauí;-6.948;-41.5;0
+MG;Santana do Riacho;-19.126;-43.71;0
+SE;Santana do São Francisco;-10.291;-36.61;0
+RN;Santana do Seridó;-6.757;-36.73;742
+PB;Santana dos Garrotes;-7.384;-37.99;29
+MG;Santana dos Montes;-20.759;-43.69;479
+BA;Santanópolis;-12.017;-38.76;214
+PA;Santarém;-2.443;-54.71;31
+PB;Santarém;-6.49;-38.48;0
+PA;Santarém Novo;-0.929;-47.4;0
+RS;Santiago;-29.192;-54.76;0
+SC;Santiago do Sul;-26.639;-52.68;0
+MT;Santo Afonso;-14.498;-57;0
+BA;Santo Amaro;-12.5;-38.71;0
+SC;Santo Amaro da Imperatriz;-27.688;-48.78;0
+SE;Santo Amaro das Brotas;-10.759;-37.05;19
+MA;Santo Amaro do Maranhão;-2.5;-43.25;49
+SP;Santo Anastácio;-21.755;-51.61;404
+PB;Santo André;-7.218;-36.63;0
+SP;Santo André;-23.664;-46.5;770
+RS;Santo Ângelo;-28.299;-54.26;0
+RN;Santo Antônio;-6.311;-35.48;771
+SP;Santo Antônio da Alegria;-21.087;-47.15;599
+GO;Santo Antônio da Barra;-17.6;-50.63;0
+RS;Santo Antônio da Patrulha;-29.755;-50.5;467
+PR;Santo Antônio da Platina;-23.295;-50.08;0
+RS;Santo Antônio das Missões;-28.5;-55.23;757
+GO;Santo Antônio de Goiás;-16.484;-49.31;138
+BA;Santo Antônio de Jesus;-12.969;-39.26;284
+PI;Santo Antônio de Lisboa;-6.981;-41.23;94
+RJ;Santo Antônio de Pádua;-21.5;-42.18;639
+SP;Santo Antônio de Posse;-22.606;-46.92;968
+MG;Santo Antônio do Amparo;-20.946;-44.92;353
+SP;Santo Antônio do Aracanguá;-20.937;-50.5;676
+MG;Santo Antônio do Aventureiro;-21.756;-42.75;361
+PR;Santo Antônio do Caiuá;-22.753;-52.34;865
+GO;Santo Antônio do Descoberto;-15.94;-48.26;473
+MG;Santo Antônio do Grama;-20.314;-42.61;0
+AM;Santo Antônio do Içá;-3.102;-67.94;697
+MG;Santo Antônio do Itambé;-18.466;-43.31;561
+MG;Santo Antônio do Jacinto;-16.5;-40.18;855
+SP;Santo Antônio do Jardim;-22.193;-46.75;0
+MT;Santo Antônio do Leverger;-15.756;-56.08;919
+MG;Santo Antônio do Monte;-20.087;-45.29;0
+RS;Santo Antônio do Palma;-28.497;-52.02;776
+PR;Santo Antônio do Paraíso;-23.494;-50.65;1040
+SP;Santo Antônio do Pinhal;-22.755;-45.66;0
+RS;Santo Antônio do Planalto;-28.396;-52.69;831
+MG;Santo Antônio do Retiro;-15.339;-42.62;606
+MG;Santo Antônio do Rio Abaixo;-19.228;-43.25;538
+PR;Santo Antônio do Sudoeste;-26.074;-53.73;13
+PA;Santo Antônio do Tauá;-1.152;-48.13;61
+MA;Santo Antônio dos Lopes;-4.756;-44.37;253
+PI;Santo Antônio dos Milagres;-6.047;-42.71;0
+RS;Santo Augusto;-27.756;-53.78;0
+RS;Santo Cristo;-27.755;-54.66;0
+BA;Santo Estêvão;-12.43;-39.25;235
+SP;Santo Expedito;-21.756;-51.39;0
+RS;Santo Expedito do Sul;-27.908;-51.64;343
+MG;Santo Hipólito;-18.297;-44.22;599
+PR;Santo Inácio;-22.698;-51.79;260
+PI;Santo Inácio do Piauí;-7.43;-41.91;328
+SP;Santópolis do Aguapeí;-21.638;-50.5;405
+SP;Santos;-23.961;-46.33;907
+MG;Santos Dumont;-21.457;-43.6;161
+CE;São Benedito;-4.049;-40.76;43
+MA;São Benedito do Rio Preto;-3.334;-43.5;0
+PE;São Benedito do Sul;-8.755;-35.95;772
+MA;São Bento;-2.696;-44.75;949
+PB;São Bento;-6.486;-37.45;0
+MG;São Bento Abade;-21.6;-45.08;0
+PB;São Bento de Pombal;-6.901;-37.73;955
+RN;São Bento do Norte;-5.066;-36.04;831
+SP;São Bento do Sapucaí;-22.689;-45.73;145
+SC;São Bento do Sul;-26.25;-49.38;0
+TO;São Bento do Tocantins;-6.02;-47.9;0
+RN;São Bento do Trairi;-6.342;-36.09;17
+PE;São Bento do Una;-8.5;-36.44;0
+SC;São Bernardino;-26.47;-52.96;702
+MA;São Bernardo;-3.361;-42.42;750
+SP;São Bernardo do Campo;-23.694;-46.6;85
+SC;São Bonifácio;-27.901;-48.93;0
+RS;São Borja;-28.661;-56;0
+AL;São Brás;-10.128;-36.9;966
+MG;São Brás do Suaçuí;-20.625;-43.95;0
+PI;São Braz do Piauí;-9.222;-43.01;650
+PA;São Caetano de Odivelas;-0.755;-48.02;0
+SP;São Caetano do Sul;-23.623;-46.6;798
+PE;São Caitano;-8.326;-36.14;0
+SC;São Carlos;-27.078;-53;361
+SP;São Carlos;-22.018;-47.76;0
+PR;São Carlos do Ivaí;-23.315;-52.48;744
+SE;São Cristóvão;-11.015;-37.26;0
+SC;São Cristovão do Sul;-27.267;-50.44;0
+BA;São Desidério;-12.363;-44.97;726
+BA;São Domingos;-11.466;-39.5;801
+GO;São Domingos;-13.398;-46.32;0
+SC;São Domingos;-26.6;-52.5;177
+SE;São Domingos;-10.759;-37.6;430
+MG;São Domingos das Dores;-19.5;-42.01;26
+PB;São Domingos de Pombal;-6.755;-37.94;0
+PA;São Domingos do Araguaia;-5.5;-48.73;198
+MA;São Domingos do Azeitão;-6.755;-44.64;111
+PA;São Domingos do Capim;-1.674;-47.77;862
+PB;São Domingos do Cariri;-7.636;-36.43;0
+MA;São Domingos do Maranhão;-5.6;-44.39;286
+ES;São Domingos do Norte;-19.144;-40.62;525
+MG;São Domingos do Prata;-19.756;-42.97;695
+RS;São Domingos do Sul;-28.5;-51.76;0
+BA;São Felipe;-12.755;-39.09;0
+RO;São Felipe d'Oeste;-11.903;-61.5;206
+BA;São Félix;-12.605;-38.97;313
+MA;São Félix de Balsas;-7.083;-44.75;634
+MG;São Félix de Minas;-18.6;-41.49;349
+MT;São Félix do Araguaia;-11.617;-50.67;747
+BA;São Félix do Coribe;-13.401;-44.19;123
+PI;São Félix do Piauí;-5.933;-42.11;420
+TO;São Félix do Tocantins;-10.126;-46.66;256
+PA;São Félix do Xingu;-6.645;-52;177
+RN;São Fernando;-6.376;-37.18;0
+RJ;São Fidélis;-21.646;-41.75;95
+MG;São Francisco;-15.949;-44.76;387
+PB;São Francisco;-6.619;-38.09;0
+SE;São Francisco;-10.333;-36.76;721
+SP;São Francisco;-20.359;-50.7;31
+RS;São Francisco de Assis;-29.6;-55.13;937
+PI;São Francisco de Assis do Piauí;-8.238;-41.69;0
+GO;São Francisco de Goiás;-15.931;-49.26;498
+RJ;São Francisco de Itabapoana;-21.302;-40.96;277
+MG;São Francisco de Paula;-20.751;-44.99;3
+RS;São Francisco de Paula;-29.448;-50.6;760
+MG;São Francisco de Sales;-19.756;-49.77;0
+MA;São Francisco do Brejão;-5.123;-47.39;209
+BA;São Francisco do Conde;-12.628;-38.68;0
+MG;São Francisco do Glória;-20.759;-42.27;53
+RO;São Francisco do Guaporé;-12.052;-63.6;237
+MA;São Francisco do Maranhão;-6.251;-42.76;6
+RN;São Francisco do Oeste;-5.975;-38.15;465
+PA;São Francisco do Pará;-1.126;-47.8;0
+PI;São Francisco do Piauí;-7.251;-42.5;0
+SC;São Francisco do Sul;-26.243;-48.64;384
+BA;São Gabriel;-11.229;-41.91;0
+RS;São Gabriel;-30.336;-54.32;174
+AM;São Gabriel da Cachoeira;-0.13;-67.09;716
+ES;São Gabriel da Palha;-19.018;-40.5;790
+MS;São Gabriel do Oeste;-19.395;-54.6;0
+MG;São Geraldo;-20.923;-42.75;316
+MG;São Geraldo da Piedade;-18.755;-42.29;187
+PA;São Geraldo do Araguaia;-6.401;-48.6;204
+MG;São Geraldo do Baixio;-18.9;-41.36;399
+RJ;São Gonçalo;-22.755;-43.05;728
+MG;São Gonçalo do Abaeté;-18.338;-45.75;43
+CE;São Gonçalo do Amarante;-3.607;-38.97;0
+RN;São Gonçalo do Amarante;-5.759;-35.33;488
+PI;São Gonçalo do Gurguéia;-10.03;-45.3;737
+MG;São Gonçalo do Pará;-19.983;-44.76;249
+PI;São Gonçalo do Piauí;-5.993;-42.7;636
+MG;São Gonçalo do Rio Abaixo;-19.755;-43.36;857
+MG;São Gonçalo do Rio Preto;-18.004;-43.39;859
+MG;São Gonçalo do Sapucaí;-21.756;-45.6;225
+BA;São Gonçalo dos Campos;-12.433;-38.97;20
+MG;São Gotardo;-19.311;-46.05;994
+RS;São Jerônimo;-29.959;-51.72;853
+PR;São Jerônimo da Serra;-23.753;-50.74;0
+PE;São João;-8.756;-36.37;724
+PR;São João;-25.755;-52.73;3
+MA;São João Batista;-2.955;-44.75;0
+SC;São João Batista;-27.276;-48.75;0
+MG;São João Batista do Glória;-20.641;-46.5;4
+RR;São João da Baliza;0.951;-59.91;754
+RJ;São João da Barra;-21.64;-41.05;496
+SP;São João da Boa Vista;-21.969;-46.8;173
+PI;São João da Canabrava;-6.755;-41.34;831
+PI;São João da Fronteira;-3.956;-41.26;882
+MG;São João da Lagoa;-16.756;-44.35;632
+MG;São João da Mata;-21.93;-45.93;31
+GO;São João da Paraúna;-16.755;-50.41;621
+PA;São João da Ponta;-0.755;-47.92;157
+MG;São João da Ponte;-15.929;-44.01;0
+PI;São João da Serra;-5.5;-41.76;292
+RS;São João da Urtiga;-27.755;-51.75;1047
+PI;São João da Varjota;-6.413;-41.76;413
+GO;São João d'Aliança;-14.751;-47.5;723
+SP;São João das Duas Pontes;-20.389;-50.38;414
+MG;São João das Missões;-14.756;-44.09;51
+SP;São João de Iracema;-20.5;-50.35;17
+RJ;São João de Meriti;-22.755;-43.37;1034
+PA;São João de Pirabas;-0.757;-47.18;104
+MG;São João del Rei;-21.136;-44.26;99
+PA;São João do Araguaia;-5.358;-48.79;389
+PI;São João do Arraial;-3.755;-42.45;0
+PR;São João do Caiuá;-22.756;-52.34;65
+PB;São João do Cariri;-7.391;-36.5;51
+MA;São João do Carú;-3.6;-46.26;436
+SC;São João do Itaperiú;-26.618;-48.77;0
+PR;São João do Ivaí;-23.98;-51.75;842
+CE;São João do Jaguaribe;-5.271;-38.27;238
+MG;São João do Manhuaçu;-20.394;-42.15;0
+MG;São João do Manteninha;-18.752;-41.13;235
+SC;São João do Oeste;-27.098;-53.6;677
+MG;São João do Oriente;-19.339;-42.16;335
+MG;São João do Pacuí;-16.5;-44.5;855
+MA;São João do Paraíso;-6.461;-47.06;335
+MG;São João do Paraíso;-15.314;-42.01;241
+SP;São João do Pau d'Alho;-21.268;-51.67;0
+PI;São João do Piauí;-8.358;-42.25;0
+RS;São João do Polêsine;-29.614;-53.45;0
+PB;São João do Rio do Peixe;-6.753;-38.45;152
+RN;São João do Sabugi;-6.752;-37.25;0
+MA;São João do Soter;-5.114;-43.75;0
+SC;São João do Sul;-29.223;-49.75;792
+PB;São João do Tigre;-8.079;-36.75;351
+PR;São João do Triunfo;-25.683;-50.3;670
+MA;São João dos Patos;-6.495;-43.7;413
+MG;São João Evangelista;-18.5;-42.76;0
+MG;São João Nepomuceno;-21.5;-43.01;636
+SC;São Joaquim;-28.294;-49.93;683
+SP;São Joaquim da Barra;-20.6;-47.76;766
+MG;São Joaquim de Bicas;-20.049;-44.27;0
+PE;São Joaquim do Monte;-8.433;-35.75;0
+RS;São Jorge;-28.5;-51.7;413
+PR;São Jorge do Ivaí;-23.433;-52.29;232
+PR;São Jorge do Patrocínio;-23.756;-53.76;503
+PR;São Jorge d'Oeste;-25.751;-52.92;0
+SC;São José;-27.615;-48.63;766
+MG;São José da Barra;-20.752;-46.31;710
+SP;São José da Bela Vista;-20.6;-47.64;579
+PR;São José da Boa Vista;-23.916;-49.65;0
+PE;São José da Coroa Grande;-8.756;-35.15;0
+PB;São José da Lagoa Tapada;-6.941;-38.13;0
+AL;São José da Laje;-9.01;-36.06;737
+MG;São José da Lapa;-19.751;-43.62;438
+MG;São José da Safira;-18.324;-42.14;0
+AL;São José da Tapera;-9.6;-37.38;782
+MG;São José da Varginha;-19.751;-44.6;184
+BA;São José da Vitória;-15.084;-39.34;0
+RS;São José das Missões;-27.758;-53.12;356
+PR;São José das Palmeiras;-24.755;-54.06;0
+PB;São José de Caiana;-7.249;-38.3;0
+PB;São José de Espinharas;-6.755;-37.33;0
+RN;São José de Mipibu;-6.075;-35.24;0
+PB;São José de Piranhas;-7.121;-38.5;0
+PB;São José de Princesa;-7.754;-38.09;0
+MA;São José de Ribamar;-2.6;-44.05;128
+RJ;São José de Ubá;-21.358;-41.94;847
+MG;São José do Alegre;-22.329;-45.5;1442
+SP;São José do Barreiro;-22.645;-44.6;469
+PE;São José do Belmonte;-7.756;-38.76;0
+PB;São José do Bonfim;-7.125;-37.31;0
+PB;São José do Brejo do Cruz;-6.213;-37.35;398
+ES;São José do Calçado;-21.025;-41.65;0
+RN;São José do Campestre;-6.316;-35.71;695
+SC;São José do Cedro;-26.455;-53.49;0
+SC;São José do Cerrito;-27.663;-50.6;297
+MG;São José do Divino;-18.479;-41.39;32
+PI;São José do Divino;-3.755;-41.75;0
+PE;São José do Egito;-7.479;-37.27;281
+MG;São José do Goiabal;-19.929;-42.71;0
+RS;São José do Herval;-29.044;-52.3;0
+RS;São José do Hortêncio;-29.5;-51.25;0
+RS;São José do Inhacorá;-27.752;-54.13;370
+BA;São José do Jacuípe;-11.5;-40.02;620
+MG;São José do Jacuri;-18.275;-42.67;502
+MG;São José do Mantimento;-20.005;-41.74;0
+RS;São José do Norte;-32.015;-52.04;0
+RS;São José do Ouro;-27.757;-51.6;221
+PI;São José do Peixe;-7.494;-42.6;563
+PI;São José do Piauí;-6.756;-41.48;274
+MT;São José do Povo;-16.465;-54.25;0
+MT;São José do Rio Claro;-13.447;-56.72;758
+SP;São José do Rio Pardo;-21.6;-46.76;513
+SP;São José do Rio Preto;-20.755;-49.38;0
+PB;São José do Sabugi;-6.758;-36.8;0
+RN;São José do Seridó;-6.449;-36.76;685
+RJ;São José do Vale do Rio Preto;-22.151;-42.92;322
+MT;São José do Xingu;-10.755;-52.74;0
+RS;São José dos Ausentes;-28.755;-50.07;99
+MA;São José dos Basílios;-5.051;-44.6;599
+SP;São José dos Campos;-23.179;-45.76;0
+PB;São José dos Cordeiros;-7.391;-36.75;933
+PR;São José dos Pinhais;-25.5;-49.26;0
+MT;São José dos Quatro Marcos;-15.621;-58.18;0
+PB;São José dos Ramos;-7.251;-35.38;0
+PI;São Julião;-7.085;-40.75;377
+RS;São Leopoldo;-29.756;-51.15;0
+MG;São Lourenço;-22.116;-45.05;0
+PE;São Lourenço da Mata;-8.002;-35.02;744
+SP;São Lourenço da Serra;-23.756;-46.94;342
+PI;São Lourenço do Piauí;-9.126;-42.5;0
+RS;São Lourenço do Sul;-31.365;-51.98;0
+SC;São Lourenço d'Oeste;-26.359;-52.76;884
+SC;São Ludgero;-28.326;-49.18;0
+MA;São Luís;-2.5;-44.3;484
+GO;São Luís de Montes Belos;-16.5;-50.37;56
+CE;São Luís do Curu;-3.67;-39.24;872
+SP;São Luís do Paraitinga;-23.222;-45.31;394
+PI;São Luis do Piauí;-6.755;-41.32;0
+AL;São Luís do Quitunde;-9.318;-35.6;54
+MA;São Luís Gonzaga do Maranhão;-4.392;-44.65;35
+RR;São Luiz;1.008;-60.02;547
+GO;São Luiz do Norte;-14.756;-49.33;0
+RS;São Luiz Gonzaga;-28.408;-54.96;0
+PB;São Mamede;-6.927;-37.1;0
+PR;São Manoel do Paraná;-23.403;-52.64;365
+SP;São Manuel;-22.753;-48.6;715
+RS;São Marcos;-28.971;-51.07;0
+RS;São Martinho;-27.751;-53.97;0
+SC;São Martinho;-28.125;-48.98;0
+RS;São Martinho da Serra;-29.5;-53.76;0
+ES;São Mateus;-18.752;-39.76;24
+MA;São Mateus do Maranhão;-4.042;-44.48;785
+PR;São Mateus do Sul;-25.756;-50.38;71
+RN;São Miguel;-6.212;-38.5;667
+SP;São Miguel Arcanjo;-23.756;-48;197
+PI;São Miguel da Baixa Grande;-5.756;-42.19;0
+SC;São Miguel da Boa Vista;-26.69;-53.25;320
+BA;São Miguel das Matas;-13.048;-39.46;0
+RS;São Miguel das Missões;-28.6;-54.6;0
+PB;São Miguel de Taipu;-7.25;-35.26;0
+RN;São Miguel de Touros;-5.125;-35.64;0
+SE;São Miguel do Aleixo;-10.388;-37.38;709
+MG;São Miguel do Anta;-20.751;-42.72;271
+GO;São Miguel do Araguaia;-13.275;-50.13;170
+PI;São Miguel do Fidalgo;-7.6;-42.37;27
+PA;São Miguel do Guamá;-1.627;-47.48;0
+RO;São Miguel do Guaporé;-11.694;-62.71;297
+PR;São Miguel do Iguaçu;-25.348;-54.24;973
+GO;São Miguel do Passa Quatro;-17.059;-48.66;405
+PI;São Miguel do Tapuio;-5.5;-41.32;152
+TO;São Miguel do Tocantins;-5.6;-47.6;0
+SC;São Miguel d'Oeste;-26.753;-53.5;0
+AL;São Miguel dos Campos;-9.758;-36.09;0
+AL;São Miguel dos Milagres;-9.266;-35.37;0
+RS;São Nicolau;-28.183;-55.27;0
+GO;São Patrício;-15.35;-49.75;574
+SP;São Paulo;-23.5;-46.64;0
+RS;São Paulo das Missões;-28.021;-54.94;0
+AM;São Paulo de Olivença;-3.378;-68.76;0
+RN;São Paulo do Potengi;-5.756;-35.76;771
+RN;São Pedro;-5.756;-35.63;134
+SP;São Pedro;-22.5;-47.91;19
+MA;São Pedro da Água Branca;-5.085;-48.43;0
+RJ;São Pedro da Aldeia;-22.755;-42.1;0
+MT;São Pedro da Cipa;-16.001;-54.92;1030
+RS;São Pedro da Serra;-29.421;-51.5;0
+MG;São Pedro da União;-21.127;-46.62;0
+SC;São Pedro de Alcântara;-27.6;-48.75;513
+RS;São Pedro do Butiá;-28.124;-54.76;382
+PR;São Pedro do Iguaçu;-24.936;-53.76;343
+PR;São Pedro do Ivaí;-23.756;-51.76;350
+PR;São Pedro do Paraná;-22.755;-53.22;543
+PI;São Pedro do Piauí;-5.929;-42.72;0
+MG;São Pedro do Suaçuí;-18.366;-42.6;525
+RS;São Pedro do Sul;-29.621;-54.18;332
+SP;São Pedro do Turvo;-22.755;-49.74;287
+MA;São Pedro dos Crentes;-6.755;-46.5;0
+MG;São Pedro dos Ferros;-20.17;-42.5;573
+RN;São Rafael;-5.76;-36.92;0
+MA;São Raimundo das Mangabeiras;-7.022;-45.48;299
+MA;São Raimundo do Doca Bezerra;-5.105;-45.08;184
+PI;São Raimundo Nonato;-9.015;-42.7;361
+MA;São Roberto;-5.021;-44.99;156
+MG;São Romão;-16.369;-45.07;516
+SP;São Roque;-23.5;-47.14;1373
+MG;São Roque de Minas;-20.245;-46.37;140
+ES;São Roque do Canaã;-19.754;-40.66;841
+TO;São Salvador do Tocantins;-12.754;-48.24;293
+AL;São Sebastião;-9.934;-36.6;684
+SP;São Sebastião;-23.756;-45.41;856
+PR;São Sebastião da Amoreira;-23.465;-50.76;11
+MG;São Sebastião da Bela Vista;-22.159;-45.75;1174
+PA;São Sebastião da Boa Vista;-1.752;-49.5;797
+SP;São Sebastião da Grama;-21.751;-46.75;0
+MG;São Sebastião da Vargem Alegre;-21.072;-42.64;339
+PB;São Sebastião de Lagoa de Roça;-7.115;-35.76;783
+RJ;São Sebastião do Alto;-21.957;-42.13;0
+MG;São Sebastião do Anta;-19.498;-41.98;594
+RS;São Sebastião do Caí;-29.6;-51.38;792
+MG;São Sebastião do Maranhão;-18.084;-42.6;881
+MG;São Sebastião do Oeste;-20.276;-45.01;0
+MG;São Sebastião do Paraíso;-20.917;-46.99;548
+BA;São Sebastião do Passé;-12.5;-38.5;880
+MG;São Sebastião do Rio Preto;-19.292;-43.17;101
+MG;São Sebastião do Rio Verde;-22.218;-44.98;0
+TO;São Sebastião do Tocantins;-5.257;-48.2;0
+AM;São Sebastião do Uatumã;-2.6;-57.76;0
+PB;São Sebastião do Umbuzeiro;-8.152;-37.01;290
+RS;São Sepé;-30.125;-53.6;0
+GO;São Simão;-18.991;-50.5;503
+SP;São Simão;-21.479;-47.6;597
+MG;São Thomé das Letras;-21.752;-44.99;1013
+MG;São Tiago;-20.913;-44.5;984
+MG;São Tomás de Aquino;-20.758;-47.1;937
+PR;São Tomé;-23.5;-52.6;333
+RN;São Tomé;-5.973;-36.08;0
+RS;São Valentim;-27.6;-52.5;0
+RS;São Valentim do Sul;-29.047;-51.77;0
+TO;São Valério da Natividade;-11.975;-48.23;0
+RS;São Valério do Sul;-27.759;-53.94;0
+RS;São Vendelino;-29.369;-51.38;0
+RN;São Vicente;-6.217;-36.68;981
+SP;São Vicente;-23.963;-46.39;0
+MG;São Vicente de Minas;-21.751;-44.44;32
+RS;São Vicente do Sul;-29.692;-54.68;0
+MA;São Vicente Ferrer;-2.756;-44.76;0
+PE;São Vicente Ferrer;-7.6;-35.49;65
+PB;Sapé;-7.096;-35.23;204
+BA;Sapeaçu;-12.753;-39.18;0
+MT;Sapezal;-12.989;-58.76;0
+RS;Sapiranga;-29.638;-51.01;0
+PR;Sapopema;-23.911;-50.6;854
+PA;Sapucaia;-6.947;-49.68;0
+RJ;Sapucaia;-21.995;-42.91;203
+RS;Sapucaia do Sul;-29.755;-51.15;575
+MG;Sapucaí-Mirim;-22.755;-45.74;1284
+RJ;Saquarema;-22.92;-42.5;10
+PR;Sarandi;-23.444;-51.76;573
+RS;Sarandi;-27.944;-52.92;0
+SP;Sarapuí;-23.641;-47.75;644
+MG;Sardoá;-18.758;-42.37;711
+SP;Sarutaiá;-23.273;-49.48;752
+MG;Sarzedo;-20.035;-44.14;814
+BA;Sátiro Dias;-11.6;-38.6;288
+AL;Satuba;-9.6;-35.75;0
+MA;Satubinha;-3.755;-45.27;34
+BA;Saubara;-12.754;-38.77;3
+PR;Saudade do Iguaçu;-25.694;-52.62;628
+SC;Saudades;-26.924;-53;0
+BA;Saúde;-10.941;-40.42;560
+SC;Schroeder;-26.413;-49.07;52
+BA;Seabra;-12.419;-41.77;1206
+SC;Seara;-27.149;-52.31;0
+SP;Sebastianópolis do Sul;-20.655;-49.92;458
+PI;Sebastião Barros;-10.755;-44.75;460
+BA;Sebastião Laranjeiras;-14.6;-42.94;517
+PI;Sebastião Leal;-7.6;-44.06;370
+RS;Seberi;-27.478;-53.4;0
+RS;Sede Nova;-27.635;-53.95;0
+RS;Segredo;-29.341;-52.98;0
+RS;Selbach;-28.629;-52.95;0
+MS;Selvíria;-20.367;-51.42;381
+MG;Sem-Peixe;-20.109;-42.75;490
+AC;Sena Madureira;-9.066;-68.66;0
+MA;Senador Alexandre Costa;-5.256;-44.06;128
+MG;Senador Amaral;-22.6;-46.18;1484
+GO;Senador Canedo;-16.751;-49.09;796
+MG;Senador Cortes;-21.755;-42.95;591
+RN;Senador Elói de Souza;-6.036;-35.69;0
+MG;Senador Firmino;-20.912;-43.1;738
+RN;Senador Georgino Avelino;-6.125;-35.12;0
+AC;Senador Guiomard;-10.152;-67.74;0
+MG;Senador José Bento;-22.125;-46.18;897
+PA;Senador José Porfírio;-2.6;-51.95;140
+MA;Senador La Rocque;-5.443;-47.29;314
+MG;Senador Modestino Gonçalves;-17.947;-43.23;673
+CE;Senador Pompeu;-5.6;-39.37;196
+AL;Senador Rui Palmeira;-9.466;-37.46;0
+CE;Senador Sá;-3.351;-40.46;65
+RS;Senador Salgado Filho;-28.031;-54.5;0
+PR;Sengés;-24.113;-49.46;980
+BA;Senhor do Bonfim;-10.461;-40.19;470
+MG;Senhora de Oliveira;-20.759;-43.34;768
+MG;Senhora do Porto;-18.756;-43.08;598
+MG;Senhora dos Remédios;-21.028;-43.6;773
+RS;Sentinela do Sul;-30.611;-51.6;0
+BA;Sento Sé;-9.755;-41.76;437
+RS;Serafina Corrêa;-28.751;-51.94;0
+MG;Sericita;-20.474;-42.48;907
+PB;Seridó;-6.934;-36.4;0
+RO;Seringueiras;-11.76;-63.03;0
+RS;Sério;-29.383;-52.27;0
+MG;Seritinga;-21.909;-44.5;1145
+RJ;Seropédica;-22.754;-43.71;26
+ES;Serra;-20.129;-40.31;0
+SC;Serra Alta;-26.753;-53.04;742
+SP;Serra Azul;-21.311;-47.6;678
+MG;Serra Azul de Minas;-18.362;-43.17;0
+PB;Serra Branca;-7.483;-36.67;0
+PB;Serra da Raiz;-6.687;-35.44;667
+MG;Serra da Saudade;-19.438;-45.8;0
+RN;Serra de São Bento;-6.417;-35.7;0
+RN;Serra do Mel;-5.17;-37.03;156
+AP;Serra do Navio;0.756;-52;465
+BA;Serra do Ramalho;-13.6;-43.6;1146
+MG;Serra do Salitre;-19.111;-46.69;166
+MG;Serra dos Aimorés;-17.758;-40.25;482
+BA;Serra Dourada;-12.756;-43.95;0
+PB;Serra Grande;-7.215;-38.37;0
+SP;Serra Negra;-22.612;-46.7;977
+RN;Serra Negra do Norte;-6.666;-37.4;218
+BA;Serra Preta;-12.125;-39.33;0
+PB;Serra Redonda;-7.178;-35.68;0
+PE;Serra Talhada;-7.992;-38.3;52
+SP;Serrana;-21.211;-47.6;623
+MG;Serrania;-21.5;-46.04;872
+MA;Serrano do Maranhão;-1.756;-45.12;41
+GO;Serranópolis;-18.306;-51.96;721
+MG;Serranópolis de Minas;-15.755;-42.76;243
+PR;Serranópolis do Iguaçu;-25.38;-54.05;670
+MG;Serranos;-21.756;-44.5;1136
+PB;Serraria;-6.755;-35.63;0
+BA;Serrinha;-11.664;-39.01;0
+RN;Serrinha;-6.276;-35.5;353
+RN;Serrinha dos Pintos;-6.11;-37.96;0
+PE;Serrita;-7.933;-39.3;474
+MG;Serro;-18.605;-43.38;443
+BA;Serrolândia;-11.416;-40.3;815
+PR;Sertaneja;-23.037;-50.75;386
+PE;Sertânia;-8.074;-37.26;0
+PR;Sertanópolis;-23.059;-51.04;391
+RS;Sertão;-27.98;-52.26;0
+RS;Sertão Santana;-30.46;-51.6;0
+PB;Sertãozinho;-6.755;-35.44;0
+SP;Sertãozinho;-21.138;-47.99;524
+SP;Sete Barras;-24.388;-47.93;28
+RS;Sete de Setembro;-28.131;-54.46;0
+MG;Sete Lagoas;-19.466;-44.25;816
+MS;Sete Quedas;-23.97;-55.04;0
+MG;Setubinha;-17.753;-42.27;897
+RS;Severiano de Almeida;-27.433;-52.12;0
+RN;Severiano Melo;-5.758;-37.96;0
+SP;Severínia;-20.755;-48.75;557
+SC;Siderópolis;-28.6;-49.42;0
+MS;Sidrolândia;-20.932;-54.96;0
+PI;Sigefredo Pacheco;-4.914;-41.73;209
+RJ;Silva Jardim;-22.651;-42.39;72
+GO;Silvânia;-16.659;-48.61;839
+TO;Silvanópolis;-11.147;-48.13;272
+RS;Silveira Martins;-29.643;-53.6;0
+MG;Silveirânia;-21.159;-43.22;619
+SP;Silveiras;-22.664;-44.76;687
+AM;Silves;-2.755;-58.26;0
+MG;Silvianópolis;-22.029;-45.75;871
+SE;Simão Dias;-10.754;-37.75;0
+MG;Simão Pereira;-21.964;-43.31;490
+PI;Simões;-7.6;-40.75;0
+BA;Simões Filho;-12.758;-38.4;596
+GO;Simolândia;-14.474;-46.48;530
+MG;Simonésia;-20.124;-42;954
+PI;Simplício Mendes;-7.756;-41.91;297
+RS;Sinimbu;-29.5;-52.5;0
+MT;Sinop;-11.756;-55.5;0
+PR;Siqueira Campos;-23.689;-49.75;694
+PE;Sirinhaém;-8.6;-35.12;0
+SE;Siriri;-10.604;-37.11;0
+GO;Sítio d'Abadia;-14.755;-46.25;787
+BA;Sítio do Mato;-13.085;-43.47;439
+BA;Sítio do Quinto;-10.35;-38.22;0
+MA;Sítio Novo;-5.756;-46.7;190
+RN;Sítio Novo;-6.104;-35.91;345
+TO;Sítio Novo do Tocantins;-5.6;-47.64;0
+BA;Sobradinho;-9.455;-40.75;419
+RS;Sobradinho;-29.421;-53.03;0
+PB;Sobrado;-7.145;-35.24;0
+CE;Sobral;-3.686;-40.35;160
+MG;Sobrália;-19.235;-42.1;219
+SP;Socorro;-22.6;-46.5;219
+PI;Socorro do Piauí;-7.756;-42.49;816
+PB;Solânea;-6.756;-35.5;0
+PB;Soledade;-7.057;-36.36;983
+RS;Soledade;-28.755;-52.5;0
+MG;Soledade de Minas;-22.06;-45.05;0
+PE;Solidão;-7.6;-37.65;0
+CE;Solonópole;-5.753;-39.01;202
+SC;Sombrio;-29.114;-49.62;0
+MS;Sonora;-17.6;-54.76;578
+ES;Sooretama;-19.197;-40.1;80
+SP;Sorocaba;-23.5;-47.46;550
+MT;Sorriso;-12.5;-55.71;0
+PB;Sossêgo;-6.757;-36.25;0
+PA;Soure;-0.752;-48.5;3
+PB;Sousa;-6.756;-38.23;0
+BA;Souto Soares;-12.089;-41.64;799
+TO;Sucupira;-11.993;-48.97;238
+MA;Sucupira do Norte;-6.477;-44.19;210
+MA;Sucupira do Riachão;-6.411;-43.5;284
+SP;Sud Mennucci;-20.691;-50.92;420
+SC;Sul Brasil;-26.754;-52.96;0
+PR;Sulina;-25.75;-52.72;459
+SP;Sumaré;-22.755;-47.27;598
+PB;Sumé;-7.672;-36.76;0
+RJ;Sumidouro;-22.05;-42.67;578
+PE;Surubim;-7.755;-35.75;0
+PI;Sussuapara;-7.043;-41.38;251
+SP;Suzanápolis;-20.5;-51.02;342
+SP;Suzano;-23.5;-46.31;788
+RS;Tabaí;-29.643;-51.68;0
+MT;Tabaporã;-11.228;-56.75;0
+SP;Tabapuã;-20.964;-49.03;487
+AM;Tabatinga;-4.253;-69.94;0
+SP;Tabatinga;-21.752;-48.69;522
+PE;Tabira;-7.6;-37.5;0
+SP;Taboão da Serra;-23.626;-46.79;788
+BA;Tabocas do Brejo Velho;-12.751;-44.01;826
+RN;Taboleiro Grande;-5.93;-38.05;0
+MG;Tabuleiro;-21.359;-43.25;0
+CE;Tabuleiro do Norte;-5.247;-38.13;472
+PE;Tacaimbó;-8.316;-36.29;0
+PE;Tacaratu;-9.105;-38.15;0
+SP;Taciba;-22.39;-51.28;456
+PB;Tacima;-6.488;-35.64;0
+MS;Tacuru;-23.633;-55.02;0
+SP;Taguaí;-23.452;-49.41;546
+TO;Taguatinga;-12.404;-46.44;411
+SP;Taiaçu;-21.144;-48.5;568
+PA;Tailândia;-2.947;-48.95;61
+SC;Taió;-27.116;-50;867
+MG;Taiobeiras;-15.755;-42.23;0
+TO;Taipas do Tocantins;-12.188;-46.99;612
+RN;Taipu;-5.622;-35.6;0
+SP;Taiúva;-21.124;-48.45;628
+TO;Talismã;-12.76;-49.09;293
+PE;Tamandaré;-8.756;-35.1;0
+PR;Tamarana;-23.752;-51.1;836
+SP;Tambaú;-21.751;-47.27;813
+PR;Tamboara;-23.25;-52.47;410
+CE;Tamboril;-4.755;-40.32;358
+PI;Tamboril do Piauí;-8.4;-42.91;378
+SP;Tanabi;-20.626;-49.65;546
+RN;Tangará;-6.199;-35.75;0
+SC;Tangará;-27.105;-51.25;0
+MT;Tangará da Serra;-14.619;-57.49;0
+RJ;Tanguá;-22.753;-42.71;59
+BA;Tanhaçu;-14.021;-41.25;332
+AL;Tanque d'Arca;-9.5;-36.43;0
+PI;Tanque do Piauí;-6.6;-42.28;380
+BA;Tanque Novo;-13.5;-42.49;804
+BA;Tanquinho;-11.979;-39.1;237
+MG;Taparuba;-19.756;-41.62;223
+AM;Tapauá;-5.628;-63.18;0
+PR;Tapejara;-23.753;-52.76;389
+RS;Tapejara;-28.068;-52.01;0
+RS;Tapera;-28.626;-52.76;0
+BA;Taperoá;-13.5;-39.1;124
+PB;Taperoá;-7.258;-36.75;0
+RS;Tapes;-30.673;-51.4;0
+MG;Tapira;-19.922;-46.75;1038
+PR;Tapira;-23.323;-53.07;725
+MG;Tapiraí;-19.756;-46.02;1149
+SP;Tapiraí;-23.964;-47.5;642
+BA;Tapiramutá;-11.755;-40.79;360
+SP;Tapiratiba;-21.468;-46.75;794
+MT;Tapurah;-12.759;-56.5;0
+RS;Taquara;-29.651;-50.78;699
+MG;Taquaraçu de Minas;-19.67;-43.69;763
+SP;Taquaral;-21.072;-48.41;627
+GO;Taquaral de Goiás;-16.054;-49.61;0
+AL;Taquarana;-9.645;-36.5;0
+RS;Taquari;-29.76;-51.76;0
+SP;Taquaritinga;-21.406;-48.5;0
+PE;Taquaritinga do Norte;-7.903;-36.04;569
+SP;Taquarituba;-23.5;-49.24;611
+SP;Taquarivaí;-23.924;-48.69;646
+RS;Taquaruçu do Sul;-27.4;-53.47;0
+MS;Taquarussu;-22.488;-53.35;251
+SP;Tarabai;-22.303;-51.6;382
+AC;Tarauacá;-8.125;-70.77;0
+CE;Tarrafas;-6.684;-39.76;337
+AP;Tartarugalzinho;1.5;-50.91;36
+SP;Tarumã;-22.755;-50.6;433
+MG;Tarumirim;-19.281;-42.01;269
+MA;Tasso Fragoso;-8.475;-45.74;487
+SP;Tatuí;-23.356;-47.76;638
+CE;Tauá;-6.003;-40.29;411
+SP;Taubaté;-23.026;-45.6;729
+PB;Tavares;-7.636;-37.76;0
+RS;Tavares;-31.287;-51.09;0
+AM;Tefé;-3.354;-64.71;0
+PB;Teixeira;-7.223;-37.25;144
+BA;Teixeira de Freitas;-17.5;-39.74;831
+PR;Teixeira Soares;-25.368;-50.46;0
+MG;Teixeiras;-20.651;-42.76;668
+RO;Teixeirópolis;-10.918;-62.25;0
+CE;Tejuçuoca;-3.989;-39.6;151
+SP;Tejupá;-23.343;-49.38;652
+PR;Telêmaco Borba;-24.324;-50.62;821
+SE;Telha;-10.258;-36.76;0
+RN;Tenente Ananias;-6.465;-38.18;0
+RN;Tenente Laurentino Cruz;-6.148;-36.72;0
+RS;Tenente Portela;-27.371;-53.76;0
+PB;Tenório;-6.942;-36.63;0
+BA;Teodoro Sampaio;-12.293;-38.63;133
+SP;Teodoro Sampaio;-22.5;-52.13;403
+BA;Teofilândia;-11.489;-39;269
+MG;Teófilo Otoni;-17.756;-41.5;628
+BA;Teolândia;-13.602;-39.49;186
+AL;Teotônio Vilela;-9.905;-36.35;0
+MS;Terenos;-20.442;-54.76;0
+PI;Teresina;-5.089;-42.75;607
+GO;Teresina de Goiás;-13.758;-47.26;100
+RJ;Teresópolis;-22.412;-42.97;830
+PE;Terezinha;-9.056;-36.62;0
+GO;Terezópolis de Goiás;-16.395;-49.08;896
+PA;Terra Alta;-1.041;-47.91;47
+PR;Terra Boa;-23.757;-52.44;449
+RS;Terra de Areia;-29.6;-50.07;0
+BA;Terra Nova;-12.392;-38.63;0
+PE;Terra Nova;-8.23;-39.38;97
+MT;Terra Nova do Norte;-10.5;-55.23;391
+PR;Terra Rica;-22.751;-52.62;290
+PR;Terra Roxa;-24.157;-54.1;362
+SP;Terra Roxa;-20.759;-48.33;551
+PA;Terra Santa;-2.104;-56.49;0
+MT;Tesouro;-16.079;-53.6;451
+RS;Teutônia;-29.448;-51.75;0
+RO;Theobroma;-10.239;-62.36;0
+CE;Tianguá;-3.753;-40.99;761
+PR;Tibagi;-24.5;-50.41;739
+RN;Tibau;-4.755;-37.25;0
+RN;Tibau do Sul;-6.187;-35.09;0
+SP;Tietê;-23.102;-47.71;552
+SC;Tigrinhos;-26.688;-53.16;0
+SC;Tijucas;-27.241;-48.63;928
+PR;Tijucas do Sul;-25.928;-49.2;0
+PE;Timbaúba;-7.5;-35.32;0
+RN;Timbaúba dos Batistas;-6.465;-37.27;0
+SC;Timbé do Sul;-28.755;-49.75;0
+MA;Timbiras;-4.255;-43.94;85
+SC;Timbó;-26.755;-49.27;0
+SC;Timbó Grande;-26.615;-50.67;0
+SP;Timburi;-23.255;-49.61;803
+MA;Timon;-5.094;-42.75;140
+MG;Timóteo;-19.6;-42.64;432
+MG;Tiradentes;-21.11;-44.18;0
+RS;Tiradentes do Sul;-27.398;-54.08;904
+MG;Tiros;-19.004;-45.96;896
+SE;Tobias Barreto;-11.184;-38;0
+TO;Tocantínia;-9.6;-48.38;396
+TO;Tocantinópolis;-6.329;-47.42;240
+MG;Tocantins;-21.175;-43.02;368
+MG;Tocos do Moji;-22.371;-46.1;1105
+MG;Toledo;-22.754;-46.37;1122
+PR;Toledo;-24.751;-53.74;522
+SE;Tomar do Geru;-11.373;-37.75;0
+PR;Tomazina;-23.758;-49.95;495
+MG;Tombos;-20.905;-42.02;379
+PA;Tomé-Açu;-2.419;-48.15;37
+AM;Tonantins;-2.756;-67.75;0
+PE;Toritama;-8.007;-36.06;0
+MT;Torixoreu;-16.199;-52.6;559
+RS;Toropi;-29.478;-54.23;0
+SP;Torre de Pedra;-23.244;-48.19;591
+RS;Torres;-29.335;-49.73;0
+SP;Torrinha;-22.426;-48.13;790
+RN;Touros;-5.199;-35.46;0
+SP;Trabiju;-22.042;-48.34;529
+PA;Tracuateua;-1.076;-46.9;8
+PE;Tracunhaém;-7.755;-35.24;0
+AL;Traipu;-9.971;-37;0
+PA;Trairão;-4.6;-55.94;0
+CE;Trairi;-3.278;-39.27;42
+RJ;Trajano de Morais;-22.063;-42.07;0
+RS;Tramandaí;-29.985;-50.13;0
+RS;Travesseiro;-29.294;-52.06;0
+BA;Tremedal;-14.976;-41.41;749
+SP;Tremembé;-22.958;-45.5;558
+RS;Três Arroios;-27.498;-52.15;0
+SC;Três Barras;-26.106;-50.32;455
+PR;Três Barras do Paraná;-25.419;-53.18;841
+RS;Três Cachoeiras;-29.456;-49.92;0
+MG;Três Corações;-21.697;-45.25;918
+RS;Três Coroas;-29.5;-50.78;0
+RS;Três de Maio;-27.757;-54.24;0
+RS;Três Forquilhas;-29.5;-50.06;0
+SP;Três Fronteiras;-20.235;-50.76;368
+MS;Três Lagoas;-20.755;-51.68;399
+MG;Três Marias;-18.256;-45.24;735
+RS;Três Palmeiras;-27.615;-52.75;0
+RS;Três Passos;-27.456;-53.93;0
+MG;Três Pontas;-21.367;-45.5;1014
+GO;Três Ranchos;-18.354;-47.78;684
+RJ;Três Rios;-22.117;-43.26;344
+SC;Treviso;-28.5;-49.46;0
+SC;Treze de Maio;-28.6;-49.15;0
+SC;Treze Tílias;-27.002;-51.41;0
+GO;Trindade;-16.649;-49.49;0
+PE;Trindade;-7.756;-40.27;684
+RS;Trindade do Sul;-27.5;-52.76;512
+PB;Triunfo;-6.6;-38.6;0
+PE;Triunfo;-7.755;-38.1;303
+RS;Triunfo;-29.943;-51.72;0
+RN;Triunfo Potiguar;-5.756;-37.19;0
+MA;Trizidela do Vale;-4.6;-44.62;69
+GO;Trombas;-13.5;-48.74;402
+SC;Trombudo Central;-27.299;-49.79;0
+SC;Tubarão;-28.467;-49.01;0
+BA;Tucano;-10.963;-38.79;191
+PA;Tucumã;-6.755;-51.13;234
+RS;Tucunduva;-27.657;-54.44;0
+PA;Tucuruí;-3.757;-49.67;69
+MA;Tufilândia;-3.753;-45.6;26
+SP;Tuiuti;-22.755;-46.69;799
+MG;Tumiritinga;-18.979;-41.65;341
+SC;Tunápolis;-26.969;-53.64;0
+RS;Tunas;-29.103;-52.96;858
+PR;Tunas do Paraná;-24.974;-49.09;0
+PR;Tuneiras do Oeste;-23.756;-52.76;461
+MA;Tuntum;-5.258;-44.65;143
+SP;Tupã;-21.935;-50.5;897
+MG;Tupaciguara;-18.6;-48.71;0
+PE;Tupanatinga;-8.755;-37.34;0
+RS;Tupanci do Sul;-27.925;-51.5;0
+RS;Tupanciretã;-29.081;-53.75;0
+RS;Tupandi;-29.476;-51.42;0
+RS;Tuparendi;-27.756;-54.48;0
+PE;Tuparetama;-7.602;-37.31;508
+PR;Tupãssi;-24.6;-53.5;570
+SP;Tupi Paulista;-21.381;-51.6;381
+TO;Tupirama;-8.973;-48.19;225
+TO;Tupiratins;-8.394;-48.12;219
+MA;Turiaçu;-1.663;-45.37;47
+MA;Turilândia;-2.251;-45.34;35
+SP;Turiúba;-20.933;-50.11;438
+MG;Turmalina;-17.286;-42.73;683
+SP;Turmalina;-20.052;-50.48;468
+RS;Turuçu;-31.422;-52.18;0
+CE;Tururu;-3.6;-39.44;86
+GO;Turvânia;-16.614;-50.13;654
+GO;Turvelândia;-17.756;-50.3;542
+PR;Turvo;-25.043;-51.5;827
+SC;Turvo;-28.926;-49.68;899
+MG;Turvolândia;-21.756;-45.79;0
+MA;Tutóia;-2.756;-42.27;52
+AM;Uarini;-2.99;-65.11;0
+BA;Uauá;-9.755;-39.48;470
+MG;Ubá;-21.12;-42.94;625
+MG;Ubaí;-16.285;-44.78;493
+BA;Ubaíra;-13.268;-39.66;97
+BA;Ubaitaba;-14.313;-39.32;808
+CE;Ubajara;-3.756;-40.92;352
+MG;Ubaporanga;-19.635;-42.11;805
+SP;Ubarana;-21.126;-49.72;409
+BA;Ubatã;-14.214;-39.5;237
+SP;Ubatuba;-23.434;-45.07;45
+MG;Uberaba;-19.755;-47.93;887
+MG;Uberlândia;-18.919;-48.28;848
+SP;Ubirajara;-22.5;-49.66;515
+PR;Ubiratã;-24.5;-52.99;425
+RS;Ubiretama;-28.046;-54.68;0
+SP;Uchoa;-20.953;-49.17;523
+BA;Uibaí;-11.337;-42.13;569
+RR;Uiramutã;4.6;-60.13;0
+GO;Uirapuru;-14.285;-49.92;341
+PB;Uiraúna;-6.5;-38.41;0
+PA;Ulianópolis;-3.754;-47.49;164
+CE;Umari;-6.648;-38.7;295
+RN;Umarizal;-5.991;-37.75;0
+SE;Umbaúba;-11.383;-37.66;0
+BA;Umburanas;-10.753;-41.33;896
+MG;Umburatiba;-17.256;-40.6;354
+PB;Umbuzeiro;-7.696;-35.66;0
+CE;Umirim;-3.677;-39.35;68
+PR;Umuarama;-23.757;-53.33;383
+BA;Una;-15.293;-39.08;99
+MG;Unaí;-16.358;-46.91;571
+PI;União;-4.6;-42.76;0
+RS;União da Serra;-28.76;-52.04;954
+PR;União da Vitória;-26.23;-51.09;437
+MG;União de Minas;-19.5;-50.34;0
+SC;União do Oeste;-26.756;-52.76;343
+MT;União do Sul;-11.5;-54.35;0
+AL;União dos Palmares;-9.125;-36.03;484
+SP;União Paulista;-20.756;-49.76;64
+PR;Uniflor;-23.087;-52.16;489
+RS;Unistalda;-29.047;-55.15;0
+RN;Upanema;-5.642;-37.26;0
+PR;Uraí;-23.198;-50.8;452
+BA;Urandi;-14.757;-42.66;611
+SP;Urânia;-20.246;-50.64;439
+MA;Urbano Santos;-3.258;-43.4;97
+SP;Uru;-21.758;-49.28;499
+GO;Uruaçu;-14.5;-49.14;884
+GO;Uruana;-15.498;-49.69;617
+MG;Uruana de Minas;-16.064;-46.25;252
+PA;Uruará;-3.752;-53.74;0
+SC;Urubici;-28.015;-49.6;124
+CE;Uruburetama;-3.625;-39.5;424
+MG;Urucânia;-20.351;-42.74;0
+AM;Urucará;-2.5;-57.76;144
+BA;Uruçuca;-14.6;-39.28;626
+PI;Uruçuí;-7.229;-44.6;306
+MG;Urucuia;-16.133;-45.74;0
+AM;Urucurituba;-3.131;-58.16;0
+RS;Uruguaiana;-29.755;-57.09;91
+CE;Uruoca;-3.314;-40.6;0
+RO;Urupá;-11.141;-62.36;0
+SC;Urupema;-27.953;-49.76;458
+SP;Urupês;-21.252;-49.29;498
+SC;Urussanga;-28.5;-49.32;0
+GO;Urutaí;-17.464;-48.25;772
+BA;Utinga;-12.082;-41.09;558
+RS;Vacaria;-28.5;-50.93;0
+RO;Vale do Anari;-9.756;-62.19;0
+RO;Vale do Paraíso;-10.448;-62.13;0
+RS;Vale do Sol;-29.604;-52.68;0
+RS;Vale Real;-29.398;-51.25;0
+RS;Vale Verde;-29.759;-52.18;0
+BA;Valença;-13.37;-39.07;292
+RJ;Valença;-22.246;-43.7;132
+PI;Valença do Piauí;-6.408;-41.75;577
+BA;Valente;-11.412;-39.46;364
+SP;Valentim Gentil;-20.422;-50.09;506
+SP;Valinhos;-22.971;-47;677
+SP;Valparaíso;-21.228;-50.76;1073
+GO;Valparaíso de Goiás;-16.066;-47.98;416
+RS;Vanini;-28.478;-51.75;0
+SC;Vargeão;-26.756;-52.16;0
+SC;Vargem;-27.489;-50.98;388
+SP;Vargem;-22.756;-46.41;795
+MG;Vargem Alegre;-19.608;-42.3;943
+ES;Vargem Alta;-20.671;-41.01;0
+MG;Vargem Bonita;-20.327;-46.37;988
+SC;Vargem Bonita;-27.007;-51.74;725
+MA;Vargem Grande;-3.5;-43.92;933
+MG;Vargem Grande do Rio Pardo;-15.403;-42.31;35
+SP;Vargem Grande do Sul;-21.755;-46.76;0
+SP;Vargem Grande Paulista;-23.603;-47.03;822
+MG;Varginha;-21.6;-45.43;942
+GO;Varjão;-17.045;-49.63;801
+MG;Varjão de MInas;-18.378;-46.03;605
+CE;Varjota;-4.194;-40.48;164
+RJ;Varre-Sai;-20.931;-41.76;655
+PB;Várzea;-6.757;-36.99;316
+RN;Várzea;-6.348;-35.38;482
+CE;Várzea Alegre;-6.759;-39.3;486
+PI;Várzea Branca;-9.239;-42.96;428
+MG;Várzea da Palma;-17.6;-44.73;468
+BA;Várzea da Roça;-11.607;-40.14;0
+BA;Várzea do Poço;-11.5;-40.32;238
+MT;Várzea Grande;-15.647;-56.13;661
+PI;Várzea Grande;-6.5;-42.25;755
+BA;Várzea Nova;-11.259;-40.94;0
+SP;Várzea Paulista;-23.211;-46.75;0
+BA;Varzedo;-12.972;-39.39;271
+MG;Varzelândia;-15.75;-44.03;635
+RJ;Vassouras;-22.404;-43.66;486
+MG;Vazante;-17.987;-46.91;670
+RS;Venâncio Aires;-29.606;-52.19;0
+ES;Venda Nova do Imigrante;-20.34;-41.13;899
+RN;Venha-Ver;-6.326;-38.48;548
+PR;Ventania;-24.246;-50.24;897
+PE;Venturosa;-8.6;-36.76;0
+MT;Vera;-12.306;-55.32;571
+BA;Vera Cruz;-12.96;-38.61;14
+RN;Vera Cruz;-6.044;-35.43;0
+RS;Vera Cruz;-29.751;-52.5;0
+SP;Vera Cruz;-22.22;-49.75;620
+PR;Vera Cruz do Oeste;-25.058;-53.76;271
+PI;Vera Mendes;-7.603;-41.48;0
+RS;Veranópolis;-28.936;-51.5;0
+PE;Verdejante;-7.926;-38.97;509
+MG;Verdelândia;-15.6;-43.6;483
+PR;Verê;-25.756;-52.91;149
+BA;Vereda;-17.223;-40.09;700
+MG;Veredinha;-17.399;-42.74;581
+MG;Veríssimo;-19.663;-48.31;756
+MG;Vermelho Novo;-20.036;-42.27;647
+PE;Vertente do Lério;-7.757;-35.76;0
+PE;Vertentes;-7.903;-35.99;0
+MG;Vespasiano;-19.692;-43.92;0
+RS;Vespasiano Correa;-29.068;-51.76;737
+RS;Viadutos;-27.6;-52.02;0
+RS;Viamão;-30.081;-51.02;0
+ES;Viana;-20.39;-40.5;175
+MA;Viana;-3.22;-45;2
+GO;Vianópolis;-16.754;-48.5;955
+PE;Vicência;-7.657;-35.33;0
+RS;Vicente Dutra;-27.125;-53.41;0
+MS;Vicentina;-22.409;-54.44;387
+GO;Vicentinópolis;-17.754;-49.75;567
+AL;Viçosa;-9.371;-36.24;672
+MG;Viçosa;-20.755;-42.76;0
+RN;Viçosa;-5.994;-37.94;690
+CE;Viçosa do Ceará;-3.6;-41.09;0
+RS;Victor Graeff;-28.6;-52.75;0
+SC;Vidal Ramos;-27.392;-49.36;0
+SC;Videira;-27.008;-51.15;0
+MG;Vieiras;-20.756;-42.24;571
+PB;Vieirópolis;-6.5;-38.28;0
+PA;Vigia;-0.756;-48.14;12
+PR;Vila Alta;-23.5;-53.73;0
+MT;Vila Bela da Santíssima Trindade;-15.008;-59.95;0
+GO;Vila Boa;-15.038;-47.06;491
+RN;Vila Flor;-6.314;-35.08;0
+RS;Vila Flores;-28.756;-51.5;0
+RS;Vila Lângaro;-28.107;-52.14;0
+RS;Vila Maria;-28.5;-52.15;0
+PI;Vila Nova do Piauí;-7.136;-40.94;426
+RS;Vila Nova do Sul;-30.344;-53.76;0
+MA;Vila Nova dos Martírios;-4.987;-47.99;176
+ES;Vila Pavão;-18.615;-40.61;190
+GO;Vila Propício;-15.457;-48.76;633
+MT;Vila Rica;-10.012;-51.12;397
+ES;Vila Valério;-18.998;-40.39;136
+ES;Vila Velha;-20.33;-40.29;0
+RO;Vilhena;-12.754;-60.15;0
+SP;Vinhedo;-23.03;-46.98;771
+SP;Viradouro;-20.756;-48.3;561
+MG;Virgem da Lapa;-16.755;-42.34;572
+MG;Virgínia;-22.333;-45.09;1022
+MG;Virginópolis;-18.755;-42.7;792
+MG;Virgolândia;-18.476;-42.31;576
+PR;Virmond;-25.381;-52.2;727
+MG;Visconde do Rio Branco;-21.01;-42.75;338
+PA;Viseu;-1.197;-46.14;21
+RS;Vista Alegre;-27.367;-53.49;550
+SP;Vista Alegre do Alto;-21.171;-48.63;0
+RS;Vista Alegre do Prata;-28.755;-51.79;0
+RS;Vista Gaúcha;-27.479;-53.5;0
+PB;Vista Serrana;-6.754;-37.6;0
+SC;Vitor Meireles;-26.756;-49.75;0
+ES;Vitória;-20.319;-40.34;492
+SP;Vitória Brasil;-20.197;-50.48;875
+BA;Vitória da Conquista;-14.756;-40.75;0
+RS;Vitória das Missões;-28.351;-54.5;0
+PE;Vitória de Santo Antão;-8.118;-35.29;58
+AP;Vitória do Jari;-0.917;-52.41;16
+MA;Vitória do Mearim;-3.462;-44.76;54
+PA;Vitória do Xingu;-2.756;-52.01;5
+PR;Vitorino;-26.277;-52.78;54
+MA;Vitorino Freire;-4.289;-45.25;827
+MG;Volta Grande;-21.757;-42.5;243
+RJ;Volta Redonda;-22.5;-44.1;374
+SP;Votorantim;-23.5;-47.44;713
+SP;Votuporanga;-20.423;-49.97;473
+BA;Wagner;-12.287;-41.13;456
+PI;Wall Ferraz;-7.233;-41.91;231
+TO;Wanderlândia;-6.755;-47.96;262
+BA;Wanderley;-12.12;-43.76;451
+MG;Wenceslau Braz;-22.5;-45.36;1138
+PR;Wenceslau Braz;-23.756;-49.75;771
+BA;Wenceslau Guimarães;-13.687;-39.48;251
+SC;Witmarsum;-26.926;-49.8;0
+TO;Xambioá;-6.411;-48.5;217
+PR;Xambrê;-23.754;-53.49;408
+RS;Xangri-lá;-29.755;-50.04;0
+SC;Xanxerê;-26.756;-52.4;0
+AC;Xapuri;-10.652;-68.5;0
+SC;Xavantina;-27.069;-52.34;0
+SC;Xaxim;-26.962;-52.5;0
+PE;Xexéu;-8.755;-35.63;0
+PA;Xinguara;-7.095;-49.95;246
+BA;Xique-Xique;-10.755;-42.73;407
+PB;Zabelê;-8.076;-37.1;0
+SP;Zacarias;-21.052;-50.05;402
+MA;Zé Doca;-3.275;-45.66;69
+SC;Zortéa;-27.451;-51.6;0

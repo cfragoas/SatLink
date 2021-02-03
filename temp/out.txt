@@ -1,0 +1,26 @@
+RESULTS
+
+Reception characteristics:
+
+Earth's radius in lat/long:  6367.489543841066  km
+Elevation angle:  58.68844105309022  graus
+Link length:  36583.31208862596 km
+Ground noise temperature:  10  K
+Sky brightness temperature 2.619959925213166  K
+Antenna noise temperature:  12.619959925213166  K
+Antenna noise temperature w/ rain: 134.81781665147548  K
+Total noise temperature:  154.81855561030426  K
+Reception antenna gain:  33.751120906833435  dBi
+Reception antenna 3dB beamwidth:  3.497578676666667  degrees
+Figure of Merit:  4.352890793221487
+
+
+Link budget Aaalysis:
+
+Gaseous attenuation:  0.05088673722607464 dB  dB
+Cloud attenuation:  0.09532456268767409 dB  dB
+Rain attenuation:  2.40673981751812 dB  dB
+Scintillation attenuation:  0.4053224250022159 dB  dB
+Total atmospheric attenuation:  2.585568656304735 dB  dB
+Free space attenuation:  199.22868544748343  dB
+Free space + atmospheric + depointing attenuation:  201.81425410378816  dB
