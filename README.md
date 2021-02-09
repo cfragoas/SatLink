@@ -94,11 +94,13 @@ Some updates are planned for the future of the CalcSat
 ### Authorship
 
 All the code development was made by Christian Rodrigues.
+
 Contact: christainfragoas@gmail.com
 
 ### Credits
 
 [Globo] - For supporting the very first release version of the application
+
 [Caio Alexandre] - Logo designer
 
 **Free Software, Hell Yeah!**
