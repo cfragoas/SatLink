@@ -5,7 +5,7 @@
 SatCalc is a python based application that runs speciffic satellite downlink calcullations. It has a GUI and his main functions are:
 
   - Atmospheric attenuation calcullation (via [itur])
-  - Single and multi-point avaiability calcullation (input and output csv file)
+  - Single and multi-point downlink avaiability calcullation (input and output csv file)
   - Save and load parameters for satellites, ground stations and reception characteristics
   - Totally free !!!
 
@@ -86,24 +86,27 @@ Since this is still a early version of the cody, we expect there some problem ca
 
 ### Future Developments
 
-Since this is 
+Some updates are planned for the future of the CalcSat
+
+* Single and multi-point antenna size calcullation for a given desired availability
+* Worst month availabilty calcullation
 
 ### Authorship
 
 All the code development was made by Christian Rodrigues.
-contact: christainfragoas@gmail.com
+Contact: christainfragoas@gmail.com
 
 ### Credits
 
-Tv Globo - For supporting the very first release version of the application
-Caio Alexandre - Logo designer
+[Globo] - For supporting the very first release version of the application
+[Caio Alexandre] - Logo designer
 
 **Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-   
+   [Globo]: <https://globoplay.globo.com/>
    [itur]: <https://github.com/iportillo/ITU-Rpy>
    [pathos]: <https://github.com/uqfoundation/pathos>
    [tqdm]: <https://github.com/tqdm/tqdm>
@@ -111,4 +114,4 @@ Caio Alexandre - Logo designer
    [astropy]: <https://www.astropy.org/>
    [numpy]: <https://numpy.org/>
    [pyqt]: <https://riverbankcomputing.com/software/pyqt/intro>
-
+   [Caio Alexandre]: <https://www.instagram.com/caioalexandredasilva>   
