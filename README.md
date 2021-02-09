@@ -4,10 +4,12 @@
 
 SatCalc is a python based application that runs speciffic satellite downlink calcullations. It has a GUI and his main functions are:
 
-  - Atmospheric attenuation calcullation (via itur (https://pypi.org/project/itur/))
+  - Atmospheric attenuation calcullation (via [itur])
   - Single and multi-point avaiability calcullation (input and output csv file)
   - Save and load parameters for satellites, ground stations and reception characteristics
   - Totally free !!!
+
+This project is a attempt to simplify satellite's link budget calcullations and to create a tool for teaching purposes. 
 
 # GUI Interface
 For those that dont like code writing
@@ -16,6 +18,10 @@ For those that dont like code writing
 
   - Simple Qt Gui made for simple usage
   - Drop lists can be edited via model folder
+
+To run the calcullations via GUI interface, just run the python file **main_window.py**. The main window will appear. Now, just choose the functions in the action menu
+
+Detailed information about the usage of the GUI can be found in the [READMEFILE]
 
 # Using SatCalc via python commands 
  SatCalc consists of three main classes 
@@ -47,3 +53,62 @@ print(ant_noise)  # Kelvin
 ```
 
 The other functions are detailed in the [READMEFILE]
+
+### Libraries
+
+SatCalc uses a bunch of differente open source python libraries
+
+* [itur] - A python implementation of the ITU-R P. Recommendations to compute atmospheric attenuation in slant and horizontal paths
+* [pyqt] - PyQt is a set of Python bindings for The Qt Company's Qt application framework
+* [tqdm] - Instantly make your loops show a smart progress meter
+* [pathos] - It provides a consistent high-level interface for configuring and launching parallel computations across heterogeneous resources.
+* [pandas] - Fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+* [astropy] - Common core package for Astronomy in Python and foster an ecosystem of interoperable astronomy packages
+* [numpy] - The fundamental package for scientific computing with Python
+
+### Installation
+
+SatCalc is currently tested only in python 3.
+Just copy all the folders and files to any directory and make sure all packages are installed. To install the packages, just run the following commands
+
+```sh
+pip install itur
+pip install tqdm
+pip install pandas
+pip install pathos
+pip install astropy
+pip install pyqt5
+```
+
+### Contributions
+
+Since this is still a early version of the cody, we expect there some problem can be found, We are tottaly open for contributions and bug/problems reports. **Please tell us!**
+
+### Future Developments
+
+Since this is 
+
+### Authorship
+
+All the code development was made by Christian Rodrigues.
+contact: christainfragoas@gmail.com
+
+### Credits
+
+Tv Globo - For supporting the very first release version of the application
+Caio Alexandre - Logo designer
+
+**Free Software, Hell Yeah!**
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+
+   
+   [itur]: <https://github.com/iportillo/ITU-Rpy>
+   [pathos]: <https://github.com/uqfoundation/pathos>
+   [tqdm]: <https://github.com/tqdm/tqdm>
+   [pandas]: <https://pandas.pydata.org/>
+   [astropy]: <https://www.astropy.org/>
+   [numpy]: <https://numpy.org/>
+   [pyqt]: <https://riverbankcomputing.com/software/pyqt/intro>
+
