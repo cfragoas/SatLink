@@ -48,8 +48,10 @@ print(availability)  # 0 - 100 percentage
 # example - calcullating the power flux density in the reception point and the antenna noise in rain conditions
 pw_flx = sat.get_power_flux_density()
 print(pw_flx)  # watts/m²
-ant_noise = sat.reception.get_antenna_noise_rain()
+ant_noise = sat.reception.get_antenna_noise_temp()
 print(ant_noise)  # Kelvin
+ant_noise_rain = sat.get_antenna_noise_rain()
+print(ant_noise_rain)  # Kelvin
 ```
 
 The other functions are detailed in the [READMEFILE]
