@@ -1,8 +1,10 @@
-# SatCalc
+# SatLink
+
+ ![logo](LogoSatLink225_225.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-SatCalc is a python based application that runs speciffic satellite downlink calcullations. It has a GUI and his main functions are:
+SatLink is a python based application that runs speciffic satellite downlink calcullations. It has a GUI and his main functions are:
 
   - Atmospheric attenuation calcullation (via [itur])
   - Single and multi-point downlink avaiability calcullation (input and output csv file)
@@ -23,8 +25,8 @@ To run the calcullations via GUI interface, just run the python file **main_wind
 
 Detailed information about the usage of the GUI can be found in the [READMEFILE]
 
-# Using SatCalc via python commands 
- SatCalc consists of three main classes 
+# Using SatLink via python commands 
+ SatLink consists of three main classes 
  
   - Satellite class
   - Ground Station class
@@ -56,7 +58,7 @@ The other functions are detailed in the [READMEFILE]
 
 ### Libraries
 
-SatCalc uses a bunch of differente open source python libraries
+SatLink uses a bunch of differente open source python libraries
 
 * [itur] - A python implementation of the ITU-R P. Recommendations to compute atmospheric attenuation in slant and horizontal paths
 * [pyqt] - PyQt is a set of Python bindings for The Qt Company's Qt application framework
@@ -68,7 +70,7 @@ SatCalc uses a bunch of differente open source python libraries
 
 ### Installation
 
-SatCalc is currently tested only in python 3.
+SatLink is currently tested only in python 3.
 Just copy all the folders and files to any directory and make sure all packages are installed. To install the packages, just run the following commands
 
 ```sh
@@ -86,7 +88,7 @@ Since this is still a early version of the cody, we expect there some problem ca
 
 ### Future Developments
 
-Some updates are planned for the future of the CalcSat
+Some updates are planned for the future of the SatLink
 
 * Single and multi-point antenna size calcullation for a given desired availability
 * Worst month availabilty calcullation
@@ -94,16 +96,13 @@ Some updates are planned for the future of the CalcSat
 ### Authorship
 
 All the code development was made by Christian Rodrigues.
-
-Contact: christainfragoas@gmail.com
+Contact: christianfragoas@gmail.com
 
 ### Credits
 
 [Globo] - For supporting the very first release version of the application
-
 [Caio Alexandre] - Logo designer
 
-**Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
