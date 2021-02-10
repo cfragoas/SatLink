@@ -1,8 +1,6 @@
 # SatLink
 
- ![logo](LogoSatLink225_225.png)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+<img src="pics/LogoSatLink225_225_white.png" alt="logo" width="150"/>
 
 SatLink is a python based application that runs speciffic satellite downlink calcullations. It has a GUI and his main functions are:
 
@@ -16,7 +14,7 @@ This project is a attempt to simplify satellite's link budget calcullations and 
 # GUI Interface
 For those that dont like code writing
 
-![N|Solid](https://i.imgur.com/ZMpcxgH.png)
+<img src="https://i.imgur.com/ZMpcxgH.png" alt="screenshot" width="500"/>
 
   - Simple Qt Gui made for simple usage
   - Drop lists can be edited via model folder
@@ -96,11 +94,13 @@ Some updates are planned for the future of the SatLink
 ### Authorship
 
 All the code development was made by Christian Rodrigues.
+
 Contact: christianfragoas@gmail.com
 
 ### Credits
 
 [Globo] - For supporting the very first release version of the application
+
 [Caio Alexandre] - Logo designer
 
 
