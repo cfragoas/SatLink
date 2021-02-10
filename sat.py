@@ -7,11 +7,12 @@ from models.FsAtt import FreeSpaceAtt as FsAtt
 import astropy.units as u
 from models.util import truncate
 
-
-# classe destinada ao calculo dos parâmetros espaciais relacionados ao satélite geoestacionário
+# class intended for calculation of parameters related to the geostationary satellite and his link to the ground station
+# can set the ground_station class and reception class to it and run all the functions
+# please be carefully with the p value when running availability calculations
 
 class Satellite:
-    # todos os parâmetros lat/long estão em formato de graus na entrada e na saída das funções
+    # all lat/long parameters are in degrees when input or output variables
 
     def __init__(self, sat_long, freq, eirp_max=0, h_sat=35786, b_transp=36, b_util=36, back_off=0, contorno=0,
                  modulation='', roll_off=None, fec=''):
@@ -19,7 +20,7 @@ class Satellite:
         self.freq = freq  # frequency, in GHz
         self.eirp_max = eirp_max  # sattelite's eirp, in dBW
         self.h_sat = h_sat  # satellite's height
-        self.b_transp = b_transp  # transpounder's band, in GHz
+        self.b_transp = b_transp  # transponder's band, in GHz
         self.b_util = b_util  # transponder's band that the carrier is using, in GHz
         self.back_off = back_off  # transponder's back off ????????????????
         self.contorno = contorno  # ver que diabos é isso aqui ????????????????
@@ -29,7 +30,7 @@ class Satellite:
         self.roll_off = roll_off
         self.eirp = eirp_max - back_off - contorno + 10 * np.log10(b_util / b_transp)
 
-        # parâmetros não inicializáveis referentes à atenuação por chuva e espaço livre
+        # not initialized parameters that will be calculated in the atmospheric attenuation function
         self.a_g = None  # gaseous attenuation
         self.a_c = None  # could attenuation
         self.a_r = None  # rain attenuation
@@ -39,11 +40,11 @@ class Satellite:
         self.a_tot = None  # total attenuation (atmospheric + free space)
         self.p = None  # exceed percentage - just to store the attenuation inm reference to a p value
 
-        # outros parâmetros calculados na classe
+        # other parameters calculated in this class
         self.power_flux_density = None # power flux density at earth station (W/m^2)
-        self.antenna_noise_rain = None
-        self.total_noise_temp = None
-        self.figure_of_merit = None
+        self.antenna_noise_rain = None  # antenna noise under rain conditions
+        self.total_noise_temp = None  # system's noise temperature (K)
+        self.figure_of_merit = None  # figure of merit - G/T
         self.c_over_n0 = None  # calculated C/N
         self.snr = None  # calculated SNR
         self.snr_threshold = None  # SNR threshold for a specific
@@ -51,11 +52,11 @@ class Satellite:
         self.symbol_rate = None  # symbolrate based on the bandwidth and roll off factor
         self.bitrate = None  # bitrate based on the badwidth and inforate efficiency
 
-        # objetos estação terrena e recepção relacionados ao satélite
-        self.grstation = None  # ground station oject
+        # ground station and reception objects that can be set in the satellite class
+        self.grstation = None  # ground station object
         self.reception = None  # reception object
 
-    def set_grstation(self, grstation: GroundStation):
+    def set_grstation(self, grstation: GroundStation):  # works as a way to used some variables from grstation
         self.grstation = grstation
         pass
 
@@ -98,7 +99,7 @@ class Satellite:
         dist = np.sqrt(((earth_rad + self.h_sat) ** 2) - ((earth_rad * np.cos(e)) ** 2)) - earth_rad * np.sin(e)
         return dist
 
-    def get_reception_threshold(self):
+    def get_reception_threshold(self):  # returns the threshold for a given modulation scheme (modcod file)
         if self.modulation == '' or self.fec == '':
             sys.exit(
                 'You need to create a satellite class with a technology, modulation and FEC to use this function!!!')
@@ -130,7 +131,7 @@ class Satellite:
         self.bitrate = self.b_util * line['Inforate efficiency bps_Hz'].values[0]
         return self.bitrate
 
-    def get_link_attenuation(self, p=0.001):
+    def get_link_attenuation(self, p=0.001, method='approx'):
         if self.grstation is None:
             sys.exit(
                 'Need to associate a ground station to a satellite first. Try satellite.set_reception(reception)!!!')
@@ -144,7 +145,7 @@ class Satellite:
             diam = self.reception.ant_size * u.m
             a_fs = FsAtt(self.get_distance(), self.freq)
             a_g, a_c, a_r, a_s, a_t = itur.atmospheric_attenuation_slant_path(
-                self.grstation.site_lat, self.grstation.site_long, freq, e, p, diam, return_contributions=True)
+                self.grstation.site_lat, self.grstation.site_long, freq, e, p, diam, return_contributions=True, mode=method)
             a_tot = a_fs + self.reception.get_depoint_loss() + a_t.value
 
             self.a_g = a_g
@@ -271,6 +272,8 @@ class Satellite:
 
         return self.snr
 
+    # tris function is just a simple way to iterate over a convex optimization problem
+    # its a option besides the recommended ITU-R BO.1696 methodology
     def get_availability(self, margin=0, relaxation=0.1):
         target = self.get_reception_threshold() + margin
         p = 0.0012
@@ -279,7 +282,7 @@ class Satellite:
         delta_old = 1000000000
         p_old = 10000000
         delta = self.get_snr(0.001) - target
-        # relaxation = 0.1
+
         if delta >= 0:
             return 99.999
 
@@ -316,9 +319,9 @@ class Satellite:
                 speed_old = 1
                 speed = 0.000005
 
-            if speed > 2:
-                speed = 2
-                speed_old = 1
+            # if speed > 2:
+            #     speed = 2
+            #     speed_old = 1
 
             delta_old = delta
 

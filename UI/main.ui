@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="empty_page"/>
     <widget class="QWidget" name="satellite_page">
@@ -1255,12 +1255,12 @@ depointing (degrees)</string>
       </property>
       <item>
        <property name="text">
-        <string>exact</string>
+        <string>approx</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>approx.</string>
+        <string>exact</string>
        </property>
       </item>
      </widget>

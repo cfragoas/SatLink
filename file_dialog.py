@@ -5,6 +5,12 @@ from PyQt5 import QtCore, QtGui
 import pickle
 
 
+# file dialog window
+# used to save and load the ground station, satellite and reception files
+# it uses the function open_dialog(opt, type) to run the window
+# opt is to choose 'save' or 'load' options
+# type a string used to define the extension of the file
+
 class Dialog(QWidget):
 
     def __init__(self, opt, type):
@@ -19,11 +25,9 @@ class Dialog(QWidget):
         self.initUI()
         self.fileName = None
 
-
     def initUI(self):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
-
 
         if self.opt == 'save':
             self.saveFileDialog()
@@ -33,14 +37,13 @@ class Dialog(QWidget):
             sys.exit('Dialog boss option not expected!')
         # self.openFileNamesDialog()
 
-
     def openFileNameDialog(self):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         fileDialog = QFileDialog(self)
         fileDialog.setAttribute(QtCore.Qt.WA_QuitOnClose, False)
         self.fileName, _ = fileDialog.getOpenFileName(None, "Open File", "",
-                                                  self.type + ";;All Files (*)", options=options)
+                                                      self.type + ";;All Files (*)", options=options)
         if self.fileName:
             with open('temp\\load.pkl', 'wb') as f:
                 pickle.dump(self.fileName, f)
@@ -55,7 +58,7 @@ class Dialog(QWidget):
         fileDialog = QFileDialog(self)
         fileDialog.setAttribute(QtCore.Qt.WA_QuitOnClose, False)
         self.fileName, _ = fileDialog.getSaveFileName(None, "Save File", "",
-                                                  self.type + ";;All Files (*)", options=options)
+                                                      self.type + ";;All Files (*)", options=options)
         if self.fileName:
             with open('temp\\save.pkl', 'wb') as f:
                 pickle.dump(self.fileName, f)
@@ -66,8 +69,4 @@ class Dialog(QWidget):
 
 
 def open_dialog(opt, type):
-
     Dialog(opt, type)
-
-
-

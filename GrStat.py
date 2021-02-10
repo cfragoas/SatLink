@@ -5,7 +5,7 @@ from models import util
 import sys
 
 
-# retorn parâmetros tabelados referenciados as coordenadas da estação terrena
+# retorna parâmetros tabelados referenciados as coordenadas da estação terrena
 # lat/long em formato de graus
 
 class GroundStation:

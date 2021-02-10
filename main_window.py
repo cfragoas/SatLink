@@ -11,6 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
+
 class Ui_MainWindow(object):
 
     def setupUi(self, MainWindow):
@@ -1033,17 +1034,20 @@ class Ui_MainWindow(object):
         self.calc_mp_perf.clicked.connect(self.multi_point_calc_perf)
 
         ########################saves and load boxes ##########################
-        # main satellite save/load screen
+        # main satellite save/load/clear screen
         self.load_sat.clicked.connect(lambda state, opt='load': self.load_save_sat(opt))
         self.save_sat.clicked.connect(lambda state, opt='save': self.load_save_sat(opt))
+        self.clear_sat.clicked.connect(lambda state, opt='clear': self.load_save_sat(opt))
 
-        # main ground station save/load screen
+        # main ground station save/load/clear screen
         self.load_ground_station_gdstation.clicked.connect(lambda state, opt='load': self.load_save_gr_station(opt))
         self.save_ground_station_gdstation.clicked.connect(lambda state, opt='save': self.load_save_gr_station(opt))
+        self.clear_ground_station_gdstation.clicked.connect(lambda state, opt='clear': self.load_save_gr_station(opt))
 
-        # main reception save/load screen
+        # main reception save/load/clear screen
         self.load_reception_rcp.clicked.connect(lambda state, opt='load': self.load_save_reception(opt))
         self.save_reception_rcp.clicked.connect(lambda state, opt='save': self.load_save_reception(opt))
+        self.clear_reception_rcp.clicked.connect(lambda state, opt='clear': self.load_save_reception(opt))
 
         #list path browse
         self.browse_path_mp_perf.clicked.connect(self.load_point_list)
@@ -1053,24 +1057,34 @@ class Ui_MainWindow(object):
             lambda state, opt='load', item='gst': self.load_save_single_point_perf(opt, item))
         self.save_ground_station_sp_perf.clicked.connect(
             lambda state, opt='save', item='gst': self.load_save_single_point_perf(opt, item))
+        self.clear_ground_station_sp_perf.clicked.connect(
+            lambda state, opt='clear', item='gst': self.load_save_single_point_perf(opt, item))
         self.load_sat_sp_perf.clicked.connect(
             lambda state, opt='load', item='sat': self.load_save_single_point_perf(opt, item))
         self.save_sat_sp_perf.clicked.connect(
             lambda state, opt='save', item='sat': self.load_save_single_point_perf(opt, item))
+        self.clear_sat_sp_perf.clicked.connect(
+            lambda state, opt='clear', item='sat': self.load_save_single_point_perf(opt, item))
         self.load_reception_sp_perf.clicked.connect(
             lambda state, opt='load', item='rcp': self.load_save_single_point_perf(opt, item))
         self.save_reception_sp_perf.clicked.connect(
             lambda state, opt='save', item='rcp': self.load_save_single_point_perf(opt, item))
+        self.clear_reception_sp_perf.clicked.connect(
+            lambda state, opt='clear', item='rcp': self.load_save_single_point_perf(opt, item))
 
         #list performance screen
         self.load_sat_mp_perf.clicked.connect(
             lambda state, opt='load', item='sat': self.load_save_multi_point_perf(opt, item))
         self.save_sat_mp_perf.clicked.connect(
             lambda state, opt='save', item='sat': self.load_save_multi_point_perf(opt, item))
+        self.clear_satellite_mp_perf.clicked.connect(
+            lambda state, opt='clear', item='sat': self.load_save_multi_point_perf(opt, item))
         self.load_reception_mp_perf.clicked.connect(
             lambda state, opt='load', item='rcp': self.load_save_multi_point_perf(opt, item))
         self.save_reception_mp_perf.clicked.connect(
             lambda state, opt='save', item='rcp': self.load_save_multi_point_perf(opt, item))
+        self.clear_reception_mp_perf.clicked.connect(
+            lambda state, opt='clear', item='rcp': self.load_save_multi_point_perf(opt, item))
 
         ########################################################################
 
@@ -1088,7 +1102,7 @@ class Ui_MainWindow(object):
         #threads number combo box
         import multiprocessing
         cores = multiprocessing.cpu_count()
-        print(cores)
+        print('Max threads: ', cores)
         if cores > 63:
             cores = 63
         n_thread_list = [1]
@@ -1112,6 +1126,7 @@ class Ui_MainWindow(object):
         self._update_timer.timeout.connect(lambda index=3: self.update_label(index))
         self._update_timer.start(1000)  # milliseconds
 
+
     def kill_threadpoll(self, cnt):
         if cnt != 1:
             print('fui!')
@@ -1124,7 +1139,8 @@ class Ui_MainWindow(object):
         import os
         from file_dialog import open_dialog
         type = 'Sat Files (*.sat)'
-        open_dialog(opt, type)
+        if opt != 'clear':
+            open_dialog(opt, type)
         try:
             with open('temp\\' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
@@ -1180,15 +1196,28 @@ class Ui_MainWindow(object):
                 if index >= 0:
                     self.modcod_sat.setCurrentIndex(index)
 
-        if os.path.exists('temp\\load.pkl'):
-            os.remove('temp\\load.pkl')
+                if os.path.exists('temp\\load.pkl'):
+                    os.remove('temp\\load.pkl')
+
+        elif opt == 'clear':
+            self.name_sat.clear()
+            self.long_sat.clear()
+            self.height_sat.clear()
+            self.freq_sat.clear()
+            self.eirp_sat.clear()
+            self.max_bw_sat.clear()
+            self.bw_util_sat.clear()
+            self.rolloff_sat.clear()
+            self.pol_sat.setCurrentIndex(0)
+            self.modcod_sat.setCurrentIndex(0)
 
     def load_save_gr_station(self, opt):
         import pickle
         import os
         from file_dialog import open_dialog
         type = 'Ground Station Files (*.gst)'
-        open_dialog(opt, type)
+        if opt != 'clear':
+            open_dialog(opt, type)
         try:
             with open('temp\\' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
@@ -1226,16 +1255,22 @@ class Ui_MainWindow(object):
             if os.path.exists('temp\\load.pkl'):
                 os.remove('temp\\load.pkl')
 
+        elif opt == 'clear':
+            self.name_ground_station_grstat.clear()
+            self.lat_ground_station_grstat.clear()
+            self.long_ground_station_grstat.clear()
+
     def load_save_reception(self, opt):
         import pickle
         import os
         from file_dialog import open_dialog
         type = 'Reception Setup Files (*.rcp)'
-        open_dialog(opt, type)
+        if opt != 'clear':
+            open_dialog(opt, type)
         try:
             with open('temp\\' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
-                print(folder)
+                # print(folder)
                 f.close()
         except:
             folder = ''
@@ -1283,6 +1318,17 @@ class Ui_MainWindow(object):
             if os.path.exists('temp\\load.pkl'):
                 os.remove('temp\\load.pkl')
 
+        elif opt == 'clear':
+            self.name_reception_rcp.clear()
+            self.ant_size_reception_rcp.clear()
+            self.ant_eff_reception_rcp.clear()
+            self.lnb_gain_reception_rcp.clear()
+            self.lnb_temp_reception_rcp.clear()
+            self.coupling_loss_reception_rcp.clear()
+            self.cable_loss_reception_rcp.clear()
+            self.max_depoint_reception_rcp.clear()
+            self.pol_reception_rcp.setCurrentIndex(0)
+
     def load_save_single_point_perf(self, opt, item):
         import pickle
         import os
@@ -1290,11 +1336,12 @@ class Ui_MainWindow(object):
 
         if item == 'gst':
             type = 'Ground Station Files (*.gst)'
-            open_dialog(opt, type)
+            if opt != 'clear':
+                open_dialog(opt, type)
             try:
                 with open('temp\\' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
-                    print(folder)
+                    # print(folder)
                     f.close()
             except:
                 folder = ''
@@ -1329,13 +1376,19 @@ class Ui_MainWindow(object):
                 if os.path.exists('temp\\load.pkl'):
                     os.remove('temp\\load.pkl')
 
+            elif opt == 'clear':
+                self.name_ground_station_sp_perf.clear()
+                self.lat_ground_station_sp_perf.clear()
+                self.long_ground_station_sp_perf.clear()
+
         elif item == 'sat':
             type = 'Sat Files (*.sat)'
-            open_dialog(opt, type)
+            if opt != 'clear':
+                open_dialog(opt, type)
             try:
                 with open('temp\\' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
-                    print(folder)
+                    # print(folder)
                     f.close()
             except:
                 folder = ''
@@ -1387,16 +1440,29 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.modcod_sat_sp_perf.setCurrentIndex(index)
 
-            if os.path.exists('temp\\load.pkl'):
-                os.remove('temp\\load.pkl')
+                if os.path.exists('temp\\load.pkl'):
+                    os.remove('temp\\load.pkl')
+
+            elif opt == 'clear':
+                self.name_sat_sp_perf.clear()
+                self.long_sat_sp_perf.clear()
+                self.height_sat_sp_perf.clear()
+                self.freq_sat_sp_perf.clear()
+                self.eirp_sat_sp_perf.clear()
+                self.max_bw_sat_sp_perf.clear()
+                self.bw_util_sat_sp_perf.clear()
+                self.rolloff_sat_sp_perf.clear()
+                self.pol_sat_sp_perf.setCurrentIndex(0)
+                self.modcod_sat_sp_perf.setCurrentIndex(0)
 
         elif item == 'rcp':
             type = 'Reception Setup Files (*.rcp)'
-            open_dialog(opt, type)
+            if opt != 'clear':
+                open_dialog(opt, type)
             try:
                 with open('temp\\' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
-                    print(folder)
+                    # print(folder)
                     f.close()
             except:
                 folder = ''
@@ -1443,8 +1509,19 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.pol_reception_sp_perf.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                    if os.path.exists('temp\\load.pkl'):
+                        os.remove('temp\\load.pkl')
+
+            elif opt == 'clear':
+                self.name_reception_sp_perf.clear()
+                self.ant_size_reception_sp_perf.clear()
+                self.ant_eff_reception_sp_perf.clear()
+                self.lnb_gain_reception_sp_perf.clear()
+                self.lnb_temp_reception_sp_perf.clear()
+                self.coupling_loss_reception_sp_perf.clear()
+                self.cable_loss_reception_sp_perf.clear()
+                self.max_depoint_reception_sp_perf.clear()
+                self.pol_reception_sp_perf.setCurrentIndex(0)
 
     def load_save_multi_point_perf(self, opt, item):
         import pickle
@@ -1453,11 +1530,12 @@ class Ui_MainWindow(object):
 
         if item == 'sat':
             type = 'Sat Files (*.sat)'
-            open_dialog(opt, type)
+            if opt != 'clear':
+                open_dialog(opt, type)
             try:
                 with open('temp\\' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
-                    print(folder)
+                    # print(folder)
                     f.close()
             except:
                 folder = ''
@@ -1509,16 +1587,29 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.modcod_sat_mp_perf.setCurrentIndex(index)
 
-            if os.path.exists('temp\\load.pkl'):
-                os.remove('temp\\load.pkl')
+                if os.path.exists('temp\\load.pkl'):
+                    os.remove('temp\\load.pkl')
+
+            elif opt == 'clear':
+                self.name_sat_mp_perf.clear()
+                self.long_sat_mp_perf.clear()
+                self.height_sat_mp_perf.clear()
+                self.freq_sat_mp_perf.clear()
+                self.eirp_sat_mp_perf.clear()
+                self.max_bw_sat_mp_perf.clear()
+                self.bw_util_sat_mp_perf.clear()
+                self.rolloff_sat_mp_perf.clear()
+                self.pol_sat_mp_perf.setCurrentIndex(0)
+                self.modcod_sat_mp_perf.setCurrentIndex(0)
 
         elif item == 'rcp':
             type = 'Reception Setup Files (*.rcp)'
-            open_dialog(opt, type)
+            if opt != 'clear':
+                open_dialog(opt, type)
             try:
                 with open('temp\\' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
-                    print(folder)
+                    # print(folder)
                     f.close()
             except:
                 folder = ''
@@ -1569,10 +1660,61 @@ class Ui_MainWindow(object):
                 if os.path.exists('temp\\load.pkl'):
                     os.remove('temp\\load.pkl')
 
+            elif opt == 'clear':
+                self.name_reception_mp_perf.clear()
+                self.ant_size_reception_mp_perf.clear()
+                self.ant_eff_reception_mp_perf.clear()
+                self.lnb_gain_reception_mp_perf.clear()
+                self.lnb_temp_reception_mp_perf.clear()
+                self.coupling_loss_reception_mp_perf.clear()
+                self.cable_loss_reception_mp_perf.clear()
+                self.max_depoint_reception_mp_perf.clear()
+                self.pol_reception_mp_perf.setCurrentIndex(0)
+
     def load_point_list(self):
-        path = str(self.path_mp_perf.text())
+        from file_dialog import open_dialog
+        import pandas as pd
+        import pickle
+
+        opt = 'load'
+        type = 'Comma-separated values (*.csv)'
+        open_dialog(opt, type)
+
+        try:
+            with open('temp\\' + opt + '.pkl', 'rb') as f:
+                folder = pickle.load(f)
+                # print(folder)
+                f.close()
+        except:
+            folder = ''
+
         self.preview_mp_perf.setColumnCount(4)
-        self.preview_mp_perf.setRowCount(3)
+        self.preview_mp_perf.setRowCount(10)
+
+        self.preview_mp_perf.setHorizontalHeaderLabels(['Name', 'Lat', 'Long', 'Delta Footprint'])
+
+        if folder != '':
+            self.path_mp_perf.setText(str(folder))
+            data = pd.read_csv(folder, sep = ';')
+            for index, row in data.iterrows():
+
+                self.preview_mp_perf.setItem(index, 0, QtWidgets.QTableWidgetItem(str(row['Name'])))
+                self.preview_mp_perf.setItem(index, 1, QtWidgets.QTableWidgetItem(str(row['Lat'])))
+                self.preview_mp_perf.setItem(index, 2, QtWidgets.QTableWidgetItem(str(row['Long'])))
+                self.preview_mp_perf.setItem(index, 3, QtWidgets.QTableWidgetItem(str(row['Delta Footprint'])))
+                if index == 9:
+                    break
+
+            self.preview_mp_perf.setAlternatingRowColors(True)
+            self.preview_mp_perf.horizontalHeader().setSectionResizeMode(QtWidgets.QHeaderView.Stretch)
+
+            self.preview_mp_perf.setSizeAdjustPolicy(QtWidgets.QAbstractScrollArea.AdjustToContents)
+            self.preview_mp_perf.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+
+
+
+        if os.path.exists('temp\\load.pkl'):
+            os.remove('temp\\load.pkl')
 
         return
 
@@ -1584,7 +1726,6 @@ class Ui_MainWindow(object):
         elif x == 3:
             modcod = str(self.modcod_sat_mp_perf.currentText())
 
-        print(modcod)
 
     def update_label(self, index):
         import os
@@ -1621,7 +1762,7 @@ class Ui_MainWindow(object):
 
     def single_point_atm_atnn_calc(self):
         from atm_atnn import calc_atm_atnn
-        # ADICIONAR AQUI DEPOIS O MÉTODO EXATO OU APROXIMADO!!!!!!!!!!
+
         try:
             p = float(self.p_year_spatm.text())
             site_lat = float(self.lat_ground_station_spatm.text())
@@ -1630,14 +1771,12 @@ class Ui_MainWindow(object):
             ant_eff = float(self.ant_eff_reception_spatm.text())
             sat_long = float(self.long_sat_spatm.text())
             freq = float(self.freq_sat_spatm.text())
-            # pol = str(self.pol_sat_sp_perf.currentText())
-            # method = float(self.freq_sat_spatm.text())
+            method = str(self.method_spatm.currentText())
 
-            import time
             import pickle
 
             with open('temp\\args.pkl', 'wb') as f:
-                pickle.dump([p, site_lat, site_long, ant_size, ant_eff, sat_long, freq], f)
+                pickle.dump([p, site_lat, site_long, ant_size, ant_eff, sat_long, freq, method], f)
                 f.close()
             self.threadpool = QtCore.QThreadPool()
             self.threadpool.start(calc_atm_atnn)
@@ -1706,8 +1845,7 @@ class Ui_MainWindow(object):
         try:
 
             #ground station points path
-            # gr_station_path = self.path_mp_perf
-            gr_station_path = " "
+            gr_station_path = str(self.path_mp_perf.text())
 
             # #satellite parameters
             sat_long = float(self.long_sat_mp_perf.text())
@@ -1765,7 +1903,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "SatCalc"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "SatLink"))
         self.groupBox_9.setTitle(_translate("MainWindow", "Satellite"))
         self.label_31.setText(_translate("MainWindow", "Name"))
         self.label_54.setText(_translate("MainWindow", "Longitude (degrees)"))
@@ -1836,8 +1974,8 @@ class Ui_MainWindow(object):
         self.label_58.setText(_translate("MainWindow", "Excess % of time per year"))
         self.label_9.setText(_translate("MainWindow", "Method"))
         self.method_spatm.setStatusTip(_translate("MainWindow", "Mode calculation for gaseous attenuation"))
-        self.method_spatm.setItemText(0, _translate("MainWindow", "exact"))
-        self.method_spatm.setItemText(1, _translate("MainWindow", "approx."))
+        self.method_spatm.setItemText(0, _translate("MainWindow", "approx"))
+        self.method_spatm.setItemText(1, _translate("MainWindow", "exact"))
         self.groupBox_4.setTitle(_translate("MainWindow", "Ground Station"))
         self.label_27.setText(_translate("MainWindow", "Name"))
         self.label_28.setText(_translate("MainWindow", "Latitude (degrees)"))
@@ -1970,6 +2108,41 @@ class Ui_MainWindow(object):
         self.actionDownlink_Performance.setText(_translate("MainWindow", "Downlink Performance"))
         self.actionDownlink_Performance.setStatusTip(_translate("MainWindow", "Complete multi point (list) downlink performance calculation"))
 
+
+class WorkerSignals(QtCore.QObject):
+    progress = QtCore.pyqtSignal(int)
+
+
+class JobRunner(QtCore.QRunnable):
+    signals = WorkerSignals()
+
+    def __init__(self):
+        super().__init__()
+
+        self.is_paused = False
+        self.is_killed = False
+
+    @QtCore.pyqtSlot()
+    def run(self):
+        import time
+        for n in range(100):
+            self.signals.progress.emit(n + 1)
+            time.sleep(0.1)
+
+            while self.is_paused:
+                time.sleep(0)
+
+            if self.is_killed:
+                break
+
+    def pause(self):
+        self.is_paused = True
+
+    def resume(self):
+        self.is_paused = False
+
+    def kill(self):
+        self.is_killed = True
 
 if __name__ == "__main__":
     import sys, os
