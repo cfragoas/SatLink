@@ -19,7 +19,7 @@ For those that dont like code writing
   - Simple Qt Gui made for simple usage
   - Drop lists can be edited via model folder
 
-To run the calcullations via GUI interface, just run the python file **main_window.py**. The main window will appear. Now, just choose the functions in the action menu
+To run the calcullations via GUI interface, run the python file **main_window.py**. The main window will appear. Now, just choose the functions in the action menu
 
 Detailed information about the usage of the GUI can be found in the [READMEFILE]
 
@@ -32,6 +32,9 @@ Detailed information about the usage of the GUI can be found in the [READMEFILE]
 
 You need to define those three objects and set their relationship
 ```sh
+from GrStat import GroundStation, Reception
+from sat import Satellite
+
 # creating the objects
 station = GroundStation(site_lat, site_long)
 sat = Satellite(sat_long, freq, eirp_max, hsat, b_transponder, b_util, _, _, mod, rolloff, fec)
@@ -92,6 +95,7 @@ Some updates are planned for the future of the SatLink
 
 * Single and multi-point antenna size calcullation for a given desired availability
 * Worst month availabilty calcullation
+* More robust XPD calculations
 
 ### Authorship
 
