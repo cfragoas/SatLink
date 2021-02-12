@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(820, 915)
+        MainWindow.setFixedSize(820,915)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("UI\\icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
@@ -2146,10 +2146,14 @@ class JobRunner(QtCore.QRunnable):
 
 if __name__ == "__main__":
     import sys, os
-    os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "0"
+    os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = '1'
+    if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'):
+        QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True) # enable highdpi scaling
+    if hasattr(QtCore.Qt, 'AA_UseHighDpiPixmaps'):
+        QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True) # use highdpi icons
     app = QtWidgets.QApplication(sys.argv)
-    QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)  # enable highdpi scaling
-    QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)  # use highdpi icons
+    # QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)  # enable highdpi scaling
+    # QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)  # use highdpi icons
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
