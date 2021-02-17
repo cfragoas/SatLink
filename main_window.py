@@ -1946,7 +1946,7 @@ class Ui_MainWindow(object):
         self.load_reception_rcp.setText(_translate("MainWindow", "Load"))
         self.label_23.setText(_translate("MainWindow", "Antenna efficiency (%)"))
         self.label_24.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_25.setText(_translate("MainWindow", "Coupling loss (dB)"))
+        self.label_25.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_26.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.label_8.setText(_translate("MainWindow", "Polarization"))
@@ -2018,7 +2018,7 @@ class Ui_MainWindow(object):
         self.load_reception_sp_perf.setText(_translate("MainWindow", "Load"))
         self.label_46.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_47.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_48.setText(_translate("MainWindow", "Coupling loss (dB)"))
+        self.label_48.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_49.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.label_5.setText(_translate("MainWindow", "Polarization"))
@@ -2073,7 +2073,7 @@ class Ui_MainWindow(object):
         self.load_reception_mp_perf.setText(_translate("MainWindow", "Load"))
         self.label_86.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_87.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_88.setText(_translate("MainWindow", "Coupling loss (dB)"))
+        self.label_88.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_89.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.label_13.setText(_translate("MainWindow", "Polarization"))
@@ -2147,13 +2147,9 @@ class JobRunner(QtCore.QRunnable):
 if __name__ == "__main__":
     import sys, os
     os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = '1'
-    if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'):
-        QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True) # enable highdpi scaling
-    if hasattr(QtCore.Qt, 'AA_UseHighDpiPixmaps'):
-        QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True) # use highdpi icons
     app = QtWidgets.QApplication(sys.argv)
-    # QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)  # enable highdpi scaling
-    # QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)  # use highdpi icons
+    QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)  # enable highdpi scaling
+    QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)  # use highdpi icons
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
