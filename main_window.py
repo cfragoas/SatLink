@@ -2146,6 +2146,10 @@ class JobRunner(QtCore.QRunnable):
 
 if __name__ == "__main__":
     import sys, os
+    if not os.path.exists('results'):
+        os.makedirs('results')
+    if not os.path.exists('temp'):
+        os.makedirs('temp')
     os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = '1'
     app = QtWidgets.QApplication(sys.argv)
     QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)  # enable highdpi scaling
