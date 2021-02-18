@@ -77,12 +77,12 @@ SatLink is currently tested only in python 3.
 Just copy all the folders and files to any directory and make sure all packages are installed. To install the packages, just run the following commands
 
 ```sh
-pip install itur
-pip install tqdm
-pip install pandas
-pip install pathos
-pip install astropy
-pip install pyqt5
+pip install itur==0.2.1
+pip install tqdm==4.56.0
+pip install pandas==1.2.1
+pip install pathos==0.2.7
+pip install astropy==4.2
+pip install pyqt5==5.15.2
 ```
 
 ### Contributions
