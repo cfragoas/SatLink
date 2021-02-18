@@ -1,4 +1,4 @@
-import sys
+import sys, warnings
 import numpy as np
 import pandas as pd
 import itur
@@ -41,7 +41,8 @@ class Satellite:
         self.p = None  # exceed percentage - just to store the attenuation inm reference to a p value
 
         # other parameters calculated in this class
-        self.power_flux_density = None # power flux density at earth station (W/m^2)
+        self.cross_pol_discrimination = None  # attenuation due to depolarization effect
+        self.power_flux_density = None  # power flux density at earth station (W/m^2)
         self.antenna_noise_rain = None  # antenna noise under rain conditions
         self.total_noise_temp = None  # system's noise temperature (K)
         self.figure_of_merit = None  # figure of merit - G/T
@@ -50,7 +51,7 @@ class Satellite:
         self.snr_threshold = None  # SNR threshold for a specific
         self.availability = None  # availability for a specific SNR threshold
         self.symbol_rate = None  # symbolrate based on the bandwidth and roll off factor
-        self.bitrate = None  # bitrate based on the badwidth and inforate efficiency
+        self.bitrate = None  # bitrate based on the bandwidth and inforate efficiency
 
         # ground station and reception objects that can be set in the satellite class
         self.grstation = None  # ground station object
@@ -69,7 +70,7 @@ class Satellite:
     def get_elevation(self):  # returns the elevation angle between satellite and ground station
         if self.grstation is None:
             sys.exit(
-                'Need to associate a ground station to a satellite first. Try satellite.set_reception(reception)!!!')
+                'Need to associate a ground station to a satellite first. Try satellite.set_grstation(GroundStation)!!!')
 
         site_lat = np.radians(self.grstation.site_lat)
         site_long = np.radians(self.grstation.site_long)
@@ -137,6 +138,9 @@ class Satellite:
                 'Need to associate a ground station to a satellite first. Try satellite.set_reception(reception)!!!')
         if self.reception is None:
             sys.exit('Need to associate a reception to a satellite first. Try satellite.set_reception(reception)!!!')
+        if self.p is None:
+            self.p = 0.001
+            p = 0.001
         if self.a_tot is not None and p == self.p:
             return self.a_fs, self.reception.get_depoint_loss(), self.a_g, self.a_c, self.a_r, self.a_s, self.a_t, self.a_tot
         else:
@@ -164,8 +168,65 @@ class Satellite:
             self.figure_of_merit = None
             self.c_over_n0 = None
             self.snr = None
+            self.cross_pol_discrimination = None
 
         return a_fs, self.reception.get_depoint_loss(), a_g, a_c, a_r, a_s, a_t, a_tot
+
+    def get_cross_pol_discrimination(self, p=None):
+        if self.cross_pol_discrimination is not None and p == self.p:
+            return self.cross_pol_discrimination
+
+        if p is not None:
+            _, _, _, _, a_r, _, _, _ = self.get_link_attenuation(p)
+        else:
+            _, _, _, _, a_r, _, _, _ = self.get_link_attenuation(self.p)
+
+        a_r = a_r.value
+        if self.freq < 8:
+            f = 10  # dummy frequency used to convert XPD calculations to frequencies below 8 GHz
+            if self.freq < 4:
+                warnings.warn(' XPD calculations are suited for frequencies above 4 GHz')
+        else:
+            f = self.freq
+            if self.freq > 35:
+                warnings.warn(' XPD calculations are suited for frequencies below 35 GHz')
+
+        cf = 20 * np.log(f)
+
+        if 8 <= f <= 20:
+            v = 12.8 * (f ** 0.19)
+        else:
+            v = 22.6
+
+        ca = v * np.log(a_r)
+
+        tau = 45  # NOT FORGET TO MAKE THIS CHOOSABLE !!!!
+        c_tau = -10 * np.log(1 - 0.484 * (1 + np.cos(4 * np.radians(tau))))
+        c_teta = -40 * np.log(np.cos(np.radians(self.get_elevation())))
+
+        if 0.001 <= self.p < 0.01:
+            sigma = 15
+        elif 0.01 <= self.p < 0.1:
+            sigma = 10
+        elif 0.1 <= self.p < 1:
+            sigma = 5
+        else:
+            sigma = 0
+
+        c_sigma = 0.0052 * sigma
+
+        xpd_rain = cf - ca + c_tau + c_teta + c_sigma
+        c_ice = xpd_rain * (0.3 + 0.1 * np.log(self.p)) / 2
+        xpd = xpd_rain - c_ice
+
+        tau2 = tau  #MAKE THIS ALSO CHOOSABLE !!!
+
+        if self.freq < 8:
+             xpd = (xpd_rain - 20 * np.log((self.freq * (1 + 0.484 * np.cos(4 * tau2))) ** 0.5) /
+                    (f * (1 - 0.484 * (1 + np.cos(4 * tau))) ** 0.5))  # RECHECK THIS EQUATION !!!
+
+        self.cross_pol_discrimination = xpd
+        return self.cross_pol_discrimination
 
     def get_power_flux_density(self, p=None):
         if self.grstation is None:
