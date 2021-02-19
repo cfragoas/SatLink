@@ -1,0 +1,6 @@
+itur==0.2.1
+tqdm==4.56.0
+pandas==1.2.1
+pathos==0.2.7
+astropy==4.2
+pyqt5==5.15.2
