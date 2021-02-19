@@ -77,6 +77,12 @@ SatLink is currently tested only in python 3.
 Just copy all the folders and files to any directory and make sure all packages are installed. To install the packages, just run **first_setup.py**, located in the main SatLink's folder, for a fresh package installation or run the following commands
 
 ```sh
+pip install -r requirements.txt
+```
+
+or
+
+```sh
 pip install itur==0.2.1
 pip install tqdm==4.56.0
 pip install pandas==1.2.1
