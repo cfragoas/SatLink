@@ -93,6 +93,8 @@ pip install pyqt5==5.15.2
 pip matplotlib==3.4.1
 ```
 
+Run **main_window.py** to start the applicaiton via interface.
+
 ### Contributions
 
 Since this is still a early version of the code, we expect there some problem can be found, We are tottaly open for contributions and bug/problems reports. **Please tell us!**
