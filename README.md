@@ -90,7 +90,7 @@ pip install pandas==1.2.1
 pip install pathos==0.2.7
 pip install astropy==4.2
 pip install pyqt5==5.15.2
-matplotlib==3.4.1
+pip matplotlib==3.4.1
 ```
 
 ### Contributions
