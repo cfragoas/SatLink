@@ -6,6 +6,7 @@ SatLink is a python based application that runs speciffic satellite downlink cal
 
   - Atmospheric attenuation calcullation (via [itur])
   - Single and multi-point downlink avaiability calcullation (input and output csv file)
+  - Antenna size estimation for a desired availability (single point graphic plot and multi point csv output)
   - Save and load parameters for satellites, ground stations and reception characteristics
   - Totally free !!!
 
@@ -89,6 +90,7 @@ pip install pandas==1.2.1
 pip install pathos==0.2.7
 pip install astropy==4.2
 pip install pyqt5==5.15.2
+matplotlib==3.4.1
 ```
 
 ### Contributions
@@ -99,7 +101,6 @@ Since this is still a early version of the code, we expect there some problem ca
 
 Some updates are planned for the future of the SatLink
 
-* Single and multi-point antenna size calcullation for a given desired availability
 * Worst month availabilty calcullation
 * More robust XPD calculations
 
