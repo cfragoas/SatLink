@@ -5035,7 +5035,7 @@ class Ui_MainWindow(object):
         if folder != '':
             path_box.setText(str(folder))
             data = pd.read_csv(folder, sep=';')
-            print(folder)
+            # print(folder)
             for index, row in data.iterrows():
 
                 preview_window.setItem(index, 0, QtWidgets.QTableWidgetItem(str(row['Name'])))
@@ -5372,7 +5372,6 @@ class Ui_MainWindow(object):
         from file_dialog import open_dialog
         from PIL import Image
         #  open a file dialog and make it saves an png figure
-        print('oi!')
         type = 'Portable Graphics Format(PNG) (*.png)'
         opt = 'save'
         open_dialog(opt, type)

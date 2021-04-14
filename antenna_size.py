@@ -33,7 +33,6 @@ def point_ant_size(args):  # function loop - return the availability to a given 
     max_ant_size = 10
     step_ant_size = 0.2
     target_availability = args[5]
-    print(target_availability)
 
     point = args[0]
     sat = args[1]
