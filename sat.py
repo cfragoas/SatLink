@@ -37,6 +37,8 @@ class Satellite:
         self.a_s = None  # citilation or tropospheric attenuation
         self.a_t = None  # total atmospheric attenuation
         self.a_fs = None  # free space attenuation
+        self.a_x = None  # cross-polar attenuation
+        self.a_co = None  # co-polar attenuation
         self.a_tot = None  # total attenuation (atmospheric + free space)
         self.p = None  # exceed percentage - just to store the attenuation inm reference to a p value
 
@@ -172,6 +174,15 @@ class Satellite:
 
         return a_fs, self.reception.get_depoint_loss(), a_g, a_c, a_r, a_s, a_t, a_tot
 
+    def get_total_attenuation(self, p = None):
+        self.a_fs = FsAtt(self.get_distance(), self.freq)
+        xpd = self.get_cross_pol_discrimination()
+        self.a_x = 10 * np.log10(1 + 10 ** (0.1 * xpd))
+        self.a_co = 10 * np.log10(1 + 10 ** (0.1 * xpd))
+
+        self.a_tot = self.a_fs + self.a_x + self.reception.get_depoint_loss() + self.a_t
+        return self.a_tot, self.a_t, self.reception.get_depoint_loss(),
+
     def get_cross_pol_discrimination(self, p=None):
         if self.cross_pol_discrimination is not None and p == self.p:
             return self.cross_pol_discrimination
@@ -182,7 +193,7 @@ class Satellite:
             _, _, _, _, a_r, _, _, _ = self.get_link_attenuation(self.p)
 
         a_r = a_r.value
-        if self.freq < 8:
+        if self.freq < 8:  # frequency in Ghz
             f = 10  # dummy frequency used to convert XPD calculations to frequencies below 8 GHz
             if self.freq < 4:
                 warnings.warn(' XPD calculations are suited for frequencies above 4 GHz')
@@ -191,42 +202,48 @@ class Satellite:
             if self.freq > 35:
                 warnings.warn(' XPD calculations are suited for frequencies below 35 GHz')
 
-        cf = 20 * np.log(f)
+        cf = 20 * np.log10(f)
 
         if 8 <= f <= 20:
             v = 12.8 * (f ** 0.19)
         else:
             v = 22.6
 
-        ca = v * np.log(a_r)
+        ca = v * np.log10(a_r)
 
         tau = 45  # NOT FORGET TO MAKE THIS CHOOSABLE !!!!
-        c_tau = -10 * np.log(1 - 0.484 * (1 + np.cos(4 * np.radians(tau))))
-        c_teta = -40 * np.log(np.cos(np.radians(self.get_elevation())))
+        c_tau = -10 * np.log10(1 - 0.484 * (1 + np.cos(4 * np.radians(tau))))
+        c_teta = -40 * np.log10(np.cos(np.radians(self.get_elevation())))
 
-        if 0.001 <= self.p < 0.01:
-            sigma = 15
-        elif 0.01 <= self.p < 0.1:
-            sigma = 10
-        elif 0.1 <= self.p < 1:
-            sigma = 5
-        else:
-            sigma = 0
+        # if 0.001 <= self.p < 0.01:
+        #     sigma = 15
+        # elif 0.01 <= self.p < 0.1:
+        #     sigma = 10
+        # elif 0.1 <= self.p < 1:
+        #     sigma = 5
+        # else:
+        #     sigma = 0
+
+        sigma = np.interp(self.p, [0.001, 0.01, 0.1, 1], [15, 10, 5, 0])  # interpolating the standard deviation of
+        # raindrop inclination angle distribution from given values
 
         c_sigma = 0.0052 * sigma
 
         xpd_rain = cf - ca + c_tau + c_teta + c_sigma
-        c_ice = xpd_rain * (0.3 + 0.1 * np.log(self.p)) / 2
+        c_ice = xpd_rain * (0.3 + 0.1 * np.log10(self.p)) / 2
         xpd = xpd_rain - c_ice
 
         tau2 = tau  #MAKE THIS ALSO CHOOSABLE !!!
 
         if self.freq < 8:
-             xpd = (xpd_rain - 20 * np.log((self.freq * (1 + 0.484 * np.cos(4 * tau2))) ** 0.5) /
-                    (f * (1 - 0.484 * (1 + np.cos(4 * tau))) ** 0.5))  # RECHECK THIS EQUATION !!!
+             xpd = (xpd_rain - 20 * np.log((self.freq * (1 + 0.484 * np.cos(4 * np.radians(tau2)))) ** 0.5) /
+                    (f * (1 - 0.484 * (1 + np.cos(4 * np.radians(tau)))) ** 0.5))  # RECHECK THIS EQUATION !!!
+
+        self.a_x = 10 * np.log10(1 + 10 ** (0.1 * xpd))
+        self.a_co = 10 * np.log10(1 + 10 ** (-0.1 * xpd))
 
         self.cross_pol_discrimination = xpd
-        return self.cross_pol_discrimination
+        return self.cross_pol_discrimination, self.a_co, self.a_x
 
     def get_power_flux_density(self, p=None):
         if self.grstation is None:

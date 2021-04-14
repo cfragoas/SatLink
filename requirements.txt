@@ -4,3 +4,4 @@ pandas==1.2.1
 pathos==0.2.7
 astropy==4.2
 pyqt5==5.15.2
+matplotlib==3.4.1
