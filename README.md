@@ -90,7 +90,7 @@ pip install pandas==1.2.1
 pip install pathos==0.2.7
 pip install astropy==4.2
 pip install pyqt5==5.15.2
-pip matplotlib==3.4.1
+pip install matplotlib==3.4.1
 ```
 
 Run **main_window.py** to start the applicaiton via interface.
