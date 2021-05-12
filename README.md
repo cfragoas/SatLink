@@ -10,7 +10,7 @@ SatLink is a python based application that runs speciffic satellite downlink cal
   - Save and load parameters for satellites, ground stations and reception characteristics
   - Totally free !!!
 
-This project is a attempt to simplify satellite's link budget calcullations and to create a tool for teaching purposes. 
+This project is a attempt to simplify satellite's link budget calcullations and to create a tool for teaching purposes. Please check the [**documentation**](https://cfragoas.github.io/SatLink/) for more detailed information.
 
 # GUI Interface
 For those that dont like code writing
@@ -22,7 +22,7 @@ For those that dont like code writing
 
 To run the calcullations via GUI interface, run the python file **main_window.py**. The main window will appear. Now, just choose the functions in the action menu
 
-Detailed information about the usage of the GUI can be found in the [READMEFILE]
+Detailed information about the usage of the GUI can be found in the [**documentation**](https://cfragoas.github.io/SatLink/).
 
 # Using SatLink via python commands 
  SatLink consists of three main classes 
@@ -58,7 +58,7 @@ ant_noise_rain = sat.get_antenna_noise_rain()
 print(ant_noise_rain)  # Kelvin
 ```
 
-The other functions are detailed in the [READMEFILE]
+The other functions are detailed in the [**documentation**](https://cfragoas.github.io/SatLink/).
 
 ### Libraries
 
