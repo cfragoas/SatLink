@@ -301,7 +301,7 @@ class Satellite:
 
         return self.total_noise_temp
 
-    def get_figure_of_merit(self, p=None):
+    def get_figure_of_merit(self, p=None):  # recommendation ITU BO790
         if self.figure_of_merit is not None:
             return self.figure_of_merit
         elif self.figure_of_merit is not None and p == self.p:
@@ -309,14 +309,20 @@ class Satellite:
         if p is not None:
             _, _, _, _, _, _, _, _ = self.get_link_attenuation(p)
 
-        # self.figure_of_merit = 10 * np.log10(((10 **
-        #                                        ((self.reception.get_antenna_gain() + 65 - (self.reception.feeder_loss +
-        #                                        self.reception.get_depoint_loss() + self.reception.polarization_loss)) / 10))
-        #                                       / self.get_total_noise_temp()))
-        self.figure_of_merit = self.reception.get_antenna_gain() - \
-                               self.reception.get_depoint_loss() - self.reception.polarization_loss - \
-                               - self.reception.coupling_loss - self.reception.cable_loss - \
-                               10 * np.log10(self.get_total_noise_temp())
+        # self.figure_of_merit = self.reception.get_antenna_gain() - \
+        #                        self.reception.get_depoint_loss() - self.reception.polarization_loss - \
+        #                        - self.reception.coupling_loss - self.reception.cable_loss - \
+        #                        10 * np.log10(self.get_total_noise_temp())
+
+        alfa = 10 ** ((self.reception.coupling_loss + self.reception.cable_loss)/10)
+        beta = 10 ** (self.reception.get_depoint_loss()/10)
+        gt = 10 ** (self.reception.get_antenna_gain()/10)
+        ta = self.get_antenna_noise_rain()
+        t0 = 290
+        n = self.get_total_noise_temp()/t0 + 1
+
+        self.figure_of_merit = 10* np.log10((alfa * beta * gt) / (alfa * ta + (1 - alfa) * t0 + (n - 1) * t0))
+
         return self.figure_of_merit
 
     def get_c_over_n0(self, p=None):  # returns the C/N for the satellite link
@@ -408,3 +414,7 @@ class Satellite:
 
         sys.exit(
             'Can\'t reach the required SNR. You can change the modulation settings or the required snr relaxation!!!')
+
+    def get_wm_availability(self): # get worst month availability - via ITU recommendation P.841-4
+        if self.availability != None:
+            self.wm_availability = 100 - (2.84 * (100 - self.availability) ** 0.87)

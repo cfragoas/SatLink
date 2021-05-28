@@ -3872,6 +3872,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.setCurrentIndex(0)  # selecting the initial application's page
 
         ######### change window actions buttons ##########
+        import webbrowser
         self.action_New_Satellite.triggered.connect(
             lambda state, x=1, page_name='SaLink - Create Satellite': self.change_page(x, page_name))
         self.action_New_Ground_Station.triggered.connect(
@@ -3888,6 +3889,7 @@ class Ui_MainWindow(object):
             lambda state, x=4, page_name='SaLink - Antenna Size': self.change_page(x, page_name))
         self.action_List_Antenna_Size.triggered.connect(
             lambda state, x=5, page_name='SaLink - Multi Antenna Size': self.change_page(x, page_name))
+        # self.menuHelp.clicked.connect(webbrowser.open('https://cfragoas.github.io/SatLink/'))
 
         ################# calculation buttons #####################
         self.calc_spatm.clicked.connect(
@@ -5405,7 +5407,7 @@ class Ui_MainWindow(object):
         self.load_reception_rcp.setText(_translate("MainWindow", "Load"))
         self.label_23.setText(_translate("MainWindow", "Antenna efficiency (%)"))
         self.label_24.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_25.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_25.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_26.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_rcp.setText(_translate("MainWindow", "Clear"))
@@ -5452,7 +5454,7 @@ class Ui_MainWindow(object):
         self.load_reception_rcp_5.setText(_translate("MainWindow", "Load"))
         self.label_99.setText(_translate("MainWindow", "Antenna efficiency (%)"))
         self.label_100.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_101.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_101.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_102.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_rcp_3.setText(_translate("MainWindow", "Clear"))
@@ -5524,7 +5526,7 @@ class Ui_MainWindow(object):
         self.load_reception_sp_ant_size.setText(_translate("MainWindow", "Load"))
         self.label_131.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_132.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_133.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_133.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_134.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_sp_ant_size.setText(_translate("MainWindow", "Clear"))
@@ -5581,7 +5583,7 @@ class Ui_MainWindow(object):
         self.load_reception_mp_perf_2.setText(_translate("MainWindow", "Load"))
         self.label_153.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_154.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_155.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_155.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_156.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_mp_perf_2.setText(_translate("MainWindow", "Clear"))
@@ -5637,7 +5639,7 @@ class Ui_MainWindow(object):
         self.load_reception_rcp_9.setText(_translate("MainWindow", "Load"))
         self.label_180.setText(_translate("MainWindow", "Antenna efficiency (%)"))
         self.label_181.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_182.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_182.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_183.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_rcp_5.setText(_translate("MainWindow", "Clear"))
@@ -5684,7 +5686,7 @@ class Ui_MainWindow(object):
         self.load_reception_rcp_10.setText(_translate("MainWindow", "Load"))
         self.label_203.setText(_translate("MainWindow", "Antenna efficiency (%)"))
         self.label_204.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_205.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_205.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_206.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_rcp_6.setText(_translate("MainWindow", "Clear"))
@@ -5759,7 +5761,7 @@ class Ui_MainWindow(object):
         self.load_reception_sp_perf_3.setText(_translate("MainWindow", "Load"))
         self.label_234.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_235.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_236.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_236.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_237.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_sp_perf_3.setText(_translate("MainWindow", "Clear"))
@@ -5810,7 +5812,7 @@ class Ui_MainWindow(object):
         self.load_reception_mp_perf_3.setText(_translate("MainWindow", "Load"))
         self.label_257.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_258.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_259.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_259.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_260.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_mp_perf_3.setText(_translate("MainWindow", "Clear"))
@@ -5895,7 +5897,7 @@ class Ui_MainWindow(object):
         self.load_reception_sp_perf_4.setText(_translate("MainWindow", "Load"))
         self.label_292.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_293.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_294.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_294.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_295.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_sp_perf_4.setText(_translate("MainWindow", "Clear"))
@@ -5942,7 +5944,7 @@ class Ui_MainWindow(object):
         self.load_reception_mp_ant_size.setText(_translate("MainWindow", "Load"))
         self.label_315.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_316.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_317.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_317.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_318.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_mp_ant_size.setText(_translate("MainWindow", "Clear"))
@@ -6026,7 +6028,7 @@ class Ui_MainWindow(object):
         self.load_reception_sp_perf.setText(_translate("MainWindow", "Load"))
         self.label_46.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_47.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_48.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_48.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_49.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_sp_perf.setText(_translate("MainWindow", "Clear"))
@@ -6074,7 +6076,7 @@ class Ui_MainWindow(object):
         self.load_reception_mp_perf.setText(_translate("MainWindow", "Load"))
         self.label_86.setText(_translate("MainWindow", "Antenna efficiency"))
         self.label_87.setText(_translate("MainWindow", "LNB noise temp. (K)"))
-        self.label_88.setText(_translate("MainWindow", "Aditional losses (dB)"))
+        self.label_88.setText(_translate("MainWindow", "Additional losses (dB)"))
         self.label_89.setText(_translate("MainWindow", "Maximum \n"
 "depointing (degrees)"))
         self.clear_reception_mp_perf.setText(_translate("MainWindow", "Clear"))
