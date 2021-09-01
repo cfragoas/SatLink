@@ -1,0 +1,384 @@
+SAT;COORD
+ ; 
+ABS-2 ;75 
+ABS-2A ;75 
+ABS-3A;-3
+ABS-4 ;61 
+ABS-6 ;159 
+Al Yah 1 ;53 
+Al Yah 2 ;48 
+Al Yah 3;-20
+AlComSat 1;-25
+Alphasat I-XL ;25 
+Amazonas 2 ;-61
+Amazonas 3 ;-61
+Amazonas 5 ;-61
+AMC 1 ;-131
+AMC 11 ;-131
+AMC 15;-105
+AMC 16 ;-85
+AMC 18 ;-139
+AMC 2 ;-85
+AMC 21;-125
+AMC 3 ;-72
+AMC 4 ;-135
+AMC 8 ;-135
+Amos 17;17 
+Amos 3 ;-4
+Amos 4;65 
+Amos 7 ;-4
+AMSC 1 ;-107
+Anik F1;-107
+Anik F1R;-107
+Anik F2 ;-111
+Anik F3;-119
+Anik G1;-107
+APSTAR 6 ;163 
+APSTAR 6C;134 
+APSTAR 6D ;134 
+APSTAR 7;76 
+APSTAR 9 ;142 
+Arabsat 5A;31 
+Arabsat 5C;20 
+Arabsat 6A;31 
+ARSAT 1;-72
+ARSAT 2;-81
+AsiaSat 5;101 
+Asiasat 6 ;120 
+Asiasat 7 ;105 
+Asiasat 9;122 
+Asiastar 1 ;105 
+Astra 1D;-73
+Astra 1F;44 
+Astra 1G;63 
+Astra 1H;-67
+Astra 1KR;19 
+Astra 1L;19 
+Astra 1M;19 
+Astra 1N;19 
+Astra 2A;28 
+Astra 2B;19 
+Astra 2C;24 
+Astra 2D;57 
+Astra 2E;28 
+Astra 2F;28 
+Astra 2G;28 
+Astra 3A;-87
+Astra 3B;23 
+Astra 4A ;5 
+Astra 5B ;31 
+Athena Fidus;38 
+Azerspace ;46 
+Azerspace 2 ;45 
+Badr 4 ;26 
+Badr 5 ;26 
+Badr 6 ;26 
+Badr 7 ;26 
+Bangabandhu-1 ;119 
+BELINTERSAT-1;51 
+Brasilsat B4;-92
+BRIsat;150 
+BSat 3A;110 
+BSat 3B;110 
+BSat 3C ;110 
+Bsat 4A;110 
+BulgariaSat-1;2 
+ChinaSat 10 ;110 
+Chinasat 11;98 
+Chinasat 12 ;88 
+Chinasat 16 ;110 
+ChinaSat 6A ;125 
+ChinaSat 6B ;116 
+Chinasat 6C ;130 
+ChinaSat 9 ;92 
+ChinaSat 9A ;101 
+Ciel 2 ;-129
+COMS 1 ;128 
+Directv 10;-103
+Directv 11;-99
+Directv 12 ;-103
+Directv 14 ;-99
+Directv 15;-103
+Directv 16 ;-101
+Directv 5 ;-110
+Directv 7S ;-119
+Directv 8;-101
+Directv 9S ;-101
+Echostar 10 ;-110
+Echostar 11 ;-110
+Echostar 12 ;-86
+Echostar 14 ;-119
+Echostar 15;-61
+Echostar 16 ;-61
+Echostar 17 ;-107
+Echostar 18 ;-61
+Echostar 19 ;-97
+Echostar 21 ;10 
+Echostar 23 ;-68
+Echostar 7;-119
+Echostar G1 ;-93
+Echostar T1 ;-111
+Es'hail 1 ;25 
+Es'hail 2;25 
+Eutelsat 10A ;10 
+Eutelsat 113 West A ;-113
+Eutelsat 115 West B ;-115
+Eutelsat 117 West A ;-117
+Eutelsat 117 West B ;-117
+Eutelsat 12 West B ;-12
+Eutelsat 12 West D ;-12
+Eutelsat 133 West A ;-133
+Eutelsat 16A ;16 
+Eutelsat 172B;172 
+Eutelsat 174A ;174 
+Eutelsat 21B ;21 
+Eutelsat 33E ;33 
+Eutelsat 36B ;36 
+Eutelsat 3B ;3 
+Eutelsat 48D ;48 
+Eutelsat 5 West A ;-5
+Eutelsat 5 West B ;-5
+Eutelsat 59A ;59 
+Eutelsat 65 West A ;-65
+Eutelsat 7 West A ;-7
+Eutelsat 70B ;70 
+Eutelsat 748E ;48 
+Eutelsat 7B ;7 
+Eutelsat 7C;7 
+Eutelsat 8 West B;-8
+Eutelsat 9B ;9 
+Eutelsat Hot Bird 13B ;13 
+Eutelsat Hot Bird 13C ;13 
+Eutelsat Hot Bird 13E ;13 
+Eutelsat KA-SAT 9A ;9 
+Eutelsat Konnect ;7 
+Express 80;80 
+Express AM3 ;103 
+Express AM33 ;96 
+Express AM44 ;-11
+Express AM5 ;140 
+Express AM6 ;53 
+Express AM7 ;40 
+Express AM8;-14
+Express AMU1 ;36 
+Express AT1;56 
+Express AT2;140 
+Galaxy 11 ;-93
+Galaxy 12 ;-129
+Galaxy 14 ;-125
+Galaxy 15 ;-133
+Galaxy 16 ;-99
+Galaxy 17 ;-91
+Galaxy 18 ;-123
+Galaxy 19 ;-97
+Galaxy 23 ;-121
+Galaxy 25 ;33 
+Galaxy 28 ;-89
+Galaxy 3C ;-95
+GovSat-1 ;21 
+GSAT 10;83 
+GSAT 11;74 
+GSAT 12;83 
+GSAT 14;74 
+GSAT 15;93 
+GSAT 16;55 
+GSAT 17;93 
+GSAT 18;74 
+GSAT 19 ;48 
+GSAT 29;55 
+GSAT 31;48 
+GSAT 6 ;83 
+GSAT 7 ;74 
+GSAT 8 ;55 
+GSAT 9 ;97 
+HellasSat 2 ;-95
+HellasSat 3 ;39 
+HellasSat 4 ;39 
+Hispasat 143W-1 ;-143
+Hispasat 30W-5 ;-30
+Hispasat 30W-6 ;-30
+Hispasat 36W-1 ;-36
+Hispasat 74W-1 ;-74
+Horizons 1 ;-127
+Horizons 2;85 
+Horizons 3E;169 
+Hylas 1 ;160 
+Hylas 2;31 
+Hylas 3 ;31 
+Hylas 4 ;-34
+Inmarsat GX1 ;63 
+Inmarsat GX2 ;-55
+Inmarsat GX3 ;180
+Inmarsat GX4 ;56 
+Inmarsat GX5 ;11 
+Inmarsat-3F3 ;178 
+Inmarsat-3F5 ;-54
+Inmarsat-4F1 ;143 
+Inmarsat-4F2 ;64 
+Inmarsat-4F3 ;-98
+Insat 4B;85 
+Insat 4CR;48 
+Intelsat 10 ;47 
+Intelsat 10-02 ;-1
+Intelsat 11 ;-43
+Intelsat 12 ;64 
+Intelsat 14 ;-45
+Intelsat 15 ;85 
+Intelsat 16 ;-76
+Intelsat 17 ;66 
+Intelsat 18 ;180
+Intelsat 19 ;166 
+Intelsat 1R ;157 
+Intelsat 20 ;69 
+Intelsat 21 ;-58
+Intelsat 22 ;72 
+Intelsat 23 ;-53
+Intelsat 25 ;-32
+Intelsat 26 ;64 
+Intelsat 28 ;33 
+Intelsat 30 ;-95
+Intelsat 31 ;-95
+Intelsat 32e ;-43
+Intelsat 33e;60 
+Intelsat 34 ;-55
+Intelsat 35e;-34
+Intelsat 36;69 
+Intelsat 37e;-18
+Intelsat 39 ;62 
+Intelsat 5 ;-137
+Intelsat 9 ;-50
+Intelsat 901 + MEV1 ;-27
+Intelsat 902 ;-50
+Intelsat 903 ;-32
+Intelsat 904 ;-29
+Intelsat 905 ;-24
+Intelsat 906 ;64 
+Intelsat 907 ;-27
+JCSat 110A ;110 
+JCSat 16;90 
+JCSat 18 ;150 
+JCSat 2B ;154 
+JCSat 3A ;128 
+JCSat 4B ;124 
+JCSat 5A ;132 
+JCSat 6 ;136 
+JCSat RA ;169 
+Kazsat 2;86 
+Kazsat 3;58 
+Koreasat 5 ;113 
+Koreasat 5A ;113 
+Koreasat 6 ;116 
+Koreasat 7 ;116 
+LAOSat 1;128 
+Luch ;-1
+Luch 5A ;167 
+Luch 5B ;-16
+Luch 5V ;95 
+Measat 3 ;91 
+Measat 3A ;91 
+Measat 3B ;91 
+MexSat 2 ;-113
+MexSat Bicentenario ;-115
+NBN-Co 1A ;140 
+NBN-Co 1B ;145 
+Nigcomsat 1R;42 
+Nilesat 201;-7
+Nimiq 1 ;-86
+Nimiq 4;-82
+Nimiq 5;-73
+Nimiq 6;-91
+N-SAT-110 ;110 
+NSS 10 ;-37
+NSS 11 ;176 
+NSS 12;57 
+NSS 5 ;50 
+NSS 6;-169
+NSS 7;-20
+NSS 9;-177
+N-Star-C;136 
+Optus 10;156 
+Optus C1 ;156 
+Optus D1;160 
+Optus D2;152 
+Optus D3;156 
+Paksat-1R;38 
+Paksat-MM 1 ;38 
+Palapa D ;113 
+PSN 6 ;146 
+QuetzSat 1;-77
+Rascom 1R ;3 
+SES 1 ;-101
+SES 10 ;-67
+SES 11 ;-105
+SES 12;95 
+SES 14;-47
+SES 15;-129
+SES 2 ;-87
+SES 3 ;-103
+SES 4 ;-22
+SES 5 ;5 
+SES 6;-40
+SES 7 ;108 
+SES 8;95 
+SES 9;108 
+SGDC 1;-75
+Sirius FM-5 ;-86
+Sirius FM-6 ;-116
+Sky-Mexico 1 ;-79
+Skynet 4E;-1
+Skynet 4F;-34
+Skynet 5A;95 
+Skynet 5B;24 
+Skynet 5C;-18
+Skynet 5D;53 
+Skyterra 1;-101
+Spaceway 2 ;-139
+Spaceway 3 ;-95
+ST 2;88 
+Star One C1;-65
+Star One C2;-70
+Star One C3;-75
+Star One C4 ;-70
+Star One D1 ;-84
+Superbird B3 ;162 
+Superbird C2 ;144 
+Telkom 2;157 
+Telkom 3S;118 
+Telkom 4 ;108 
+Telstar 11N ;-37
+Telstar 12 ;-109
+Telstar 12V ;-15
+Telstar 14R ;-63
+Telstar 18 ;138 
+Telstar 18V ;138 
+Telstar 19V ;-63
+Thaicom 4 ;119 
+Thaicom 5 ;79 
+Thaicom 6 ;79 
+Thaicom 8;79 
+Thor 3;-4
+Thor 5 ;-1
+Thor 6 ;-1
+Thor 7;-1
+Thuraya 2;44 
+Thuraya 3;98 
+Tupac Katari 1 ;-87
+TurkmenAlem ;52 
+Turksat 3A ;42 
+Turksat 4A;42 
+Turksat 4B;50 
+ViaSat 1 ;-115
+Viasat 2 ;-70
+Vinasat 1;132 
+Vinasat 2;132 
+Wildblue 1 ;-111
+XM 3 ;-85
+XM 4 ;-115
+XM 5 ;-85
+XTAR-EUR ;29 
+XTAR-LANT ;-30
+Yamal 202 ;163 
+Yamal 300K ;-177
+Yamal 401 ;90 
+Yamal 402 ;55 
+Yamal 601 ;49 
