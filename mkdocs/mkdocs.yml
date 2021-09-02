@@ -1,0 +1,8 @@
+site_name: Satlink
+nav:
+  - Installation: installation.md
+  - Graphical Interface usage: gui_use.md
+  - Code-based usage: code_use.md
+  - F.A.Q.: faq.md
+  - Contacts: contact.md
+theme: readthedocs
