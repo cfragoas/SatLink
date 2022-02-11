@@ -62,7 +62,7 @@ The other functions are detailed in the [**documentation**](https://cfragoas.git
 
 ### Libraries
 
-SatLink uses a bunch of differente open source python libraries
+SatLink uses a bunch of different open source python libraries
 
 * [itur] - A python implementation of the ITU-R P. Recommendations to compute atmospheric attenuation in slant and horizontal paths
 * [pyqt] - PyQt is a set of Python bindings for The Qt Company's Qt application framework
