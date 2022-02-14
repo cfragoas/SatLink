@@ -104,6 +104,8 @@ Since this is still a early version of the code, we expect there some problem ca
 Some updates are planned for the future of the SatLink
 
 * Worst month availabilty calcullation
+* Web application
+* Map function
 * More robust XPD calculations
 
 ### Authorship
