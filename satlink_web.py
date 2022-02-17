@@ -2,10 +2,13 @@ import streamlit as st
 import subprocess
 
 
-st.set_page_config(layout="wide")
+# st.set_page_config(layout="wide")
+st.set_page_config(page_title='Satlink', page_icon='UI\icon.png', layout="wide", initial_sidebar_state="auto", menu_items=None)
 
-st.title('Ground Station')
-grstat_exp = st.expander(label='')
+st.markdown('SatLink is a python based application that makes satellite downlink link budget calculations.')
+
+st.subheader('Ground Station')
+grstat_exp = st.expander(label='', expanded=True)
 with grstat_exp:
     grstat_col1, grstat_col2= st.columns(2)
 
@@ -17,8 +20,8 @@ with grstat_exp:
     grstat_col2.number_input('Longitude (degrees)')
 
 
-st.title('Satellite')
-sat_exp = st.expander(label='')
+st.subheader('Satellite')
+sat_exp = st.expander(label='', expanded=True)
 with sat_exp:
     sat_col1, sat_col2, sat_col3, sat_col4 = st.columns(4)
 
@@ -37,8 +40,8 @@ with sat_exp:
     sat_col4.selectbox('Modulation', ('64QAM', 'QPSK', '8PSK'))
 
 
-st.title('Reception Characteristcs')
-rcp_exp = st.expander(label='')
+st.subheader('Reception Characteristcs')
+rcp_exp = st.expander(label='', expanded=True)
 with rcp_exp:
     rcp_col1, rcp_col2, rcp_col3, rcp_col4 = st.columns(4)
 
@@ -56,5 +59,8 @@ with rcp_exp:
 run = st.button('Run calculations')
 
 if run:
-    value = subprocess.check_output(['python', 'single_point_example.py'], shell=True)
-    st.write(value)
+    c = st.container()
+    with c:
+        value = subprocess.check_output(['python', 'single_point_example.py'], shell=True, text=True)
+        st.text(value)
+        # print(str(value))
