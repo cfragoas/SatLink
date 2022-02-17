@@ -1,0 +1,184 @@
+# Copyright 2018-2022 Streamlit Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+from textwrap import dedent
+from typing import Optional, cast
+
+import attr
+import streamlit
+from streamlit.errors import StreamlitAPIException
+from streamlit.proto.Metric_pb2 import Metric as MetricProto
+
+from .utils import clean_text
+
+
+@attr.s(auto_attribs=True, slots=True)
+class MetricColorAndDirection:
+    color: Optional[int]
+    direction: Optional[int]
+
+
+class MetricMixin:
+    def metric(self, label, value, delta=None, delta_color="normal"):
+        """Display a metric in big bold font, with an optional indicator of how the metric changed.
+
+        Tip: If you want to display a large number, it may be a good idea to
+        shorten it using packages like `millify <https://github.com/azaitsev/millify>`_
+        or `numerize <https://github.com/davidsa03/numerize>`_. E.g. ``1234`` can be
+        displayed as ``1.2k`` using ``st.metric("Short number", millify(1234))``.
+
+        Parameters
+        ----------
+        label : str
+            The header or Title for the metric
+        value : int, float, str, or None
+             Value of the metric. None is rendered as a long dash.
+        delta : int, float, str, or None
+            Indicator of how the metric changed, rendered with an arrow below
+            the metric. If delta is negative (int/float) or starts with a minus
+            sign (str), the arrow points down and the text is red; else the
+            arrow points up and the text is green. If None (default), no delta
+            indicator is shown.
+        delta_color : str
+             If "normal" (default), the delta indicator is shown as described
+             above. If "inverse", it is red when positive and green when
+             negative. This is useful when a negative change is considered
+             good, e.g. if cost decreased. If "off", delta is  shown in gray
+             regardless of its value.
+
+        Example
+        -------
+        >>> st.metric(label="Temperature", value="70 °F", delta="1.2 °F")
+
+        .. output::
+            https://share.streamlit.io/streamlit/docs/main/python/api-examples-source/metric.example1.py
+            height: 210px
+
+        ``st.metric`` looks especially nice in combination with ``st.columns``:
+
+        >>> col1, col2, col3 = st.columns(3)
+        >>> col1.metric("Temperature", "70 °F", "1.2 °F")
+        >>> col2.metric("Wind", "9 mph", "-8%")
+        >>> col3.metric("Humidity", "86%", "4%")
+
+        .. output::
+            https://share.streamlit.io/streamlit/docs/main/python/api-examples-source/metric.example2.py
+            height: 210px
+
+        The delta indicator color can also be inverted or turned off:
+
+        >>> st.metric(label="Gas price", value=4, delta=-0.5,
+        ...     delta_color="inverse")
+        >>>
+        >>> st.metric(label="Active developers", value=123, delta=123,
+        ...     delta_color="off")
+
+        .. output::
+            https://share.streamlit.io/streamlit/docs/main/python/api-examples-source/metric.example3.py
+            height: 320px
+
+        """
+        metric_proto = MetricProto()
+        metric_proto.body = self.parse_value(value)
+        metric_proto.label = self.parse_label(label)
+        metric_proto.delta = self.parse_delta(delta)
+
+        color_and_direction = self.determine_delta_color_and_direction(
+            clean_text(delta_color), delta
+        )
+        metric_proto.color = color_and_direction.color
+        metric_proto.direction = color_and_direction.direction
+
+        return str(self.dg._enqueue("metric", metric_proto))
+
+    def parse_label(self, label):
+        if not isinstance(label, str):
+            raise TypeError(
+                f"'{str(label)}' is of type {str(type(label))}, which is not an accepted type."
+                " label only accepts: str. Please convert the label to an accepted type."
+            )
+        return label
+
+    def parse_value(self, value):
+        if value is None:
+            return "—"
+        if isinstance(value, float) or isinstance(value, int) or isinstance(value, str):
+            return str(value)
+        elif hasattr(value, "item"):
+            # Add support for numpy values (e.g. int16, float64, etc.)
+            try:
+                # Item could also be just a variable, so we use try, except
+                if isinstance(value.item(), float) or isinstance(value.item(), int):
+                    return str(value.item())
+            except Exception:
+                pass
+
+        raise TypeError(
+            f"'{str(value)}' is of type {str(type(value))}, which is not an accepted type."
+            " value only accepts: int, float, str, or None."
+            " Please convert the value to an accepted type."
+        )
+
+    def parse_delta(self, delta):
+        if delta is None or delta == "":
+            return ""
+        if isinstance(delta, str):
+            return dedent(delta)
+        elif isinstance(delta, int) or isinstance(delta, float):
+            return str(delta)
+        else:
+            raise TypeError(
+                f"'{str(delta)}' is of type {str(type(delta))}, which is not an accepted type."
+                " delta only accepts: int, float, str, or None."
+                " Please convert the value to an accepted type."
+            )
+
+    def determine_delta_color_and_direction(self, delta_color, delta):
+        cd = MetricColorAndDirection(color=None, direction=None)
+
+        if delta is None or delta == "":
+            cd.color = MetricProto.MetricColor.GRAY
+            cd.direction = MetricProto.MetricDirection.NONE
+            return cd
+
+        if self.is_negative(delta):
+            if delta_color == "normal":
+                cd.color = MetricProto.MetricColor.RED
+            elif delta_color == "inverse":
+                cd.color = MetricProto.MetricColor.GREEN
+            elif delta_color == "off":
+                cd.color = MetricProto.MetricColor.GRAY
+            cd.direction = MetricProto.MetricDirection.DOWN
+        else:
+            if delta_color == "normal":
+                cd.color = MetricProto.MetricColor.GREEN
+            elif delta_color == "inverse":
+                cd.color = MetricProto.MetricColor.RED
+            elif delta_color == "off":
+                cd.color = MetricProto.MetricColor.GRAY
+            cd.direction = MetricProto.MetricDirection.UP
+
+        if cd.color is None or cd.direction is None:
+            raise StreamlitAPIException(
+                f"'{str(delta_color)}' is not an accepted value. delta_color only accepts: "
+                "'normal', 'inverse', or 'off'"
+            )
+        return cd
+
+    def is_negative(self, delta):
+        return dedent(str(delta)).startswith("-")
+
+    @property
+    def dg(self) -> "streamlit.delta_generator.DeltaGenerator":
+        return cast("streamlit.delta_generator.DeltaGenerator", self)

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: jupyter-core
+Version: 4.9.2
+Summary: Jupyter core package. A base package on which Jupyter projects rely.
+Home-page: https://jupyter.org
+Author: Jupyter Development Team
+Author-email: jupyter@googlegroups.org
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: COPYING.md
+Requires-Dist: traitlets
+Requires-Dist: pywin32 (>=1.0) ; sys_platform == "win32" and platform_python_implementation != "PyPy"
+
+There is no reason to install this package on its own.
+
