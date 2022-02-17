@@ -2,8 +2,8 @@ import sys
 import subprocess
 
 # package list must follow the installation guide in README.md
-package_list = ('itur==0.2.1', 'tqdm==4.56.0', 'pandas==1.2.1', 'pathos==0.2.7', 'astropy==4.2', 'pyqt5==5.15.2',
-                'matplotlib==3.4.1')
+package_list = ('itur', 'tqdm', 'pandas', 'pathos', 'astropy', 'pyqt5',
+                'matplotlib')
 
 for package in package_list:
     # implement pip as a subprocess:
