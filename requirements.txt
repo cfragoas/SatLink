@@ -1,3 +1,5 @@
+# this file contains the installation packages necessary to run SatLink app (GUI or code)
+# if you want to use satlink via web-app with limited functions, please use 'requirements_web.txt'
 itur
 tqdm
 pandas

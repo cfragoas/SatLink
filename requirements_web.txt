@@ -1,0 +1,10 @@
+# this file contains the installation packages necessary to run SatLink Web app
+# or just use SatLink's functions via python
+# if you want to use satlink via normal GUI, please use 'requirements.txt'
+# if you dont want to use the webinterface, please uninstall streamlit
+itur
+pandas
+tqdm
+pathos
+astropy
+streamlit
