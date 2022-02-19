@@ -1,5 +1,6 @@
 from GrStat import GroundStation, Reception
 from sat import Satellite
+from models.util import convert_path_os
 from pathos.pools import ParallelPool
 import pandas as pd
 import numpy as np
@@ -7,7 +8,7 @@ import pickle
 import tqdm
 import time
 import datetime
-import sys, os
+import sys, os, platform
 
 # this file contains the functions used to calculate availability and display the results in the interface
 
@@ -31,7 +32,8 @@ def point_availability(args): # this function is just to run the availability fo
 
 
 def sp_link_performance():  # this function runs the availability for a single point and shows a complete output
-    with open('temp\\args.pkl', 'rb') as f:
+    path = convert_path_os('temp\\args.pkl')
+    with open(path, 'rb') as f:
         (site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util, modcod, pol,
          roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, coupling_loss, cable_loss, max_depoint,
          snr_relaxation, margin) = pickle.load(f)
@@ -48,7 +50,8 @@ def sp_link_performance():  # this function runs the availability for a single p
     ### satellite parameters ###
     ##############################
 
-    data = pd.read_csv('models\\Modulation_dB.csv', sep=';')
+    path = convert_path_os('models\\Modulation_dB.csv')
+    data = pd.read_csv(path, sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
     mod = line['Modulation'].values[0]
@@ -78,8 +81,8 @@ def sp_link_performance():  # this function runs the availability for a single p
     ###################################
 
     ############ SNR target's calcullation ################
-
-    sys.stdout = open('temp\\out.txt', 'w')
+    path = convert_path_os('temp\\out.txt')
+    sys.stdout = open(path, 'w')
 
     start = time.time()
     print('RESULTS', file=sys.stdout)
@@ -132,14 +135,17 @@ def sp_link_performance():  # this function runs the availability for a single p
 
     sys.stdout.close()
 
-    if os.path.exists('temp\\args.pkl'):
-        os.remove('temp\\args.pkl')
+    path = convert_path_os('temp\\args.pkl')
+
+    if os.path.exists(path):
+        os.remove(path)
 
     return
 
 
 def mp_link_performance():
-    with open('temp\\args.pkl', 'rb') as f:  # opening the input variables in the temp file
+    path = convert_path_os('temp\\args.pkl')
+    with open(path, 'rb') as f:  # opening the input variables in the temp file
         (gr_station_path, sat_long, freq, max_eirp, sat_height, max_bw, bw_util, modcod, pol,
          roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, coupling_loss, cable_loss, max_depoint,
          snr_relaxation, margin, threads) = pickle.load(f)
@@ -154,7 +160,8 @@ def mp_link_performance():
     point_list = pd.read_csv(gr_station_path, sep=';', encoding='latin1')  # creating a point dataframe from csv file
     point_list['availability'] = np.nan  # creating an empty results column
 
-    data = pd.read_csv('models\\Modulation_dB.csv', sep=';')
+    path = convert_path_os('models\\Modulation_dB.csv')
+    data = pd.read_csv(path, sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
     mod = line['Modulation'].values[0]
@@ -169,10 +176,10 @@ def mp_link_performance():
                           max_depoint)  # creating the receptor object
 
     # ======================== PARALLEL POOL =============================
-
     pool = ParallelPool(nodes=threads)  # creating the parallelPoll
 
-    sys.stderr = open('temp\\out.txt', 'w')  # to print the output dynamically
+    path = convert_path_os('temp\\out.txt')
+    sys.stderr = open(path, 'w')  # to print the output dynamically
 
     print('initializing . . .', file=sys.stderr)
 
@@ -194,7 +201,8 @@ def mp_link_performance():
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-    point_list.to_csv(dir + '\\' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv', sep=';',
+    path = convert_path_os(dir + '\\' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv')
+    point_list.to_csv(path, sep=';',
                       encoding='latin1')
 
     print('Complete!!!', file=sys.stderr)

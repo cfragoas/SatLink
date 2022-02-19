@@ -4,6 +4,7 @@ import pandas as pd
 import itur
 from GrStat import GroundStation, Reception
 from models.FsAtt import FreeSpaceAtt as FsAtt
+from models.util import convert_path_os
 import astropy.units as u
 from models.util import truncate
 
@@ -109,7 +110,8 @@ class Satellite:
         elif self.snr_threshold is not None:
             return self.snr_threshold
 
-        data = pd.read_csv('models\\Modulation_dB.csv', sep=';')
+        path = convert_path_os('models\\Modulation_dB.csv')
+        data = pd.read_csv(path, sep=';')
         # line = data.loc[(data.Tech == self.tech) & (data.Modulation == self.modulation) & (data.FEC == self.fec)]
         line = data.loc[(data.Modulation == self.modulation) & (data.FEC == self.fec)]
         self.snr_threshold = line['C_over_N'].values[0]

@@ -48,4 +48,8 @@ def curve_interpolation(x, interp, data):
 
     return intepolated_point
 
-
+def convert_path_os(path: str) -> str: # this function convert paths to work in differents OSs
+    import platform
+    if platform.system() == 'Darwin' or platform.system() == 'Linux':
+        path = path.replace('\\', '/')
+        return path

@@ -146,7 +146,8 @@ class Reception:
         elif self.t_sky is not None:
             return self.t_sky
         else:
-            data = pd.read_csv('models\\ClearSkyTemp ITU 372.csv', sep=';', index_col=0)
+            path = util.convert_path_os('models\\ClearSkyTemp ITU 372.csv')
+            data = pd.read_csv(path, sep=';', index_col=0)
             self.t_sky = util.curve_interpolation(self.freq, self.e, data)
         if printer:
             print('elevation: ', self.e, ' freq: ', self.freq, ' Tsky (brightness temperature): ', self.t_sky)
