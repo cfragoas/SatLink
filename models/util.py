@@ -52,4 +52,4 @@ def convert_path_os(path: str) -> str: # this function convert paths to work in 
     import platform
     if platform.system() == 'Darwin' or platform.system() == 'Linux':
         path = path.replace('\\', '/')
-        return path
+    return path
