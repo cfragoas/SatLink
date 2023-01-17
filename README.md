@@ -24,6 +24,8 @@ To run the calcullations via GUI interface, run the python file **main_window.py
 
 Detailed information about the usage of the GUI can be found in the [**documentation**](https://cfragoas.github.io/SatLink/).
 
+A Satlink web app implementation can be used by building a dockerfile using [**this**](https://github.com/cfragoas/SatLink/blob/main/Dockerfile) and runing **satlink_web.py** (needs to install **streamlit**(https://streamlit.io/) package to work)
+
 # Using SatLink via python commands 
  SatLink consists of three main classes 
  
