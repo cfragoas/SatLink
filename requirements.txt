@@ -7,3 +7,4 @@ pathos
 astropy
 pyqt5
 matplotlib
+chardet

@@ -4984,8 +4984,10 @@ class Ui_MainWindow(object):
 
     def load_point_list(self, preview_window, path_box):
         from file_dialog import open_dialog
+        from pathlib import Path
         import pandas as pd
         import pickle
+        import chardet
 
         opt = 'load'
         type = 'Comma-separated values (*.csv)'
@@ -5011,7 +5013,8 @@ class Ui_MainWindow(object):
 
         if folder != '':
             path_box.setText(str(folder))
-            data = pd.read_csv(folder, sep=';')
+            detected_file = chardet.detect(Path(folder).read_bytes())
+            data = pd.read_csv(folder, sep=';', encoding=detected_file.get('encoding'))
             # print(folder)
             for index, row in data.iterrows():
 
