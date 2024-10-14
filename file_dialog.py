@@ -45,7 +45,7 @@ class Dialog(QWidget):
         self.fileName, _ = fileDialog.getOpenFileName(None, "Open File", "",
                                                       self.type + ";;All Files (*)", options=options)
         if self.fileName:
-            with open('temp\\load.pkl', 'wb') as f:
+            with open('temp/load.pkl', 'wb') as f:
                 pickle.dump(self.fileName, f)
                 f.close()
                 return
@@ -60,7 +60,7 @@ class Dialog(QWidget):
         self.fileName, _ = fileDialog.getSaveFileName(None, "Save File", "",
                                                       self.type + ";;All Files (*)", options=options)
         if self.fileName:
-            with open('temp\\save.pkl', 'wb') as f:
+            with open('temp/save.pkl', 'wb') as f:
                 pickle.dump(self.fileName, f)
                 f.close()
                 return

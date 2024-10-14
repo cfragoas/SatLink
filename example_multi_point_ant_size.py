@@ -40,7 +40,7 @@ def point_ant_size(args):  # function loop - return the availability to a given 
 if __name__ == '__main__':
 
     # reading the input table
-    location = 'input examples\\'
+    location = 'input examples/'
     file = 'list'
     point_list = pd.read_csv(location + file + '.csv', sep=';', encoding='latin1')
     point_list['ant size'] = np.nan  # creating an empty results column

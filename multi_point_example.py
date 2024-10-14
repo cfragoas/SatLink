@@ -26,7 +26,7 @@ def point_availability(args):  # function loop - return the availability to a gi
 if __name__ == '__main__':
 
     # reading the input table
-    location = 'input examples\\'
+    location = 'input examples/'
     file = 'list'
     point_list = pd.read_csv(location + file + '.csv', sep=';', encoding='latin1')
     point_list['availability'] = np.nan  # creating an empty results column
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     if not os.path.exists(path):
         os.makedirs(path)
 
-    point_list.to_csv(path + '\\' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv', sep=';',
+    point_list.to_csv(path + '/' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv', sep=';',
                   encoding='latin1')
 
     print('Complete!!!')

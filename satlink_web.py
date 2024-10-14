@@ -1,7 +1,6 @@
 # this script generates an web app with streamlit to calculate a single point downlink availability
 # the scope of this window is the same as Single Point Calculation -> Downlink Performance from the Qt GUI
 
-from models.util import convert_path_os
 import streamlit as st
 import subprocess
 import pandas as pd
@@ -51,7 +50,7 @@ with grstat_exp:
 # Satellite variables
 st.subheader('Satellite')
 sat_exp = st.expander(label='', expanded=True)
-path = convert_path_os('models\\Modulation_dB.csv')
+path = 'models/Modulation_dB.csv'
 mod_list = pd.read_csv(path, sep=';')['Modcod']  # to fill modulation combobox
 
 with sat_exp:
@@ -93,7 +92,7 @@ with rcp_exp:
 
 db_field = st.button('Run Calculations')  # this button will run sp_link_performance from link_performance.py 
 if db_field:
-    path = convert_path_os('temp\\args.pkl')  # dumping the pickle file with all the variables
+    path = 'temp/args.pkl'  # dumping the pickle file with all the variables
     with open(path, 'wb') as f:
         pickle.dump(
             [site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
@@ -103,7 +102,7 @@ if db_field:
 
     sp_link_performance()  # function to calculate the link performace
 
-    path = convert_path_os('temp\\out.txt')
+    path = 'temp/out.txt'
     with open(path, 'r') as output:  # this will pick the output form sp_link_performance
         x = output.read()
 

@@ -13,309 +13,391 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
+        self.ui_icon = "UI/icon.png"
+        self.home_logo = "UI/home_logo.png"
+
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(820, 911)
+
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
+
         MainWindow.setSizePolicy(sizePolicy)
+
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("UI\\icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(self.ui_icon), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+
         MainWindow.setWindowIcon(icon)
         MainWindow.setLayoutDirection(QtCore.Qt.LeftToRight)
         MainWindow.setAnimated(True)
         MainWindow.setTabShape(QtWidgets.QTabWidget.Rounded)
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
         self.stackedWidget.setGeometry(QtCore.QRect(0, -1, 811, 861))
         self.stackedWidget.setObjectName("stackedWidget")
+        
         self.home_page = QtWidgets.QWidget()
         self.home_page.setObjectName("home_page")
+        
         self.label_5 = QtWidgets.QLabel(self.home_page)
         self.label_5.setGeometry(QtCore.QRect(217, 270, 431, 391))
         self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap("UI\\home_logo.png"))
+        self.label_5.setPixmap(QtGui.QPixmap(self.home_logo))
         self.label_5.setObjectName("label_5")
+        
         self.stackedWidget.addWidget(self.home_page)
+        
         self.satellite_page = QtWidgets.QWidget()
         self.satellite_page.setObjectName("satellite_page")
+        
         self.groupBox_9 = QtWidgets.QGroupBox(self.satellite_page)
         self.groupBox_9.setGeometry(QtCore.QRect(10, 10, 801, 851))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_9.setFont(font)
         self.groupBox_9.setAutoFillBackground(False)
         self.groupBox_9.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox_9.setObjectName("groupBox_9")
+        
         self.label_31 = QtWidgets.QLabel(self.groupBox_9)
         self.label_31.setGeometry(QtCore.QRect(20, 38, 55, 16))
         self.label_31.setObjectName("label_31")
+        
         self.label_54 = QtWidgets.QLabel(self.groupBox_9)
         self.label_54.setGeometry(QtCore.QRect(20, 80, 161, 21))
         self.label_54.setObjectName("label_54")
+        
         self.name_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.name_sat.setGeometry(QtCore.QRect(100, 38, 511, 22))
         self.name_sat.setObjectName("name_sat")
+        
         self.long_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.long_sat.setGeometry(QtCore.QRect(200, 80, 101, 22))
         self.long_sat.setObjectName("long_sat")
+        
         self.save_sat = QtWidgets.QPushButton(self.groupBox_9)
         self.save_sat.setGeometry(QtCore.QRect(680, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_sat.setFont(font)
         self.save_sat.setObjectName("save_sat")
+        
         self.load_sat = QtWidgets.QPushButton(self.groupBox_9)
         self.load_sat.setGeometry(QtCore.QRect(550, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_sat.setFont(font)
         self.load_sat.setObjectName("load_sat")
+        
         self.default_sat = QtWidgets.QComboBox(self.groupBox_9)
         self.default_sat.setGeometry(QtCore.QRect(650, 70, 131, 22))
+        
         font = QtGui.QFont()
         font.setPointSize(8)
+        
         self.default_sat.setFont(font)
         self.default_sat.setObjectName("default_sat")
+        
         self.label_55 = QtWidgets.QLabel(self.groupBox_9)
         self.label_55.setGeometry(QtCore.QRect(650, 40, 131, 16))
         self.label_55.setObjectName("label_55")
+        
         self.label_56 = QtWidgets.QLabel(self.groupBox_9)
         self.label_56.setGeometry(QtCore.QRect(330, 78, 111, 16))
         self.label_56.setObjectName("label_56")
+        
         self.height_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.height_sat.setGeometry(QtCore.QRect(510, 78, 101, 22))
         self.height_sat.setObjectName("height_sat")
+        
         self.label_59 = QtWidgets.QLabel(self.groupBox_9)
         self.label_59.setGeometry(QtCore.QRect(330, 119, 121, 16))
         self.label_59.setObjectName("label_59")
+        
         self.eirp_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.eirp_sat.setGeometry(QtCore.QRect(510, 115, 101, 22))
         self.eirp_sat.setObjectName("eirp_sat")
+        
         self.label_60 = QtWidgets.QLabel(self.groupBox_9)
         self.label_60.setGeometry(QtCore.QRect(20, 148, 171, 51))
         self.label_60.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_60.setObjectName("label_60")
+        
         self.max_bw_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.max_bw_sat.setGeometry(QtCore.QRect(200, 158, 101, 22))
         self.max_bw_sat.setObjectName("max_bw_sat")
+        
         self.label_61 = QtWidgets.QLabel(self.groupBox_9)
         self.label_61.setGeometry(QtCore.QRect(330, 143, 171, 51))
         self.label_61.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_61.setObjectName("label_61")
+        
         self.bw_util_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.bw_util_sat.setGeometry(QtCore.QRect(510, 156, 101, 22))
         self.bw_util_sat.setObjectName("bw_util_sat")
+        
         self.label_64 = QtWidgets.QLabel(self.groupBox_9)
         self.label_64.setGeometry(QtCore.QRect(20, 203, 61, 16))
         self.label_64.setObjectName("label_64")
+        
         self.rolloff_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.rolloff_sat.setGeometry(QtCore.QRect(200, 203, 101, 22))
         self.rolloff_sat.setObjectName("rolloff_sat")
+        
         self.label_65 = QtWidgets.QLabel(self.groupBox_9)
         self.label_65.setGeometry(QtCore.QRect(330, 203, 91, 16))
         self.label_65.setObjectName("label_65")
+        
         self.modcod_sat = QtWidgets.QComboBox(self.groupBox_9)
         self.modcod_sat.setGeometry(QtCore.QRect(450, 203, 161, 22))
         self.modcod_sat.setObjectName("modcod_sat")
+        
         self.label_66 = QtWidgets.QLabel(self.groupBox_9)
         self.label_66.setGeometry(QtCore.QRect(20, 120, 131, 20))
         self.label_66.setObjectName("label_66")
+        
         self.freq_sat = QtWidgets.QLineEdit(self.groupBox_9)
         self.freq_sat.setGeometry(QtCore.QRect(200, 120, 101, 22))
         self.freq_sat.setObjectName("freq_sat")
+        
         self.label_7 = QtWidgets.QLabel(self.groupBox_9)
         self.label_7.setGeometry(QtCore.QRect(673, 100, 91, 20))
         self.label_7.setObjectName("label_7")
+        
         self.pol_sat = QtWidgets.QComboBox(self.groupBox_9)
         self.pol_sat.setGeometry(QtCore.QRect(667, 130, 101, 22))
         self.pol_sat.setObjectName("pol_sat")
         self.pol_sat.addItem("")
         self.pol_sat.addItem("")
         self.pol_sat.addItem("")
+        
         self.clear_sat = QtWidgets.QPushButton(self.groupBox_9)
         self.clear_sat.setGeometry(QtCore.QRect(420, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_sat.setFont(font)
         self.clear_sat.setObjectName("clear_sat")
+        
         self.stackedWidget.addWidget(self.satellite_page)
+        
         self.ground_station_page = QtWidgets.QWidget()
         self.ground_station_page.setObjectName("ground_station_page")
+        
         self.groupBox = QtWidgets.QGroupBox(self.ground_station_page)
         self.groupBox.setGeometry(QtCore.QRect(10, 10, 801, 851))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox.setFont(font)
         self.groupBox.setAutoFillBackground(False)
         self.groupBox.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox.setObjectName("groupBox")
+        
         self.label = QtWidgets.QLabel(self.groupBox)
         self.label.setGeometry(QtCore.QRect(20, 36, 55, 16))
         self.label.setObjectName("label")
+        
         self.label_2 = QtWidgets.QLabel(self.groupBox)
         self.label_2.setGeometry(QtCore.QRect(20, 66, 151, 31))
         self.label_2.setObjectName("label_2")
+        
         self.label_3 = QtWidgets.QLabel(self.groupBox)
         self.label_3.setGeometry(QtCore.QRect(20, 111, 161, 21))
         self.label_3.setObjectName("label_3")
+        
         self.name_ground_station_grstat = QtWidgets.QLineEdit(self.groupBox)
         self.name_ground_station_grstat.setGeometry(QtCore.QRect(100, 36, 271, 22))
         self.name_ground_station_grstat.setObjectName("name_ground_station_grstat")
+        
         self.long_ground_station_grstat = QtWidgets.QLineEdit(self.groupBox)
         self.long_ground_station_grstat.setGeometry(QtCore.QRect(200, 111, 101, 22))
         self.long_ground_station_grstat.setObjectName("long_ground_station_grstat")
+        
         self.lat_ground_station_grstat = QtWidgets.QLineEdit(self.groupBox)
         self.lat_ground_station_grstat.setGeometry(QtCore.QRect(200, 76, 101, 22))
         self.lat_ground_station_grstat.setObjectName("lat_ground_station_grstat")
+        
         self.save_ground_station_gdstation = QtWidgets.QPushButton(self.groupBox)
         self.save_ground_station_gdstation.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_ground_station_gdstation.setFont(font)
         self.save_ground_station_gdstation.setObjectName("save_ground_station_gdstation")
         self.load_ground_station_gdstation = QtWidgets.QPushButton(self.groupBox)
         self.load_ground_station_gdstation.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_ground_station_gdstation.setFont(font)
         self.load_ground_station_gdstation.setObjectName("load_ground_station_gdstation")
+        
         self.clear_ground_station_gdstation = QtWidgets.QPushButton(self.groupBox)
         self.clear_ground_station_gdstation.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_ground_station_gdstation.setFont(font)
         self.clear_ground_station_gdstation.setObjectName("clear_ground_station_gdstation")
+        
         self.stackedWidget.addWidget(self.ground_station_page)
+        
         self.reception_page = QtWidgets.QWidget()
         self.reception_page.setObjectName("reception_page")
+        
         self.groupBox_3 = QtWidgets.QGroupBox(self.reception_page)
         self.groupBox_3.setGeometry(QtCore.QRect(10, 10, 801, 851))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_3.setFont(font)
         self.groupBox_3.setAutoFillBackground(False)
         self.groupBox_3.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox_3.setObjectName("groupBox_3")
+        
         self.label_19 = QtWidgets.QLabel(self.groupBox_3)
         self.label_19.setGeometry(QtCore.QRect(20, 38, 55, 16))
         self.label_19.setObjectName("label_19")
+        
         self.label_20 = QtWidgets.QLabel(self.groupBox_3)
         self.label_20.setGeometry(QtCore.QRect(20, 68, 151, 31))
         self.label_20.setObjectName("label_20")
+        
         self.label_21 = QtWidgets.QLabel(self.groupBox_3)
         self.label_21.setGeometry(QtCore.QRect(20, 113, 161, 21))
         self.label_21.setObjectName("label_21")
+        
         self.name_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.name_reception_rcp.setGeometry(QtCore.QRect(100, 38, 511, 22))
         self.name_reception_rcp.setObjectName("name_reception_rcp")
+        
         self.lnb_gain_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.lnb_gain_reception_rcp.setGeometry(QtCore.QRect(200, 113, 101, 22))
         self.lnb_gain_reception_rcp.setObjectName("lnb_gain_reception_rcp")
+        
         self.ant_size_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.ant_size_reception_rcp.setGeometry(QtCore.QRect(200, 74, 101, 22))
         self.ant_size_reception_rcp.setObjectName("ant_size_reception_rcp")
+        
         self.save_reception_rcp = QtWidgets.QPushButton(self.groupBox_3)
         self.save_reception_rcp.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_reception_rcp.setFont(font)
         self.save_reception_rcp.setObjectName("save_reception_rcp")
         self.load_reception_rcp = QtWidgets.QPushButton(self.groupBox_3)
         self.load_reception_rcp.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_reception_rcp.setFont(font)
         self.load_reception_rcp.setObjectName("load_reception_rcp")
+        
         self.label_23 = QtWidgets.QLabel(self.groupBox_3)
         self.label_23.setGeometry(QtCore.QRect(330, 80, 171, 16))
         self.label_23.setObjectName("label_23")
+        
         self.ant_eff_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.ant_eff_reception_rcp.setGeometry(QtCore.QRect(510, 78, 101, 22))
         self.ant_eff_reception_rcp.setObjectName("ant_eff_reception_rcp")
+        
         self.label_24 = QtWidgets.QLabel(self.groupBox_3)
         self.label_24.setGeometry(QtCore.QRect(330, 119, 161, 16))
         self.label_24.setObjectName("label_24")
+        
         self.lnb_temp_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.lnb_temp_reception_rcp.setGeometry(QtCore.QRect(510, 115, 101, 22))
         self.lnb_temp_reception_rcp.setObjectName("lnb_temp_reception_rcp")
+        
         self.label_25 = QtWidgets.QLabel(self.groupBox_3)
         self.label_25.setGeometry(QtCore.QRect(20, 138, 171, 51))
         self.label_25.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_25.setObjectName("label_25")
+        
         self.aditional_losses_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.aditional_losses_reception_rcp.setGeometry(QtCore.QRect(200, 153, 101, 22))
         self.aditional_losses_reception_rcp.setObjectName("aditional_losses_reception_rcp")
+        
         self.label_26 = QtWidgets.QLabel(self.groupBox_3)
         self.label_26.setGeometry(QtCore.QRect(20, 187, 171, 51))
         self.label_26.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_26.setObjectName("label_26")
+        
         self.max_depoint_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.max_depoint_reception_rcp.setGeometry(QtCore.QRect(200, 200, 101, 22))
         self.max_depoint_reception_rcp.setObjectName("max_depoint_reception_rcp")
+        
         self.clear_reception_rcp = QtWidgets.QPushButton(self.groupBox_3)
         self.clear_reception_rcp.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_reception_rcp.setFont(font)
         self.clear_reception_rcp.setObjectName("clear_reception_rcp")
+        
         self.label_62 = QtWidgets.QLabel(self.groupBox_3)
         self.label_62.setGeometry(QtCore.QRect(330, 140, 171, 51))
         self.label_62.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_62.setObjectName("label_62")
+        
         self.cable_loss_reception_rcp = QtWidgets.QLineEdit(self.groupBox_3)
         self.cable_loss_reception_rcp.setGeometry(QtCore.QRect(510, 155, 101, 22))
         self.cable_loss_reception_rcp.setObjectName("cable_loss_reception_rcp")
+        
         self.stackedWidget.addWidget(self.reception_page)
+        
         self.single_point_ant_size_calc_page = QtWidgets.QWidget()
         self.single_point_ant_size_calc_page.setObjectName("single_point_ant_size_calc_page")
+        
         self.stackedWidget_2 = QtWidgets.QStackedWidget(self.single_point_ant_size_calc_page)
         self.stackedWidget_2.setGeometry(QtCore.QRect(0, 0, 811, 861))
         self.stackedWidget_2.setObjectName("stackedWidget_2")
+        
         self.empty_page_2 = QtWidgets.QWidget()
         self.empty_page_2.setObjectName("empty_page_2")
+        
         self.label_13 = QtWidgets.QLabel(self.empty_page_2)
         self.label_13.setGeometry(QtCore.QRect(217, 270, 431, 391))
         self.label_13.setText("")
-        self.label_13.setPixmap(QtGui.QPixmap("UI\\home_logo.png"))
+        self.label_13.setPixmap(QtGui.QPixmap("UI/home_logo.png"))
         self.label_13.setObjectName("label_13")
+        
         self.stackedWidget_2.addWidget(self.empty_page_2)
+        
         self.satellite_page_2 = QtWidgets.QWidget()
         self.satellite_page_2.setObjectName("satellite_page_2")
+        
         self.groupBox_12 = QtWidgets.QGroupBox(self.satellite_page_2)
         self.groupBox_12.setGeometry(QtCore.QRect(10, 10, 801, 851))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_12.setFont(font)
         self.groupBox_12.setAutoFillBackground(False)
         self.groupBox_12.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox_12.setObjectName("groupBox_12")
+        
         self.label_38 = QtWidgets.QLabel(self.groupBox_12)
         self.label_38.setGeometry(QtCore.QRect(20, 38, 55, 16))
         self.label_38.setObjectName("label_38")
+        
         self.label_69 = QtWidgets.QLabel(self.groupBox_12)
         self.label_69.setGeometry(QtCore.QRect(20, 80, 161, 21))
         self.label_69.setObjectName("label_69")
+        
         self.name_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.name_sat_2.setGeometry(QtCore.QRect(100, 38, 511, 22))
         self.name_sat_2.setObjectName("name_sat_2")
@@ -324,429 +406,530 @@ class Ui_MainWindow(object):
         self.long_sat_2.setObjectName("long_sat_2")
         self.save_sat_2 = QtWidgets.QPushButton(self.groupBox_12)
         self.save_sat_2.setGeometry(QtCore.QRect(680, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_sat_2.setFont(font)
         self.save_sat_2.setObjectName("save_sat_2")
         self.load_sat_2 = QtWidgets.QPushButton(self.groupBox_12)
         self.load_sat_2.setGeometry(QtCore.QRect(550, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_sat_2.setFont(font)
         self.load_sat_2.setObjectName("load_sat_2")
+        
         self.default_sat_2 = QtWidgets.QComboBox(self.groupBox_12)
         self.default_sat_2.setGeometry(QtCore.QRect(650, 70, 131, 22))
+        
         font = QtGui.QFont()
         font.setPointSize(8)
+        
         self.default_sat_2.setFont(font)
         self.default_sat_2.setObjectName("default_sat_2")
+        
         self.label_70 = QtWidgets.QLabel(self.groupBox_12)
         self.label_70.setGeometry(QtCore.QRect(650, 40, 131, 16))
         self.label_70.setObjectName("label_70")
+        
         self.label_78 = QtWidgets.QLabel(self.groupBox_12)
         self.label_78.setGeometry(QtCore.QRect(330, 78, 111, 16))
         self.label_78.setObjectName("label_78")
+        
         self.height_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.height_sat_2.setGeometry(QtCore.QRect(510, 78, 101, 22))
         self.height_sat_2.setObjectName("height_sat_2")
+        
         self.label_79 = QtWidgets.QLabel(self.groupBox_12)
         self.label_79.setGeometry(QtCore.QRect(330, 119, 121, 16))
         self.label_79.setObjectName("label_79")
+        
         self.eirp_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.eirp_sat_2.setGeometry(QtCore.QRect(510, 115, 101, 22))
         self.eirp_sat_2.setObjectName("eirp_sat_2")
+        
         self.label_91 = QtWidgets.QLabel(self.groupBox_12)
         self.label_91.setGeometry(QtCore.QRect(20, 148, 171, 51))
         self.label_91.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_91.setObjectName("label_91")
+        
         self.max_bw_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.max_bw_sat_2.setGeometry(QtCore.QRect(200, 158, 101, 22))
         self.max_bw_sat_2.setObjectName("max_bw_sat_2")
+        
         self.label_92 = QtWidgets.QLabel(self.groupBox_12)
         self.label_92.setGeometry(QtCore.QRect(330, 143, 171, 51))
         self.label_92.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_92.setObjectName("label_92")
+        
         self.bw_util_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.bw_util_sat_2.setGeometry(QtCore.QRect(510, 156, 101, 22))
         self.bw_util_sat_2.setObjectName("bw_util_sat_2")
+        
         self.label_93 = QtWidgets.QLabel(self.groupBox_12)
         self.label_93.setGeometry(QtCore.QRect(20, 203, 61, 16))
         self.label_93.setObjectName("label_93")
+        
         self.rolloff_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.rolloff_sat_2.setGeometry(QtCore.QRect(200, 203, 101, 22))
         self.rolloff_sat_2.setObjectName("rolloff_sat_2")
+        
         self.label_94 = QtWidgets.QLabel(self.groupBox_12)
         self.label_94.setGeometry(QtCore.QRect(330, 203, 91, 16))
         self.label_94.setObjectName("label_94")
+        
         self.modcod_sat_2 = QtWidgets.QComboBox(self.groupBox_12)
         self.modcod_sat_2.setGeometry(QtCore.QRect(450, 203, 161, 22))
         self.modcod_sat_2.setObjectName("modcod_sat_2")
         self.modcod_sat_2.addItem("")
         self.modcod_sat_2.addItem("")
         self.modcod_sat_2.addItem("")
+        
         self.label_95 = QtWidgets.QLabel(self.groupBox_12)
         self.label_95.setGeometry(QtCore.QRect(20, 120, 131, 20))
         self.label_95.setObjectName("label_95")
+        
         self.freq_sat_2 = QtWidgets.QLineEdit(self.groupBox_12)
         self.freq_sat_2.setGeometry(QtCore.QRect(200, 120, 101, 22))
         self.freq_sat_2.setObjectName("freq_sat_2")
+        
         self.label_17 = QtWidgets.QLabel(self.groupBox_12)
         self.label_17.setGeometry(QtCore.QRect(673, 100, 91, 20))
         self.label_17.setObjectName("label_17")
+        
         self.pol_sat_3 = QtWidgets.QComboBox(self.groupBox_12)
         self.pol_sat_3.setGeometry(QtCore.QRect(667, 130, 101, 22))
         self.pol_sat_3.setObjectName("pol_sat_3")
         self.pol_sat_3.addItem("")
         self.pol_sat_3.addItem("")
         self.pol_sat_3.addItem("")
+        
         self.clear_sat_2 = QtWidgets.QPushButton(self.groupBox_12)
         self.clear_sat_2.setGeometry(QtCore.QRect(420, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_sat_2.setFont(font)
         self.clear_sat_2.setObjectName("clear_sat_2")
+        
         self.stackedWidget_2.addWidget(self.satellite_page_2)
+        
         self.ground_station_page_2 = QtWidgets.QWidget()
         self.ground_station_page_2.setObjectName("ground_station_page_2")
+        
         self.groupBox_2 = QtWidgets.QGroupBox(self.ground_station_page_2)
         self.groupBox_2.setGeometry(QtCore.QRect(10, 10, 801, 851))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_2.setFont(font)
         self.groupBox_2.setAutoFillBackground(False)
         self.groupBox_2.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox_2.setObjectName("groupBox_2")
+        
         self.label_18 = QtWidgets.QLabel(self.groupBox_2)
         self.label_18.setGeometry(QtCore.QRect(20, 36, 55, 16))
         self.label_18.setObjectName("label_18")
+        
         self.label_22 = QtWidgets.QLabel(self.groupBox_2)
         self.label_22.setGeometry(QtCore.QRect(20, 66, 151, 31))
         self.label_22.setObjectName("label_22")
+        
         self.label_39 = QtWidgets.QLabel(self.groupBox_2)
         self.label_39.setGeometry(QtCore.QRect(20, 111, 161, 21))
         self.label_39.setObjectName("label_39")
+        
         self.name_ground_station_grstat_2 = QtWidgets.QLineEdit(self.groupBox_2)
         self.name_ground_station_grstat_2.setGeometry(QtCore.QRect(100, 36, 271, 22))
         self.name_ground_station_grstat_2.setObjectName("name_ground_station_grstat_2")
         self.long_ground_station_grstat_2 = QtWidgets.QLineEdit(self.groupBox_2)
         self.long_ground_station_grstat_2.setGeometry(QtCore.QRect(200, 111, 101, 22))
         self.long_ground_station_grstat_2.setObjectName("long_ground_station_grstat_2")
+        
         self.lat_ground_station_grstat_2 = QtWidgets.QLineEdit(self.groupBox_2)
         self.lat_ground_station_grstat_2.setGeometry(QtCore.QRect(200, 76, 101, 22))
         self.lat_ground_station_grstat_2.setObjectName("lat_ground_station_grstat_2")
+        
         self.save_ground_station_gdstation_2 = QtWidgets.QPushButton(self.groupBox_2)
         self.save_ground_station_gdstation_2.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_ground_station_gdstation_2.setFont(font)
         self.save_ground_station_gdstation_2.setObjectName("save_ground_station_gdstation_2")
+        
         self.load_ground_station_gdstation_2 = QtWidgets.QPushButton(self.groupBox_2)
         self.load_ground_station_gdstation_2.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_ground_station_gdstation_2.setFont(font)
         self.load_ground_station_gdstation_2.setObjectName("load_ground_station_gdstation_2")
+        
         self.clear_ground_station_gdstation_2 = QtWidgets.QPushButton(self.groupBox_2)
         self.clear_ground_station_gdstation_2.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_ground_station_gdstation_2.setFont(font)
         self.clear_ground_station_gdstation_2.setObjectName("clear_ground_station_gdstation_2")
+        
         self.stackedWidget_2.addWidget(self.ground_station_page_2)
+        
         self.reception_page_2 = QtWidgets.QWidget()
         self.reception_page_2.setObjectName("reception_page_2")
+        
         self.groupBox_13 = QtWidgets.QGroupBox(self.reception_page_2)
         self.groupBox_13.setGeometry(QtCore.QRect(10, 10, 801, 851))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_13.setFont(font)
         self.groupBox_13.setAutoFillBackground(False)
         self.groupBox_13.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox_13.setObjectName("groupBox_13")
+        
         self.label_96 = QtWidgets.QLabel(self.groupBox_13)
         self.label_96.setGeometry(QtCore.QRect(20, 38, 55, 16))
         self.label_96.setObjectName("label_96")
+        
         self.label_97 = QtWidgets.QLabel(self.groupBox_13)
         self.label_97.setGeometry(QtCore.QRect(20, 68, 151, 31))
         self.label_97.setObjectName("label_97")
+        
         self.label_98 = QtWidgets.QLabel(self.groupBox_13)
         self.label_98.setGeometry(QtCore.QRect(20, 113, 161, 21))
         self.label_98.setObjectName("label_98")
+        
         self.name_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.name_reception_rcp_2.setGeometry(QtCore.QRect(100, 38, 511, 22))
         self.name_reception_rcp_2.setObjectName("name_reception_rcp_2")
+        
         self.lnb_gain_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.lnb_gain_reception_rcp_2.setGeometry(QtCore.QRect(200, 113, 101, 22))
         self.lnb_gain_reception_rcp_2.setObjectName("lnb_gain_reception_rcp_2")
         self.ant_size_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.ant_size_reception_rcp_2.setGeometry(QtCore.QRect(200, 74, 101, 22))
         self.ant_size_reception_rcp_2.setObjectName("ant_size_reception_rcp_2")
+        
         self.save_reception_rcp_2 = QtWidgets.QPushButton(self.groupBox_13)
         self.save_reception_rcp_2.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_reception_rcp_2.setFont(font)
         self.save_reception_rcp_2.setObjectName("save_reception_rcp_2")
+        
         self.load_reception_rcp_5 = QtWidgets.QPushButton(self.groupBox_13)
         self.load_reception_rcp_5.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_reception_rcp_5.setFont(font)
         self.load_reception_rcp_5.setObjectName("load_reception_rcp_5")
+        
         self.label_99 = QtWidgets.QLabel(self.groupBox_13)
         self.label_99.setGeometry(QtCore.QRect(330, 80, 171, 16))
         self.label_99.setObjectName("label_99")
+        
         self.ant_eff_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.ant_eff_reception_rcp_2.setGeometry(QtCore.QRect(510, 78, 101, 22))
         self.ant_eff_reception_rcp_2.setObjectName("ant_eff_reception_rcp_2")
+        
         self.label_100 = QtWidgets.QLabel(self.groupBox_13)
         self.label_100.setGeometry(QtCore.QRect(330, 119, 161, 16))
         self.label_100.setObjectName("label_100")
+        
         self.lnb_temp_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.lnb_temp_reception_rcp_2.setGeometry(QtCore.QRect(510, 115, 101, 22))
         self.lnb_temp_reception_rcp_2.setObjectName("lnb_temp_reception_rcp_2")
+        
         self.label_101 = QtWidgets.QLabel(self.groupBox_13)
         self.label_101.setGeometry(QtCore.QRect(20, 138, 171, 51))
         self.label_101.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_101.setObjectName("label_101")
+        
         self.aditional_losses_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.aditional_losses_reception_rcp_2.setGeometry(QtCore.QRect(200, 153, 101, 22))
         self.aditional_losses_reception_rcp_2.setObjectName("aditional_losses_reception_rcp_2")
+        
         self.label_102 = QtWidgets.QLabel(self.groupBox_13)
         self.label_102.setGeometry(QtCore.QRect(20, 187, 171, 51))
         self.label_102.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_102.setObjectName("label_102")
+        
         self.max_depoint_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.max_depoint_reception_rcp_2.setGeometry(QtCore.QRect(200, 200, 101, 22))
         self.max_depoint_reception_rcp_2.setObjectName("max_depoint_reception_rcp_2")
+        
         self.clear_reception_rcp_3 = QtWidgets.QPushButton(self.groupBox_13)
         self.clear_reception_rcp_3.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_reception_rcp_3.setFont(font)
         self.clear_reception_rcp_3.setObjectName("clear_reception_rcp_3")
+        
         self.label_103 = QtWidgets.QLabel(self.groupBox_13)
         self.label_103.setGeometry(QtCore.QRect(330, 140, 171, 51))
         self.label_103.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_103.setObjectName("label_103")
+        
         self.cable_loss_reception_rcp_2 = QtWidgets.QLineEdit(self.groupBox_13)
         self.cable_loss_reception_rcp_2.setGeometry(QtCore.QRect(510, 155, 101, 22))
         self.cable_loss_reception_rcp_2.setObjectName("cable_loss_reception_rcp_2")
+        
         self.stackedWidget_2.addWidget(self.reception_page_2)
+        
         self.ant_size_single_point_calc_page_2 = QtWidgets.QWidget()
         self.ant_size_single_point_calc_page_2.setObjectName("ant_size_single_point_calc_page_2")
+        
         self.stackedWidget_2.addWidget(self.ant_size_single_point_calc_page_2)
+        
         self.list_ant_size_calc_page_2 = QtWidgets.QWidget()
         self.list_ant_size_calc_page_2.setObjectName("list_ant_size_calc_page_2")
+        
         self.stackedWidget_2.addWidget(self.list_ant_size_calc_page_2)
+        
         self.single_point_atm_calc_page_2 = QtWidgets.QWidget()
         self.single_point_atm_calc_page_2.setObjectName("single_point_atm_calc_page_2")
+        
         self.groupBox_14 = QtWidgets.QGroupBox(self.single_point_atm_calc_page_2)
         self.groupBox_14.setGeometry(QtCore.QRect(20, 20, 781, 131))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_14.setFont(font)
         self.groupBox_14.setObjectName("groupBox_14")
+        
         self.lat_ground_station_spatm_2 = QtWidgets.QLineEdit(self.groupBox_14)
         self.lat_ground_station_spatm_2.setGeometry(QtCore.QRect(200, 30, 101, 22))
         self.lat_ground_station_spatm_2.setObjectName("lat_ground_station_spatm_2")
+        
         self.long_ground_station_spatm_2 = QtWidgets.QLineEdit(self.groupBox_14)
         self.long_ground_station_spatm_2.setGeometry(QtCore.QRect(500, 30, 101, 22))
         self.long_ground_station_spatm_2.setObjectName("long_ground_station_spatm_2")
+        
         self.label_104 = QtWidgets.QLabel(self.groupBox_14)
         self.label_104.setGeometry(QtCore.QRect(20, 23, 151, 31))
         self.label_104.setObjectName("label_104")
+        
         self.label_105 = QtWidgets.QLabel(self.groupBox_14)
         self.label_105.setGeometry(QtCore.QRect(319, 28, 161, 21))
         self.label_105.setObjectName("label_105")
+        
         self.label_106 = QtWidgets.QLabel(self.groupBox_14)
         self.label_106.setGeometry(QtCore.QRect(20, 60, 161, 21))
         self.label_106.setObjectName("label_106")
+        
         self.ant_size_reception_spatm_2 = QtWidgets.QLineEdit(self.groupBox_14)
         self.ant_size_reception_spatm_2.setGeometry(QtCore.QRect(200, 60, 101, 22))
         self.ant_size_reception_spatm_2.setObjectName("ant_size_reception_spatm_2")
+        
         self.ant_eff_reception_spatm_2 = QtWidgets.QLineEdit(self.groupBox_14)
         self.ant_eff_reception_spatm_2.setGeometry(QtCore.QRect(500, 60, 101, 22))
         self.ant_eff_reception_spatm_2.setObjectName("ant_eff_reception_spatm_2")
+        
         self.label_107 = QtWidgets.QLabel(self.groupBox_14)
         self.label_107.setGeometry(QtCore.QRect(320, 60, 141, 16))
         self.label_107.setObjectName("label_107")
+        
         self.clear_reception_rcp_4 = QtWidgets.QPushButton(self.groupBox_14)
         self.clear_reception_rcp_4.setGeometry(QtCore.QRect(660, 30, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.clear_reception_rcp_4.setFont(font)
         self.clear_reception_rcp_4.setObjectName("clear_reception_rcp_4")
+        
         self.load_reception_rcp_6 = QtWidgets.QPushButton(self.groupBox_14)
         self.load_reception_rcp_6.setGeometry(QtCore.QRect(15, 91, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_reception_rcp_6.setFont(font)
         self.load_reception_rcp_6.setObjectName("load_reception_rcp_6")
+        
         self.load_reception_rcp_7 = QtWidgets.QPushButton(self.groupBox_14)
         self.load_reception_rcp_7.setGeometry(QtCore.QRect(230, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_reception_rcp_7.setFont(font)
         self.load_reception_rcp_7.setObjectName("load_reception_rcp_7")
+        
         self.calc_spatm_2 = QtWidgets.QPushButton(self.single_point_atm_calc_page_2)
         self.calc_spatm_2.setGeometry(QtCore.QRect(666, 830, 141, 28))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.calc_spatm_2.setFont(font)
         self.calc_spatm_2.setObjectName("calc_spatm_2")
+        
         self.textEdit_3 = QtWidgets.QTextEdit(self.single_point_atm_calc_page_2)
         self.textEdit_3.setGeometry(QtCore.QRect(6, 650, 801, 171))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.textEdit_3.setFont(font)
         self.textEdit_3.setObjectName("textEdit_3")
+        
         self.groupBox_15 = QtWidgets.QGroupBox(self.single_point_atm_calc_page_2)
         self.groupBox_15.setGeometry(QtCore.QRect(20, 150, 781, 131))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_15.setFont(font)
         self.groupBox_15.setObjectName("groupBox_15")
+        
         self.label_108 = QtWidgets.QLabel(self.groupBox_15)
         self.label_108.setGeometry(QtCore.QRect(20, 60, 131, 16))
         self.label_108.setObjectName("label_108")
+        
         self.label_109 = QtWidgets.QLabel(self.groupBox_15)
         self.label_109.setGeometry(QtCore.QRect(20, 30, 161, 21))
         self.label_109.setObjectName("label_109")
+        
         self.long_sat_spatm_2 = QtWidgets.QLineEdit(self.groupBox_15)
         self.long_sat_spatm_2.setGeometry(QtCore.QRect(200, 30, 101, 22))
         self.long_sat_spatm_2.setObjectName("long_sat_spatm_2")
+        
         self.freq_sat_spatm_2 = QtWidgets.QLineEdit(self.groupBox_15)
         self.freq_sat_spatm_2.setGeometry(QtCore.QRect(200, 60, 101, 22))
         self.freq_sat_spatm_2.setObjectName("freq_sat_spatm_2")
+        
         self.default_sat_sp_perf_4 = QtWidgets.QComboBox(self.groupBox_15)
         self.default_sat_sp_perf_4.setGeometry(QtCore.QRect(634, 44, 131, 22))
+        
         font = QtGui.QFont()
         font.setPointSize(8)
+        
         self.default_sat_sp_perf_4.setFont(font)
         self.default_sat_sp_perf_4.setObjectName("default_sat_sp_perf_4")
+        
         self.label_110 = QtWidgets.QLabel(self.groupBox_15)
         self.label_110.setGeometry(QtCore.QRect(636, 14, 131, 16))
         self.label_110.setObjectName("label_110")
+        
         self.pol_sat_4 = QtWidgets.QComboBox(self.groupBox_15)
         self.pol_sat_4.setGeometry(QtCore.QRect(450, 30, 101, 22))
         self.pol_sat_4.setObjectName("pol_sat_4")
         self.pol_sat_4.addItem("")
         self.pol_sat_4.addItem("")
         self.pol_sat_4.addItem("")
+        
         self.label_111 = QtWidgets.QLabel(self.groupBox_15)
         self.label_111.setGeometry(QtCore.QRect(350, 30, 91, 20))
         self.label_111.setObjectName("label_111")
+        
         self.load_reception_rcp_8 = QtWidgets.QPushButton(self.groupBox_15)
         self.load_reception_rcp_8.setGeometry(QtCore.QRect(10, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.load_reception_rcp_8.setFont(font)
         self.load_reception_rcp_8.setObjectName("load_reception_rcp_8")
+        
         self.p_year_spatm_2 = QtWidgets.QLineEdit(self.single_point_atm_calc_page_2)
         self.p_year_spatm_2.setGeometry(QtCore.QRect(550, 834, 101, 21))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.p_year_spatm_2.setFont(font)
         self.p_year_spatm_2.setToolTip("")
         self.p_year_spatm_2.setObjectName("p_year_spatm_2")
+        
         self.label_112 = QtWidgets.QLabel(self.single_point_atm_calc_page_2)
         self.label_112.setGeometry(QtCore.QRect(340, 834, 201, 20))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.label_112.setFont(font)
         self.label_112.setObjectName("label_112")
+        
         self.label_113 = QtWidgets.QLabel(self.single_point_atm_calc_page_2)
         self.label_113.setGeometry(QtCore.QRect(10, 837, 71, 16))
+
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.label_113.setFont(font)
         self.label_113.setObjectName("label_113")
+        
         self.method_spatm_2 = QtWidgets.QComboBox(self.single_point_atm_calc_page_2)
         self.method_spatm_2.setGeometry(QtCore.QRect(84, 835, 101, 21))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.method_spatm_2.setFont(font)
         self.method_spatm_2.setObjectName("method_spatm_2")
         self.method_spatm_2.addItem("")
         self.method_spatm_2.addItem("")
+        
         self.stackedWidget_2.addWidget(self.single_point_atm_calc_page_2)
+        
         self.single_point_perf_calc_page_2 = QtWidgets.QWidget()
         self.single_point_perf_calc_page_2.setObjectName("single_point_perf_calc_page_2")
+        
         self.groupBox_16 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_2)
         self.groupBox_16.setGeometry(QtCore.QRect(10, 10, 801, 121))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+        
         self.groupBox_16.setFont(font)
         self.groupBox_16.setAutoFillBackground(False)
         self.groupBox_16.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
         self.groupBox_16.setObjectName("groupBox_16")
+        
         self.label_114 = QtWidgets.QLabel(self.groupBox_16)
         self.label_114.setGeometry(QtCore.QRect(20, 36, 55, 16))
         self.label_114.setObjectName("label_114")
+        
         self.label_115 = QtWidgets.QLabel(self.groupBox_16)
         self.label_115.setGeometry(QtCore.QRect(20, 70, 151, 31))
         self.label_115.setObjectName("label_115")
+        
         self.label_116 = QtWidgets.QLabel(self.groupBox_16)
         self.label_116.setGeometry(QtCore.QRect(330, 78, 161, 21))
         self.label_116.setObjectName("label_116")
+        
         self.name_ground_station_sp_ant_size = QtWidgets.QLineEdit(self.groupBox_16)
         self.name_ground_station_sp_ant_size.setGeometry(QtCore.QRect(100, 36, 511, 22))
         self.name_ground_station_sp_ant_size.setObjectName("name_ground_station_sp_ant_size")
+        
         self.long_ground_station_sp_ant_size = QtWidgets.QLineEdit(self.groupBox_16)
         self.long_ground_station_sp_ant_size.setGeometry(QtCore.QRect(510, 80, 101, 22))
         self.long_ground_station_sp_ant_size.setObjectName("long_ground_station_sp_ant_size")
+        
         self.lat_ground_station_sp_ant_size = QtWidgets.QLineEdit(self.groupBox_16)
         self.lat_ground_station_sp_ant_size.setGeometry(QtCore.QRect(200, 76, 101, 22))
         self.lat_ground_station_sp_ant_size.setObjectName("lat_ground_station_sp_ant_size")
+        
         self.save_ground_station_sp_ant_size = QtWidgets.QPushButton(self.groupBox_16)
         self.save_ground_station_sp_ant_size.setGeometry(QtCore.QRect(652, 80, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        
+        font = self.set_font(10, False, 50)
+        
         self.save_ground_station_sp_ant_size.setFont(font)
         self.save_ground_station_sp_ant_size.setObjectName("save_ground_station_sp_ant_size")
         self.load_ground_station_sp_ant_size = QtWidgets.QPushButton(self.groupBox_16)
         self.load_ground_station_sp_ant_size.setGeometry(QtCore.QRect(652, 48, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_sp_ant_size.setFont(font)
         self.load_ground_station_sp_ant_size.setObjectName("load_ground_station_sp_ant_size")
         self.clear_ground_station_sp_ant_size = QtWidgets.QPushButton(self.groupBox_16)
         self.clear_ground_station_sp_ant_size.setGeometry(QtCore.QRect(652, 16, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_ground_station_sp_ant_size.setFont(font)
         self.clear_ground_station_sp_ant_size.setObjectName("clear_ground_station_sp_ant_size")
         self.groupBox_17 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_2)
@@ -771,18 +954,12 @@ class Ui_MainWindow(object):
         self.long_sat_sp_ant_size.setObjectName("long_sat_sp_ant_size")
         self.save_sat_sp_ant_size = QtWidgets.QPushButton(self.groupBox_17)
         self.save_sat_sp_ant_size.setGeometry(QtCore.QRect(656, 207, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_sp_ant_size.setFont(font)
         self.save_sat_sp_ant_size.setObjectName("save_sat_sp_ant_size")
         self.load_sat_sp_ant_size = QtWidgets.QPushButton(self.groupBox_17)
         self.load_sat_sp_ant_size.setGeometry(QtCore.QRect(656, 175, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_sp_ant_size.setFont(font)
         self.load_sat_sp_ant_size.setObjectName("load_sat_sp_ant_size")
         self.default_sat_sp_ant_size = QtWidgets.QComboBox(self.groupBox_17)
@@ -849,10 +1026,7 @@ class Ui_MainWindow(object):
         self.pol_sat_sp_ant_size.addItem("")
         self.clear_sat_sp_ant_size = QtWidgets.QPushButton(self.groupBox_17)
         self.clear_sat_sp_ant_size.setGeometry(QtCore.QRect(656, 145, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_sp_ant_size.setFont(font)
         self.clear_sat_sp_ant_size.setObjectName("clear_sat_sp_ant_size")
         self.groupBox_18 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_2)
@@ -877,18 +1051,12 @@ class Ui_MainWindow(object):
         self.lnb_gain_reception_sp_ant_size.setObjectName("lnb_gain_reception_sp_ant_size")
         self.save_reception_sp_ant_size = QtWidgets.QPushButton(self.groupBox_18)
         self.save_reception_sp_ant_size.setGeometry(QtCore.QRect(654, 133, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_sp_ant_size.setFont(font)
         self.save_reception_sp_ant_size.setObjectName("save_reception_sp_ant_size")
         self.load_reception_sp_ant_size = QtWidgets.QPushButton(self.groupBox_18)
         self.load_reception_sp_ant_size.setGeometry(QtCore.QRect(654, 99, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_sp_ant_size.setFont(font)
         self.load_reception_sp_ant_size.setObjectName("load_reception_sp_ant_size")
         self.label_131 = QtWidgets.QLabel(self.groupBox_18)
@@ -919,10 +1087,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_sp_ant_size.setObjectName("max_depoint_reception_sp_ant_size")
         self.clear_reception_sp_ant_size = QtWidgets.QPushButton(self.groupBox_18)
         self.clear_reception_sp_ant_size.setGeometry(QtCore.QRect(654, 67, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_sp_ant_size.setFont(font)
         self.clear_reception_sp_ant_size.setObjectName("clear_reception_sp_ant_size")
         self.cable_loss_reception_sp_ant_size = QtWidgets.QLineEdit(self.groupBox_18)
@@ -1002,8 +1167,10 @@ class Ui_MainWindow(object):
         self.label_138.setObjectName("label_138")
         self.groupBox_19 = QtWidgets.QGroupBox(self.list_perf_calc_page_2)
         self.groupBox_19.setGeometry(QtCore.QRect(8, 199, 801, 261))
+        
         font = QtGui.QFont()
         font.setPointSize(10)
+
         self.groupBox_19.setFont(font)
         self.groupBox_19.setAutoFillBackground(False)
         self.groupBox_19.setAlignment(QtCore.Qt.AlignJustify|QtCore.Qt.AlignVCenter)
@@ -1022,18 +1189,12 @@ class Ui_MainWindow(object):
         self.long_sat_mp_perf_2.setObjectName("long_sat_mp_perf_2")
         self.save_sat_mp_perf_2 = QtWidgets.QPushButton(self.groupBox_19)
         self.save_sat_mp_perf_2.setGeometry(QtCore.QRect(658, 222, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_mp_perf_2.setFont(font)
         self.save_sat_mp_perf_2.setObjectName("save_sat_mp_perf_2")
         self.load_sat_mp_perf_2 = QtWidgets.QPushButton(self.groupBox_19)
         self.load_sat_mp_perf_2.setGeometry(QtCore.QRect(658, 190, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_mp_perf_2.setFont(font)
         self.load_sat_mp_perf_2.setObjectName("load_sat_mp_perf_2")
         self.default_sat_mp_perf_2 = QtWidgets.QComboBox(self.groupBox_19)
@@ -1103,10 +1264,7 @@ class Ui_MainWindow(object):
         self.pol_sat_mp_perf_2.addItem("")
         self.clear_satellite_mp_perf_2 = QtWidgets.QPushButton(self.groupBox_19)
         self.clear_satellite_mp_perf_2.setGeometry(QtCore.QRect(658, 156, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_satellite_mp_perf_2.setFont(font)
         self.clear_satellite_mp_perf_2.setObjectName("clear_satellite_mp_perf_2")
         self.groupBox_20 = QtWidgets.QGroupBox(self.list_perf_calc_page_2)
@@ -1137,18 +1295,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_mp_perf_2.setObjectName("ant_size_reception_mp_perf_2")
         self.save_reception_mp_perf_2 = QtWidgets.QPushButton(self.groupBox_20)
         self.save_reception_mp_perf_2.setGeometry(QtCore.QRect(656, 186, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_mp_perf_2.setFont(font)
         self.save_reception_mp_perf_2.setObjectName("save_reception_mp_perf_2")
         self.load_reception_mp_perf_2 = QtWidgets.QPushButton(self.groupBox_20)
         self.load_reception_mp_perf_2.setGeometry(QtCore.QRect(656, 151, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_mp_perf_2.setFont(font)
         self.load_reception_mp_perf_2.setObjectName("load_reception_mp_perf_2")
         self.label_153 = QtWidgets.QLabel(self.groupBox_20)
@@ -1180,10 +1332,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_mp_perf_2.setObjectName("max_depoint_reception_mp_perf_2")
         self.clear_reception_mp_perf_2 = QtWidgets.QPushButton(self.groupBox_20)
         self.clear_reception_mp_perf_2.setGeometry(QtCore.QRect(656, 115, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_mp_perf_2.setFont(font)
         self.clear_reception_mp_perf_2.setObjectName("clear_reception_mp_perf_2")
         self.cable_loss_reception_mp_perf_2 = QtWidgets.QLineEdit(self.groupBox_20)
@@ -1252,7 +1401,7 @@ class Ui_MainWindow(object):
         self.label_129 = QtWidgets.QLabel(self.home_page_2)
         self.label_129.setGeometry(QtCore.QRect(217, 270, 431, 391))
         self.label_129.setText("")
-        self.label_129.setPixmap(QtGui.QPixmap("UI\\home_logo.png"))
+        self.label_129.setPixmap(QtGui.QPixmap("UI/home_logo.png"))
         self.label_129.setObjectName("label_129")
         self.stackedWidget_3.addWidget(self.home_page_2)
         self.satellite_page_3 = QtWidgets.QWidget()
@@ -1279,18 +1428,12 @@ class Ui_MainWindow(object):
         self.long_sat_3.setObjectName("long_sat_3")
         self.save_sat_3 = QtWidgets.QPushButton(self.groupBox_21)
         self.save_sat_3.setGeometry(QtCore.QRect(680, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_3.setFont(font)
         self.save_sat_3.setObjectName("save_sat_3")
         self.load_sat_3 = QtWidgets.QPushButton(self.groupBox_21)
         self.load_sat_3.setGeometry(QtCore.QRect(550, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_3.setFont(font)
         self.load_sat_3.setObjectName("load_sat_3")
         self.default_sat_3 = QtWidgets.QComboBox(self.groupBox_21)
@@ -1360,10 +1503,7 @@ class Ui_MainWindow(object):
         self.pol_sat_5.addItem("")
         self.clear_sat_3 = QtWidgets.QPushButton(self.groupBox_21)
         self.clear_sat_3.setGeometry(QtCore.QRect(420, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_3.setFont(font)
         self.clear_sat_3.setObjectName("clear_sat_3")
         self.stackedWidget_3.addWidget(self.satellite_page_3)
@@ -1397,26 +1537,17 @@ class Ui_MainWindow(object):
         self.lat_ground_station_grstat_3.setObjectName("lat_ground_station_grstat_3")
         self.save_ground_station_gdstation_3 = QtWidgets.QPushButton(self.groupBox_22)
         self.save_ground_station_gdstation_3.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_ground_station_gdstation_3.setFont(font)
         self.save_ground_station_gdstation_3.setObjectName("save_ground_station_gdstation_3")
         self.load_ground_station_gdstation_3 = QtWidgets.QPushButton(self.groupBox_22)
         self.load_ground_station_gdstation_3.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_gdstation_3.setFont(font)
         self.load_ground_station_gdstation_3.setObjectName("load_ground_station_gdstation_3")
         self.clear_ground_station_gdstation_3 = QtWidgets.QPushButton(self.groupBox_22)
         self.clear_ground_station_gdstation_3.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_ground_station_gdstation_3.setFont(font)
         self.clear_ground_station_gdstation_3.setObjectName("clear_ground_station_gdstation_3")
         self.stackedWidget_3.addWidget(self.ground_station_page_3)
@@ -1450,18 +1581,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_rcp_3.setObjectName("ant_size_reception_rcp_3")
         self.save_reception_rcp_3 = QtWidgets.QPushButton(self.groupBox_23)
         self.save_reception_rcp_3.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_rcp_3.setFont(font)
         self.save_reception_rcp_3.setObjectName("save_reception_rcp_3")
         self.load_reception_rcp_9 = QtWidgets.QPushButton(self.groupBox_23)
         self.load_reception_rcp_9.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_9.setFont(font)
         self.load_reception_rcp_9.setObjectName("load_reception_rcp_9")
         self.label_180 = QtWidgets.QLabel(self.groupBox_23)
@@ -1492,10 +1617,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_rcp_3.setObjectName("max_depoint_reception_rcp_3")
         self.clear_reception_rcp_5 = QtWidgets.QPushButton(self.groupBox_23)
         self.clear_reception_rcp_5.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_rcp_5.setFont(font)
         self.clear_reception_rcp_5.setObjectName("clear_reception_rcp_5")
         self.label_184 = QtWidgets.QLabel(self.groupBox_23)
@@ -1516,7 +1638,7 @@ class Ui_MainWindow(object):
         self.label_185 = QtWidgets.QLabel(self.empty_page_3)
         self.label_185.setGeometry(QtCore.QRect(217, 270, 431, 391))
         self.label_185.setText("")
-        self.label_185.setPixmap(QtGui.QPixmap("UI\\home_logo.png"))
+        self.label_185.setPixmap(QtGui.QPixmap("UI/home_logo.png"))
         self.label_185.setObjectName("label_185")
         self.stackedWidget_4.addWidget(self.empty_page_3)
         self.satellite_page_4 = QtWidgets.QWidget()
@@ -1543,18 +1665,12 @@ class Ui_MainWindow(object):
         self.long_sat_4.setObjectName("long_sat_4")
         self.save_sat_4 = QtWidgets.QPushButton(self.groupBox_24)
         self.save_sat_4.setGeometry(QtCore.QRect(680, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_4.setFont(font)
         self.save_sat_4.setObjectName("save_sat_4")
         self.load_sat_4 = QtWidgets.QPushButton(self.groupBox_24)
         self.load_sat_4.setGeometry(QtCore.QRect(550, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_4.setFont(font)
         self.load_sat_4.setObjectName("load_sat_4")
         self.default_sat_4 = QtWidgets.QComboBox(self.groupBox_24)
@@ -1624,10 +1740,7 @@ class Ui_MainWindow(object):
         self.pol_sat_6.addItem("")
         self.clear_sat_4 = QtWidgets.QPushButton(self.groupBox_24)
         self.clear_sat_4.setGeometry(QtCore.QRect(420, 810, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_4.setFont(font)
         self.clear_sat_4.setObjectName("clear_sat_4")
         self.stackedWidget_4.addWidget(self.satellite_page_4)
@@ -1661,26 +1774,17 @@ class Ui_MainWindow(object):
         self.lat_ground_station_grstat_4.setObjectName("lat_ground_station_grstat_4")
         self.save_ground_station_gdstation_4 = QtWidgets.QPushButton(self.groupBox_25)
         self.save_ground_station_gdstation_4.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_ground_station_gdstation_4.setFont(font)
         self.save_ground_station_gdstation_4.setObjectName("save_ground_station_gdstation_4")
         self.load_ground_station_gdstation_4 = QtWidgets.QPushButton(self.groupBox_25)
         self.load_ground_station_gdstation_4.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_gdstation_4.setFont(font)
         self.load_ground_station_gdstation_4.setObjectName("load_ground_station_gdstation_4")
         self.clear_ground_station_gdstation_4 = QtWidgets.QPushButton(self.groupBox_25)
         self.clear_ground_station_gdstation_4.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_ground_station_gdstation_4.setFont(font)
         self.clear_ground_station_gdstation_4.setObjectName("clear_ground_station_gdstation_4")
         self.stackedWidget_4.addWidget(self.ground_station_page_4)
@@ -1714,18 +1818,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_rcp_4.setObjectName("ant_size_reception_rcp_4")
         self.save_reception_rcp_4 = QtWidgets.QPushButton(self.groupBox_26)
         self.save_reception_rcp_4.setGeometry(QtCore.QRect(700, 810, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_rcp_4.setFont(font)
         self.save_reception_rcp_4.setObjectName("save_reception_rcp_4")
         self.load_reception_rcp_10 = QtWidgets.QPushButton(self.groupBox_26)
         self.load_reception_rcp_10.setGeometry(QtCore.QRect(591, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_10.setFont(font)
         self.load_reception_rcp_10.setObjectName("load_reception_rcp_10")
         self.label_203 = QtWidgets.QLabel(self.groupBox_26)
@@ -1756,10 +1854,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_rcp_4.setObjectName("max_depoint_reception_rcp_4")
         self.clear_reception_rcp_6 = QtWidgets.QPushButton(self.groupBox_26)
         self.clear_reception_rcp_6.setGeometry(QtCore.QRect(481, 811, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_rcp_6.setFont(font)
         self.clear_reception_rcp_6.setObjectName("clear_reception_rcp_6")
         self.label_207 = QtWidgets.QLabel(self.groupBox_26)
@@ -1810,26 +1905,17 @@ class Ui_MainWindow(object):
         self.label_211.setObjectName("label_211")
         self.clear_reception_rcp_7 = QtWidgets.QPushButton(self.groupBox_27)
         self.clear_reception_rcp_7.setGeometry(QtCore.QRect(660, 30, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_rcp_7.setFont(font)
         self.clear_reception_rcp_7.setObjectName("clear_reception_rcp_7")
         self.load_reception_rcp_11 = QtWidgets.QPushButton(self.groupBox_27)
         self.load_reception_rcp_11.setGeometry(QtCore.QRect(15, 91, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_11.setFont(font)
         self.load_reception_rcp_11.setObjectName("load_reception_rcp_11")
         self.load_reception_rcp_12 = QtWidgets.QPushButton(self.groupBox_27)
         self.load_reception_rcp_12.setGeometry(QtCore.QRect(230, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_12.setFont(font)
         self.load_reception_rcp_12.setObjectName("load_reception_rcp_12")
         self.calc_spatm_3 = QtWidgets.QPushButton(self.single_point_atm_calc_page_3)
@@ -1882,10 +1968,7 @@ class Ui_MainWindow(object):
         self.label_215.setObjectName("label_215")
         self.load_reception_rcp_13 = QtWidgets.QPushButton(self.groupBox_28)
         self.load_reception_rcp_13.setGeometry(QtCore.QRect(10, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_13.setFont(font)
         self.load_reception_rcp_13.setObjectName("load_reception_rcp_13")
         self.p_year_spatm_3 = QtWidgets.QLineEdit(self.single_point_atm_calc_page_3)
@@ -1946,26 +2029,17 @@ class Ui_MainWindow(object):
         self.lat_ground_station_sp_perf_3.setObjectName("lat_ground_station_sp_perf_3")
         self.save_ground_station_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_29)
         self.save_ground_station_sp_perf_3.setGeometry(QtCore.QRect(652, 80, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_ground_station_sp_perf_3.setFont(font)
         self.save_ground_station_sp_perf_3.setObjectName("save_ground_station_sp_perf_3")
         self.load_ground_station_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_29)
         self.load_ground_station_sp_perf_3.setGeometry(QtCore.QRect(652, 48, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_sp_perf_3.setFont(font)
         self.load_ground_station_sp_perf_3.setObjectName("load_ground_station_sp_perf_3")
         self.clear_ground_station_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_29)
         self.clear_ground_station_sp_perf_3.setGeometry(QtCore.QRect(652, 16, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_ground_station_sp_perf_3.setFont(font)
         self.clear_ground_station_sp_perf_3.setObjectName("clear_ground_station_sp_perf_3")
         self.groupBox_30 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_3)
@@ -1990,18 +2064,12 @@ class Ui_MainWindow(object):
         self.long_sat_sp_perf_3.setObjectName("long_sat_sp_perf_3")
         self.save_sat_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_30)
         self.save_sat_sp_perf_3.setGeometry(QtCore.QRect(653, 231, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_sp_perf_3.setFont(font)
         self.save_sat_sp_perf_3.setObjectName("save_sat_sp_perf_3")
         self.load_sat_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_30)
         self.load_sat_sp_perf_3.setGeometry(QtCore.QRect(653, 199, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_sp_perf_3.setFont(font)
         self.load_sat_sp_perf_3.setObjectName("load_sat_sp_perf_3")
         self.default_sat_sp_perf_6 = QtWidgets.QComboBox(self.groupBox_30)
@@ -2071,10 +2139,7 @@ class Ui_MainWindow(object):
         self.pol_sat_sp_perf_3.addItem("")
         self.clear_sat_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_30)
         self.clear_sat_sp_perf_3.setGeometry(QtCore.QRect(653, 169, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_sp_perf_3.setFont(font)
         self.clear_sat_sp_perf_3.setObjectName("clear_sat_sp_perf_3")
         self.groupBox_31 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_3)
@@ -2099,18 +2164,12 @@ class Ui_MainWindow(object):
         self.lnb_gain_reception_sp_perf_3.setObjectName("lnb_gain_reception_sp_perf_3")
         self.save_reception_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_31)
         self.save_reception_sp_perf_3.setGeometry(QtCore.QRect(654, 147, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_sp_perf_3.setFont(font)
         self.save_reception_sp_perf_3.setObjectName("save_reception_sp_perf_3")
         self.load_reception_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_31)
         self.load_reception_sp_perf_3.setGeometry(QtCore.QRect(654, 113, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_sp_perf_3.setFont(font)
         self.load_reception_sp_perf_3.setObjectName("load_reception_sp_perf_3")
         self.label_234 = QtWidgets.QLabel(self.groupBox_31)
@@ -2141,10 +2200,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_sp_perf_3.setObjectName("max_depoint_reception_sp_perf_3")
         self.clear_reception_sp_perf_3 = QtWidgets.QPushButton(self.groupBox_31)
         self.clear_reception_sp_perf_3.setGeometry(QtCore.QRect(654, 81, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_sp_perf_3.setFont(font)
         self.clear_reception_sp_perf_3.setObjectName("clear_reception_sp_perf_3")
         self.cable_loss_reception_sp_perf_3 = QtWidgets.QLineEdit(self.groupBox_31)
@@ -2231,18 +2287,12 @@ class Ui_MainWindow(object):
         self.long_sat_mp_perf_3.setObjectName("long_sat_mp_perf_3")
         self.save_sat_mp_perf_3 = QtWidgets.QPushButton(self.groupBox_32)
         self.save_sat_mp_perf_3.setGeometry(QtCore.QRect(658, 222, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_mp_perf_3.setFont(font)
         self.save_sat_mp_perf_3.setObjectName("save_sat_mp_perf_3")
         self.load_sat_mp_perf_3 = QtWidgets.QPushButton(self.groupBox_32)
         self.load_sat_mp_perf_3.setGeometry(QtCore.QRect(658, 190, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_mp_perf_3.setFont(font)
         self.load_sat_mp_perf_3.setObjectName("load_sat_mp_perf_3")
         self.default_sat_mp_perf_3 = QtWidgets.QComboBox(self.groupBox_32)
@@ -2312,10 +2362,7 @@ class Ui_MainWindow(object):
         self.pol_sat_mp_perf_3.addItem("")
         self.clear_satellite_mp_perf_3 = QtWidgets.QPushButton(self.groupBox_32)
         self.clear_satellite_mp_perf_3.setGeometry(QtCore.QRect(658, 156, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_satellite_mp_perf_3.setFont(font)
         self.clear_satellite_mp_perf_3.setObjectName("clear_satellite_mp_perf_3")
         self.groupBox_33 = QtWidgets.QGroupBox(self.list_perf_calc_page_3)
@@ -2346,18 +2393,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_mp_perf_3.setObjectName("ant_size_reception_mp_perf_3")
         self.save_reception_mp_perf_3 = QtWidgets.QPushButton(self.groupBox_33)
         self.save_reception_mp_perf_3.setGeometry(QtCore.QRect(656, 186, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_mp_perf_3.setFont(font)
         self.save_reception_mp_perf_3.setObjectName("save_reception_mp_perf_3")
         self.load_reception_mp_perf_3 = QtWidgets.QPushButton(self.groupBox_33)
         self.load_reception_mp_perf_3.setGeometry(QtCore.QRect(656, 151, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_mp_perf_3.setFont(font)
         self.load_reception_mp_perf_3.setObjectName("load_reception_mp_perf_3")
         self.label_257 = QtWidgets.QLabel(self.groupBox_33)
@@ -2389,10 +2430,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_mp_perf_3.setObjectName("max_depoint_reception_mp_perf_3")
         self.clear_reception_mp_perf_3 = QtWidgets.QPushButton(self.groupBox_33)
         self.clear_reception_mp_perf_3.setGeometry(QtCore.QRect(656, 115, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_mp_perf_3.setFont(font)
         self.clear_reception_mp_perf_3.setObjectName("clear_reception_mp_perf_3")
         self.cable_loss_reception_mp_perf_3 = QtWidgets.QLineEdit(self.groupBox_33)
@@ -2491,26 +2529,17 @@ class Ui_MainWindow(object):
         self.label_268.setObjectName("label_268")
         self.clear_reception_rcp_8 = QtWidgets.QPushButton(self.groupBox_34)
         self.clear_reception_rcp_8.setGeometry(QtCore.QRect(660, 30, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_rcp_8.setFont(font)
         self.clear_reception_rcp_8.setObjectName("clear_reception_rcp_8")
         self.load_reception_rcp_14 = QtWidgets.QPushButton(self.groupBox_34)
         self.load_reception_rcp_14.setGeometry(QtCore.QRect(15, 91, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_14.setFont(font)
         self.load_reception_rcp_14.setObjectName("load_reception_rcp_14")
         self.load_reception_rcp_15 = QtWidgets.QPushButton(self.groupBox_34)
         self.load_reception_rcp_15.setGeometry(QtCore.QRect(230, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_15.setFont(font)
         self.load_reception_rcp_15.setObjectName("load_reception_rcp_15")
         self.calc_spatm_4 = QtWidgets.QPushButton(self.single_point_atm_calc_page_4)
@@ -2563,10 +2592,7 @@ class Ui_MainWindow(object):
         self.label_272.setObjectName("label_272")
         self.load_reception_rcp_16 = QtWidgets.QPushButton(self.groupBox_35)
         self.load_reception_rcp_16.setGeometry(QtCore.QRect(10, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_rcp_16.setFont(font)
         self.load_reception_rcp_16.setObjectName("load_reception_rcp_16")
         self.p_year_spatm_4 = QtWidgets.QLineEdit(self.single_point_atm_calc_page_4)
@@ -2627,26 +2653,17 @@ class Ui_MainWindow(object):
         self.lat_ground_station_sp_perf_4.setObjectName("lat_ground_station_sp_perf_4")
         self.save_ground_station_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_36)
         self.save_ground_station_sp_perf_4.setGeometry(QtCore.QRect(652, 80, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_ground_station_sp_perf_4.setFont(font)
         self.save_ground_station_sp_perf_4.setObjectName("save_ground_station_sp_perf_4")
         self.load_ground_station_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_36)
         self.load_ground_station_sp_perf_4.setGeometry(QtCore.QRect(652, 48, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_sp_perf_4.setFont(font)
         self.load_ground_station_sp_perf_4.setObjectName("load_ground_station_sp_perf_4")
         self.clear_ground_station_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_36)
         self.clear_ground_station_sp_perf_4.setGeometry(QtCore.QRect(652, 16, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_ground_station_sp_perf_4.setFont(font)
         self.clear_ground_station_sp_perf_4.setObjectName("clear_ground_station_sp_perf_4")
         self.groupBox_37 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_4)
@@ -2671,18 +2688,12 @@ class Ui_MainWindow(object):
         self.long_sat_sp_perf_4.setObjectName("long_sat_sp_perf_4")
         self.save_sat_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_37)
         self.save_sat_sp_perf_4.setGeometry(QtCore.QRect(653, 231, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_sp_perf_4.setFont(font)
         self.save_sat_sp_perf_4.setObjectName("save_sat_sp_perf_4")
         self.load_sat_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_37)
         self.load_sat_sp_perf_4.setGeometry(QtCore.QRect(653, 199, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_sp_perf_4.setFont(font)
         self.load_sat_sp_perf_4.setObjectName("load_sat_sp_perf_4")
         self.default_sat_sp_perf_8 = QtWidgets.QComboBox(self.groupBox_37)
@@ -2752,10 +2763,7 @@ class Ui_MainWindow(object):
         self.pol_sat_sp_perf_4.addItem("")
         self.clear_sat_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_37)
         self.clear_sat_sp_perf_4.setGeometry(QtCore.QRect(653, 169, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_sp_perf_4.setFont(font)
         self.clear_sat_sp_perf_4.setObjectName("clear_sat_sp_perf_4")
         self.groupBox_38 = QtWidgets.QGroupBox(self.single_point_perf_calc_page_4)
@@ -2786,18 +2794,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_sp_perf_2.setObjectName("ant_size_reception_sp_perf_2")
         self.save_reception_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_38)
         self.save_reception_sp_perf_4.setGeometry(QtCore.QRect(654, 189, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_sp_perf_4.setFont(font)
         self.save_reception_sp_perf_4.setObjectName("save_reception_sp_perf_4")
         self.load_reception_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_38)
         self.load_reception_sp_perf_4.setGeometry(QtCore.QRect(654, 155, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_sp_perf_4.setFont(font)
         self.load_reception_sp_perf_4.setObjectName("load_reception_sp_perf_4")
         self.label_292 = QtWidgets.QLabel(self.groupBox_38)
@@ -2828,10 +2830,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_sp_perf_4.setObjectName("max_depoint_reception_sp_perf_4")
         self.clear_reception_sp_perf_4 = QtWidgets.QPushButton(self.groupBox_38)
         self.clear_reception_sp_perf_4.setGeometry(QtCore.QRect(654, 123, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_sp_perf_4.setFont(font)
         self.clear_reception_sp_perf_4.setObjectName("clear_reception_sp_perf_4")
         self.cable_loss_reception_sp_perf_4 = QtWidgets.QLineEdit(self.groupBox_38)
@@ -2921,18 +2920,12 @@ class Ui_MainWindow(object):
         self.long_sat_mp_ant_size.setObjectName("long_sat_mp_ant_size")
         self.save_sat_mp_ant_size = QtWidgets.QPushButton(self.groupBox_39)
         self.save_sat_mp_ant_size.setGeometry(QtCore.QRect(659, 222, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_mp_ant_size.setFont(font)
         self.save_sat_mp_ant_size.setObjectName("save_sat_mp_ant_size")
         self.load_sat_mp_ant_size = QtWidgets.QPushButton(self.groupBox_39)
         self.load_sat_mp_ant_size.setGeometry(QtCore.QRect(659, 190, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_mp_ant_size.setFont(font)
         self.load_sat_mp_ant_size.setObjectName("load_sat_mp_ant_size")
         self.default_sat_mp_ant_size = QtWidgets.QComboBox(self.groupBox_39)
@@ -2999,10 +2992,7 @@ class Ui_MainWindow(object):
         self.pol_sat_mp_ant_size.addItem("")
         self.clear_sat_mp_ant_size = QtWidgets.QPushButton(self.groupBox_39)
         self.clear_sat_mp_ant_size.setGeometry(QtCore.QRect(659, 156, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_mp_ant_size.setFont(font)
         self.clear_sat_mp_ant_size.setObjectName("clear_sat_mp_ant_size")
         self.groupBox_40 = QtWidgets.QGroupBox(self.list_perf_calc_page_4)
@@ -3027,18 +3017,12 @@ class Ui_MainWindow(object):
         self.lnb_gain_reception_mp_ant_size.setObjectName("lnb_gain_reception_mp_ant_size")
         self.save_reception_mp_ant_size = QtWidgets.QPushButton(self.groupBox_40)
         self.save_reception_mp_ant_size.setGeometry(QtCore.QRect(661, 131, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_mp_ant_size.setFont(font)
         self.save_reception_mp_ant_size.setObjectName("save_reception_mp_ant_size")
         self.load_reception_mp_ant_size = QtWidgets.QPushButton(self.groupBox_40)
         self.load_reception_mp_ant_size.setGeometry(QtCore.QRect(661, 96, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_mp_ant_size.setFont(font)
         self.load_reception_mp_ant_size.setObjectName("load_reception_mp_ant_size")
         self.label_315 = QtWidgets.QLabel(self.groupBox_40)
@@ -3070,10 +3054,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_mp_ant_size.setObjectName("max_depoint_reception_mp_ant_size")
         self.clear_reception_mp_ant_size = QtWidgets.QPushButton(self.groupBox_40)
         self.clear_reception_mp_ant_size.setGeometry(QtCore.QRect(661, 60, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_mp_ant_size.setFont(font)
         self.clear_reception_mp_ant_size.setObjectName("clear_reception_mp_ant_size")
         self.cable_loss_reception_mp_ant_size = QtWidgets.QLineEdit(self.groupBox_40)
@@ -3172,26 +3153,17 @@ class Ui_MainWindow(object):
         self.label_68.setObjectName("label_68")
         self.clear_reception_spatm = QtWidgets.QPushButton(self.groupBox_7)
         self.clear_reception_spatm.setGeometry(QtCore.QRect(660, 30, 93, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_spatm.setFont(font)
         self.clear_reception_spatm.setObjectName("clear_reception_spatm")
         self.load_ground_station_spatm = QtWidgets.QPushButton(self.groupBox_7)
         self.load_ground_station_spatm.setGeometry(QtCore.QRect(15, 91, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_spatm.setFont(font)
         self.load_ground_station_spatm.setObjectName("load_ground_station_spatm")
         self.load_reception_spatm = QtWidgets.QPushButton(self.groupBox_7)
         self.load_reception_spatm.setGeometry(QtCore.QRect(230, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_spatm.setFont(font)
         self.load_reception_spatm.setObjectName("load_reception_spatm")
         self.calc_spatm = QtWidgets.QPushButton(self.single_point_atm_calc_page)
@@ -3244,10 +3216,7 @@ class Ui_MainWindow(object):
         self.label_8.setObjectName("label_8")
         self.load_sat_spatm = QtWidgets.QPushButton(self.groupBox_8)
         self.load_sat_spatm.setGeometry(QtCore.QRect(10, 90, 201, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_spatm.setFont(font)
         self.load_sat_spatm.setObjectName("load_sat_spatm")
         self.p_year_spatm = QtWidgets.QLineEdit(self.single_point_atm_calc_page)
@@ -3308,26 +3277,17 @@ class Ui_MainWindow(object):
         self.lat_ground_station_sp_perf.setObjectName("lat_ground_station_sp_perf")
         self.save_ground_station_sp_perf = QtWidgets.QPushButton(self.groupBox_4)
         self.save_ground_station_sp_perf.setGeometry(QtCore.QRect(652, 80, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_ground_station_sp_perf.setFont(font)
         self.save_ground_station_sp_perf.setObjectName("save_ground_station_sp_perf")
         self.load_ground_station_sp_perf = QtWidgets.QPushButton(self.groupBox_4)
         self.load_ground_station_sp_perf.setGeometry(QtCore.QRect(652, 48, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_ground_station_sp_perf.setFont(font)
         self.load_ground_station_sp_perf.setObjectName("load_ground_station_sp_perf")
         self.clear_ground_station_sp_perf = QtWidgets.QPushButton(self.groupBox_4)
         self.clear_ground_station_sp_perf.setGeometry(QtCore.QRect(652, 16, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_ground_station_sp_perf.setFont(font)
         self.clear_ground_station_sp_perf.setObjectName("clear_ground_station_sp_perf")
         self.groupBox_5 = QtWidgets.QGroupBox(self.single_point_perf_calc_page)
@@ -3352,18 +3312,12 @@ class Ui_MainWindow(object):
         self.long_sat_sp_perf.setObjectName("long_sat_sp_perf")
         self.save_sat_sp_perf = QtWidgets.QPushButton(self.groupBox_5)
         self.save_sat_sp_perf.setGeometry(QtCore.QRect(653, 231, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_sp_perf.setFont(font)
         self.save_sat_sp_perf.setObjectName("save_sat_sp_perf")
         self.load_sat_sp_perf = QtWidgets.QPushButton(self.groupBox_5)
         self.load_sat_sp_perf.setGeometry(QtCore.QRect(653, 199, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_sp_perf.setFont(font)
         self.load_sat_sp_perf.setObjectName("load_sat_sp_perf")
         self.default_sat_sp_perf = QtWidgets.QComboBox(self.groupBox_5)
@@ -3430,10 +3384,7 @@ class Ui_MainWindow(object):
         self.pol_sat_sp_perf.addItem("")
         self.clear_sat_sp_perf = QtWidgets.QPushButton(self.groupBox_5)
         self.clear_sat_sp_perf.setGeometry(QtCore.QRect(653, 169, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_sat_sp_perf.setFont(font)
         self.clear_sat_sp_perf.setObjectName("clear_sat_sp_perf")
         self.groupBox_6 = QtWidgets.QGroupBox(self.single_point_perf_calc_page)
@@ -3464,18 +3415,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_sp_perf.setObjectName("ant_size_reception_sp_perf")
         self.save_reception_sp_perf = QtWidgets.QPushButton(self.groupBox_6)
         self.save_reception_sp_perf.setGeometry(QtCore.QRect(654, 189, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_sp_perf.setFont(font)
         self.save_reception_sp_perf.setObjectName("save_reception_sp_perf")
         self.load_reception_sp_perf = QtWidgets.QPushButton(self.groupBox_6)
         self.load_reception_sp_perf.setGeometry(QtCore.QRect(654, 155, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_sp_perf.setFont(font)
         self.load_reception_sp_perf.setObjectName("load_reception_sp_perf")
         self.label_46 = QtWidgets.QLabel(self.groupBox_6)
@@ -3506,10 +3451,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_sp_perf.setObjectName("max_depoint_reception_sp_perf")
         self.clear_reception_sp_perf = QtWidgets.QPushButton(self.groupBox_6)
         self.clear_reception_sp_perf.setGeometry(QtCore.QRect(654, 123, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_sp_perf.setFont(font)
         self.clear_reception_sp_perf.setObjectName("clear_reception_sp_perf")
         self.cable_loss_reception_sp_perf = QtWidgets.QLineEdit(self.groupBox_6)
@@ -3599,18 +3541,12 @@ class Ui_MainWindow(object):
         self.long_sat_mp_perf.setObjectName("long_sat_mp_perf")
         self.save_sat_mp_perf = QtWidgets.QPushButton(self.groupBox_10)
         self.save_sat_mp_perf.setGeometry(QtCore.QRect(658, 222, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_sat_mp_perf.setFont(font)
         self.save_sat_mp_perf.setObjectName("save_sat_mp_perf")
         self.load_sat_mp_perf = QtWidgets.QPushButton(self.groupBox_10)
         self.load_sat_mp_perf.setGeometry(QtCore.QRect(658, 190, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_sat_mp_perf.setFont(font)
         self.load_sat_mp_perf.setObjectName("load_sat_mp_perf")
         self.default_sat_mp_perf = QtWidgets.QComboBox(self.groupBox_10)
@@ -3677,10 +3613,7 @@ class Ui_MainWindow(object):
         self.pol_sat_mp_perf.addItem("")
         self.clear_satellite_mp_perf = QtWidgets.QPushButton(self.groupBox_10)
         self.clear_satellite_mp_perf.setGeometry(QtCore.QRect(658, 156, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_satellite_mp_perf.setFont(font)
         self.clear_satellite_mp_perf.setObjectName("clear_satellite_mp_perf")
         self.groupBox_11 = QtWidgets.QGroupBox(self.list_perf_calc_page)
@@ -3711,18 +3644,12 @@ class Ui_MainWindow(object):
         self.ant_size_reception_mp_perf.setObjectName("ant_size_reception_mp_perf")
         self.save_reception_mp_perf = QtWidgets.QPushButton(self.groupBox_11)
         self.save_reception_mp_perf.setGeometry(QtCore.QRect(656, 186, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.save_reception_mp_perf.setFont(font)
         self.save_reception_mp_perf.setObjectName("save_reception_mp_perf")
         self.load_reception_mp_perf = QtWidgets.QPushButton(self.groupBox_11)
         self.load_reception_mp_perf.setGeometry(QtCore.QRect(656, 151, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.load_reception_mp_perf.setFont(font)
         self.load_reception_mp_perf.setObjectName("load_reception_mp_perf")
         self.label_86 = QtWidgets.QLabel(self.groupBox_11)
@@ -3754,10 +3681,7 @@ class Ui_MainWindow(object):
         self.max_depoint_reception_mp_perf.setObjectName("max_depoint_reception_mp_perf")
         self.clear_reception_mp_perf = QtWidgets.QPushButton(self.groupBox_11)
         self.clear_reception_mp_perf.setGeometry(QtCore.QRect(656, 115, 111, 28))
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setWeight(50)
+        font = self.set_font(10, False, 50)
         self.clear_reception_mp_perf.setFont(font)
         self.clear_reception_mp_perf.setObjectName("clear_reception_mp_perf")
         self.cable_loss_reception_mp_perf = QtWidgets.QLineEdit(self.groupBox_11)
@@ -4004,7 +3928,7 @@ class Ui_MainWindow(object):
         import pandas as pd
 
             # Modulation combo boxes
-        data = pd.read_csv('models\\Modulation_dB.csv', sep=';')['Modcod']
+        data = pd.read_csv('models/Modulation_dB.csv', sep=';')['Modcod']
         data = data.values.tolist()
         self.modcod_sat_mp_perf.addItems(data)
         self.modcod_sat_sp_perf.addItems(data)
@@ -4012,7 +3936,7 @@ class Ui_MainWindow(object):
         self.modcod_sat_sp_ant_size.addItems(data)
         self.modcod_sat_mp_ant_size.addItems(data)
             # Default satellite list combo boxes
-        data = pd.read_csv('models\\Default_Sat.csv', sep=';')['SAT']
+        data = pd.read_csv('models/Default_Sat.csv', sep=';')['SAT']
         data = data.values.tolist()
         self.default_sat.addItems(data)
         self.default_sat_sp_ant_size.addItems(data)
@@ -4056,14 +3980,14 @@ class Ui_MainWindow(object):
 
         # deleting temp files
         import os
-        if os.path.exists('temp\\save.pkl'):
-            os.remove('temp\\save.pkl')
-        if os.path.exists('temp\\load.pkl'):
-            os.remove('temp\\load.pkl')
-        if os.path.exists('temp\\args.pkl'):
-            os.remove('temp\\args.pkl')
-        if os.path.exists("temp\\out.txt"):
-            os.remove("temp\\out.txt")
+        if os.path.exists('temp/save.pkl'):
+            os.remove('temp/save.pkl')
+        if os.path.exists('temp/load.pkl'):
+            os.remove('temp/load.pkl')
+        if os.path.exists('temp/args.pkl'):
+            os.remove('temp/args.pkl')
+        if os.path.exists("temp/out.txt"):
+            os.remove("temp/out.txt")
 
         # maintaing updatable texts
         self._update_timer = QtCore.QTimer()
@@ -4075,7 +3999,7 @@ class Ui_MainWindow(object):
         import pandas as pd
         index = cb_box.currentIndex()
         if index != 0:
-            data = pd.read_csv('models\\Default_Sat.csv', sep=';')['COORD']
+            data = pd.read_csv('models/Default_Sat.csv', sep=';')['COORD']
             long = data[index]
             if page == 'default_sat':
                 self.long_sat.setText(long)
@@ -4099,7 +4023,7 @@ class Ui_MainWindow(object):
         if opt != 'clear':
             open_dialog(opt, type)
         try:
-            with open('temp\\' + opt + '.pkl', 'rb') as f:
+            with open('temp/' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
                 # print(folder)
                 f.close()
@@ -4129,8 +4053,8 @@ class Ui_MainWindow(object):
                                  max_bw_sat, bw_util, rolloff_sat, modulation, pol], f)
                     f.close()
 
-            if os.path.exists('temp\\save.pkl'):
-                os.remove('temp\\save.pkl')
+            if os.path.exists('temp/save.pkl'):
+                os.remove('temp/save.pkl')
 
         elif opt == 'load':
             if folder != '':
@@ -4153,8 +4077,8 @@ class Ui_MainWindow(object):
                 if index >= 0:
                     self.modcod_sat.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
         elif opt == 'clear':
             self.name_sat.clear()
@@ -4176,7 +4100,7 @@ class Ui_MainWindow(object):
         if opt != 'clear':
             open_dialog(opt, type)
         try:
-            with open('temp\\' + opt + '.pkl', 'rb') as f:
+            with open('temp/' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
                 # print(folder)
                 f.close()
@@ -4197,8 +4121,8 @@ class Ui_MainWindow(object):
                     pickle.dump([name_grst, lat_gst, long_gst], f)
                     f.close()
 
-            if os.path.exists('temp\\save.pkl'):
-                os.remove('temp\\save.pkl')
+            if os.path.exists('temp/save.pkl'):
+                os.remove('temp/save.pkl')
 
         elif opt == 'load':
             if folder != '':
@@ -4209,8 +4133,8 @@ class Ui_MainWindow(object):
                 self.lat_ground_station_grstat.setText(str(lat_gst))
                 self.long_ground_station_grstat.setText(str(long_gst))
 
-            if os.path.exists('temp\\load.pkl'):
-                os.remove('temp\\load.pkl')
+            if os.path.exists('temp/load.pkl'):
+                os.remove('temp/load.pkl')
 
         elif opt == 'clear':
             self.name_ground_station_grstat.clear()
@@ -4225,7 +4149,7 @@ class Ui_MainWindow(object):
         if opt != 'clear':
             open_dialog(opt, type)
         try:
-            with open('temp\\' + opt + '.pkl', 'rb') as f:
+            with open('temp/' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
                 # print(folder)
                 f.close()
@@ -4252,8 +4176,8 @@ class Ui_MainWindow(object):
                         [name_rcp, ant_size, ant_eff, lnb_gain, lnb_temp, aditional_losses, cable_loss, max_depoint], f)
                     f.close()
 
-            if os.path.exists('temp\\save.pkl'):
-                os.remove('temp\\save.pkl')
+            if os.path.exists('temp/save.pkl'):
+                os.remove('temp/save.pkl')
 
         elif opt == 'load':
             if folder != '':
@@ -4270,8 +4194,8 @@ class Ui_MainWindow(object):
                 self.cable_loss_reception_rcp.setText(str(cable_loss))
                 self.max_depoint_reception_rcp.setText(str(max_depoint))
 
-            if os.path.exists('temp\\load.pkl'):
-                os.remove('temp\\load.pkl')
+            if os.path.exists('temp/load.pkl'):
+                os.remove('temp/load.pkl')
 
         elif opt == 'clear':
             self.name_reception_rcp.clear()
@@ -4293,7 +4217,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4308,15 +4232,15 @@ class Ui_MainWindow(object):
                     self.lat_ground_station_spatm.setText(str(lat_gst))
                     self.long_ground_station_spatm.setText(str(long_gst))
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
         elif item == 'rcp':
             type = 'Reception Setup Files (*.rcp)'
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4332,8 +4256,8 @@ class Ui_MainWindow(object):
                     self.ant_size_reception_spatm.setText(str(ant_size))
                     self.ant_eff_reception_spatm.setText(str(ant_eff))
 
-                    if os.path.exists('temp\\load.pkl'):
-                        os.remove('temp\\load.pkl')
+                    if os.path.exists('temp/load.pkl'):
+                        os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.lat_ground_station_spatm.clear()
@@ -4346,7 +4270,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4365,8 +4289,8 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.pol_sat_spatm.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
     def load_save_single_point_perf(self, opt, item):
         import pickle
@@ -4378,7 +4302,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4400,8 +4324,8 @@ class Ui_MainWindow(object):
                         pickle.dump([name_grst, lat_gst, long_gst], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4412,8 +4336,8 @@ class Ui_MainWindow(object):
                     self.lat_ground_station_sp_perf.setText(str(lat_gst))
                     self.long_ground_station_sp_perf.setText(str(long_gst))
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_ground_station_sp_perf.clear()
@@ -4425,7 +4349,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4455,8 +4379,8 @@ class Ui_MainWindow(object):
                                      max_bw_sat, bw_util, rolloff_sat, modulation, pol], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4479,8 +4403,8 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.modcod_sat_sp_perf.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_sat_sp_perf.clear()
@@ -4499,7 +4423,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4527,8 +4451,8 @@ class Ui_MainWindow(object):
                              max_depoint], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4545,8 +4469,8 @@ class Ui_MainWindow(object):
                     self.cable_loss_reception_sp_perf.setText(str(cable_loss))
                     self.max_depoint_reception_sp_perf.setText(str(max_depoint))
 
-                    if os.path.exists('temp\\load.pkl'):
-                        os.remove('temp\\load.pkl')
+                    if os.path.exists('temp/load.pkl'):
+                        os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_reception_sp_perf.clear()
@@ -4568,7 +4492,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4598,8 +4522,8 @@ class Ui_MainWindow(object):
                                      max_bw_sat, bw_util, rolloff_sat, modulation, pol], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4622,8 +4546,8 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.modcod_sat_mp_perf.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_sat_mp_perf.clear()
@@ -4642,7 +4566,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4670,8 +4594,8 @@ class Ui_MainWindow(object):
                              max_depoint], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4688,8 +4612,8 @@ class Ui_MainWindow(object):
                     self.cable_loss_reception_mp_perf.setText(str(cable_loss))
                     self.max_depoint_reception_mp_perf.setText(str(max_depoint))
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_reception_mp_perf.clear()
@@ -4711,7 +4635,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4733,8 +4657,8 @@ class Ui_MainWindow(object):
                         pickle.dump([name_grst, lat_gst, long_gst], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4745,8 +4669,8 @@ class Ui_MainWindow(object):
                     self.lat_ground_station_sp_ant_size.setText(str(lat_gst))
                     self.long_ground_station_sp_ant_size.setText(str(long_gst))
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_ground_station_sp_ant_size.clear()
@@ -4758,7 +4682,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4788,8 +4712,8 @@ class Ui_MainWindow(object):
                                      max_bw_sat, bw_util, rolloff_sat, modulation, pol], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4812,8 +4736,8 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.modcod_sat_sp_ant_size.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_sat_sp_ant_size.clear()
@@ -4832,7 +4756,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4853,8 +4777,8 @@ class Ui_MainWindow(object):
                     self.cable_loss_reception_sp_ant_size.setText(str(cable_loss))
                     self.max_depoint_reception_sp_ant_size.setText(str(max_depoint))
 
-                    if os.path.exists('temp\\load.pkl'):
-                        os.remove('temp\\load.pkl')
+                    if os.path.exists('temp/load.pkl'):
+                        os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_reception_sp_ant_size.clear()
@@ -4875,7 +4799,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4905,8 +4829,8 @@ class Ui_MainWindow(object):
                                      max_bw_sat, bw_util, rolloff_sat, modulation, pol], f)
                         f.close()
 
-                if os.path.exists('temp\\save.pkl'):
-                    os.remove('temp\\save.pkl')
+                if os.path.exists('temp/save.pkl'):
+                    os.remove('temp/save.pkl')
 
             elif opt == 'load':
                 if folder != '':
@@ -4929,8 +4853,8 @@ class Ui_MainWindow(object):
                     if index >= 0:
                         self.modcod_sat_mp_ant_size.setCurrentIndex(index)
 
-                if os.path.exists('temp\\load.pkl'):
-                    os.remove('temp\\load.pkl')
+                if os.path.exists('temp/load.pkl'):
+                    os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_sat_mp_ant_size.clear()
@@ -4949,7 +4873,7 @@ class Ui_MainWindow(object):
             if opt != 'clear':
                 open_dialog(opt, type)
             try:
-                with open('temp\\' + opt + '.pkl', 'rb') as f:
+                with open('temp/' + opt + '.pkl', 'rb') as f:
                     folder = pickle.load(f)
                     # print(folder)
                     f.close()
@@ -4970,8 +4894,8 @@ class Ui_MainWindow(object):
                     self.cable_loss_reception_mp_ant_size.setText(str(cable_loss))
                     self.max_depoint_reception_mp_ant_size.setText(str(max_depoint))
 
-                    if os.path.exists('temp\\load.pkl'):
-                        os.remove('temp\\load.pkl')
+                    if os.path.exists('temp/load.pkl'):
+                        os.remove('temp/load.pkl')
 
             elif opt == 'clear':
                 self.name_reception_mp_ant_size.clear()
@@ -4994,7 +4918,7 @@ class Ui_MainWindow(object):
         open_dialog(opt, type)
 
         try:
-            with open('temp\\' + opt + '.pkl', 'rb') as f:
+            with open('temp/' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
                 # print(folder)
                 f.close()
@@ -5034,8 +4958,8 @@ class Ui_MainWindow(object):
             preview_window.setSizeAdjustPolicy(QtWidgets.QAbstractScrollArea.AdjustToContents)
             preview_window.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
 
-        if os.path.exists('temp\\load.pkl'):
-            os.remove('temp\\load.pkl')
+        if os.path.exists('temp/load.pkl'):
+            os.remove('temp/load.pkl')
 
         return
 
@@ -5050,8 +4974,8 @@ class Ui_MainWindow(object):
     def update_label(self, index):
         import os
 
-        if os.path.exists('temp\\out.txt'):
-            with open("temp\\out.txt", "r") as myfile:
+        if os.path.exists('temp/out.txt'):
+            with open("temp/out.txt", "r") as myfile:
                 # data = myfile.read()
 
                 if index == 1:
@@ -5097,7 +5021,7 @@ class Ui_MainWindow(object):
 
             import pickle
 
-            with open('temp\\args.pkl', 'wb') as f:
+            with open('temp/args.pkl', 'wb') as f:
                 pickle.dump([p, site_lat, site_long, ant_size, ant_eff, sat_long, freq, method], f)
                 f.close()
             self.threadpool = QtCore.QThreadPool()
@@ -5142,7 +5066,7 @@ class Ui_MainWindow(object):
             snr_relaxation = float(self.relaxation_sp_perf.text())
             margin = float(self.margin_sp_perf.text())
 
-            with open('temp\\args.pkl', 'wb') as f:
+            with open('temp/args.pkl', 'wb') as f:
                 pickle.dump(
                     [site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
                      modcod, pol, roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, aditional_losses,
@@ -5195,7 +5119,7 @@ class Ui_MainWindow(object):
             margin = float(self.margin_mp_perf.text())
             threads = int(self.n_threads_mp_perf.currentText())
 
-            with open('temp\\args.pkl', 'wb') as f:
+            with open('temp/args.pkl', 'wb') as f:
                 pickle.dump(
                     [gr_station_path, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
                      modcod, pol, roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, aditional_losses,
@@ -5253,7 +5177,7 @@ class Ui_MainWindow(object):
             min_ant_size = float(self.ant_min_size_sp_ant_size.text())
             margin = float(self.margin_sp_ant_size.text())
 
-            with open('temp\\args.pkl', 'wb') as f:
+            with open('temp/args.pkl', 'wb') as f:
                 pickle.dump(
                     [site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
                      modcod, pol, roll_off, ant_eff, lnb_gain, lnb_temp, aditional_losses,
@@ -5268,7 +5192,7 @@ class Ui_MainWindow(object):
         self.threadpool.start(sp_ant_size)
         self.threadpool.waitForDone()
 
-        with open('temp\\args.pkl', 'rb') as f:
+        with open('temp/args.pkl', 'rb') as f:
             (ant_size_vector, ant_size_vector_interp, availability_vector, availability_vector_interp) = pickle.load(f)
             f.close()
 
@@ -5292,7 +5216,7 @@ class Ui_MainWindow(object):
         plt.setp(ax1, ylabel='Availability (%year)')
         plt.setp(ax2, xlabel='Antenna size')
         plt.setp(ax2, ylabel='Unavailability (hours/year)')
-        fig.savefig('temp\\fig.png')
+        fig.savefig('temp/fig.png')
 
         plt.show()
 
@@ -5333,7 +5257,7 @@ class Ui_MainWindow(object):
             margin = float(self.margin_mp_ant_size.text())
             threads = int(self.n_threads_mp_ant_size.currentText())
 
-            with open('temp\\args.pkl', 'wb') as f:
+            with open('temp/args.pkl', 'wb') as f:
                 pickle.dump(
                     [gr_station_path, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
                      modcod, pol, roll_off, ant_eff, lnb_gain, lnb_temp, aditional_losses,
@@ -5356,14 +5280,14 @@ class Ui_MainWindow(object):
         opt = 'save'
         open_dialog(opt, type)
         try:
-            with open('temp\\' + opt + '.pkl', 'rb') as f:
+            with open('temp/' + opt + '.pkl', 'rb') as f:
                 folder = pickle.load(f)
                 f.close()
         except:
             folder = ''
 
         if folder != '':
-            img = Image.open('temp\\fig.png')
+            img = Image.open('temp/fig.png')
             print(folder)
             # display(img)
             img.save(folder + '.png')
@@ -6113,6 +6037,13 @@ class Ui_MainWindow(object):
         self.action_Single_Antenna_Size.setStatusTip(_translate("MainWindow", "Single point downlink antenna diameter extimation"))
         self.action_List_Antenna_Size.setText(_translate("MainWindow", "Antenna Size"))
         self.action_List_Antenna_Size.setStatusTip(_translate("MainWindow", "Multi point (list) downlink antenna diameter extimation"))
+
+    def set_font(self, pointSize=10, bold=False, weight=50):
+        font = QtGui.QFont()
+        font.setPointSize(pointSize)
+        font.setBold(bold)
+        font.setWeight(weight)
+        return font
 
 
 if __name__ == "__main__":

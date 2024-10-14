@@ -146,7 +146,7 @@ class Reception:
         elif self.t_sky is not None:
             return self.t_sky
         else:
-            path = util.convert_path_os('models\\ClearSkyTemp ITU 372.csv')
+            path = 'models/ClearSkyTemp ITU 372.csv'
             data = pd.read_csv(path, sep=';', index_col=0)
             self.t_sky = util.curve_interpolation(self.freq, self.e, data)
         if printer:

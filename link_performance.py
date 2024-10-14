@@ -1,6 +1,5 @@
 from GrStat import GroundStation, Reception
 from sat import Satellite
-from models.util import convert_path_os
 from pathos.pools import ParallelPool
 import pandas as pd
 import numpy as np
@@ -32,7 +31,7 @@ def point_availability(args): # this function is just to run the availability fo
 
 
 def sp_link_performance():  # this function runs the availability for a single point and shows a complete output
-    path = convert_path_os('temp\\args.pkl')
+    path = 'temp/args.pkl'
     with open(path, 'rb') as f:
         (site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util, modcod, pol,
          roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, coupling_loss, cable_loss, max_depoint,
@@ -50,7 +49,7 @@ def sp_link_performance():  # this function runs the availability for a single p
     ### satellite parameters ###
     ##############################
 
-    path = convert_path_os('models\\Modulation_dB.csv')
+    path = 'models/Modulation_dB.csv'
     data = pd.read_csv(path, sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
@@ -81,7 +80,7 @@ def sp_link_performance():  # this function runs the availability for a single p
     ###################################
 
     ############ SNR target's calcullation ################
-    path = convert_path_os('temp\\out.txt')
+    path = 'temp/out.txt'
     sys.stdout = open(path, 'w')
 
     start = time.time()
@@ -135,7 +134,7 @@ def sp_link_performance():  # this function runs the availability for a single p
 
     sys.stdout.close()
 
-    path = convert_path_os('temp\\args.pkl')
+    path = 'temp/args.pkl'
 
     if os.path.exists(path):
         os.remove(path)
@@ -144,7 +143,7 @@ def sp_link_performance():  # this function runs the availability for a single p
 
 
 def mp_link_performance():
-    path = convert_path_os('temp\\args.pkl')
+    path = 'temp/args.pkl'
     with open(path, 'rb') as f:  # opening the input variables in the temp file
         (gr_station_path, sat_long, freq, max_eirp, sat_height, max_bw, bw_util, modcod, pol,
          roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, coupling_loss, cable_loss, max_depoint,
@@ -152,7 +151,7 @@ def mp_link_performance():
         f.close()
 
     # reading the input table
-    # dir = 'models\\'
+    # dir = 'models/'
     # file = 'CitiesBrazil'
     # cities = pd.read_csv(dir + file + '.csv', sep=';', encoding='latin1')
     # cities['availability'] = np.nan  # creating an empty results column
@@ -160,7 +159,7 @@ def mp_link_performance():
     point_list = pd.read_csv(gr_station_path, sep=';', encoding='latin1')  # creating a point dataframe from csv file
     point_list['availability'] = np.nan  # creating an empty results column
 
-    path = convert_path_os('models\\Modulation_dB.csv')
+    path = 'models/Modulation_dB.csv'
     data = pd.read_csv(path, sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
@@ -178,7 +177,7 @@ def mp_link_performance():
     # ======================== PARALLEL POOL =============================
     pool = ParallelPool(nodes=threads)  # creating the parallelPoll
 
-    path = convert_path_os('temp\\out.txt')
+    path = 'temp/out.txt'
     sys.stderr = open(path, 'w')  # to print the output dynamically
 
     print('initializing . . .', file=sys.stderr)
@@ -201,7 +200,7 @@ def mp_link_performance():
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-    path = convert_path_os(dir + '\\' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv')
+    path = convert_path_os(dir + '/' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv')
     point_list.to_csv(path, sep=';',
                       encoding='latin1')
 
