@@ -11,16 +11,14 @@ import datetime
 
 
 def point_availability(args):  # function loop - return the availability to a given Lat/Long
+    idx = args[-1]
     point = args[0]
     sat = args[1]
     reception = args[2]
-    lat = point['Lat']
-    long = point['Long']
-    station = GroundStation(lat, long)
+    station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
-    point['availability'] = sat.get_availability()
-    return point
+    return (idx, sat.get_availability())
 
 
 if __name__ == '__main__':
@@ -48,9 +46,6 @@ if __name__ == '__main__':
     fec = '120/180'  # FEC (from modcod file)
     rolloff = 0.2  # roll-off factor (raised cosine filter)
 
-    # creating the satellite object
-    sat = Satellite(sat_long, freq, eirp, hsat, b_transponder, b_util, backoff, contour, mod, rolloff, fec)
-
     ##############################
     ### reception parameters ###
     ##############################
@@ -66,21 +61,21 @@ if __name__ == '__main__':
     # creating a reception object
     reception = Reception(ant_size, ant_eff, coupling_loss, polarization_loss, lnb_gain, lnb_noise_temp, cable_loss,
                           max_depoint)
+    
+    # creating the satellite object
+    sat = Satellite(sat_long, freq, eirp, hsat, b_transponder, b_util, backoff, contour, mod, rolloff, fec)
 
     cores = multiprocessing.cpu_count() - 2
-
     p = multiprocessing.Pool(processes=cores)
 
     # calculation loop
-
     data = list(
-        tqdm.tqdm(p.imap_unordered(point_availability, [(city, sat, reception) for index, city in point_list.iterrows()]),
+        tqdm.tqdm(p.imap_unordered(point_availability, [(city, sat, reception, i) for i, (index, city) in enumerate(point_list.iterrows())]),
                   total=len(point_list)))
     p.close()
 
-    point_list.drop(point_list.index, inplace=True)
-    point_list = point_list.append(data, ignore_index=True)
-    point_list['unavailability time'] = round(((100 - point_list['availability'])/100) * 525600, 0)  # calculating the unavailability in minutes
+    point_list['availability'] = np.array(sorted(data, key=lambda x: x[0]))[:,1]
+    point_list['unavailability time'] = round(((100. - point_list['availability']) / 100.) * 525600., 0)  # calculating the unavailability in minutes
 
 
     # saving the results into a csv file

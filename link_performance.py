@@ -21,13 +21,11 @@ def point_availability(args): # this function is just to run the availability fo
     reception = args[2]
     margin = args[3]
     snr_relaxation = args[4]
-    lat = point['Lat']
-    long = point['Long']
-    station = GroundStation(lat, long)
+    idx = args[-1]
+    station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
-    point['availability'] = sat.get_availability(margin, snr_relaxation)
-    return point
+    return (idx, sat.get_availability(margin, snr_relaxation))
 
 
 def sp_link_performance():  # this function runs the availability for a single point and shows a complete output
@@ -151,9 +149,9 @@ def mp_link_performance():
         f.close()
 
     # reading the input table
-    # dir = 'models/'
+    # directory = 'models/'
     # file = 'CitiesBrazil'
-    # cities = pd.read_csv(dir + file + '.csv', sep=';', encoding='latin1')
+    # cities = pd.read_csv(directory + file + '.csv', sep=';', encoding='latin1')
     # cities['availability'] = np.nan  # creating an empty results column
 
     point_list = pd.read_csv(gr_station_path, sep=';', encoding='latin1')  # creating a point dataframe from csv file
@@ -185,24 +183,20 @@ def mp_link_performance():
     # running the parallel pool
     data = list(
         tqdm.tqdm(pool.imap(point_availability,
-                            [(point, sat, reception, margin, snr_relaxation) for index, point in point_list.iterrows()]),
+                            [(point, sat, reception, margin, snr_relaxation, i) for i, (index, point) in enumerate(point_list.iterrows())]),
                   total=len(point_list)))
     pool.clear()
 
-    point_list.drop(point_list.index, inplace=True)
-    point_list = point_list.append(data, ignore_index=True)
-    point_list['unavailability time (min)'] = round(((100 - point_list['availability']) / 100) * 525600,
-                                            0)  # calculating the availability in minutes
+    point_list['availability'] = np.array(sorted(data, key=lambda x: x[0]))[:,1]
+    point_list['unavailability time'] = round(((100. - point_list['availability']) / 100.) * 525600., 0)  # calculating the unavailability in minutes
 
     # saving the results into a csv file
+    directory = 'results'
+    if not os.path.exists(directory):
+        os.makedir(directory)
 
-    dir = 'results'
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-
-    path = convert_path_os(dir + '/' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv')
-    point_list.to_csv(path, sep=';',
-                      encoding='latin1')
+    path = directory + '/' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv'
+    point_list.to_csv(path, sep=';', encoding='latin1')
 
     print('Complete!!!', file=sys.stderr)
 

@@ -16,9 +16,9 @@ def point_ant_size(args):  # function loop - return the availability to a given 
     point = args[0]
     sat = args[1]
     reception = args[2]
-    lat = point['Lat']
-    long = point['Long']
-    station = GroundStation(lat, long)
+    idx = args[-1]
+
+    station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
 
@@ -30,11 +30,11 @@ def point_ant_size(args):  # function loop - return the availability to a given 
             # print('ant_size ', ant_size)
             sat.reception.ant_size = ant_size - 0.1
             if sat.get_availability() >= target_availability:
-                point['ant size'] = ant_size - 0.1
+                ant_size -= 0.1
             else:
-                point['ant size'] = ant_size
+                pass
             break
-    return point
+    return (idx, ant_size)
 
 
 if __name__ == '__main__':
@@ -64,9 +64,6 @@ if __name__ == '__main__':
     mod = '8PSK'  # modulation (from modcod file)
     fec = '120/180'  # FEC (from modcod file)
 
-    # creating the satellite object
-    sat = Satellite(sat_long, freq, eirp, hsat, b_transponder, b_util, backoff, contour, mod, rolloff, fec)
-
     # reception parameters
     ant_size = 1.2  # reception antenna diameter [m]
     ant_eff = 0.6  # reception antenna efficiency
@@ -77,25 +74,23 @@ if __name__ == '__main__':
     cable_loss = 4  # [dB]
     max_depoint = 0.1  # maximum depointing angle [degrees]
 
+    # creating the satellite object
+    sat = Satellite(sat_long, freq, eirp, hsat, b_transponder, b_util, backoff, contour, mod, rolloff, fec)
     # creating a reception object
     reception = Reception(ant_size, ant_eff, coupling_loss, polarization_loss, lnb_gain, lnb_noise_temp, cable_loss,
                           max_depoint)
 
     cores = multiprocessing.cpu_count() - 2
 
-    p = multiprocessing.Pool(processes=cores)
-
     # calculation loop
+    p = multiprocessing.Pool(processes=cores)
     start_time = time.time()
-
     data = list(
-        tqdm.tqdm(p.imap_unordered(point_ant_size, [(city, sat, reception) for index, city in point_list.iterrows()]),
+        tqdm.tqdm(p.imap_unordered(point_ant_size, [(city, sat, reception, i) for i, (index, city) in enumerate(point_list.iterrows())]),
                   total=len(point_list)))
     p.close()
 
-    point_list.drop(point_list.index, inplace=True)
-    point_list = point_list.append(data, ignore_index=True)
+    point_list['ant size'] = np.array(sorted(data, key=lambda x: x[0]))[:,1]
 
     print("--- %s seconds ---" % (time.time() - start_time))
-
     print(point_list)
