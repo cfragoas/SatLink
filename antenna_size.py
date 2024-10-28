@@ -16,32 +16,19 @@ import sys, os
 # STILL NEED TO CREATE A HEADER IN THE CSV OUTPUT (mp_mp_ant_size)
 
 def loop_graph_ant_size(args):
-    sat = args[0]
-    margin = args[1]
-    snr_relaxation = args[2]
-    ant_size = args[3]
-
+    sat, margin, snr_relaxation, ant_size = args
     sat.reception.ant_size = round(ant_size, 1)
-
     availability = sat.get_availability(margin, snr_relaxation)
-
     return availability
-
 
 def point_ant_size(args):  # function loop - return the availability to a given Lat/Long
     min_ant_size = 0.5
     max_ant_size = 10
     step_ant_size = 0.2
-    target_availability = args[5]
 
-    point = args[0]
-    sat = args[1]
-    reception = args[2]
-    margin = args[3]
-    snr_relaxation = args[4]
-    lat = point['Lat']
-    long = point['Long']
-    station = GroundStation(lat, long)
+    point, sat, reception, margin, snr_relaxation, target_availability, idx = args
+
+    station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
 
@@ -51,11 +38,11 @@ def point_ant_size(args):  # function loop - return the availability to a given 
         if sat.get_availability(margin, snr_relaxation) >= target_availability:
             sat.reception.ant_size = round(round(ant_size, 1) - 0.1, 1)
             if sat.get_availability(margin, snr_relaxation) >= target_availability:
-                point['ant size'] = round(round(ant_size, 1) - 0.1, 1)
+                ant_size = round(round(ant_size, 1) - 0.1, 1)
             else:
-                point['ant size'] = round(ant_size, 1)
+                ant_size = round(ant_size, 1)
             break
-    return point
+    return (idx, ant_size)
 
 
 def sp_ant_size():  # this function runs the availability for a single point and shows a complete output
@@ -173,14 +160,11 @@ def mp_ant_size():
 
     # running the parallel pool
     data = list(
-        tqdm.tqdm(pool.imap(point_ant_size,
-                            [(point, sat, reception, margin, snr_relaxation, availability_target) for index, point in
-                             point_list.iterrows()]),
-                  total=len(point_list)))
+        tqdm.tqdm(pool.imap(point_ant_size, [(point, sat, reception, margin, snr_relaxation, availability_target, index) 
+                                             for index, point in point_list.iterrows()]), total=len(point_list)))
     pool.clear()
 
-    point_list.drop(point_list.index, inplace=True)
-    point_list = point_list.append(data, ignore_index=True)
+    point_list['ant size'] = np.array(sorted(data, key=lambda x: x[0]))[:,1]
 
     # saving the results into a csv file
 

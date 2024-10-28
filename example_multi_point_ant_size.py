@@ -13,10 +13,7 @@ def point_ant_size(args):  # function loop - return the availability to a given 
     step_ant_size = 0.2
     target_availability = 99.97
 
-    point = args[0]
-    sat = args[1]
-    reception = args[2]
-    idx = args[-1]
+    point, sat, reception, idx = args
 
     station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
@@ -86,7 +83,7 @@ if __name__ == '__main__':
     p = multiprocessing.Pool(processes=cores)
     start_time = time.time()
     data = list(
-        tqdm.tqdm(p.imap_unordered(point_ant_size, [(city, sat, reception, i) for i, (index, city) in enumerate(point_list.iterrows())]),
+        tqdm.tqdm(p.imap_unordered(point_ant_size, [(city, sat, reception, index) for index, city in point_list.iterrows()]),
                   total=len(point_list)))
     p.close()
 

@@ -16,12 +16,7 @@ import sys, os, platform
 
 
 def point_availability(args): # this function is just to run the availability for multiple points in mp_link_performance's pool
-    point = args[0]
-    sat = args[1]
-    reception = args[2]
-    margin = args[3]
-    snr_relaxation = args[4]
-    idx = args[-1]
+    point, sat, reception, margin, snr_relaxation, idx = args
     station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
@@ -183,7 +178,7 @@ def mp_link_performance():
     # running the parallel pool
     data = list(
         tqdm.tqdm(pool.imap(point_availability,
-                            [(point, sat, reception, margin, snr_relaxation, i) for i, (index, point) in enumerate(point_list.iterrows())]),
+                            [(point, sat, reception, margin, snr_relaxation, index) for index, point in point_list.iterrows()]),
                   total=len(point_list)))
     pool.clear()
 
