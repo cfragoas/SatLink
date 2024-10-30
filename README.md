@@ -76,8 +76,14 @@ SatLink uses a bunch of different open source python libraries
 
 ### Installation
 
-SatLink is currently tested only in python 3.
-Just copy all the folders and files to any directory and make sure all packages are installed. To install the packages, just run **first_setup.py**, located in the main SatLink's folder, for a fresh package installation or run the following commands
+SatLink has only been tested in python 3.
+Just copy all the folders and files to any directory and make sure all packages and dependencies are installed. For Linux users, be sure to install the required packages with the following one-liner (or the equivalent command in your current distribution):
+
+```sh
+sudo apt install build-essentials gcc g++ python3-pyqt5
+```
+
+For installing the Python packages, just run **first_setup.py** located in the main SatLink folder for a fresh package installation. Alternatively you can run the following command:
 
 ```sh
 pip install -r requirements.txt
@@ -86,16 +92,22 @@ pip install -r requirements.txt
 or
 
 ```sh
-pip install itur==0.2.1
-pip install tqdm==4.56.0
-pip install pandas==1.2.1
-pip install pathos==0.2.7
-pip install astropy==4.2
+pip install numpy==1.26.4
+pip install itur==0.4.0
+pip install tqdm==4.66.5
+pip install pandas==2.2.3
+pip install pathos==0.3.3
+pip install astropy==6.1.4
 pip install pyqt5==5.15.2
-pip install matplotlib==3.4.1
+pip install matplotlib==3.9.2
+pip install chardet==5.2.0
 ```
 
 Run **main_window.py** to start the applicaiton via interface.
+
+For Linux users getting a ```QStandardPaths: wrong permissions on runtime directory /run/user/1000/``` warning, enter the ```sudo chmod 0700 /run/user/1000/``` command in your terminal.
+
+For Linux users using a Conda environment that might be getting a ```libGL error: MESA-LOADER: failed to open swrast``` error, try installing gcc with the ```conda install gcc``` command.
 
 ### Contributions
 

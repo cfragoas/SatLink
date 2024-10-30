@@ -16,32 +16,19 @@ import sys, os
 # STILL NEED TO CREATE A HEADER IN THE CSV OUTPUT (mp_mp_ant_size)
 
 def loop_graph_ant_size(args):
-    sat = args[0]
-    margin = args[1]
-    snr_relaxation = args[2]
-    ant_size = args[3]
-
+    sat, margin, snr_relaxation, ant_size = args
     sat.reception.ant_size = round(ant_size, 1)
-
     availability = sat.get_availability(margin, snr_relaxation)
-
     return availability
-
 
 def point_ant_size(args):  # function loop - return the availability to a given Lat/Long
     min_ant_size = 0.5
     max_ant_size = 10
     step_ant_size = 0.2
-    target_availability = args[5]
 
-    point = args[0]
-    sat = args[1]
-    reception = args[2]
-    margin = args[3]
-    snr_relaxation = args[4]
-    lat = point['Lat']
-    long = point['Long']
-    station = GroundStation(lat, long)
+    point, sat, reception, margin, snr_relaxation, target_availability, idx = args
+
+    station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
 
@@ -51,15 +38,15 @@ def point_ant_size(args):  # function loop - return the availability to a given 
         if sat.get_availability(margin, snr_relaxation) >= target_availability:
             sat.reception.ant_size = round(round(ant_size, 1) - 0.1, 1)
             if sat.get_availability(margin, snr_relaxation) >= target_availability:
-                point['ant size'] = round(round(ant_size, 1) - 0.1, 1)
+                ant_size = round(round(ant_size, 1) - 0.1, 1)
             else:
-                point['ant size'] = round(ant_size, 1)
+                ant_size = round(ant_size, 1)
             break
-    return point
+    return (idx, ant_size)
 
 
 def sp_ant_size():  # this function runs the availability for a single point and shows a complete output
-    with open('temp\\args.pkl', 'rb') as f:
+    with open('temp/args.pkl', 'rb') as f:
         (site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
          modcod, pol, roll_off, ant_eff, lnb_gain, lnb_temp, aditional_losses,
          cable_loss, max_depoint, max_ant_size, min_ant_size, margin, cores) = pickle.load(f)
@@ -76,7 +63,7 @@ def sp_ant_size():  # this function runs the availability for a single point and
     ### satellite parameters ###
     ##############################
 
-    data = pd.read_csv('models\\Modulation_dB.csv', sep=';')
+    data = pd.read_csv('models/Modulation_dB.csv', sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
     mod = line['Modulation'].values[0]
@@ -126,7 +113,7 @@ def sp_ant_size():  # this function runs the availability for a single point and
     # availability_vector_interp = a_BSpline(ant_size_vector_interp)
 
     availability_vector_interp = 0
-    with open('temp\\args.pkl', 'wb') as f:
+    with open('temp/args.pkl', 'wb') as f:
         pickle.dump(
             [ant_size_vector, ant_size_vector_interp, availability_vector, availability_vector_interp], f)
         f.close()
@@ -135,21 +122,21 @@ def sp_ant_size():  # this function runs the availability for a single point and
 
 
 def mp_ant_size():
-    with open('temp\\args.pkl', 'rb') as f:  # opening the input variables in the temp file
+    with open('temp/args.pkl', 'rb') as f:  # opening the input variables in the temp file
         (gr_station_path, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
          modcod, pol, roll_off, ant_eff, lnb_gain, lnb_temp, aditional_losses,
          cable_loss, max_depoint, availability_target, snr_relaxation, margin, threads) = pickle.load(f)
         f.close()
 
     # reading the input table
-    # dir = 'models\\'
+    # dir = 'models/'
     # file = 'CitiesBrazil'
     # cities = pd.read_csv(dir + file + '.csv', sep=';', encoding='latin1')
     # cities['availability'] = np.nan  # creating an empty results column
 
     point_list = pd.read_csv(gr_station_path, sep=';', encoding='latin1')  # creating a point dataframe from csv file
 
-    data = pd.read_csv('models\\Modulation_dB.csv', sep=';')
+    data = pd.read_csv('models/Modulation_dB.csv', sep=';')
     line = data.loc[data.Modcod == modcod]
     # tech = line['Tech'].values[0]
     mod = line['Modulation'].values[0]
@@ -167,20 +154,17 @@ def mp_ant_size():
 
     pool = ParallelPool(nodes=threads)  # creating the parallelPoll
 
-    sys.stderr = open('temp\\out.txt', 'w')  # to print the output dynamically
+    sys.stderr = open('temp/out.txt', 'w')  # to print the output dynamically
 
     print('initializing . . .', file=sys.stderr)
 
     # running the parallel pool
     data = list(
-        tqdm.tqdm(pool.imap(point_ant_size,
-                            [(point, sat, reception, margin, snr_relaxation, availability_target) for index, point in
-                             point_list.iterrows()]),
-                  total=len(point_list)))
+        tqdm.tqdm(pool.imap(point_ant_size, [(point, sat, reception, margin, snr_relaxation, availability_target, index) 
+                                             for index, point in point_list.iterrows()]), total=len(point_list)))
     pool.clear()
 
-    point_list.drop(point_list.index, inplace=True)
-    point_list = point_list.append(data, ignore_index=True)
+    point_list['ant size'] = np.array(sorted(data, key=lambda x: x[0]))[:,1]
 
     # saving the results into a csv file
 
@@ -188,7 +172,7 @@ def mp_ant_size():
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-    point_list.to_csv(dir + '\\' + 'results_ant ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv', sep=';',
+    point_list.to_csv(dir + '/' + 'results_ant ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv', sep=';',
                       encoding='latin1')
 
     print('Complete!!!', file=sys.stderr)

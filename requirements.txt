@@ -1,10 +1,11 @@
 # this file contains the installation packages necessary to run SatLink app (GUI or code)
 # if you want to use satlink via web-app with limited functions, please use 'requirements_web.txt'
-itur
-tqdm
-pandas
-pathos
-astropy
-pyqt5
-matplotlib
-chardet
+numpy==1.26.4
+itur==0.4.0
+tqdm==4.66.5
+pandas==2.2.3
+pathos==0.3.3
+astropy==6.1.4
+pyqt5==5.15.2
+matplotlib==3.9.2
+chardet==5.2.0

@@ -1,6 +1,5 @@
 from GrStat import GroundStation, Reception
 from sat import Satellite
-from models.util import convert_path_os
 from pathos.pools import ParallelPool
 import pandas as pd
 import numpy as np
@@ -17,22 +16,15 @@ import sys, os, platform
 
 
 def point_availability(args): # this function is just to run the availability for multiple points in mp_link_performance's pool
-    point = args[0]
-    sat = args[1]
-    reception = args[2]
-    margin = args[3]
-    snr_relaxation = args[4]
-    lat = point['Lat']
-    long = point['Long']
-    station = GroundStation(lat, long)
+    point, sat, reception, margin, snr_relaxation, idx = args
+    station = GroundStation(point['Lat'], point['Long'])
     sat.set_grstation(station)
     sat.set_reception(reception)
-    point['availability'] = sat.get_availability(margin, snr_relaxation)
-    return point
+    return (idx, sat.get_availability(margin, snr_relaxation))
 
 
 def sp_link_performance():  # this function runs the availability for a single point and shows a complete output
-    path = convert_path_os('temp\\args.pkl')
+    path = 'temp/args.pkl'
     with open(path, 'rb') as f:
         (site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util, modcod, pol,
          roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, coupling_loss, cable_loss, max_depoint,
@@ -50,7 +42,7 @@ def sp_link_performance():  # this function runs the availability for a single p
     ### satellite parameters ###
     ##############################
 
-    path = convert_path_os('models\\Modulation_dB.csv')
+    path = 'models/Modulation_dB.csv'
     data = pd.read_csv(path, sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
@@ -81,7 +73,7 @@ def sp_link_performance():  # this function runs the availability for a single p
     ###################################
 
     ############ SNR target's calcullation ################
-    path = convert_path_os('temp\\out.txt')
+    path = 'temp/out.txt'
     sys.stdout = open(path, 'w')
 
     start = time.time()
@@ -135,7 +127,7 @@ def sp_link_performance():  # this function runs the availability for a single p
 
     sys.stdout.close()
 
-    path = convert_path_os('temp\\args.pkl')
+    path = 'temp/args.pkl'
 
     if os.path.exists(path):
         os.remove(path)
@@ -144,7 +136,7 @@ def sp_link_performance():  # this function runs the availability for a single p
 
 
 def mp_link_performance():
-    path = convert_path_os('temp\\args.pkl')
+    path = 'temp/args.pkl'
     with open(path, 'rb') as f:  # opening the input variables in the temp file
         (gr_station_path, sat_long, freq, max_eirp, sat_height, max_bw, bw_util, modcod, pol,
          roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, coupling_loss, cable_loss, max_depoint,
@@ -152,15 +144,15 @@ def mp_link_performance():
         f.close()
 
     # reading the input table
-    # dir = 'models\\'
+    # directory = 'models/'
     # file = 'CitiesBrazil'
-    # cities = pd.read_csv(dir + file + '.csv', sep=';', encoding='latin1')
+    # cities = pd.read_csv(directory + file + '.csv', sep=';', encoding='latin1')
     # cities['availability'] = np.nan  # creating an empty results column
 
     point_list = pd.read_csv(gr_station_path, sep=';', encoding='latin1')  # creating a point dataframe from csv file
     point_list['availability'] = np.nan  # creating an empty results column
 
-    path = convert_path_os('models\\Modulation_dB.csv')
+    path = 'models/Modulation_dB.csv'
     data = pd.read_csv(path, sep=';')
     line = data.loc[(data.Modcod) == modcod]
     # tech = line['Tech'].values[0]
@@ -178,7 +170,7 @@ def mp_link_performance():
     # ======================== PARALLEL POOL =============================
     pool = ParallelPool(nodes=threads)  # creating the parallelPoll
 
-    path = convert_path_os('temp\\out.txt')
+    path = 'temp/out.txt'
     sys.stderr = open(path, 'w')  # to print the output dynamically
 
     print('initializing . . .', file=sys.stderr)
@@ -186,24 +178,20 @@ def mp_link_performance():
     # running the parallel pool
     data = list(
         tqdm.tqdm(pool.imap(point_availability,
-                            [(point, sat, reception, margin, snr_relaxation) for index, point in point_list.iterrows()]),
+                            [(point, sat, reception, margin, snr_relaxation, index) for index, point in point_list.iterrows()]),
                   total=len(point_list)))
     pool.clear()
 
-    point_list.drop(point_list.index, inplace=True)
-    point_list = point_list.append(data, ignore_index=True)
-    point_list['unavailability time (min)'] = round(((100 - point_list['availability']) / 100) * 525600,
-                                            0)  # calculating the availability in minutes
+    point_list['availability'] = np.array(sorted(data, key=lambda x: x[0]))[:,1]
+    point_list['unavailability time'] = round(((100. - point_list['availability']) / 100.) * 525600., 0)  # calculating the unavailability in minutes
 
     # saving the results into a csv file
+    directory = 'results'
+    if not os.path.exists(directory):
+        os.makedir(directory)
 
-    dir = 'results'
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-
-    path = convert_path_os(dir + '\\' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv')
-    point_list.to_csv(path, sep=';',
-                      encoding='latin1')
+    path = directory + '/' + 'results ' + datetime.datetime.now().strftime('%y-%m-%d_%H-%M-%S') + '.csv'
+    point_list.to_csv(path, sep=';', encoding='latin1')
 
     print('Complete!!!', file=sys.stderr)
 

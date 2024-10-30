@@ -8,11 +8,11 @@ import time
 # This function runs the atmospheric attenuation functions and prepare the interface outputs
 
 def calc_atm_atnn():
-    with open('temp\\args.pkl', 'rb') as f:
+    with open('temp/args.pkl', 'rb') as f:
         p, site_lat, site_long, ant_size, ant_eff, sat_long, freq, method = pickle.load(f)
         f.close()
 
-    sys.stdout = open('temp\\out.txt', 'w')  # creating a output file to show in the interface
+    sys.stdout = open('temp/out.txt', 'w')  # creating a output file to show in the interface
     gr_station = GroundStation(site_lat, site_long)
     satellite = Satellite(sat_long, freq)
     reception = Reception(ant_size, ant_eff)
@@ -51,8 +51,8 @@ def calc_atm_atnn():
     print('', file=sys.stdout)
     print('Runtime: ', np.round(time.time() - start, 2), ' s', file=sys.stdout)
 
-    if os.path.exists('temp\\args.pkl'):  # deleting the input variables temp file
-        os.remove('temp\\args.pkl')
+    if os.path.exists('temp/args.pkl'):  # deleting the input variables temp file
+        os.remove('temp/args.pkl')
 
     sys.stdout.close()
 
